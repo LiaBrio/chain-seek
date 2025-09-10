@@ -1,0 +1,16 @@
+name = "chain-seek"
+main = "src/app/api/data/route.ts"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "npm run build"
+
+[[routes]]
+pattern = "your-domain.com/*"
+zone_name = "your-domain.com"
+
+[env.production]
+name = "chain-seek-prod"
+
+[env.staging]
+name = "chain-seek-staging"
