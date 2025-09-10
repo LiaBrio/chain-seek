@@ -14,5 +14,11 @@
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+  "r2_buckets": [
+    {
+      "binding": "DATA_LIST",
+      "bucket_name": "crypto-nav"
+    }
+  ]
 }
