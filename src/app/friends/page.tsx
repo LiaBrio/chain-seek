@@ -1,7 +1,7 @@
 "use client";
 
 import { useLanguage } from '@/hooks/useLanguage';
-import { FriendLinks } from '@/components/FriendLinks';
+import { SimpleFooter } from '@/components/SimpleFooter';
 import { Sidebar } from '@/components/Sidebar';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { Breadcrumb } from '@/components/Breadcrumb';
@@ -12,6 +12,8 @@ export default function FriendsPage() {
   const { language, changeLanguage, t, isClient } = useLanguage();
   const { data, loading } = useDataList();
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   if (loading || !isClient) {
     return (
@@ -28,12 +30,15 @@ export default function FriendsPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex flex-col">
       <div className="flex flex-1">
         <Sidebar
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
           selectedCategory={selectedCategory}
-          onCategoryChange={setSelectedCategory}
+          setSelectedCategory={setSelectedCategory}
           categories={data?.categories || []}
           totalWebsites={data?.total || 0}
-          favorites={new Set()}
-          onToggleFavorite={() => {}}
+          favoritesCount={0}
+          isMobileMenuOpen={isMobileMenuOpen}
+          setIsMobileMenuOpen={setIsMobileMenuOpen}
           t={t}
         />
         <div className="flex-1 lg:ml-56 flex flex-col">
@@ -63,19 +68,17 @@ export default function FriendsPage() {
               />
             </div>
 
-            {/* 友链内容 */}
-            <FriendLinks t={t} />
+            {/* 友链内容 - 使用简化的footer */}
+            <div className="text-center py-12">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">友情链接</h2>
+              <p className="text-gray-600 mb-8">友链已移至页面底部，请查看下方footer区域</p>
+            </div>
           </div>
         </div>
       </div>
       
-      {/* Footer */}
-      <footer className="bg-white border-t border-gray-200 py-6 mt-auto">
-        <div className="text-center text-gray-600">
-          <p className="mb-2">{t('footer.title')}</p>
-          <p className="text-sm">{t('footer.subtitle')}</p>
-        </div>
-      </footer>
+      {/* Footer with Friend Links */}
+      <SimpleFooter t={t} />
     </div>
   );
 }

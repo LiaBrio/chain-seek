@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
-import { translateWebsiteData, translateCategories } from '@/lib/dataTranslations';
+import { translateWebsiteData } from '@/lib/dataTranslations';
 
 // 从本地文件读取数据
 function getLocalData() {

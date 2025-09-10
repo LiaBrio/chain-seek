@@ -115,7 +115,7 @@ export const categoryTranslations = {
 };
 
 // 翻译网站数据
-export function translateWebsiteData(websites: any[], language: string) {
+export function translateWebsiteData(websites: Record<string, unknown>[], language: string) {
   const categoryMap = categoryTranslations[language as keyof typeof categoryTranslations] || categoryTranslations.en;
   
   return websites.map(website => ({
@@ -125,7 +125,7 @@ export function translateWebsiteData(websites: any[], language: string) {
 }
 
 // 翻译分类数据
-export function translateCategories(categories: any[], language: string) {
+export function translateCategories(categories: Record<string, unknown>[], language: string) {
   const categoryMap = categoryTranslations[language as keyof typeof categoryTranslations] || categoryTranslations.en;
   
   return categories.map(category => ({
