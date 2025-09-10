@@ -13,10 +13,10 @@ export interface DataListItem {
 export interface DataListResponse {
   data: DataListItem[];
   total: number;
-  categories: string[];
+  categories: Array<{ id: string; name: string; count: number }>;
 }
 
-export function useDataList() {
+export function useDataList(language: string = 'en') {
   const [data, setData] = useState<DataListResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -27,7 +27,7 @@ export function useDataList() {
         setLoading(true);
         setError(null);
         
-        const response = await fetch('/api/data');
+        const response = await fetch(`/api/data?lang=${language}`);
         
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -44,7 +44,7 @@ export function useDataList() {
     };
 
     fetchData();
-  }, []);
+  }, [language]);
 
   return { data, loading, error };
 }

@@ -4,197 +4,163 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
-import { ScrollArea } from "@/components/ui/scroll-area";
 
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { 
-  Search, 
   Star, 
   ExternalLink, 
   Globe, 
-  Code, 
-  Palette, 
-  Database, 
-  Zap,
-  ChevronRight,
-  Home as HomeIcon,
-  TrendingUp,
-  Bookmark,
-  Settings,
   Loader2,
-  Shield,
-  Wallet,
-  Layers,
-  GraduationCap,
-  Image as ImageIcon,
-  Wrench,
-  BarChart3,
-  Building2,
-  Search as SearchIcon,
-  Eye,
-  Link,
-  Coins,
-  Gift,
-  Newspaper,
-  BookOpen,
-  Tool,
-  Activity
+  Search
 } from "lucide-react";
 import { useDataList, DataListItem } from "@/hooks/useDataList";
+import { Sidebar } from "@/components/Sidebar";
+import { categoryIconMap, categoryColorMap } from "@/lib/icons";
+import { useLanguage } from "@/hooks/useLanguage";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { SimpleFooter } from "@/components/SimpleFooter";
 
-// 分类图标映射
-const categoryIconMap: { [key: string]: any } = {
-  "行情数据": BarChart3,
-  "中心化交易所": Building2,
-  "去中心化交易所": Coins,
-  "数字钱包": Wallet,
-  "区块浏览器": Eye,
-  "跨链工具": Link,
-  "NFT平台": ImageIcon,
-  "安全工具": Shield,
-  "资产管理": Database,
-  "DeFi协议": Layers,
-  "空投任务": Gift,
-  "资讯媒体": Newspaper,
-  "学习资源": BookOpen,
-  "实用工具": Wrench,
-  "数据分析": Activity,
-  "all": HomeIcon,
-  "featured": Star
-};
-
-// 分类颜色映射
-const categoryColorMap: { [key: string]: string } = {
-  "行情数据": "text-green-600",
-  "中心化交易所": "text-blue-600",
-  "去中心化交易所": "text-purple-600",
-  "数字钱包": "text-orange-600",
-  "区块浏览器": "text-cyan-600",
-  "跨链工具": "text-indigo-600",
-  "NFT平台": "text-pink-600",
-  "安全工具": "text-red-600",
-  "资产管理": "text-teal-600",
-  "DeFi协议": "text-emerald-600",
-  "空投任务": "text-yellow-600",
-  "资讯媒体": "text-slate-600",
-  "学习资源": "text-violet-600",
-  "实用工具": "text-gray-600",
-  "数据分析": "text-rose-600",
-  "all": "text-blue-600",
-  "featured": "text-yellow-600"
-};
-
-// 判断是否为图片URL的辅助函数
-function isImageUrl(url: string): boolean {
-  if (!url) return false;
-  const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.ico'];
-  const lowerUrl = url.toLowerCase();
-  return imageExtensions.some(ext => lowerUrl.includes(ext)) || 
-         lowerUrl.includes('data:image/') ||
-         lowerUrl.includes('imagedelivery.net') ||
-         lowerUrl.includes('static/picture/');
+interface WebsiteCardProps {
+  website: DataListItem;
+  onToggleFavorite: (id: string) => void;
+  favorites: Set<string>;
+  t: (key: string) => string;
 }
 
-// 网站图标组件
-function WebsiteIcon({ icon, name }: { icon?: string; name: string }) {
-  if (!icon) {
-    return (
-      <div className="w-12 h-12 bg-muted rounded-lg flex items-center justify-center text-2xl">
-        🌐
-      </div>
-    );
-  }
+function WebsiteCard({ website, onToggleFavorite, favorites, t }: WebsiteCardProps) {
+  const isFavorite = favorites.has(website.id);
+  const IconComponent = categoryIconMap[website.category] || Globe;
+  const colorClass = categoryColorMap[website.category] || "bg-slate-100 text-slate-800";
 
-  if (isImageUrl(icon)) {
-    return (
-      <Avatar className="w-12 h-12">
-        <AvatarImage 
-          src={icon} 
-          alt={name}
-          className="w-full h-full object-cover"
-        />
-        <AvatarFallback className="w-12 h-12 text-lg">
-          {name.charAt(0).toUpperCase()}
-        </AvatarFallback>
-      </Avatar>
-    );
-  }
-
-  // 如果是emoji或普通文本
   return (
-    <div className="w-12 h-12 bg-muted rounded-lg flex items-center justify-center text-2xl">
-      {icon}
-    </div>
+    <Card className="group hover:shadow-lg transition-all duration-200 hover:-translate-y-1 h-full flex flex-col">
+      <CardHeader className="pb-3 flex-shrink-0">
+        <div className="flex items-start justify-between">
+          <div className="flex items-center space-x-3 flex-1 min-w-0">
+            <Avatar className="h-10 w-10 flex-shrink-0">
+              <AvatarImage src={website.icon} alt={website.name} />
+              <AvatarFallback className="bg-gradient-to-br from-blue-500 to-purple-600 text-white">
+                {website.name.charAt(0)}
+              </AvatarFallback>
+            </Avatar>
+            <div className="flex-1 min-w-0">
+              <CardTitle className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2">
+                {website.name}
+              </CardTitle>
+              <CardDescription className="text-sm text-gray-600 mt-1 line-clamp-3">
+                {website.description}
+              </CardDescription>
+            </div>
+          </div>
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => onToggleFavorite(website.id)}
+            className="opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0 ml-2"
+          >
+            <Star className={`h-4 w-4 ${isFavorite ? 'fill-yellow-400 text-yellow-400' : 'text-gray-400'}`} />
+          </Button>
+        </div>
+      </CardHeader>
+      <CardContent className="pt-0 mt-auto">
+        <div className="flex items-center justify-between">
+          <Badge className={`${colorClass} text-xs font-medium flex-shrink-0`}>
+            <IconComponent className="h-3 w-3 mr-1" />
+            {website.category}
+          </Badge>
+          <div className="flex items-center space-x-2 flex-shrink-0">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => window.open(website.url, '_blank')}
+              className="text-xs"
+            >
+              <ExternalLink className="h-3 w-3 mr-1" />
+              {t('common.visit')}
+            </Button>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
   );
 }
 
 export default function Home() {
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  const { language, changeLanguage, t, availableLanguages, isClient } = useLanguage();
+  const { data, loading, error } = useDataList(language);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("全部");
+  const [favorites, setFavorites] = useState<Set<string>>(new Set());
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
+  
+  // 区块链浏览器搜索相关状态
+  const [selectedBlockchain, setSelectedBlockchain] = useState("ethereum");
   const [searchQuery, setSearchQuery] = useState("");
-  
-  // 使用自定义hook获取R2数据
-  const { data: r2Data, loading, error } = useDataList();
 
-  // 处理数据，如果R2数据不可用则使用默认数据
-  const websites: DataListItem[] = r2Data?.data || [];
-  
-  // 动态生成分类列表
-  const categories = r2Data?.categories ? 
-    [
-      { 
-        id: "all", 
-        name: "全部", 
-        icon: HomeIcon, 
-        color: "text-blue-600",
-        count: websites.length
-      },
-      { 
-        id: "featured", 
-        name: "精选", 
-        icon: Star, 
-        color: "text-yellow-600",
-        count: websites.filter(w => w.tags?.includes("featured")).length
-      },
-      ...r2Data.categories.map((cat: any) => ({
-        id: cat.id,
-        name: cat.name,
-        icon: categoryIconMap[cat.name] || Globe,
-        color: categoryColorMap[cat.name] || "text-gray-600",
-        count: cat.count
-      }))
-    ] :
-    [
-      { 
-        id: "all", 
-        name: "全部", 
-        icon: HomeIcon, 
-        color: "text-blue-600",
-        count: 0
-      }
-    ];
+  // 区块链名称映射
+  const getBlockchainName = (chain: string) => {
+    return t(`blockchains.${chain}`) || chain;
+  };
 
-  const filteredWebsites = websites.filter(website => {
-    const matchesCategory = selectedCategory === "all" || 
-      (selectedCategory === "featured" && website.tags?.includes("featured")) ||
-      website.category.toLowerCase().replace(/\s+/g, '-') === selectedCategory;
+  // 快速搜索选项
+  const quickSearchOptions = [
+    { label: t('explorer.quickSearch.latestBlock'), value: "latest" },
+    { label: t('explorer.quickSearch.gasPrice'), value: "gas" },
+    { label: t('explorer.quickSearch.networkStatus'), value: "status" },
+    { label: t('explorer.quickSearch.tokenList'), value: "tokens" }
+  ];
+
+  // 处理搜索
+  const handleSearch = () => {
+    if (!searchQuery.trim()) return;
     
-    const matchesSearch = searchQuery === "" || 
-      website.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      website.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      website.tags?.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
+    const explorerUrls: { [key: string]: string } = {
+      ethereum: "https://etherscan.io",
+      bitcoin: "https://blockstream.info",
+      bsc: "https://bscscan.com",
+      polygon: "https://polygonscan.com",
+      solana: "https://solscan.io",
+      avalanche: "https://snowtrace.io",
+      arbitrum: "https://arbiscan.io",
+      optimism: "https://optimistic.etherscan.io",
+      base: "https://basescan.org",
+      fantom: "https://ftmscan.com"
+    };
     
-    return matchesCategory && matchesSearch;
-  });
+    const baseUrl = explorerUrls[selectedBlockchain];
+    if (baseUrl) {
+      window.open(`${baseUrl}/search?q=${encodeURIComponent(searchQuery)}`, '_blank');
+    }
+  };
 
-  if (loading) {
+  const handleToggleFavorite = (id: string) => {
+    const newFavorites = new Set(favorites);
+    if (newFavorites.has(id)) {
+      newFavorites.delete(id);
+    } else {
+      newFavorites.add(id);
+    }
+    setFavorites(newFavorites);
+  };
+
+  const filteredWebsites = data?.data?.filter((website: DataListItem) => {
+    const matchesSearch = website.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                         (website.description || '').toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesCategory = selectedCategory === "全部" || website.category === selectedCategory;
+    const matchesFavorites = !showFavoritesOnly || favorites.has(website.id);
+    return matchesSearch && matchesCategory && matchesFavorites;
+  }) || [];
+
+  const categories = data?.categories || [];
+  const totalWebsites = data?.data?.length || 0;
+
+  if (loading || !isClient) {
     return (
-      <div className="min-h-screen bg-background">
-        <div className="flex items-center justify-center min-h-screen">
-          <div className="flex items-center space-x-2">
-            <Loader2 className="h-6 w-6 animate-spin" />
-            <span>加载中...</span>
-          </div>
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="h-8 w-8 animate-spin mx-auto text-blue-600" />
+          <p className="mt-2 text-gray-600">{isClient ? t('common.loading') : 'Loading...'}</p>
         </div>
       </div>
     );
@@ -202,151 +168,176 @@ export default function Home() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-background">
-        <div className="flex items-center justify-center min-h-screen">
-          <div className="text-center">
-            <h2 className="text-2xl font-bold text-destructive mb-2">加载失败</h2>
-            <p className="text-muted-foreground">{error}</p>
-          </div>
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-red-500 text-6xl mb-4">⚠️</div>
+          <h1 className="text-2xl font-bold text-gray-900 mb-2">加载失败</h1>
+          <p className="text-gray-600 mb-4">无法加载数据，请稍后重试</p>
+          <Button onClick={() => window.location.reload()}>
+            重新加载
+          </Button>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between">
-          <div className="flex items-center space-x-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <Zap className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <h1 className="text-xl font-bold">Chain Seek</h1>
-            </div>
-          </div>
-          
-          <div className="flex items-center space-x-4">
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
-              <Input
-                placeholder="搜索网站..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-10 w-64"
-              />
-            </div>
-            <Button variant="outline" size="sm">
-              <Settings className="w-4 h-4 mr-2" />
-              设置
-            </Button>
-          </div>
-        </div>
-      </header>
-
-      <div className="flex">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex flex-col">
+      <div className="flex flex-1">
         {/* Sidebar */}
-        <aside className="w-64 bg-muted/30 border-r min-h-screen sticky top-16">
-          <div className="p-4">
-            <h2 className="font-semibold text-lg mb-4">分类</h2>
-            <ScrollArea className="h-[calc(100vh-8rem)]">
-              <div className="space-y-1">
-                {categories.map((category) => (
-                  <button
-                    key={category.id}
-                    onClick={() => setSelectedCategory(category.id)}
-                    className={`w-full flex items-center justify-between px-3 py-2 rounded-lg text-left transition-colors hover:bg-accent ${
-                      selectedCategory === category.id 
-                        ? "bg-accent text-accent-foreground" 
-                        : "text-muted-foreground hover:text-foreground"
-                    }`}
-                  >
-                    <div className="flex items-center space-x-3">
-                      <category.icon className={`w-4 h-4 ${category.color}`} />
-                      <span className="font-medium">{category.name}</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <span className="text-xs bg-muted px-2 py-1 rounded-full">
-                        {category.count}
-                      </span>
-                      <ChevronRight className="w-3 h-3" />
-                    </div>
-                  </button>
-                ))}
-              </div>
-            </ScrollArea>
-          </div>
-        </aside>
+        <Sidebar
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
+          categories={categories}
+          totalWebsites={totalWebsites}
+          favoritesCount={favorites.size}
+          isMobileMenuOpen={isMobileMenuOpen}
+          setIsMobileMenuOpen={setIsMobileMenuOpen}
+          t={t}
+        />
 
         {/* Main Content */}
-        <main className="flex-1 p-6">
-          <div className="mb-6">
-            <h2 className="text-2xl font-bold mb-2">
-              {selectedCategory === "all" ? "全部网站" : 
-               selectedCategory === "featured" ? "精选网站" :
-               categories.find(c => c.id === selectedCategory)?.name || "网站"}
-            </h2>
-            <p className="text-muted-foreground">
-              找到 {filteredWebsites.length} 个网站
-            </p>
+        <div className="flex-1 lg:ml-56 flex flex-col">
+          <div className="flex-1 p-4 lg:p-6">
+          {/* Language Switcher */}
+          <div className="flex justify-end mb-4">
+            <LanguageSwitcher
+              currentLanguage={language}
+              onLanguageChange={changeLanguage}
+              availableLanguages={availableLanguages}
+            />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredWebsites.map((website) => (
-              <Card key={website.id} className="group hover:shadow-lg transition-all duration-200 hover:-translate-y-1">
-                <CardHeader className="pb-3">
-                  <div className="flex items-start justify-between">
-                    <div className="flex items-center space-x-3">
-                      <WebsiteIcon icon={website.icon} name={website.name} />
-                      <div className="flex-1 min-w-0">
-                        <CardTitle className="text-lg leading-tight">{website.name}</CardTitle>
-                        <Badge variant="secondary" className="mt-1 text-xs">
-                          {website.category}
-                        </Badge>
-                      </div>
-                    </div>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="opacity-0 group-hover:opacity-100 transition-opacity"
-                      onClick={() => window.open(website.url, '_blank')}
+          {/* Blockchain Explorer Search */}
+                  <div className="mb-8">
+                    <div className="max-w-4xl mx-auto">
+                      <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center">
+                        {t('explorer.title')}
+                        <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                          {t('explorer.subtitle')}
+                        </span>
+                      </h1>
+              
+              <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-6">
+                <div className="flex flex-col sm:flex-row gap-4">
+                  {/* 区块链选择下拉框 */}
+                  <div className="flex-shrink-0">
+                    <select 
+                      className="h-12 px-4 pr-8 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white appearance-none cursor-pointer min-w-[140px]"
+                      value={selectedBlockchain}
+                      onChange={(e) => setSelectedBlockchain(e.target.value)}
                     >
-                      <ExternalLink className="w-4 h-4" />
-                    </Button>
+                      <option value="ethereum">Ethereum</option>
+                      <option value="bitcoin">Bitcoin</option>
+                      <option value="bsc">BSC</option>
+                      <option value="polygon">Polygon</option>
+                      <option value="solana">Solana</option>
+                      <option value="avalanche">Avalanche</option>
+                      <option value="arbitrum">Arbitrum</option>
+                      <option value="optimism">Optimism</option>
+                      <option value="base">Base</option>
+                      <option value="fantom">Fantom</option>
+                    </select>
                   </div>
-                </CardHeader>
-                <CardContent className="pt-0">
-                  <CardDescription className="text-sm leading-relaxed mb-3">
-                    {website.description}
-                  </CardDescription>
-                  {website.tags && website.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-1">
-                      {website.tags.map((tag, index) => (
-                        <Badge key={index} variant="outline" className="text-xs">
-                          {tag}
-                        </Badge>
-                      ))}
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
-            ))}
+                  
+                  {/* 搜索输入框 */}
+                  <div className="flex-1 relative">
+                            <input
+                              type="text"
+                              placeholder={`${t('explorer.placeholder')} ${getBlockchainName(selectedBlockchain)}`}
+                              value={searchQuery}
+                              onChange={(e) => setSearchQuery(e.target.value)}
+                              className="w-full h-12 pl-4 pr-12 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                              onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
+                            />
+                    <button
+                      onClick={handleSearch}
+                      className="absolute right-2 top-1/2 transform -translate-y-1/2 h-8 w-8 bg-blue-600 hover:bg-blue-700 text-white rounded-md flex items-center justify-center transition-colors"
+                    >
+                      <Search className="h-4 w-4" />
+                    </button>
+                  </div>
+                </div>
+                
+                        {/* 快速搜索选项 */}
+                        <div className="mt-4 flex flex-wrap gap-2">
+                          <span className="text-sm text-gray-500">{t('explorer.quickSearchLabel')}</span>
+                  {quickSearchOptions.map((option) => (
+                    <button
+                      key={option.value}
+                      onClick={() => setSearchQuery(option.value)}
+                      className="px-3 py-1 text-xs bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-full transition-colors"
+                    >
+                      {option.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
 
-          {filteredWebsites.length === 0 && (
-            <div className="text-center py-12">
-              <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">
-                <Search className="w-8 h-8 text-muted-foreground" />
+          {/* Results Header */}
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-xl font-bold text-gray-900">
+              {showFavoritesOnly ? t('common.favorites') : (selectedCategory === "全部" ? t('categories.all') : selectedCategory)}
+            </h2>
+            <div className="flex items-center space-x-4">
+              <div className="text-sm text-gray-600">
+                {t('common.total')} {filteredWebsites.length} {t('common.results')}
               </div>
-              <h3 className="text-lg font-semibold mb-2">没有找到网站</h3>
-              <p className="text-muted-foreground">
-                {searchQuery ? "尝试调整搜索条件" : "该分类下暂无网站"}
-              </p>
+              <Button
+                variant={showFavoritesOnly ? "default" : "outline"}
+                size="sm"
+                onClick={() => setShowFavoritesOnly(!showFavoritesOnly)}
+                className="flex items-center space-x-2"
+              >
+                <Star className={`h-4 w-4 ${showFavoritesOnly ? 'fill-current' : ''}`} />
+                <span>{t('common.favorite')} ({favorites.size})</span>
+              </Button>
+            </div>
+          </div>
+
+          {/* Results */}
+          {filteredWebsites.length === 0 ? (
+            <Card>
+              <CardContent className="text-center py-12">
+                <div className="text-gray-400 text-6xl mb-4">🔍</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">未找到相关工具</h3>
+                <p className="text-gray-600 mb-4">尝试调整搜索条件或浏览其他分类</p>
+                <Button
+                  variant="outline"
+                  onClick={() => {
+                    setSearchTerm("");
+                    setSelectedCategory("全部");
+                  }}
+                >
+                  重置筛选
+                </Button>
+              </CardContent>
+            </Card>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-4">
+              {filteredWebsites.map((website: DataListItem) => (
+                <WebsiteCard
+                  key={website.id}
+                  website={website}
+                  onToggleFavorite={handleToggleFavorite}
+                  favorites={favorites}
+                  t={t}
+                />
+              ))}
             </div>
           )}
-        </main>
+
+          </div>
+        </div>
       </div>
+
+      {/* Footer with Friend Links */}
+      <SimpleFooter t={t} />
     </div>
   );
 }
+

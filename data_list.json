@@ -127,7 +127,7 @@
       "name": "Uniswap",
       "description": "主流DEX去中心化交易所",
       "url": "https://app.uniswap.org",
-      "category": "去中心化交易所",
+      "category": "DeFi",
       "icon": "https://bidaka.com/static/picture/uniswap.svg",
       "tags": [
         "featured",
@@ -154,7 +154,7 @@
       "description": "BSC链上最大的DEX",
       "url": "https://pancakeswap.finance",
       "category": "去中心化交易所",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/pancakeswap.svg",
       "tags": [
         "defi",
         "bsc",
@@ -166,8 +166,8 @@
       "name": "1inch",
       "description": "DEX聚合器，寻找最优交易路径",
       "url": "https://1inch.io",
-      "category": "去中心化交易所",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "DeFi",
+      "icon": "https://bidaka.com/static/picture/1inch.svg",
       "tags": [
         "defi",
         "aggregator",
@@ -179,7 +179,7 @@
       "name": "MetaMask",
       "description": "最流行的以太坊钱包插件，支持EVM链，中文名：小狐狸",
       "url": "https://metamask.io",
-      "category": "数字钱包",
+      "category": "钱包",
       "icon": "https://bidaka.com/static/picture/metamask.svg",
       "tags": [
         "wallet",
@@ -192,7 +192,7 @@
       "name": "Trust Wallet",
       "description": "币安官方钱包，移动端友好",
       "url": "https://trustwallet.com",
-      "category": "数字钱包",
+      "category": "钱包",
       "icon": "https://bidaka.com/static/picture/Trust.svg",
       "tags": [
         "wallet",
@@ -205,7 +205,7 @@
       "name": "Rabby Wallet",
       "description": "支持多链自动切换的钱包，适合高级用户",
       "url": "https://rabby.io",
-      "category": "数字钱包",
+      "category": "钱包",
       "icon": "https://bidaka.com/static/picture/Rabby.svg",
       "tags": [
         "wallet",
@@ -218,7 +218,7 @@
       "name": "Ledger",
       "description": "硬件钱包行业领导者，资产安全首选",
       "url": "https://www.ledger.com",
-      "category": "数字钱包",
+      "category": "钱包",
       "icon": "https://bidaka.com/static/picture/ledger.svg",
       "tags": [
         "wallet",
@@ -231,7 +231,7 @@
       "name": "TokenPocket",
       "description": "主流的去中心化多链钱包",
       "url": "https://www.tokenpocket.pro/",
-      "category": "数字钱包",
+      "category": "钱包",
       "icon": "https://chainfind.net/storage/upload/20240611/66684f20243d0.png",
       "tags": [
         "featured",
@@ -244,7 +244,7 @@
       "name": "imToken",
       "description": "流行的去中心化多链钱包",
       "url": "https://token.im/",
-      "category": "数字钱包",
+      "category": "钱包",
       "icon": "https://chainfind.net/storage/upload/20240615/666cb34a653d9.jpg",
       "tags": [
         "wallet",
@@ -323,7 +323,7 @@
       "description": "Polygon区块链浏览器",
       "url": "https://polygonscan.com",
       "category": "区块浏览器",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://polygonscan.com/favicon.ico",
       "tags": [
         "crypto",
         "polygon",
@@ -375,7 +375,7 @@
       "description": "LayerZero跨链桥",
       "url": "https://stargate.finance",
       "category": "跨链工具",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "cross-chain",
         "bridge",
@@ -388,7 +388,7 @@
       "description": "多链资产跨链桥",
       "url": "https://wormhole.com",
       "category": "跨链工具",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://wormhole.com/favicon.ico",
       "tags": [
         "cross-chain",
         "bridge",
@@ -400,8 +400,8 @@
       "name": "OpenSea",
       "description": "全球最大的NFT交易平台",
       "url": "https://opensea.io/",
-      "category": "NFT平台",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "NFT",
+      "icon": "https://bidaka.com/static/picture/opensea.svg",
       "tags": [
         "featured",
         "trading",
@@ -413,7 +413,7 @@
       "name": "Rarible",
       "description": "NFT多链聚合交易平台",
       "url": "https://rarible.com/",
-      "category": "NFT平台",
+      "category": "NFT",
       "icon": "https://chainfind.net/storage/upload/20240615/666cb032be0d4.png",
       "tags": [
         "trading",
@@ -426,7 +426,7 @@
       "name": "Element",
       "description": "多链聚合的NFT 市场",
       "url": "https://element.market/",
-      "category": "NFT平台",
+      "category": "NFT",
       "icon": "https://chainfind.net/storage/upload/20240615/666cb15d98db9.jpg",
       "tags": [
         "nft",
@@ -439,7 +439,7 @@
       "name": "BLUR",
       "description": "基于以太坊的NFT 交易平台",
       "url": "https://blur.io/",
-      "category": "NFT平台",
+      "category": "NFT",
       "icon": "https://chainfind.net/storage/upload/20240615/666cb23ae86b9.jpg",
       "tags": [
         "trading",
@@ -452,8 +452,8 @@
       "name": "Magic Eden",
       "description": "Solana生态NFT交易平台",
       "url": "https://magiceden.io",
-      "category": "NFT平台",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "NFT",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "nft",
         "solana",
@@ -505,7 +505,7 @@
       "description": "DeFi项目安全审计平台",
       "url": "https://rugdoc.io",
       "category": "安全工具",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "defi",
         "security",
@@ -518,7 +518,7 @@
       "description": "DeFi协议安全评分平台",
       "url": "https://defisafety.com",
       "category": "安全工具",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://defisafety.com/favicon.ico",
       "tags": [
         "defi",
         "security",
@@ -557,7 +557,7 @@
       "description": "多链DeFi投资组合管理",
       "url": "https://zerion.io",
       "category": "资产管理",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "defi",
         "portfolio",
@@ -569,8 +569,8 @@
       "name": "Aave",
       "description": "去中心化借贷协议",
       "url": "https://app.aave.com",
-      "category": "DeFi协议",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "DeFi",
+      "icon": "https://bidaka.com/static/picture/aave.svg",
       "tags": [
         "defi",
         "lending",
@@ -582,8 +582,8 @@
       "name": "Compound",
       "description": "去中心化货币市场协议",
       "url": "https://app.compound.finance",
-      "category": "DeFi协议",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "DeFi",
+      "icon": "https://bidaka.com/static/picture/compound.svg",
       "tags": [
         "defi",
         "lending",
@@ -595,8 +595,8 @@
       "name": "MakerDAO",
       "description": "去中心化稳定币协议",
       "url": "https://makerdao.com",
-      "category": "DeFi协议",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "DeFi",
+      "icon": "https://bidaka.com/static/picture/makerdao.svg",
       "tags": [
         "defi",
         "stablecoin",
@@ -608,8 +608,8 @@
       "name": "Yearn Finance",
       "description": "DeFi收益聚合器",
       "url": "https://yearn.finance",
-      "category": "DeFi协议",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "DeFi",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "defi",
         "yield",
@@ -648,7 +648,7 @@
       "description": "Web3任务与奖励平台",
       "url": "https://questn.com",
       "category": "空投任务",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://questn.com/favicon.ico",
       "tags": [
         "crypto",
         "tasks",
@@ -661,7 +661,7 @@
       "description": "优质项目代币销售平台",
       "url": "https://coinlist.co",
       "category": "空投任务",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://coinlist.co/favicon.ico",
       "tags": [
         "crypto",
         "ido",
@@ -673,7 +673,7 @@
       "name": "CoinDesk",
       "description": "全球最大加密新闻平台之一",
       "url": "https://www.coindesk.com",
-      "category": "资讯媒体",
+      "category": "新闻",
       "icon": "https://bidaka.com/static/picture/coindesk.svg",
       "tags": [
         "featured",
@@ -686,7 +686,7 @@
       "name": "金色财经",
       "description": "中文区块链快讯与行情平台",
       "url": "https://www.jinse.cn",
-      "category": "资讯媒体",
+      "category": "新闻",
       "icon": "https://bidaka.com/static/picture/jinse.svg",
       "tags": [
         "crypto",
@@ -699,8 +699,8 @@
       "name": "The Block",
       "description": "专业区块链新闻与分析",
       "url": "https://www.theblock.co",
-      "category": "资讯媒体",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "新闻",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "crypto",
         "news",
@@ -712,8 +712,8 @@
       "name": "Decrypt",
       "description": "Web3新闻与教育平台",
       "url": "https://decrypt.co",
-      "category": "资讯媒体",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "新闻",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "crypto",
         "news",
@@ -725,7 +725,7 @@
       "name": "Binance学院",
       "description": "币安官方学院，提供专业区块链知识",
       "url": "https://academy.binance.com/zh-CN",
-      "category": "学习资源",
+      "category": "学习",
       "icon": "https://bidaka.com/static/picture/Binance.svg",
       "tags": [
         "crypto",
@@ -738,7 +738,7 @@
       "name": "CryptoZombies",
       "description": "通过游戏学习Solidity编程",
       "url": "https://cryptozombies.io",
-      "category": "学习资源",
+      "category": "学习",
       "icon": "https://bidaka.com/static/picture/CryptoZombies.svg",
       "tags": [
         "education",
@@ -751,7 +751,7 @@
       "name": "《区块链之新》",
       "description": "世界首部关注区块链技术的系列纪录片",
       "url": "https://www.bilibili.com/bangumi/play/ss28925?spm_id_from=333.337.0.0",
-      "category": "学习资源",
+      "category": "学习",
       "icon": "https://chainfind.net/storage/upload/20240616/666e0abe02e83.jpg",
       "tags": [
         "crypto",
@@ -764,7 +764,7 @@
       "name": "《区块链技术与应用》",
       "description": "北京大学肖臻老师讲授区块链技术与应用",
       "url": "https://www.bilibili.com/video/BV1Vt411X7JF/?spm_id_from=333.337.search-card.all.click&vd_source=c22f0a0228e3bb790582bb58b421c4fc",
-      "category": "学习资源",
+      "category": "学习",
       "icon": "https://chainfind.net/storage/upload/20240616/666e0abe02e83.jpg",
       "tags": [
         "crypto",
@@ -777,7 +777,7 @@
       "name": "OpenBuild",
       "description": "Web3开发学习平台",
       "url": "https://openbuild.xyz/",
-      "category": "学习资源",
+      "category": "学习",
       "icon": "https://chainfind.net/storage/upload/20250220/67b6ef8d54729.png",
       "tags": [
         "education",
@@ -842,8 +842,8 @@
       "name": "Dune Analytics",
       "description": "区块链数据分析平台",
       "url": "https://dune.com",
-      "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "工具",
+      "icon": "https://dune.com/favicon.ico",
       "tags": [
         "crypto",
         "analytics",
@@ -856,7 +856,7 @@
       "description": "链上数据分析与智能标签",
       "url": "https://nansen.ai",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "crypto",
         "analytics",
@@ -868,8 +868,8 @@
       "name": "Glassnode",
       "description": "链上数据与市场指标分析",
       "url": "https://glassnode.com",
-      "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "category": "工具",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "crypto",
         "analytics",
@@ -882,7 +882,7 @@
       "description": "加密资产研究与数据平台",
       "url": "https://messari.io",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "crypto",
         "research",
@@ -895,7 +895,7 @@
       "description": "EVM兼容钱包追踪与监控工具",
       "url": "https://cielo.finance",
       "category": "安全工具",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "wallet",
         "tracking",
@@ -908,7 +908,7 @@
       "description": "反金融犯罪的链上情报平台",
       "url": "https://trmlabs.com",
       "category": "安全工具",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "security",
         "compliance",
@@ -921,7 +921,7 @@
       "description": "区块链数据增强浏览器扩展",
       "url": "https://blocksec.com/metasuites",
       "category": "浏览器扩展",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://blocksec.com/favicon.ico",
       "tags": [
         "browser",
         "extension",
@@ -934,7 +934,7 @@
       "description": "零售用户友好的链上追踪工具",
       "url": "https://metasleuth.io",
       "category": "安全工具",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://metasleuth.io/favicon.ico",
       "tags": [
         "tracking",
         "analysis",
@@ -947,7 +947,7 @@
       "description": "全链资金追踪与数据可视化平台",
       "url": "https://arkhamintelligence.com",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "analytics",
         "tracking",
@@ -960,7 +960,7 @@
       "description": "比特币链上数据搜索引擎",
       "url": "https://blockchair.com",
       "category": "区块浏览器",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "search",
@@ -973,7 +973,7 @@
       "description": "USDC跨链资金流向追踪工具",
       "url": "https://usdc.range.org",
       "category": "跨链工具",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://usdc.range.org/favicon.ico",
       "tags": [
         "usdc",
         "cross-chain",
@@ -986,7 +986,7 @@
       "description": "跨链资产追踪聚合器",
       "url": "https://explorer.pulsy.app/bridges",
       "category": "跨链工具",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://explorer.pulsy.app/favicon.ico",
       "tags": [
         "cross-chain",
         "bridge",
@@ -999,7 +999,7 @@
       "description": "EVM兼容链桥接监控平台",
       "url": "https://socketscan.io",
       "category": "跨链工具",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "evm",
         "bridge",
@@ -1012,7 +1012,7 @@
       "description": "加密税务计算与盈亏分析工具",
       "url": "https://cryptotaxcalculator.io",
       "category": "税务合规",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "tax",
         "calculator",
@@ -1025,7 +1025,7 @@
       "description": "实时比特币交易3D地球可视化",
       "url": "http://bitcoinglobe.com",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "visualization",
@@ -1038,7 +1038,7 @@
       "description": "世界地图实时交易位置显示",
       "url": "http://bitcointicker.co/transactions",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "http://bitcointicker.co/favicon.ico",
       "tags": [
         "bitcoin",
         "map",
@@ -1051,7 +1051,7 @@
       "description": "比特币区块链可视化浏览器",
       "url": "https://www.blockseer.com",
       "category": "区块浏览器",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://www.blockseer.com/favicon.ico",
       "tags": [
         "bitcoin",
         "visualization",
@@ -1064,7 +1064,7 @@
       "description": "实时比特币分析平台",
       "url": "http://coinalytics.co",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "analytics",
@@ -1077,7 +1077,7 @@
       "description": "实时观看世界货币流入BTC",
       "url": "http://fiatleak.com",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "fiat",
@@ -1090,7 +1090,7 @@
       "description": "实时比特币交易WebGL可视化",
       "url": "http://bitbonkers.com",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "http://bitbonkers.com/favicon.ico",
       "tags": [
         "bitcoin",
         "visualization",
@@ -1103,7 +1103,7 @@
       "description": "实时比特币价格、交易量、网络功耗可视化",
       "url": "http://realtimebitcoin.info",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "realtime",
@@ -1116,7 +1116,7 @@
       "description": "实时比特币交易可视化与音频",
       "url": "http://www.bitlisten.com",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "audio",
@@ -1129,7 +1129,7 @@
       "description": "比特币财务追踪器",
       "url": "http://www.blockonomics.co",
       "category": "资产管理",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "tracker",
@@ -1142,7 +1142,7 @@
       "description": "比特币分析监控平台",
       "url": "https://bitcoinchain.com",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "analytics",
@@ -1155,7 +1155,7 @@
       "description": "按姓名搜索BTC地址",
       "url": "http://bitcoinwhoswho.com",
       "category": "地址搜索",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "search",
@@ -1168,7 +1168,7 @@
       "description": "数字资产分析平台",
       "url": "https://www.viewbase.com",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "analytics",
         "assets",
@@ -1181,7 +1181,7 @@
       "description": "区块链浏览器",
       "url": "http://blockr.io",
       "category": "区块浏览器",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "explorer",
         "blockchain",
@@ -1194,7 +1194,7 @@
       "description": "比特币仪表板",
       "url": "https://bitcoin.clarkmoody.com/dashboard",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bitcoin.clarkmoody.com/favicon.ico",
       "tags": [
         "bitcoin",
         "dashboard",
@@ -1207,7 +1207,7 @@
       "description": "闪电网络节点监控",
       "url": "https://1ml.com",
       "category": "数据分析",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "lightning",
         "network",
@@ -1220,7 +1220,7 @@
       "description": "像素画布游戏平台",
       "url": "https://satoshis.place",
       "category": "游戏娱乐",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "game",
@@ -1233,7 +1233,7 @@
       "description": "投资组合追踪应用",
       "url": "https://delta.app",
       "category": "资产管理",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "portfolio",
         "tracker",
@@ -1246,7 +1246,7 @@
       "description": "比特币恢复服务",
       "url": "https://bitcoinrecovery.co",
       "category": "恢复服务",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "recovery",
@@ -1259,7 +1259,7 @@
       "description": "比特币帽子俱乐部",
       "url": "https://bitcoinhat.club",
       "category": "游戏娱乐",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "community",
@@ -1272,7 +1272,7 @@
       "description": "比特币翻转游戏",
       "url": "https://bitcoinflip.app",
       "category": "游戏娱乐",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/Other.svg",
       "tags": [
         "bitcoin",
         "game",
@@ -1285,7 +1285,7 @@
       "description": "比特币价格检查器",
       "url": "https://bitcoinprice.org",
       "category": "行情数据",
-      "icon": "https://chainfind.net/storage/upload/20240615/666caf30934a0.png",
+      "icon": "https://bidaka.com/static/picture/BarChart.svg",
       "tags": [
         "bitcoin",
         "price",
@@ -1310,8 +1310,8 @@
       "name": "Chainlist",
       "description": "以太坊兼容链在线配置工具",
       "url": "https://chainlist.org",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/chainlist.svg",
+      "category": "工具",
+      "icon": "https://chainlist.org/favicon.ico",
       "tags": [
         "ethereum",
         "tools",
@@ -1323,7 +1323,7 @@
       "name": "GEMIT",
       "description": "钱包检查工具，帮助交易者做出投资决策",
       "url": "https://gemit.io",
-      "category": "实用工具",
+      "category": "钱包",
       "icon": "https://bidaka.com/static/picture/gemit.svg",
       "tags": [
         "wallet",
@@ -1364,7 +1364,7 @@
       "description": "L2综合数据集合器",
       "url": "https://orbiter.finance",
       "category": "跨链工具",
-      "icon": "https://bidaka.com/static/picture/orbiter.svg",
+      "icon": "https://orbiter.finance/favicon.ico",
       "tags": [
         "l2",
         "bridge",
@@ -1391,7 +1391,7 @@
       "description": "ICO/IEO/IDO信息和回报率网站",
       "url": "https://cryptorank.io",
       "category": "行情数据",
-      "icon": "https://bidaka.com/static/picture/cryptorank.svg",
+      "icon": "https://cryptorank.io/favicon.ico",
       "tags": [
         "ico",
         "ido",
@@ -1404,7 +1404,7 @@
       "name": "Willy Woo",
       "description": "著名比特币交易员个人博客",
       "url": "https://woobull.com",
-      "category": "资讯媒体",
+      "category": "新闻",
       "icon": "https://bidaka.com/static/picture/woobull.svg",
       "tags": [
         "bitcoin",
@@ -1419,7 +1419,7 @@
       "description": "覆盖GameFi、DeFi、NFT多领域的一站式链上数据分析平台",
       "url": "https://www.footprint.network",
       "category": "数据分析",
-      "icon": "https://bidaka.com/static/picture/footprint.svg",
+      "icon": "https://www.footprint.network/favicon.ico",
       "tags": [
         "gamefi",
         "defi",
@@ -1461,7 +1461,7 @@
       "description": "数字货币市场数据分析平台，提供交易建议和顾问服务",
       "url": "https://santiment.net",
       "category": "数据分析",
-      "icon": "https://bidaka.com/static/picture/santiment.svg",
+      "icon": "https://santiment.net/favicon.ico",
       "tags": [
         "sentiment",
         "analysis",
@@ -1474,7 +1474,7 @@
       "name": "Blocknative",
       "description": "查询和评估以太坊手续费和内存池的工具",
       "url": "https://www.blocknative.com",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/blocknative.svg",
       "tags": [
         "ethereum",
@@ -1488,7 +1488,7 @@
       "name": "MEV-Explore",
       "description": "以太坊上MEV活动查询工具",
       "url": "https://explore.flashbots.net",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/mev.svg",
       "tags": [
         "mev",
@@ -1502,7 +1502,7 @@
       "name": "CryptoFees",
       "description": "交易费用数据追踪和统计平台",
       "url": "https://cryptofees.info",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/cryptofees.svg",
       "tags": [
         "fees",
@@ -1516,8 +1516,8 @@
       "name": "Chain Broker",
       "description": "查询融资信息/VC回报率和排名",
       "url": "https://chainbroker.io",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/chainbroker.svg",
+      "category": "工具",
+      "icon": "https://chainbroker.io/favicon.ico",
       "tags": [
         "funding",
         "vc",
@@ -1544,7 +1544,7 @@
       "name": "Token Unlocks",
       "description": "一站式解锁数据和代币经济学网站",
       "url": "https://token.unlocks.app",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/tokenunlocks.svg",
       "tags": [
         "unlock",
@@ -1558,7 +1558,7 @@
       "name": "CoinMarketCal",
       "description": "可靠的加密货币新闻领先经济日历",
       "url": "https://coinmarketcal.com",
-      "category": "实用工具",
+      "category": "新闻",
       "icon": "https://bidaka.com/static/picture/coinmarketcal.svg",
       "tags": [
         "calendar",
@@ -1573,7 +1573,7 @@
       "description": "区块链分析工具",
       "url": "https://coinmetrics.io",
       "category": "数据分析",
-      "icon": "https://bidaka.com/static/picture/coinmetrics.svg",
+      "icon": "https://coinmetrics.io/favicon.ico",
       "tags": [
         "onchain",
         "data",
@@ -1586,7 +1586,7 @@
       "name": "MoonTok",
       "description": "新兴的加密货币资讯整合平台",
       "url": "https://moontok.io",
-      "category": "资讯媒体",
+      "category": "新闻",
       "icon": "https://bidaka.com/static/picture/moontok.svg",
       "tags": [
         "news",
@@ -1614,7 +1614,7 @@
       "name": "ROOTDATA",
       "description": "查询项目融资、赛道、背景、团队等",
       "url": "https://www.rootdata.com",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/rootdata.svg",
       "tags": [
         "funding",
@@ -1628,7 +1628,7 @@
       "name": "ViaWallet",
       "description": "主要币种的减半倒计时、未处理交易以及存币富豪榜等工具",
       "url": "https://viawallet.com",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/viawallet.svg",
       "tags": [
         "halving",
@@ -1642,7 +1642,7 @@
       "name": "CoinParticle",
       "description": "实时加密货币数据可视化工具",
       "url": "https://coinparticle.io",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/coinparticle.svg",
       "tags": [
         "visualization",
@@ -1656,7 +1656,7 @@
       "name": "DappReview",
       "description": "Dapp交易、活跃用户数据和市场分析，支持多链",
       "url": "https://dapp.review",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/dappreview.svg",
       "tags": [
         "dapp",
@@ -1670,7 +1670,7 @@
       "name": "BitInfoCharts",
       "description": "比特币、以太坊等价格、奖励、难度、哈希率、市值、区块时间统计",
       "url": "https://bitinfocharts.com",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/bitinfocharts.svg",
       "tags": [
         "bitcoin",
@@ -1684,7 +1684,7 @@
       "name": "TokenInsight",
       "description": "各公链上的项目评级及交易数据服务商",
       "url": "https://tokeninsight.com",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/tokeninsight.svg",
       "tags": [
         "rating",
@@ -1698,7 +1698,7 @@
       "name": "Team Finance",
       "description": "锁仓及解锁时间查询",
       "url": "https://team.finance",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/teamfinance.svg",
       "tags": [
         "lock",
@@ -1712,7 +1712,7 @@
       "name": "APY.vision",
       "description": "多功能流动性池分析和收益率跟踪工具",
       "url": "https://apy.vision",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/apyvision.svg",
       "tags": [
         "defi",
@@ -1726,7 +1726,7 @@
       "name": "Rated.network",
       "description": "ETH信标链验证者评级",
       "url": "https://rated.network",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/rated.svg",
       "tags": [
         "ethereum",
@@ -1740,8 +1740,8 @@
       "name": "CompaniesMarketCap",
       "description": "全球各大类资产排名",
       "url": "https://companiesmarketcap.com",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/companiesmarketcap.svg",
+      "category": "工具",
+      "icon": "https://companiesmarketcap.com/favicon.ico",
       "tags": [
         "market",
         "cap",
@@ -1754,7 +1754,7 @@
       "name": "链研社",
       "description": "查看链上各种数据",
       "url": "https://www.chainresearch.org",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/chainresearch.svg",
       "tags": [
         "onchain",
@@ -1768,7 +1768,7 @@
       "name": "Look Into Bitcoin",
       "description": "使用市场周期、链上分析提供实时图表及信息",
       "url": "https://www.lookintobitcoin.com",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/lookintobitcoin.svg",
       "tags": [
         "bitcoin",
@@ -1782,8 +1782,8 @@
       "name": "APE Staking APYs",
       "description": "APE质押的Dune数据表",
       "url": "https://dune.com/0xBoxer/ape-staking-apys",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/apestaking.svg",
+      "category": "工具",
+      "icon": "https://dune.com/favicon.ico",
       "tags": [
         "ape",
         "staking",
@@ -1796,7 +1796,7 @@
       "name": "哔哔News数据图表",
       "description": "数据图表+研报，各种项目比较全",
       "url": "https://bibe.news",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/bibenews.svg",
       "tags": [
         "news",
@@ -1810,7 +1810,7 @@
       "name": "Coindix",
       "description": "稳定币挖矿数据网站，监控27条区链上的10000多个金库",
       "url": "https://coindix.com",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/coindix.svg",
       "tags": [
         "stablecoin",
@@ -1824,7 +1824,7 @@
       "name": "DiTing.io",
       "description": "全球第一家把行情与监测结合的智能大数据平台",
       "url": "https://diting.io",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/diting.svg",
       "tags": [
         "monitoring",
@@ -1838,8 +1838,8 @@
       "name": "Mest",
       "description": "监控地址资金流转，搜索钱包地址，发现聪明钱",
       "url": "https://mest.io",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/mest.svg",
+      "category": "钱包",
+      "icon": "https://mest.io/favicon.ico",
       "tags": [
         "monitoring",
         "smartmoney",
@@ -1852,7 +1852,7 @@
       "name": "Footrace",
       "description": "CEX监控工具，研究CEX、DEX、VC和项目",
       "url": "https://footrace.io",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/footrace.svg",
       "tags": [
         "cex",
@@ -1866,7 +1866,7 @@
       "name": "Xypher.io",
       "description": "大单捕捉提醒工具网站，能监控社交热点",
       "url": "https://xypher.io",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/xypher.svg",
       "tags": [
         "alerts",
@@ -1880,8 +1880,8 @@
       "name": "Revert.finance",
       "description": "查交易对流动性提供者的LP和LP历史记录",
       "url": "https://revert.finance",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/revert.svg",
+      "category": "工具",
+      "icon": "https://revert.finance/favicon.ico",
       "tags": [
         "lp",
         "liquidity",
@@ -1894,7 +1894,7 @@
       "name": "Datemish",
       "description": "巨鲸地址监控",
       "url": "https://datemish.com",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/datemish.svg",
       "tags": [
         "whale",
@@ -1908,7 +1908,7 @@
       "name": "WhaleStats",
       "description": "ETH前1000名巨鲸地址追踪及资产分析",
       "url": "https://whalestats.com",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/whalestats.svg",
       "tags": [
         "whale",
@@ -1922,7 +1922,7 @@
       "name": "BSC Project",
       "description": "币安链项目指数查询，项目TVL、地址数、交易量、价格等",
       "url": "https://bscproject.org",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/bscproject.svg",
       "tags": [
         "bsc",
@@ -1936,7 +1936,7 @@
       "name": "Solana Project",
       "description": "Solana Project项目指数查询",
       "url": "https://solana.project",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/solanaproject.svg",
       "tags": [
         "solana",
@@ -1950,7 +1950,7 @@
       "name": "Heimdall",
       "description": "根据社区交互数据分析得出的指数排名",
       "url": "https://heimdall.network",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/heimdall.svg",
       "tags": [
         "community",
@@ -1964,8 +1964,8 @@
       "name": "恐惧贪婪指数",
       "description": "贪婪恐慌指数",
       "url": "https://alternative.me/crypto/fear-and-greed-index",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/feargreed.svg",
+      "category": "工具",
+      "icon": "https://alternative.me/favicon.ico",
       "tags": [
         "sentiment",
         "index",
@@ -1978,8 +1978,8 @@
       "name": "StakingRewards",
       "description": "各个项目质押率、质押市值、流动市值等信息",
       "url": "https://www.stakingrewards.com",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/stakingrewards.svg",
+      "category": "工具",
+      "icon": "https://www.stakingrewards.com/favicon.ico",
       "tags": [
         "staking",
         "yield",
@@ -1992,8 +1992,8 @@
       "name": "HyblockCapital",
       "description": "链上清算水平分析工具",
       "url": "https://hyblockcapital.com",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/hyblock.svg",
+      "category": "工具",
+      "icon": "https://hyblockcapital.com/favicon.ico",
       "tags": [
         "liquidation",
         "onchain",
@@ -2006,8 +2006,8 @@
       "name": "Bubble Maps",
       "description": "查看项目的持币地址之间的交互关系，以气泡图形式展示",
       "url": "https://bubblemaps.io",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/bubblemaps.svg",
+      "category": "工具",
+      "icon": "https://bubblemaps.io/favicon.ico",
       "tags": [
         "visualization",
         "holders",
@@ -2020,8 +2020,8 @@
       "name": "比特币彩虹图",
       "description": "比特币彩虹图，山寨币季节指数",
       "url": "https://www.blockchaincenter.net/bitcoin-rainbow-chart",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/rainbow.svg",
+      "category": "工具",
+      "icon": "https://www.blockchaincenter.net/favicon.ico",
       "tags": [
         "bitcoin",
         "rainbow",
@@ -2034,7 +2034,7 @@
       "name": "Daylight",
       "description": "钱包机会发现服务，发现各种与钱包地址相关的服务",
       "url": "https://daylight.xyz",
-      "category": "实用工具",
+      "category": "钱包",
       "icon": "https://bidaka.com/static/picture/daylight.svg",
       "tags": [
         "wallet",
@@ -2048,7 +2048,7 @@
       "name": "Rare.id",
       "description": "ENS最新交易数据、注册数据查询",
       "url": "https://rare.id",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/rare.svg",
       "tags": [
         "ens",
@@ -2062,7 +2062,7 @@
       "name": "ExchangeWar",
       "description": "查看各中心化交易所活跃的交易对及交易量排名",
       "url": "https://exchangewar.com",
-      "category": "实用工具",
+      "category": "中心化交易所",
       "icon": "https://bidaka.com/static/picture/exchangewar.svg",
       "tags": [
         "exchange",
@@ -2076,7 +2076,7 @@
       "name": "Vestlab",
       "description": "查看项目的代币解锁时间表（短线必备）",
       "url": "https://vestlab.io",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/vestlab.svg",
       "tags": [
         "unlock",
@@ -2090,7 +2090,7 @@
       "name": "CryptoMiso",
       "description": "Github活跃度数据，包括commits提交次数、贡献者等",
       "url": "https://cryptomiso.com",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/cryptomiso.svg",
       "tags": [
         "github",
@@ -2104,7 +2104,7 @@
       "name": "DefiEye.io",
       "description": "查询提币手续费的网站，教你怎样用最省钱的方式冲提数字资产",
       "url": "https://defieye.io",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/defieye.svg",
       "tags": [
         "fees",
@@ -2114,25 +2114,11 @@
       ]
     },
     {
-      "id": "166",
-      "name": "Vfat.tools",
-      "description": "查看公链项目官网和代币",
-      "url": "https://vfat.tools",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/vfat.svg",
-      "tags": [
-        "projects",
-        "chains",
-        "tokens",
-        "farming"
-      ]
-    },
-    {
       "id": "167",
       "name": "ChainBeat",
       "description": "Web 3.0的数据分析平台，跨区块链分析，实时警报",
       "url": "https://chainbeat.io",
-      "category": "实用工具",
+      "category": "工具",
       "icon": "https://bidaka.com/static/picture/chainbeat.svg",
       "tags": [
         "web3",
@@ -2142,50 +2128,455 @@
       ]
     },
     {
-      "id": "168",
-      "name": "Gas费计算器",
-      "description": "ETH Gas.watch是一个聚合的gas价格提要",
-      "url": "https://ethgas.watch",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/gaswatch.svg",
+      "id": "166",
+      "name": "非小号",
+      "description": "国内专业数字货币行业大数据平台",
+      "url": "https://www.feixiaohao.com",
+      "category": "行情数据",
+      "icon": "https://bidaka.com/static/picture/Feixiaohao.svg",
       "tags": [
-        "gas",
-        "ethereum",
-        "fees",
-        "calculator"
+        "data",
+        "chinese",
+        "crypto"
       ]
     },
     {
-      "id": "170",
-      "name": "CypherHunter",
-      "description": "Crypto项目数据库，项目信息、知名人员关联信息、机构信息",
-      "url": "https://cypherhunter.com",
-      "category": "实用工具",
-      "icon": "https://bidaka.com/static/picture/cypherhunter.svg",
+      "id": "169",
+      "name": "火币",
+      "description": "中国知名数字货币交易平台",
+      "url": "https://www.huobi.com",
+      "category": "中心化交易所",
+      "icon": "https://bidaka.com/static/picture/Huobi.svg",
       "tags": [
-        "database",
-        "projects",
-        "people",
-        "institutions"
+        "exchange",
+        "chinese",
+        "trading"
+      ]
+    },
+    {
+      "id": "176",
+      "name": "Blur",
+      "description": "专业NFT交易平台",
+      "url": "https://blur.io",
+      "category": "NFT",
+      "icon": "https://blur.io/favicon.ico",
+      "tags": [
+        "nft",
+        "trading",
+        "ethereum"
+      ]
+    },
+    {
+      "id": "180",
+      "name": "Phantom",
+      "description": "Solana生态主流钱包",
+      "url": "https://phantom.app",
+      "category": "钱包",
+      "icon": "https://bidaka.com/static/picture/Phantom.svg",
+      "tags": [
+        "wallet",
+        "solana",
+        "browser"
+      ]
+    },
+    {
+      "id": "181",
+      "name": "Etherscan",
+      "description": "以太坊区块浏览器",
+      "url": "https://etherscan.io",
+      "category": "区块浏览器",
+      "icon": "https://bidaka.com/static/picture/Etherscan.svg",
+      "tags": [
+        "explorer",
+        "ethereum",
+        "blockchain"
+      ]
+    },
+    {
+      "id": "182",
+      "name": "Solscan",
+      "description": "Solana区块浏览器",
+      "url": "https://solscan.io",
+      "category": "区块浏览器",
+      "icon": "https://bidaka.com/static/picture/Solscan.svg",
+      "tags": [
+        "explorer",
+        "solana",
+        "blockchain"
+      ]
+    },
+    {
+      "id": "186",
+      "name": "OpenZeppelin",
+      "description": "智能合约开发库和工具",
+      "url": "https://openzeppelin.com",
+      "category": "学习",
+      "icon": "https://bidaka.com/static/picture/OpenZeppelin.svg",
+      "tags": [
+        "development",
+        "library",
+        "security"
+      ]
+    },
+    {
+      "id": "balancer",
+      "name": "Balancer",
+      "url": "https://balancer.fi",
+      "description": "自动做市商协议，支持多代币池和自定义权重",
+      "category": "DeFi",
+      "icon": "https://balancer.fi/favicon.ico",
+      "tags": [
+        "AMM",
+        "DeFi",
+        "流动性"
+      ]
+    },
+    {
+      "id": "foundation",
+      "name": "Foundation",
+      "url": "https://foundation.app",
+      "description": "邀请制的NFT市场，专注于数字艺术和创意作品",
+      "category": "NFT",
+      "icon": "https://foundation.app/favicon.ico",
+      "tags": [
+        "NFT",
+        "艺术",
+        "市场"
+      ]
+    },
+    {
+      "id": "superrare",
+      "name": "SuperRare",
+      "url": "https://superrare.com",
+      "description": "数字艺术NFT市场，专注于单版数字艺术品",
+      "category": "NFT",
+      "icon": "https://superrare.com/favicon.ico",
+      "tags": [
+        "NFT",
+        "艺术",
+        "单版"
+      ]
+    },
+    {
+      "id": "optimistic-etherscan",
+      "name": "Optimistic Etherscan",
+      "url": "https://optimistic.etherscan.io",
+      "description": "Optimism网络官方区块链浏览器",
+      "category": "区块浏览器",
+      "icon": "https://optimistic.etherscan.io/favicon.ico",
+      "tags": [
+        "Optimism",
+        "浏览器",
+        "Layer2"
+      ]
+    },
+    {
+      "id": "coinbase-wallet",
+      "name": "Coinbase Wallet",
+      "url": "https://wallet.coinbase.com",
+      "description": "Coinbase官方钱包，支持多链和NFT管理",
+      "category": "钱包",
+      "icon": "https://wallet.coinbase.com/favicon.ico",
+      "tags": [
+        "钱包",
+        "Coinbase",
+        "多链"
+      ]
+    },
+    {
+      "id": "coinbase-pro",
+      "name": "Coinbase Pro",
+      "url": "https://pro.coinbase.com",
+      "description": "Coinbase专业交易平台，提供高级交易功能",
+      "category": "中心化交易所",
+      "icon": "https://pro.coinbase.com/favicon.ico",
+      "tags": [
+        "交易所",
+        "Coinbase",
+        "专业版"
+      ]
+    },
+    {
+      "id": "kraken",
+      "name": "Kraken",
+      "url": "https://kraken.com",
+      "description": "老牌加密货币交易所，以安全性和合规性著称",
+      "category": "中心化交易所",
+      "icon": "https://kraken.com/favicon.ico",
+      "tags": [
+        "交易所",
+        "安全",
+        "合规"
+      ]
+    },
+    {
+      "id": "huobi",
+      "name": "Huobi",
+      "url": "https://huobi.com",
+      "description": "全球知名数字资产交易平台，提供现货和衍生品交易",
+      "category": "中心化交易所",
+      "icon": "https://huobi.com/favicon.ico",
+      "tags": [
+        "交易所",
+        "衍生品",
+        "全球"
+      ]
+    },
+    {
+      "id": "kucoin",
+      "name": "KuCoin",
+      "url": "https://kucoin.com",
+      "description": "全球领先的加密货币交易所，支持多种数字资产交易",
+      "category": "中心化交易所",
+      "icon": "https://kucoin.com/favicon.ico",
+      "tags": [
+        "交易所",
+        "多资产",
+        "全球"
+      ]
+    },
+    {
+      "id": "sushiswap",
+      "name": "SushiSwap",
+      "url": "https://sushi.com",
+      "description": "社区驱动的去中心化交易所，提供AMM和流动性挖矿",
+      "category": "去中心化交易所",
+      "icon": "https://sushi.com/favicon.ico",
+      "tags": [
+        "DEX",
+        "AMM",
+        "社区"
+      ]
+    },
+    {
+      "id": "dydx",
+      "name": "dYdX",
+      "url": "https://dydx.trade",
+      "description": "去中心化衍生品交易平台，支持永续合约交易",
+      "category": "去中心化交易所",
+      "icon": "https://dydx.trade/favicon.ico",
+      "tags": [
+        "衍生品",
+        "永续合约",
+        "DeFi"
+      ]
+    },
+    {
+      "id": "dextools",
+      "name": "DexTools",
+      "url": "https://dextools.io",
+      "description": "DeFi代币分析和交易工具，提供实时数据和图表",
+      "category": "行情数据",
+      "icon": "https://dextools.io/favicon.ico",
+      "tags": [
+        "DeFi",
+        "分析",
+        "图表"
+      ]
+    },
+    {
+      "id": "myetherwallet",
+      "name": "MyEtherWallet",
+      "url": "https://myetherwallet.com",
+      "description": "开源以太坊钱包，支持多种硬件钱包",
+      "category": "工具",
+      "icon": "https://myetherwallet.com/favicon.ico",
+      "tags": [
+        "钱包",
+        "开源",
+        "硬件钱包"
+      ]
+    },
+    {
+      "id": "remix",
+      "name": "Remix IDE",
+      "url": "https://remix.ethereum.org",
+      "description": "基于浏览器的Solidity智能合约开发环境",
+      "category": "工具",
+      "icon": "https://remix.ethereum.org/favicon.ico",
+      "tags": [
+        "开发",
+        "Solidity",
+        "IDE"
+      ]
+    },
+    {
+      "id": "hardhat",
+      "name": "Hardhat",
+      "url": "https://hardhat.org",
+      "description": "以太坊开发环境，用于编译、部署和测试智能合约",
+      "category": "工具",
+      "icon": "https://hardhat.org/favicon.ico",
+      "tags": [
+        "开发",
+        "测试",
+        "部署"
+      ]
+    },
+    {
+      "id": "truffle",
+      "name": "Truffle Suite",
+      "url": "https://trufflesuite.com",
+      "description": "区块链开发框架，提供开发、测试和部署工具",
+      "category": "工具",
+      "icon": "https://trufflesuite.com/favicon.ico",
+      "tags": [
+        "开发",
+        "框架",
+        "测试"
+      ]
+    },
+    {
+      "id": "ethereum-org",
+      "name": "Ethereum.org",
+      "url": "https://ethereum.org",
+      "description": "以太坊官方网站，提供学习资源和开发者文档",
+      "category": "学习",
+      "icon": "https://ethereum.org/favicon.ico",
+      "tags": [
+        "学习",
+        "文档",
+        "以太坊"
+      ]
+    },
+    {
+      "id": "consensys-academy",
+      "name": "ConsenSys Academy",
+      "url": "https://consensys.net/academy",
+      "description": "ConsenSys提供的区块链和以太坊教育课程",
+      "category": "学习",
+      "icon": "https://consensys.net/favicon.ico",
+      "tags": [
+        "课程",
+        "教育",
+        "ConsenSys"
+      ]
+    },
+    {
+      "id": "cointelegraph",
+      "name": "Cointelegraph",
+      "url": "https://cointelegraph.com",
+      "description": "专业的加密货币和区块链新闻网站",
+      "category": "新闻",
+      "icon": "https://cointelegraph.com/favicon.ico",
+      "tags": [
+        "新闻",
+        "专业",
+        "区块链"
       ]
     }
   ],
-  "total": 163,
+  "total": 186,
   "categories": [
-    "行情数据",
-    "中心化交易所",
-    "去中心化交易所",
-    "数字钱包",
-    "区块浏览器",
-    "跨链工具",
-    "NFT平台",
-    "安全工具",
-    "资产管理",
-    "DeFi协议",
-    "空投任务",
-    "资讯媒体",
-    "学习资源",
-    "实用工具",
-    "数据分析"
+    {
+      "id": "category-1",
+      "name": "行情数据",
+      "count": 12
+    },
+    {
+      "id": "category-2",
+      "name": "中心化交易所",
+      "count": 11
+    },
+    {
+      "id": "category-3",
+      "name": "DeFi",
+      "count": 7
+    },
+    {
+      "id": "category-4",
+      "name": "去中心化交易所",
+      "count": 4
+    },
+    {
+      "id": "category-5",
+      "name": "钱包",
+      "count": 11
+    },
+    {
+      "id": "category-6",
+      "name": "区块浏览器",
+      "count": 12
+    },
+    {
+      "id": "category-7",
+      "name": "跨链工具",
+      "count": 9
+    },
+    {
+      "id": "category-8",
+      "name": "NFT",
+      "count": 8
+    },
+    {
+      "id": "category-9",
+      "name": "安全工具",
+      "count": 9
+    },
+    {
+      "id": "category-10",
+      "name": "资产管理",
+      "count": 5
+    },
+    {
+      "id": "category-11",
+      "name": "空投任务",
+      "count": 4
+    },
+    {
+      "id": "category-12",
+      "name": "新闻",
+      "count": 8
+    },
+    {
+      "id": "category-13",
+      "name": "学习",
+      "count": 8
+    },
+    {
+      "id": "category-14",
+      "name": "倒计时工具",
+      "count": 1
+    },
+    {
+      "id": "category-15",
+      "name": "社交媒体",
+      "count": 3
+    },
+    {
+      "id": "category-16",
+      "name": "工具",
+      "count": 46
+    },
+    {
+      "id": "category-17",
+      "name": "数据分析",
+      "count": 21
+    },
+    {
+      "id": "category-18",
+      "name": "浏览器扩展",
+      "count": 1
+    },
+    {
+      "id": "category-19",
+      "name": "税务合规",
+      "count": 1
+    },
+    {
+      "id": "category-20",
+      "name": "地址搜索",
+      "count": 1
+    },
+    {
+      "id": "category-21",
+      "name": "游戏娱乐",
+      "count": 3
+    },
+    {
+      "id": "category-22",
+      "name": "恢复服务",
+      "count": 1
+    }
   ]
 }

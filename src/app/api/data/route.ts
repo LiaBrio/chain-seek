@@ -1,6 +1,7 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { translateWebsiteData, translateCategories } from '@/lib/dataTranslations';
 
 // 从本地文件读取数据
 function getLocalData() {
@@ -15,17 +16,20 @@ function getLocalData() {
 }
 
 // 处理数据，添加分类统计
-function processData(rawData: any) {
+function processData(rawData: Record<string, unknown>, language: string = 'en') {
   if (!rawData || !rawData.data) {
     return rawData;
   }
 
-  const websites = rawData.data;
+  const websites = rawData.data as Array<Record<string, unknown>>;
+  
+  // 翻译网站数据
+  const translatedWebsites = translateWebsiteData(websites, language);
   
   // 统计每个分类的数量
   const categoryCounts: { [key: string]: number } = {};
-  websites.forEach((website: any) => {
-    const category = website.category || '未分类';
+  translatedWebsites.forEach((website: Record<string, unknown>) => {
+    const category = (website.category as string) || '未分类';
     categoryCounts[category] = (categoryCounts[category] || 0) + 1;
   });
 
@@ -38,13 +42,18 @@ function processData(rawData: any) {
 
   return {
     ...rawData,
+    data: translatedWebsites,
     categories,
     categoryCounts
   };
 }
 
-export async function GET() {
+export async function GET(request: Request) {
   try {
+    // 从查询参数获取语言
+    const { searchParams } = new URL(request.url);
+    const language = searchParams.get('lang') || 'en';
+    
     let rawData = null;
 
     // 在开发环境中使用本地数据文件
@@ -80,8 +89,8 @@ export async function GET() {
       );
     }
 
-    // 处理数据，添加分类信息
-    const processedData = processData(rawData);
+    // 处理数据，添加分类信息和多语言支持
+    const processedData = processData(rawData, language);
     
     return NextResponse.json(processedData);
   } catch (error) {
@@ -89,7 +98,9 @@ export async function GET() {
     // 如果所有方法都失败，尝试使用本地数据
     const localData = getLocalData();
     if (localData) {
-      const processedData = processData(localData);
+      const { searchParams } = new URL(request.url);
+      const language = searchParams.get('lang') || 'en';
+      const processedData = processData(localData, language);
       return NextResponse.json(processedData);
     }
     return NextResponse.json(
