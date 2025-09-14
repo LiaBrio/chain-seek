@@ -89,7 +89,7 @@ export default function Home() {
   const { language, changeLanguage, t, availableLanguages, isClient } = useLanguage();
   const { data, loading, error } = useDataList(language);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("全部");
+  const [selectedCategory, setSelectedCategory] = useState("__ALL__");
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
@@ -147,7 +147,7 @@ export default function Home() {
   const filteredWebsites = data?.data?.filter((website: DataListItem) => {
     const matchesSearch = website.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          (website.description || '').toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCategory = selectedCategory === "全部" || website.category === selectedCategory;
+    const matchesCategory = selectedCategory === "__ALL__" || website.category === selectedCategory;
     const matchesFavorites = !showFavoritesOnly || favorites.has(website.id);
     return matchesSearch && matchesCategory && matchesFavorites;
   }) || [];
@@ -191,7 +191,6 @@ export default function Home() {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
           categories={categories}
-          totalWebsites={totalWebsites}
           favoritesCount={favorites.size}
           isMobileMenuOpen={isMobileMenuOpen}
           setIsMobileMenuOpen={setIsMobileMenuOpen}
@@ -199,13 +198,16 @@ export default function Home() {
         />
 
         {/* Main Content */}
-        <div className="flex-1 lg:ml-56 flex flex-col">
+        <div className="flex-1 md:ml-56 flex flex-col">
           <div className="flex-1 p-4 lg:p-6">
           {/* Language Switcher */}
           <div className="flex justify-end mb-4">
             <LanguageSwitcher
               currentLanguage={language}
-              onLanguageChange={changeLanguage}
+              onLanguageChange={(lang) => {
+                changeLanguage(lang);
+                setSelectedCategory("__ALL__");
+              }}
               availableLanguages={availableLanguages}
             />
           </div>
@@ -281,7 +283,7 @@ export default function Home() {
           {/* Results Header */}
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-bold text-gray-900">
-              {showFavoritesOnly ? t('common.favorites') : (selectedCategory === "全部" ? t('categories.all') : selectedCategory)}
+              {showFavoritesOnly ? t('common.favorites') : (selectedCategory === "__ALL__" ? t('categories.all') : selectedCategory)}
             </h2>
             <div className="flex items-center space-x-4">
               <div className="text-sm text-gray-600">
@@ -336,7 +338,9 @@ export default function Home() {
       </div>
 
       {/* Footer with Friend Links */}
-      <SimpleFooter t={t} />
+      <div className="md:ml-56">
+        <SimpleFooter t={t} />
+      </div>
     </div>
   );
 }

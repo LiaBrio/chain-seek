@@ -2,7 +2,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { 
   Search, 
@@ -20,7 +19,6 @@ interface SidebarProps {
   selectedCategory: string;
   setSelectedCategory: (category: string) => void;
   categories: Array<{ id: string; name: string; count: number }>;
-  totalWebsites: number;
   favoritesCount: number;
   isMobileMenuOpen: boolean;
   setIsMobileMenuOpen: (open: boolean) => void;
@@ -34,7 +32,6 @@ export function Sidebar({
   selectedCategory,
   setSelectedCategory,
   categories,
-  totalWebsites,
   isMobileMenuOpen,
   setIsMobileMenuOpen,
   t
@@ -79,7 +76,7 @@ export function Sidebar({
             <Search className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-400 h-3 w-3" />
             <input
               type="text"
-              placeholder="搜索工具..."
+              placeholder={t('common.search')}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-8 pr-3 py-1.5 text-xs border border-gray-200 rounded-md focus:border-blue-500 focus:outline-none"
@@ -90,63 +87,51 @@ export function Sidebar({
         {/* Stats */}
      
 
-        {/* Categories */}
-        <div className="flex-1 p-4">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-sm font-bold text-gray-900">分类浏览</h2>
-            <Filter className="h-4 w-4 text-gray-400" />
-          </div>
-          <ScrollArea className="h-full">
-            <div className="space-y-2">
-              <Button
-                variant={selectedCategory === "全部" ? "default" : "ghost"}
-                onClick={() => setSelectedCategory("全部")}
-                className="w-full justify-start h-10 text-sm px-4 rounded-lg font-medium transition-all duration-200 hover:bg-gray-50"
-              >
-                <Globe className="h-4 w-4 mr-3" />
-                全部工具
-                <Badge variant="secondary" className="ml-auto text-xs px-2 py-1 rounded-full">
-                  {totalWebsites}
-                </Badge>
-              </Button>
-              
-              {categories.map((category) => {
-                const IconComponent = categoryIconMap[category.name] || Globe;
-                const isSelected = selectedCategory === category.name;
-                return (
-                  <Button
-                    key={category.id}
-                    variant={isSelected ? "default" : "ghost"}
-                    onClick={() => setSelectedCategory(category.name)}
-                    className={`w-full justify-start h-10 text-sm px-4 rounded-lg font-medium transition-all duration-200 ${
-                      isSelected 
-                        ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-md' 
-                        : 'hover:bg-gray-50 hover:shadow-sm'
-                    }`}
-                  >
-                    <IconComponent className={`h-4 w-4 mr-3 ${isSelected ? 'text-white' : 'text-gray-600'}`} />
-                    {category.name}
-                    <Badge 
-                      variant={isSelected ? "secondary" : "outline"} 
-                      className={`ml-auto text-xs px-2 py-1 rounded-full ${
-                        isSelected ? 'bg-white/20 text-white border-white/30' : ''
+        {/* Categories + Footer in one scrollable area */}
+        <div className="flex-1 min-h-0">
+          <ScrollArea className="h-full pr-1 overflow-y-auto">
+            <div className="p-4">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-sm font-bold text-gray-900">{t('navigation.categories')}</h2>
+                <Filter className="h-4 w-4 text-gray-400" />
+              </div>
+              <div className="space-y-2 pb-6">
+                <Button
+                  variant={selectedCategory === "__ALL__" ? "default" : "ghost"}
+                  onClick={() => setSelectedCategory("__ALL__")}
+                  className="w-full justify-start h-10 text-sm px-4 rounded-lg font-medium transition-all duration-200 hover:bg-gray-50"
+                >
+                  <Globe className="h-4 w-4 mr-3" />
+                  {t('categories.all')}
+                </Button>
+                {categories.map((category) => {
+                  const IconComponent = categoryIconMap[category.name] || Globe;
+                  const isSelected = selectedCategory === category.name;
+                  return (
+                    <Button
+                      key={category.id}
+                      variant={isSelected ? "default" : "ghost"}
+                      onClick={() => setSelectedCategory(category.name)}
+                      className={`w-full justify-start h-10 text-sm px-4 rounded-lg font-medium transition-all duration-200 ${
+                        isSelected 
+                          ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-md' 
+                          : 'hover:bg-gray-50 hover:shadow-sm'
                       }`}
                     >
-                      {category.count}
-                    </Badge>
-                  </Button>
-                );
-              })}
+                      <IconComponent className={`h-4 w-4 mr-3 ${isSelected ? 'text-white' : 'text-gray-600'}`} />
+                      {category.name}
+                    </Button>
+                  );
+                })}
+              </div>
+              <div className="pt-4 border-t border-gray-200 mt-4">
+                <Button variant="outline" size="sm" className="w-full h-10 text-sm rounded-lg font-medium hover:bg-gray-50">
+                  <Settings className="h-4 w-4 mr-2" />
+                  {t('common.settings')}
+                </Button>
+              </div>
             </div>
           </ScrollArea>
-        </div>
-
-        {/* Footer */}
-        <div className="p-4 border-t border-gray-200">
-          <Button variant="outline" size="sm" className="w-full h-10 text-sm rounded-lg font-medium hover:bg-gray-50">
-            <Settings className="h-4 w-4 mr-2" />
-            {t('common.settings')}
-          </Button>
         </div>
       </div>
     </>

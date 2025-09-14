@@ -80,7 +80,7 @@ const EMBEDDED_DATA = {
       "id": "7",
       "name": "Binance",
       "description": "全球最大加密交易所",
-      "url": "https://www.binance.com",
+      "url": "https://www.maxweb.academy/referral/earn-together/refer-in-hotsummer/claim?hl=zh-CN&ref=GRO_20338_OFTXA&utm_source=default",
       "category": "中心化交易所",
       "icon": "https://bidaka.com/static/picture/Binance.svg",
       "tags": [
@@ -93,7 +93,7 @@ const EMBEDDED_DATA = {
       "id": "8",
       "name": "OKX",
       "description": "热门交易所，支持Web3钱包与链上活动",
-      "url": "https://www.okx.com",
+      "url": "https://www.hnzhcf.com/join/96090571",
       "category": "中心化交易所",
       "icon": "https://bidaka.com/static/picture/okx.svg",
       "tags": [
@@ -106,7 +106,7 @@ const EMBEDDED_DATA = {
       "id": "9",
       "name": "Bybit",
       "description": "强大的合约交易平台，支持现货",
-      "url": "https://www.bybit.com",
+      "url": "https://www.bybitglobal.com/invite?ref=J8ADNE",
       "category": "中心化交易所",
       "icon": "https://bidaka.com/static/picture/bybit.svg",
       "tags": [
@@ -118,7 +118,7 @@ const EMBEDDED_DATA = {
       "id": "10",
       "name": "Bitget",
       "description": "社交交易与跟单领先平台",
-      "url": "https://www.bitget.com",
+      "url": "https://partner.dhxrcw.cn/bg/84wmwmen",
       "category": "中心化交易所",
       "icon": "https://bidaka.com/static/picture/bitget.svg",
       "tags": [
@@ -2223,6 +2223,35 @@ const EMBEDDED_DATA = {
       ]
     },
     {
+      "id": "187",
+      "name": "Gate.io",
+      "description": "全球领先的数字资产交易平台，支持现货、合约、期权等多种交易",
+      "url": "https://www.gate.com/signup/VLNMU14LAG?ref_type=103&utm_cmp=PEYEQdSb",
+      "category": "中心化交易所",
+      "icon": "https://www.gate.com/favicon.ico",
+      "tags": [
+        "exchange",
+        "trading",
+        "spot",
+        "futures",
+        "options"
+      ]
+    },
+    {
+      "id": "188",
+      "name": "CoinGlass",
+      "description": "专业的加密货币期货数据分析平台，提供清算数据、资金费率等",
+      "url": "https://www.coinglass.com",
+      "category": "数据分析",
+      "icon": "https://www.coinglass.com/favicon.ico",
+      "tags": [
+        "futures",
+        "data",
+        "analysis",
+        "liquidation"
+      ]
+    },
+    {
       "id": "balancer",
       "name": "Balancer",
       "url": "https://balancer.fi",
@@ -2470,7 +2499,7 @@ const EMBEDDED_DATA = {
       ]
     }
   ],
-  "total": 186,
+  "total": 188,
   "categories": [
     {
       "id": "category-1",
@@ -2480,7 +2509,7 @@ const EMBEDDED_DATA = {
     {
       "id": "category-2",
       "name": "中心化交易所",
-      "count": 11
+      "count": 12
     },
     {
       "id": "category-3",
@@ -2555,7 +2584,7 @@ const EMBEDDED_DATA = {
     {
       "id": "category-17",
       "name": "数据分析",
-      "count": 21
+      "count": 22
     },
     {
       "id": "category-18",
@@ -2605,28 +2634,31 @@ function processData(rawData: Record<string, unknown>, language: string = 'en') 
   const websites = rawData.data as Array<Record<string, unknown>>;
   
   // 翻译网站数据
-  const translatedWebsites = translateWebsiteData(websites, language);
   
-  // 统计每个分类的数量
-  const categoryCounts: { [key: string]: number } = {};
-  translatedWebsites.forEach((website: Record<string, unknown>) => {
-    const category = (website.category as string) || '未分类';
-    categoryCounts[category] = (categoryCounts[category] || 0) + 1;
-  });
-
-  // 创建分类列表
-  const categories = Object.entries(categoryCounts).map(([name, count]) => ({
+  // 测试翻译函数
+  try {
+    const translatedWebsites = translateWebsiteData(websites, language);
+    console.log('After translation:', translatedWebsites[0]);
+    return {
+      ...rawData,
+      data: translatedWebsites,
+      categories: Object.entries(
+        translatedWebsites.reduce((acc: { [key: string]: number }, website: Record<string, unknown>) => {
+          const category = (website.category as string) || '未分类';
+          acc[category] = (acc[category] || 0) + 1;
+          return acc;
+        }, {})
+      ).map(([name, count]) => ({
     id: name.toLowerCase().replace(/\s+/g, '-'),
     name,
     count
-  }));
-
-  return {
-    ...rawData,
-    data: translatedWebsites,
-    categories,
-    categoryCounts
-  };
+      })),
+      total: translatedWebsites.length
+    };
+  } catch (error) {
+    console.error('Translation error:', error);
+    return rawData;
+  }
 }
 
 export async function GET(request: Request) {

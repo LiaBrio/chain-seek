@@ -44,6 +44,7 @@ export function useLanguage() {
     t,
     isLoading,
     isClient,
-    availableLanguages: Object.keys(translations) as Language[]
+    // 仅提供主流语言切换
+    availableLanguages: ['en', 'zh'] as Language[]
   };
 }
