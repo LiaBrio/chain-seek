@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://chain-seek.com"),
   title: "Chain Seek - 区块链工具导航 | 专业的Web3工具集合",
   description: "Chain Seek是专业的区块链工具导航网站，提供DeFi、NFT、交易、钱包、安全等Web3工具集合。发现最优质的区块链开发工具、数据分析平台和投资工具。",
   keywords: [
@@ -52,6 +53,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "zh_CN",
     siteName: "Chain Seek",
+    url: "https://chain-seek.com",
     images: [
       {
         url: "/og-image.png",
@@ -70,6 +72,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://chain-seek.com",
+    languages: {
+      'zh-CN': 'https://chain-seek.com',
+      'en': 'https://en.chain-seek.com'
+    }
   },
   category: "technology",
   classification: "区块链工具导航",
@@ -80,6 +86,7 @@ export const metadata: Metadata = {
     "application-name": "Chain Seek",
     "msapplication-TileColor": "#000000",
     "theme-color": "#000000",
+    "format-detection": "telephone=no,address=no,email=no"
   },
 };
 
@@ -117,6 +124,21 @@ export default function RootLayout({
                 "name": "Chain Seek",
                 "url": "https://chain-seek.com"
               }
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Chain Seek",
+              "url": "https://chain-seek.com",
+              "logo": "https://chain-seek.com/favicon-32x32.png",
+              "sameAs": [
+                "https://x.com/chainseek"
+              ]
             })
           }}
         />
