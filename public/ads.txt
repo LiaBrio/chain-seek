@@ -1,0 +1,6 @@
+# Authorized Digital Sellers (ads.txt)
+# Replace the placeholder with your AdSense Publisher ID (format: pub-XXXXXXXXXXXXXXXX)
+# Reference: IAB Tech Lab ads.txt and Google AdSense requirements
+
+# Google AdSense
+google.com, pub-4044602309325996, DIRECT, f08c47fec0942fa0
