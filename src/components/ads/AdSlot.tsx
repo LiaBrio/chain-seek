@@ -27,7 +27,7 @@ export default function AdSlot({
     try {
       // @ts-expect-error adsbygoogle is injected by AdSense script
       (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (e) {
+    } catch {
       // ignore
     }
   }, [slot]);
