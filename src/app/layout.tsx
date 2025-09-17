@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+const ADS_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-4044602309325996";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -98,6 +100,13 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <head>
+        {ADS_CLIENT && (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADS_CLIENT}`}
+            crossOrigin="anonymous"
+          />
+        )}
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />

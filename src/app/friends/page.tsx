@@ -35,7 +35,6 @@ export default function FriendsPage() {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
           categories={data?.categories || []}
-          totalWebsites={data?.total || 0}
           favoritesCount={0}
           isMobileMenuOpen={isMobileMenuOpen}
           setIsMobileMenuOpen={setIsMobileMenuOpen}

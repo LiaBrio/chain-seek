@@ -153,7 +153,6 @@ export default function Home() {
   }) || [];
 
   const categories = data?.categories || [];
-  const totalWebsites = data?.data?.length || 0;
 
   if (loading || !isClient) {
     return (
