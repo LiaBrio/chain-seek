@@ -12,6 +12,7 @@ import {
   Filter
 } from "lucide-react";
 import { categoryIconMap } from "@/lib/icons";
+import AdSlot from "@/components/ads/AdSlot";
 
 interface SidebarProps {
   searchTerm: string;
@@ -124,6 +125,19 @@ export function Sidebar({
                   );
                 })}
               </div>
+
+              {/* Sidebar Ad (ad3) */}
+              <div className="mt-4">
+                <AdSlot
+                  client="ca-pub-4044602309325996"
+                  slot="7715137510"
+                  className="w-full"
+                  style={{ display: "block", minHeight: 250 }}
+                  format="auto"
+                  fullWidthResponsive
+                />
+              </div>
+
               <div className="pt-4 border-t border-gray-200 mt-4">
                 <Button variant="outline" size="sm" className="w-full h-10 text-sm rounded-lg font-medium hover:bg-gray-50">
                   <Settings className="h-4 w-4 mr-2" />

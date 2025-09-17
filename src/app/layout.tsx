@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://chain-seek.com"),
+  metadataBase: new URL("https://chainseek.top"),
   title: "Chain Seek - 区块链工具导航 | 专业的Web3工具集合",
   description: "Chain Seek是专业的区块链工具导航网站，提供DeFi、NFT、交易、钱包、安全等Web3工具集合。发现最优质的区块链开发工具、数据分析平台和投资工具。",
   keywords: [
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "zh_CN",
     siteName: "Chain Seek",
-    url: "https://chain-seek.com",
+    url: "https://chainseek.top",
     images: [
       {
         url: "/og-image.png",
@@ -73,10 +73,10 @@ export const metadata: Metadata = {
     creator: "@chainseek",
   },
   alternates: {
-    canonical: "https://chain-seek.com",
+    canonical: "https://chainseek.top",
     languages: {
-      'zh-CN': 'https://chain-seek.com',
-      'en': 'https://en.chain-seek.com'
+      'zh-CN': 'https://chainseek.top',
+      'en': 'https://en.chainseek.top'
     }
   },
   category: "technology",
@@ -107,6 +107,7 @@ export default function RootLayout({
             crossOrigin="anonymous"
           />
         )}
+        <meta name="google-adsense-account" content={ADS_CLIENT} />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -122,16 +123,16 @@ export default function RootLayout({
               "@type": "WebSite",
               "name": "Chain Seek",
               "description": "专业的区块链工具导航网站，提供Web3工具集合",
-              "url": "https://chain-seek.com",
+              "url": "https://chainseek.top",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://chain-seek.com?search={search_term_string}",
+                "target": "https://chainseek.top?search={search_term_string}",
                 "query-input": "required name=search_term_string"
               },
               "publisher": {
                 "@type": "Organization",
                 "name": "Chain Seek",
-                "url": "https://chain-seek.com"
+                "url": "https://chainseek.top"
               }
             })
           }}
@@ -143,8 +144,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Chain Seek",
-              "url": "https://chain-seek.com",
-              "logo": "https://chain-seek.com/favicon-32x32.png",
+              "url": "https://chainseek.top",
+              "logo": "https://chainseek.top/favicon-32x32.png",
               "sameAs": [
                 "https://x.com/chainseek"
               ]

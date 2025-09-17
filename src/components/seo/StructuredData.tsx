@@ -14,16 +14,16 @@ export function StructuredData({ type, data }: StructuredDataProps) {
           "@type": "WebSite",
           "name": "Chain Seek",
           "description": "专业的区块链工具导航网站，提供Web3工具集合",
-          "url": "https://chain-seek.com",
+          "url": "https://chainseek.top",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://chain-seek.com?search={search_term_string}",
+            "target": "https://chainseek.top?search={search_term_string}",
             "query-input": "required name=search_term_string"
           },
           "publisher": {
             "@type": "Organization",
             "name": "Chain Seek",
-            "url": "https://chain-seek.com"
+            "url": "https://chainseek.top"
           }
         };
       
@@ -33,10 +33,10 @@ export function StructuredData({ type, data }: StructuredDataProps) {
           "@type": "Organization",
           "name": "Chain Seek",
           "description": "专业的区块链工具导航网站",
-          "url": "https://chain-seek.com",
-          "logo": "https://chain-seek.com/logo.png",
+          "url": "https://chainseek.top",
+          "logo": "https://chainseek.top/logo.png",
           "sameAs": [
-            "https://twitter.com/chainseek",
+            "https://x.com/chainseek",
             "https://github.com/chainseek"
           ]
         };

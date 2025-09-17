@@ -19,6 +19,7 @@ import { categoryIconMap, categoryColorMap } from "@/lib/icons";
 import { useLanguage } from "@/hooks/useLanguage";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { SimpleFooter } from "@/components/SimpleFooter";
+import AdSlot from "@/components/ads/AdSlot";
 
 interface WebsiteCardProps {
   website: DataListItem;
@@ -33,7 +34,7 @@ function WebsiteCard({ website, onToggleFavorite, favorites, t }: WebsiteCardPro
   const colorClass = categoryColorMap[website.category] || "bg-slate-100 text-slate-800";
 
   return (
-    <Card className="group hover:shadow-lg transition-all duration-200 hover:-translate-y-1 h-full flex flex-col">
+    <Card className="group hover:shadow-lg transition-all duration-200 hover:-translate-y-1 h-full flex flex-col overflow-hidden max-w-full">
       <CardHeader className="pb-3 flex-shrink-0">
         <div className="flex items-start justify-between">
           <div className="flex items-center space-x-3 flex-1 min-w-0">
@@ -44,10 +45,10 @@ function WebsiteCard({ website, onToggleFavorite, favorites, t }: WebsiteCardPro
               </AvatarFallback>
             </Avatar>
             <div className="flex-1 min-w-0">
-              <CardTitle className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2">
+              <CardTitle className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2 break-words">
                 {website.name}
               </CardTitle>
-              <CardDescription className="text-sm text-gray-600 mt-1 line-clamp-3">
+              <CardDescription className="text-sm text-gray-600 mt-1 line-clamp-3 break-words">
                 {website.description}
               </CardDescription>
             </div>
@@ -211,6 +212,8 @@ export default function Home() {
             />
           </div>
 
+          
+
           {/* Blockchain Explorer Search */}
                   <div className="mb-8">
                     <div className="max-w-4xl mx-auto">
@@ -279,6 +282,8 @@ export default function Home() {
             </div>
           </div>
 
+          
+
           {/* Results Header */}
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-bold text-gray-900">
@@ -319,17 +324,49 @@ export default function Home() {
               </CardContent>
             </Card>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-4">
-              {filteredWebsites.map((website: DataListItem) => (
-                <WebsiteCard
-                  key={website.id}
-                  website={website}
-                  onToggleFavorite={handleToggleFavorite}
-                  favorites={favorites}
-                  t={t}
+            <>
+              <div className="grid grid-cols-[repeat(auto-fit,_minmax(220px,_1fr))] gap-4">
+                {filteredWebsites.map((website: DataListItem) => (
+                  <WebsiteCard
+                    key={website.id}
+                    website={website}
+                    onToggleFavorite={handleToggleFavorite}
+                    favorites={favorites}
+                    t={t}
+                  />
+                ))}
+              </div>
+              {/* Bottom Ads (moved from around search) */}
+              <div className="max-w-6xl mx-auto w-full my-8 space-y-6">
+                {/* Former Top Ad */}
+                <AdSlot
+                  client="ca-pub-4044602309325996"
+                  slot="1501082954"
+                  className="w-full"
+                  style={{ display: "block" }}
+                  format="auto"
+                  fullWidthResponsive
                 />
-              ))}
-            </div>
+                {/* Former Mid Ad */}
+                <AdSlot
+                  client="ca-pub-4044602309325996"
+                  slot="6561837942"
+                  className="w-full"
+                  style={{ display: "block" }}
+                  format="auto"
+                  fullWidthResponsive
+                />
+                {/* Existing Bottom Ad */}
+                <AdSlot
+                  client="ca-pub-4044602309325996"
+                  slot="2462810831"
+                  className="w-full"
+                  style={{ display: "block" }}
+                  format="auto"
+                  fullWidthResponsive
+                />
+              </div>
+            </>
           )}
 
           </div>
