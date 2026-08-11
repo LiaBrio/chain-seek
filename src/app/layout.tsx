@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const ADS_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-4044602309325996";
@@ -88,7 +89,9 @@ export const metadata: Metadata = {
     "application-name": "Chain Seek",
     "msapplication-TileColor": "#000000",
     "theme-color": "#000000",
-    "format-detection": "telephone=no,address=no,email=no"
+    "format-detection": "telephone=no,address=no,email=no",
+    "6a97888e-site-verification": "634a05f5d7f2fe3ab636b83dea4ead4d",
+    "juicyads-site-verification": "b823adb1fd28e296b9dedc844f38c463"
   },
 };
 
@@ -100,14 +103,23 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <head>
+        <link rel="preconnect" href="https://affiliates.serv.adse.site" crossOrigin="anonymous" />
         {ADS_CLIENT && (
-          <script
-            async
+          <Script
+            id="adsense-script"
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADS_CLIENT}`}
             crossOrigin="anonymous"
+            strategy="afterInteractive"
           />
         )}
         <meta name="google-adsense-account" content={ADS_CLIENT} />
+        {/* CrakRevenue/Servads script in head for verification */}
+        <script
+          src="https://affiliates.serv.adse.site/assets/ads/ad.js"
+          className="adScriptClass"
+          async
+          suppressHydrationWarning
+        />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -157,6 +169,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        {/* CrakRevenue/Servads script for ad rendering - before closing body tag */}
+        <script
+          src="https://affiliates.serv.adse.site/assets/ads/ad.js"
+          className="adScriptClass"
+          async
+          suppressHydrationWarning
+        />
       </body>
     </html>
   );
