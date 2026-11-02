@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://chainseek.top"),
-  title: "Chain Seek - 区块链工具导航 | 专业的Web3工具集合",
-  description: "Chain Seek是专业的区块链工具导航网站，提供DeFi、NFT、交易、钱包、安全等Web3工具集合。发现最优质的区块链开发工具、数据分析平台和投资工具。",
+  title: "ChainSeek - Web3 安全与工具导航",
+  description: "先理解风险，再签下每一笔。使用区块浏览器查询地址与交易，并访问外部授权管理、代币分析和交易解码工具；探索完整 Web3 工具目录。",
   keywords: [
     "区块链工具",
     "Web3工具",
@@ -51,8 +51,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Chain Seek - 区块链工具导航 | 专业的Web3工具集合",
-    description: "Chain Seek是专业的区块链工具导航网站，提供DeFi、NFT、交易、钱包、安全等Web3工具集合。发现最优质的区块链开发工具、数据分析平台和投资工具。",
+    title: "ChainSeek - Web3 安全与工具导航",
+    description: "先理解风险，再签下每一笔。使用区块浏览器查询地址与交易，并访问外部授权管理、代币分析和交易解码工具；探索完整 Web3 工具目录。",
     type: "website",
     locale: "zh_CN",
     siteName: "Chain Seek",

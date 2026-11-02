@@ -1,383 +1,122 @@
 "use client";
 
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { 
-  Star, 
-  ExternalLink, 
-  Globe, 
-  Loader2,
-  Search
-} from "lucide-react";
+import { FormEvent, useMemo, useState } from "react";
+import { ArrowRight, ExternalLink, Globe, Loader2, Search, ShieldCheck, Star } from "lucide-react";
 import { useDataList, DataListItem } from "@/hooks/useDataList";
-import { Sidebar } from "@/components/Sidebar";
-import { categoryIconMap, categoryColorMap } from "@/lib/icons";
 import { useLanguage } from "@/hooks/useLanguage";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { SimpleFooter } from "@/components/SimpleFooter";
 import AdSlot from "@/components/ads/AdSlot";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { categoryColorMap, categoryIconMap } from "@/lib/icons";
+import styles from "./home.module.css";
 
-interface WebsiteCardProps {
-  website: DataListItem;
-  onToggleFavorite: (id: string) => void;
-  favorites: Set<string>;
-  t: (key: string) => string;
-}
+const copy = {
+  zh: {
+    strip: "ChainSeek 安全与运营中心", navSafety: "安全检查", navDecode: "交易解读", navDirectory: "工具目录", explore: "探索工具", start: "开始核对",
+    eyebrow: "WEB3 TRANSACTION SAFETY", titleA: "先看懂风险，", titleB: "再签下每一笔。", lead: "在地址、代币、授权和待签交易之间，找到一个清晰的检查起点。重要操作之前，先确认你正在查看什么。",
+    noWallet: "无需连接钱包 · 此处不会发起交易", checkTitle: "操作前，逐项确认", checklist: ["核对地址与网络是否正确", "检查授权对象和额度；不再需要时及时撤销", "读懂交易将调用什么、可能影响哪些资产"], panelNote: "这是操作指引，不是实时风险检测结果。",
+    safetyTitle: "从你想确认的事项开始", safetyDesc: "使用现有区块浏览器查看地址、代币或交易；授权管理、代币分析和交易输入解码会转到相应的外部服务。", queryLabel: "区块浏览器查询", chainLabel: "选择网络", queryPlaceholder: "输入钱包地址、代币地址或交易哈希", submit: "在浏览器中查询", empty: "请输入地址、代币或交易哈希。", review: "复核授权", revokeDesc: "在 Revoke.cash 查看与管理代币授权。撤销需在外部服务确认钱包交易并支付网络 Gas。", openRevoke: "打开 Revoke.cash", decode: "解读交易输入", decodeDesc: "在 Etherscan 的 Input Data Decoder 查看交易调用数据；本页不会替你判定安全性。", openTenderly: "打开 Etherscan 解码器", tokenCheck: "查看代币线索", tokenDesc: "Token Sniffer 提供外部自动化合约分析；结果仅供参考，不构成安全保证。", openToken: "打开 Token Sniffer", directoryTitle: "常用工具，继续好找。", directoryDesc: "安全操作入口优先呈现，完整 Web3 资源目录仍保留在首页下方。", directoryDisclaimer: "目录链接来自第三方，部分链接可能含推广参数；收录不代表安全背书，访问前请核对域名。", all: "全部分类", searchTools: "搜索工具名称或描述", favorites: "只看收藏", total: "项工具", loading: "目录加载中…", loadError: "工具目录暂时无法加载；以上安全指引和查询入口仍可使用。", noResults: "没有匹配的工具。", reset: "重置筛选", visit: "访问", favorite: "收藏", listed: "目录工具", detail: "当前目录资源持续更新", demoTitle: "使用边界 · 不提供安全保证", demo: "ChainSeek 提供查询与第三方工具入口，不生成自有风险评分。外部工具也不能保证安全，请独立核验链上数据并谨慎操作。", lookupNote: "查询将在所选网络的第三方区块浏览器中打开；本页不生成安全评分。", selectType: "查询类型", addressType: "地址 / 代币", txType: "交易哈希"
+  },
+  en: {
+    strip: "ChainSeek Safety & Operations", navSafety: "Safety checks", navDecode: "Understand a transaction", navDirectory: "Tool directory", explore: "Explore tools", start: "Start reviewing",
+    eyebrow: "WEB3 TRANSACTION SAFETY", titleA: "Understand first,", titleB: "then sign with care.", lead: "A clear starting point for reviewing addresses, tokens, approvals, and pending transactions. Know what you are looking at before taking an important action.",
+    noWallet: "No wallet connection · No transactions are initiated here", checkTitle: "A checklist before you act", checklist: ["Verify the address and selected network", "Review spender and allowance; revoke what you no longer need", "Understand what a transaction calls and which assets it may affect"], panelNote: "Operational guidance only—not live risk detection.",
+    safetyTitle: "Start with what you want to verify", safetyDesc: "Use an existing block explorer to look up an address, token, or transaction. Approval review, token analysis, and transaction input decoding open external services.", queryLabel: "Block explorer lookup", chainLabel: "Network", queryPlaceholder: "Wallet address, token address, or transaction hash", submit: "Search explorer", empty: "Enter an address, token, or transaction hash.", review: "Review approvals", revokeDesc: "Review and manage token approvals on Revoke.cash. Revoking requires an external wallet-confirmed transaction and network gas.", openRevoke: "Open Revoke.cash", decode: "Decode transaction input", decodeDesc: "View call data with Etherscan's Input Data Decoder; this site does not assess its safety for you.", openTenderly: "Open Etherscan Decoder", tokenCheck: "Review token signals", tokenDesc: "Token Sniffer offers external automated contract analysis. Results are informational, not a safety guarantee.", openToken: "Open Token Sniffer", directoryTitle: "Your Web3 toolbox, still here.", directoryDesc: "Safety entry points come first; the broader Web3 directory remains available below.", directoryDisclaimer: "Directory links lead to third parties and may include referral parameters. Listing is not an endorsement; verify the domain before visiting.", all: "All categories", searchTools: "Search tool names or descriptions", favorites: "Favorites only", total: "tools", loading: "Loading directory…", loadError: "The directory is temporarily unavailable; the safety guidance and explorer lookup above remain usable.", noResults: "No matching tools.", reset: "Reset filters", visit: "Visit", favorite: "Favorite", listed: "Directory tools", detail: "Directory resources are updated over time", demoTitle: "Know the limits · No safety guarantee", demo: "ChainSeek provides lookups and third-party tool links, not its own risk scores. External tools cannot guarantee safety; verify on-chain information and use caution.", lookupNote: "Queries open the selected network’s external explorer. This page does not produce a safety score.", selectType: "Lookup type", addressType: "Address / token", txType: "Transaction hash"
+  }
+};
 
-function WebsiteCard({ website, onToggleFavorite, favorites, t }: WebsiteCardProps) {
-  const isFavorite = favorites.has(website.id);
-  const IconComponent = categoryIconMap[website.category] || Globe;
-  const colorClass = categoryColorMap[website.category] || "bg-slate-100 text-slate-800";
+const explorers: Record<string, string> = {
+  ethereum: "https://etherscan.io", bitcoin: "https://blockstream.info", bsc: "https://bscscan.com", polygon: "https://polygonscan.com", solana: "https://solscan.io", avalanche: "https://snowtrace.io", arbitrum: "https://arbiscan.io", optimism: "https://optimistic.etherscan.io", base: "https://basescan.org", fantom: "https://ftmscan.com"
+};
+const chains = ["ethereum", "bitcoin", "bsc", "polygon", "solana", "avalanche", "arbitrum", "optimism", "base", "fantom"];
 
-  return (
-    <Card className="group hover:shadow-lg transition-all duration-200 hover:-translate-y-1 h-full flex flex-col overflow-hidden max-w-full">
-      <CardHeader className="pb-3 flex-shrink-0">
-        <div className="flex items-start justify-between">
-          <div className="flex items-center space-x-3 flex-1 min-w-0">
-            <Avatar className="h-10 w-10 flex-shrink-0">
-              <AvatarImage src={website.icon} alt={website.name} />
-              <AvatarFallback className="bg-gradient-to-br from-blue-500 to-purple-600 text-white">
-                {website.name.charAt(0)}
-              </AvatarFallback>
-            </Avatar>
-            <div className="flex-1 min-w-0">
-              <CardTitle className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2 break-words">
-                {website.name}
-              </CardTitle>
-              <CardDescription className="text-sm text-gray-600 mt-1 line-clamp-3 break-words">
-                {website.description}
-              </CardDescription>
-            </div>
-          </div>
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => onToggleFavorite(website.id)}
-            className="opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0 ml-2"
-          >
-            <Star className={`h-4 w-4 ${isFavorite ? 'fill-yellow-400 text-yellow-400' : 'text-gray-400'}`} />
-          </Button>
-        </div>
-      </CardHeader>
-      <CardContent className="pt-0 mt-auto">
-        <div className="flex items-center justify-between">
-          <Badge className={`${colorClass} text-xs font-medium flex-shrink-0`}>
-            <IconComponent className="h-3 w-3 mr-1" />
-            {website.category}
-          </Badge>
-          <div className="flex items-center space-x-2 flex-shrink-0">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => window.open(website.url, '_blank')}
-              className="text-xs"
-            >
-              <ExternalLink className="h-3 w-3 mr-1" />
-              {t('common.visit')}
-            </Button>
-          </div>
-        </div>
-      </CardContent>
-    </Card>
-  );
+function WebsiteCard({ website, favorite, toggle, t }: { website: DataListItem; favorite: boolean; toggle: () => void; t: (key: string) => string }) {
+  const Icon = categoryIconMap[website.category] || Globe;
+  return <Card className={`${styles.toolCard} group`}>
+    <CardHeader className="pb-3"><div className="flex items-start gap-3">
+      <Avatar className="h-10 w-10 shrink-0"><AvatarImage src={website.icon} alt="" /><AvatarFallback>{website.name.charAt(0)}</AvatarFallback></Avatar>
+      <div className="min-w-0 flex-1"><CardTitle className="text-base leading-snug">{website.name}</CardTitle><CardDescription className="mt-1 line-clamp-3">{website.description}</CardDescription></div>
+      <Button type="button" variant="ghost" size="icon" aria-label={`${t("common.favorite")} ${website.name}`} aria-pressed={favorite} onClick={toggle}><Star className={`h-4 w-4 ${favorite ? "fill-amber-400 text-amber-500" : "text-gray-400"}`} /></Button>
+    </div></CardHeader>
+    <CardContent className="mt-auto flex items-center justify-between gap-2"><Badge className={`${categoryColorMap[website.category] || "bg-slate-100 text-slate-800"} text-xs`}><Icon className="mr-1 h-3 w-3" />{website.category}</Badge><Button asChild variant="outline" size="sm"><a href={website.url} target="_blank" rel="noopener noreferrer">{t("common.visit")}<ExternalLink className="ml-1 h-3 w-3" /></a></Button></CardContent>
+  </Card>;
 }
 
 export default function Home() {
-  const { language, changeLanguage, t, availableLanguages, isClient } = useLanguage();
+  const { language, changeLanguage, t, availableLanguages } = useLanguage();
+  const lang = language === "zh" ? "zh" : "en";
+  const c = copy[lang];
   const { data, loading, error } = useDataList(language);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("__ALL__");
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
-  
-  // 区块链浏览器搜索相关状态
   const [selectedBlockchain, setSelectedBlockchain] = useState("ethereum");
   const [searchQuery, setSearchQuery] = useState("");
+  const [queryError, setQueryError] = useState("");
 
-  // 区块链名称映射
-  const getBlockchainName = (chain: string) => {
-    return t(`blockchains.${chain}`) || chain;
-  };
-
-  // 快速搜索选项
-  const quickSearchOptions = [
-    { label: t('explorer.quickSearch.latestBlock'), value: "latest" },
-    { label: t('explorer.quickSearch.gasPrice'), value: "gas" },
-    { label: t('explorer.quickSearch.networkStatus'), value: "status" },
-    { label: t('explorer.quickSearch.tokenList'), value: "tokens" }
-  ];
-
-  // 处理搜索
-  const handleSearch = () => {
-    if (!searchQuery.trim()) return;
-    
-    const explorerUrls: { [key: string]: string } = {
-      ethereum: "https://etherscan.io",
-      bitcoin: "https://blockstream.info",
-      bsc: "https://bscscan.com",
-      polygon: "https://polygonscan.com",
-      solana: "https://solscan.io",
-      avalanche: "https://snowtrace.io",
-      arbitrum: "https://arbiscan.io",
-      optimism: "https://optimistic.etherscan.io",
-      base: "https://basescan.org",
-      fantom: "https://ftmscan.com"
-    };
-    
-    const baseUrl = explorerUrls[selectedBlockchain];
-    if (baseUrl) {
-      window.open(`${baseUrl}/search?q=${encodeURIComponent(searchQuery)}`, '_blank');
-    }
-  };
-
-  const handleToggleFavorite = (id: string) => {
-    const newFavorites = new Set(favorites);
-    if (newFavorites.has(id)) {
-      newFavorites.delete(id);
-    } else {
-      newFavorites.add(id);
-    }
-    setFavorites(newFavorites);
-  };
-
-  const filteredWebsites = data?.data?.filter((website: DataListItem) => {
-    const matchesSearch = website.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         (website.description || '').toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCategory = selectedCategory === "__ALL__" || website.category === selectedCategory;
-    const matchesFavorites = !showFavoritesOnly || favorites.has(website.id);
-    return matchesSearch && matchesCategory && matchesFavorites;
-  }) || [];
-
+  const filteredWebsites = useMemo(() => (data?.data || []).filter((website) => {
+    const term = searchTerm.trim().toLowerCase();
+    return (!term || website.name.toLowerCase().includes(term) || (website.description || "").toLowerCase().includes(term)) &&
+      (selectedCategory === "__ALL__" || website.category === selectedCategory) && (!showFavoritesOnly || favorites.has(website.id));
+  }), [data, searchTerm, selectedCategory, showFavoritesOnly, favorites]);
   const categories = data?.categories || [];
 
-  if (loading || !isClient) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center">
-        <div className="text-center">
-          <Loader2 className="h-8 w-8 animate-spin mx-auto text-blue-600" />
-          <p className="mt-2 text-gray-600">{isClient ? t('common.loading') : 'Loading...'}</p>
+  const handleSearch = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const query = searchQuery.trim();
+    if (!query) { setQueryError(c.empty); return; }
+    setQueryError("");
+    const base = explorers[selectedBlockchain];
+    if (base) window.open(`${base}/search?q=${encodeURIComponent(query)}`, "_blank", "noopener,noreferrer");
+  };
+  const toggleFavorite = (id: string) => setFavorites((current) => {
+    const next = new Set(current);
+    if (next.has(id)) next.delete(id);
+    else next.add(id);
+    return next;
+  });
+
+  return <div className={styles.home} id="top">
+    <div className={styles.topline}><span className={styles.statusDot} />{c.strip}</div>
+    <header className={styles.nav}><div className={styles.wrap + " " + styles.navInner}>
+      <a className={styles.brand} href="#top" aria-label="ChainSeek home"><span className={styles.brandMark}><ShieldCheck size={20} /></span><span>ChainSeek<small>WEB3 SAFETY</small></span></a>
+      <nav className={styles.navLinks} aria-label="Main navigation"><a href="#safety">{c.navSafety}</a><a href="#decode">{c.navDecode}</a><a href="#directory">{c.navDirectory}</a><a href="/tools/">{c.explore}</a></nav>
+      <div className={styles.navActions}><LanguageSwitcher currentLanguage={language} onLanguageChange={(next) => { changeLanguage(next); setSelectedCategory("__ALL__"); }} availableLanguages={availableLanguages} /><a className={styles.navCta} href="#quick-check">{c.start}<ArrowRight size={15} /></a></div>
+    </div></header>
+
+    <main>
+      <section className={styles.hero}><div className={`${styles.wrap} ${styles.heroInner}`}>
+        <div className={styles.heroCopy}><div className={styles.eyebrow}><span />{c.eyebrow}</div><h1>{c.titleA}<br /><em>{c.titleB}</em></h1><p className={styles.lead}>{c.lead}</p>
+          <div className={styles.heroActions}><a className={styles.limeButton} href="#quick-check">{c.start}<ArrowRight size={16} /></a><a className={styles.outlineButton} href="#directory">{c.explore}</a></div>
+          <p className={styles.heroNote}><ShieldCheck size={15} />{c.noWallet}</p>
         </div>
-      </div>
-    );
-  }
+        <aside className={styles.checklist} aria-label={c.checkTitle}><div className={styles.checklistHead}><span className={styles.checkIcon}><ShieldCheck size={17} /></span><strong>{c.checkTitle}</strong><span className={styles.label}>CHECKLIST</span></div><ol>{c.checklist.map((item, i) => <li key={item}><span>{String(i + 1).padStart(2, "0")}</span>{item}</li>)}</ol><p>{c.panelNote}</p><div className={styles.demoNotice}><b>{c.demoTitle}</b><span>{c.demo}</span></div></aside>
+      </div></section>
 
-  if (error) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="text-red-500 text-6xl mb-4">⚠️</div>
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">加载失败</h1>
-          <p className="text-gray-600 mb-4">无法加载数据，请稍后重试</p>
-          <Button onClick={() => window.location.reload()}>
-            重新加载
-          </Button>
+      <section className={styles.safety} id="safety"><div className={styles.wrap}><div className={styles.sectionIntro}><div><span className={styles.kicker}>A CLEARER STARTING POINT</span><h2>{c.safetyTitle}</h2><p>{c.safetyDesc}</p></div></div>
+        <div className={styles.lookup} id="quick-check"><div className={styles.lookupTitle}><span className={styles.lookupIcon}><Search size={17} /></span><div><strong>{c.queryLabel}</strong><small>{c.lookupNote}</small></div></div>
+          <form className={styles.queryForm} onSubmit={handleSearch} noValidate><label className={styles.fieldLabel} htmlFor="chain-select">{c.chainLabel}</label><select id="chain-select" value={selectedBlockchain} onChange={(e) => setSelectedBlockchain(e.target.value)}>{chains.map((chain) => <option key={chain} value={chain}>{chain === "bsc" ? "BNB Smart Chain (BSC)" : chain.charAt(0).toUpperCase() + chain.slice(1)}</option>)}</select>
+            <label className={styles.srOnly} htmlFor="explorer-query">{c.queryPlaceholder}</label><input id="explorer-query" type="text" value={searchQuery} onChange={(e) => { setSearchQuery(e.target.value); if (queryError) setQueryError(""); }} placeholder={c.queryPlaceholder} autoComplete="off" aria-describedby={queryError ? "query-error" : undefined} />
+            <button type="submit" className={styles.darkButton}>{c.submit}<ArrowRight size={16} /></button></form>
+          {queryError && <p id="query-error" className={styles.queryError} role="alert">{queryError}</p>}
+          <div className={styles.externalTools}><article><span className={styles.toolGlyph}>↗</span><div><h3>{c.review}</h3><p>{c.revokeDesc}</p><a href="https://revoke.cash/" target="_blank" rel="noopener noreferrer">{c.openRevoke}<ExternalLink size={13} /></a></div></article><article><span className={styles.toolGlyph}>◇</span><div><h3>{c.tokenCheck}</h3><p>{c.tokenDesc}</p><a href="https://tokensniffer.com/" target="_blank" rel="noopener noreferrer">{c.openToken}<ExternalLink size={13} /></a></div></article><article id="decode"><span className={styles.toolGlyph}>⌁</span><div><h3>{c.decode}</h3><p>{c.decodeDesc}</p><a href="https://etherscan.io/inputdatadecoder" target="_blank" rel="noopener noreferrer">{c.openTenderly}<ExternalLink size={13} /></a></div></article></div>
         </div>
-      </div>
-    );
-  }
+      </div></section>
 
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex flex-col">
-      <div className="flex flex-1">
-        {/* Sidebar */}
-        <Sidebar
-          searchTerm={searchTerm}
-          setSearchTerm={setSearchTerm}
-          selectedCategory={selectedCategory}
-          setSelectedCategory={setSelectedCategory}
-          categories={categories}
-          favoritesCount={favorites.size}
-          isMobileMenuOpen={isMobileMenuOpen}
-          setIsMobileMenuOpen={setIsMobileMenuOpen}
-          t={t}
-        />
-
-        {/* Main Content */}
-        <div className="flex-1 md:ml-56 flex flex-col">
-          <div className="flex-1 p-4 lg:p-6">
-          {/* Language Switcher */}
-          <div className="flex justify-end mb-4">
-            <LanguageSwitcher
-              currentLanguage={language}
-              onLanguageChange={(lang) => {
-                changeLanguage(lang);
-                setSelectedCategory("__ALL__");
-              }}
-              availableLanguages={availableLanguages}
-            />
-          </div>
-
-          
-
-          {/* Blockchain Explorer Search */}
-                  <div className="mb-8">
-                    <div className="max-w-4xl mx-auto">
-                      <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center">
-                        {t('explorer.title')}
-                        <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                          {t('explorer.subtitle')}
-                        </span>
-                      </h1>
-              
-              <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-6">
-                <div className="flex flex-col sm:flex-row gap-4">
-                  {/* 区块链选择下拉框 */}
-                  <div className="flex-shrink-0">
-                    <select 
-                      className="h-12 px-4 pr-8 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white appearance-none cursor-pointer min-w-[140px]"
-                      value={selectedBlockchain}
-                      onChange={(e) => setSelectedBlockchain(e.target.value)}
-                    >
-                      <option value="ethereum">Ethereum</option>
-                      <option value="bitcoin">Bitcoin</option>
-                      <option value="bsc">BSC</option>
-                      <option value="polygon">Polygon</option>
-                      <option value="solana">Solana</option>
-                      <option value="avalanche">Avalanche</option>
-                      <option value="arbitrum">Arbitrum</option>
-                      <option value="optimism">Optimism</option>
-                      <option value="base">Base</option>
-                      <option value="fantom">Fantom</option>
-                    </select>
-                  </div>
-                  
-                  {/* 搜索输入框 */}
-                  <div className="flex-1 relative">
-                            <input
-                              type="text"
-                              placeholder={`${t('explorer.placeholder')} ${getBlockchainName(selectedBlockchain)}`}
-                              value={searchQuery}
-                              onChange={(e) => setSearchQuery(e.target.value)}
-                              className="w-full h-12 pl-4 pr-12 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                              onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
-                            />
-                    <button
-                      onClick={handleSearch}
-                      className="absolute right-2 top-1/2 transform -translate-y-1/2 h-8 w-8 bg-blue-600 hover:bg-blue-700 text-white rounded-md flex items-center justify-center transition-colors"
-                    >
-                      <Search className="h-4 w-4" />
-                    </button>
-                  </div>
-                </div>
-                
-                        {/* 快速搜索选项 */}
-                        <div className="mt-4 flex flex-wrap gap-2">
-                          <span className="text-sm text-gray-500">{t('explorer.quickSearchLabel')}</span>
-                  {quickSearchOptions.map((option) => (
-                    <button
-                      key={option.value}
-                      onClick={() => setSearchQuery(option.value)}
-                      className="px-3 py-1 text-xs bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-full transition-colors"
-                    >
-                      {option.label}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          
-
-          {/* Results Header */}
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-xl font-bold text-gray-900">
-              {showFavoritesOnly ? t('common.favorites') : (selectedCategory === "__ALL__" ? t('categories.all') : selectedCategory)}
-            </h2>
-            <div className="flex items-center space-x-4">
-              <div className="text-sm text-gray-600">
-                {t('common.total')} {filteredWebsites.length} {t('common.results')}
-              </div>
-              <Button
-                variant={showFavoritesOnly ? "default" : "outline"}
-                size="sm"
-                onClick={() => setShowFavoritesOnly(!showFavoritesOnly)}
-                className="flex items-center space-x-2"
-              >
-                <Star className={`h-4 w-4 ${showFavoritesOnly ? 'fill-current' : ''}`} />
-                <span>{t('common.favorite')} ({favorites.size})</span>
-              </Button>
-            </div>
-          </div>
-
-          {/* Results */}
-          {filteredWebsites.length === 0 ? (
-            <Card>
-              <CardContent className="text-center py-12">
-                <div className="text-gray-400 text-6xl mb-4">🔍</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">未找到相关工具</h3>
-                <p className="text-gray-600 mb-4">尝试调整搜索条件或浏览其他分类</p>
-                <Button
-                  variant="outline"
-                  onClick={() => {
-                    setSearchTerm("");
-                    setSelectedCategory("全部");
-                  }}
-                >
-                  重置筛选
-                </Button>
-              </CardContent>
-            </Card>
-          ) : (
-            <>
-              <div className="grid grid-cols-[repeat(auto-fit,_minmax(220px,_1fr))] gap-4">
-                {filteredWebsites.map((website: DataListItem) => (
-                  <WebsiteCard
-                    key={website.id}
-                    website={website}
-                    onToggleFavorite={handleToggleFavorite}
-                    favorites={favorites}
-                    t={t}
-                  />
-                ))}
-              </div>
-              {/* Bottom Ads (moved from around search) */}
-              <div className="max-w-6xl mx-auto w-full my-8 space-y-6">
-                {/* Former Top Ad */}
-                <AdSlot
-                  client="ca-pub-4044602309325996"
-                  slot="1501082954"
-                  className="w-full"
-                  style={{ display: "block" }}
-                  format="auto"
-                  fullWidthResponsive
-                />
-                {/* Former Mid Ad */}
-                <AdSlot
-                  client="ca-pub-4044602309325996"
-                  slot="6561837942"
-                  className="w-full"
-                  style={{ display: "block" }}
-                  format="auto"
-                  fullWidthResponsive
-                />
-                {/* Existing Bottom Ad */}
-                <AdSlot
-                  client="ca-pub-4044602309325996"
-                  slot="2462810831"
-                  className="w-full"
-                  style={{ display: "block" }}
-                  format="auto"
-                  fullWidthResponsive
-                />
-              </div>
-            </>
-          )}
-
-          </div>
-        </div>
-      </div>
-
-      {/* Footer with Friend Links */}
-      <div className="md:ml-56">
-        <SimpleFooter t={t} />
-      </div>
-    </div>
-  );
+      <section className={styles.directory} id="directory"><div className={styles.wrap}><div className={styles.directoryHead}><div><span className={styles.kicker}>YOUR WEB3 TOOLBOX, STILL HERE</span><h2>{c.directoryTitle}</h2><p>{c.directoryDesc}</p></div><a href="/tools/" className={styles.directoryLink}>{c.explore}<ArrowRight size={15} /></a></div>
+        <p className={styles.directoryDisclaimer}>{c.directoryDisclaimer}</p><div className={styles.filters}><label className={styles.searchBox}><Search size={16} /><span className={styles.srOnly}>{c.searchTools}</span><input value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} placeholder={c.searchTools} /></label><label className={styles.selectWrap}><span className={styles.srOnly}>{c.all}</span><select value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}><option value="__ALL__">{c.all}</option>{categories.map((category) => <option key={category.id} value={category.name}>{category.name} ({category.count})</option>)}</select></label><Button variant={showFavoritesOnly ? "default" : "outline"} size="sm" aria-pressed={showFavoritesOnly} onClick={() => setShowFavoritesOnly((v) => !v)}><Star className={`mr-1 h-4 w-4 ${showFavoritesOnly ? "fill-current" : ""}`} />{c.favorites} ({favorites.size})</Button></div>
+        {loading && <p className={styles.directoryMessage}><Loader2 className="mr-2 inline h-4 w-4 animate-spin" />{c.loading}</p>}
+        {error && <p className={styles.directoryMessage} role="status">{c.loadError}</p>}
+        {!loading && !error && filteredWebsites.length === 0 && <div className={styles.directoryMessage}>{c.noResults} <button type="button" onClick={() => { setSearchTerm(""); setSelectedCategory("__ALL__"); setShowFavoritesOnly(false); }}>{c.reset}</button></div>}
+        {filteredWebsites.length > 0 && <><div className={styles.resultMeta}>{filteredWebsites.length} {c.total}</div><div className={styles.toolGrid}>{filteredWebsites.map((website) => <WebsiteCard key={website.id} website={website} favorite={favorites.has(website.id)} toggle={() => toggleFavorite(website.id)} t={t} />)}</div>
+          <div className={styles.ads}><AdSlot client="ca-pub-4044602309325996" slot="1501082954" className="w-full" style={{ display: "block" }} format="auto" fullWidthResponsive /><AdSlot client="ca-pub-4044602309325996" slot="6561837942" className="w-full" style={{ display: "block" }} format="auto" fullWidthResponsive /><AdSlot client="ca-pub-4044602309325996" slot="2462810831" className="w-full" style={{ display: "block" }} format="auto" fullWidthResponsive /></div></>}
+      </div></section>
+    </main>
+    <div className={styles.footer}><SimpleFooter t={t} /></div>
+  </div>;
 }
-
