@@ -1,0 +1,772 @@
+[
+  {
+    "authority": "U.S. Bureau of Labor Statistics (BLS), U.S. Department of Labor",
+    "caveat": "No verified federal national occupation shortage list or national shortage analysis was identified in the reviewed official sources. This is the closest verified broad national occupational proxy, covering projected U.S. employment and openings across occupations; it is not evidence that listed occupations are in shortage. The figures are projections, not current vacancy counts, and may not reflect local or sector-specific conditions. The proxy has no immigration-eligibility effect. Any immigration-specific occupation designation is a separate legal/program eligibility mechanism and should not be interpreted as a general labor-market shortage list. Dates are reported only as supported by the source: the projection period is 2025–35; an exact publication date is not stated in the page content reviewed.",
+    "country_en": "United States",
+    "country_zh": "美国",
+    "effective_period": "Projection period: 2025–35",
+    "id": "us",
+    "list_title": "Not a shortage list; BLS Occupational Projections and Worker Characteristics, 2025–35",
+    "methodology": "BLS National Employment Matrix projects occupational employment and annual average occupational openings for 2025–35. BLS defines openings as net occupational employment change plus occupational separations; this is a projection of entry opportunities, not a direct measure of unmet labor demand or occupational shortage. Source definitions: https://www.bls.gov/emp/documentation/definitions.htm",
+    "occupations": [
+      {
+        "basis": "Proxy only: BLS reports 285.0 thousand occupational openings per year on average for 2025–35. This projected-opening figure is not a shortage designation.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "General and operations managers",
+        "sector": "Management",
+        "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+      },
+      {
+        "basis": "Proxy only: BLS reports 34.0 thousand occupational openings per year on average for 2025–35. This projected-opening figure is not a shortage designation.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Marketing managers",
+        "sector": "Management",
+        "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+      },
+      {
+        "basis": "Proxy only: BLS reports 53.5 thousand occupational openings per year on average for 2025–35. This projected-opening figure is not a shortage designation.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Computer and information systems managers",
+        "sector": "Management / information technology",
+        "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+      },
+      {
+        "basis": "Proxy only: BLS reports 65.6 thousand occupational openings per year on average for 2025–35. This projected-opening figure is not a shortage designation.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Financial managers",
+        "sector": "Business and finance",
+        "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+      }
+    ],
+    "published_date": "Not stated",
+    "signal_label": "Official occupational employment-projections proxy (not a shortage list or shortage analysis)",
+    "signal_type": "official_proxy",
+    "source_title": "Occupational projections and worker characteristics",
+    "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+  },
+  {
+    "authority": "Employment and Social Development Canada (ESDC), Government of Canada",
+    "caveat": "This is an official national occupational projection/shortage-risk analysis, not a formal exhaustive shortage list and not a current vacancy count. It is national and forward-looking; the verified dataset page metadata says 2024–2033, while its downloadable CSV footer says 2026 projections based on 2025 data, so the catalog/file period discrepancy is reported rather than silently resolved. Occupation-based Express Entry eligibility is a separate immigration-program decision: IRCC states that its 2025 eligible occupations were informed by COPS long-term shortage projections but were selected for program categories and do not constitute a general Canadian shortage list or guarantee immigration eligibility. Access date: 2026-11-09.",
+    "country_en": "Canada",
+    "country_zh": "加拿大",
+    "effective_period": "2026–2035, per the downloaded CSV footer (the catalog resource title/metadata still says 2024–2033)",
+    "id": "ca",
+    "list_title": "Canadian Occupational Projection System (COPS) — Assessment of Projected Labour Market Conditions (shortage, surplus or balance), by Occupation",
+    "methodology": "ESDC's Canadian Occupational Projection System (COPS) models national job openings and job seekers by occupation, including demand from economic growth and retirements and supply from school leavers, immigration and other job seekers. The dataset assigns projected labour-market conditions such as shortage risk, surplus risk, or balance. The CSV footer identifies the displayed release as 2026 projections based on 2025 data. Dataset resource: https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/446fe474-96e7-47cd-a3f9-3bb391b2df60",
+    "occupations": [
+      {
+        "basis": "COPS projected labour-market conditions: Moderate risk of Shortage (Risque modéré de pénurie). Representative example only; not a complete list.",
+        "local_name": "Courtiers/courtières en douanes, courtiers maritimes/courtières maritimes et autres courtiers/courtières",
+        "name_en": "Customs, ship and other brokers",
+        "sector": "Business, finance and administration",
+        "source_url": "https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/446fe474-96e7-47cd-a3f9-3bb391b2df60"
+      },
+      {
+        "basis": "COPS projected labour-market conditions: Moderate risk of Shortage (Risque modéré de pénurie). Representative example only; not a complete list.",
+        "local_name": "Manoeuvres dans la fabrication des produits en caoutchouc et en plastique",
+        "name_en": "Labourers in rubber and plastic products manufacturing",
+        "sector": "Manufacturing",
+        "source_url": "https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/446fe474-96e7-47cd-a3f9-3bb391b2df60"
+      },
+      {
+        "basis": "COPS projected labour-market conditions: Strong risk of Shortage (Risque important de pénurie). Representative example only; not a complete list.",
+        "local_name": "Manoeuvres dans la transformation du poisson et des fruits de mer",
+        "name_en": "Labourers in fish and seafood processing",
+        "sector": "Manufacturing / fish and seafood processing",
+        "source_url": "https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/446fe474-96e7-47cd-a3f9-3bb391b2df60"
+      }
+    ],
+    "published_date": "2025-02-12 (catalogued resource date; CSV footer identifies 2026 projections based on 2025 data)",
+    "signal_label": "Government occupational shortage-risk analysis",
+    "signal_type": "official_shortage_analysis",
+    "source_title": "Canadian Occupational Projection System (COPS) — Assessment of Projected Labour Market Conditions by Occupation (official dataset resource)",
+    "source_url": "https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/446fe474-96e7-47cd-a3f9-3bb391b2df60"
+  },
+  {
+    "authority": "Migration Advisory Committee (MAC), published on GOV.UK",
+    "caveat": "This is an official shortage analysis and set of MAC recommendations connected to the UK immigration system, not itself a comprehensive national labour-market shortage list or proof that every employer/location has a shortage. Its review covers selected RQF 3–5 occupations potentially relevant to UK Industrial Strategy priority sectors or critical infrastructure, rather than all occupations or a uniformly disaggregated UK-wide labour market; the report notes ongoing limitations in national/local occupational data. The report was published 23 July 2026 and describes recommendations for provisional 18-month access, but does not state an operative effective period here. Labour-market shortage evidence and recommended immigration eligibility are distinct: eligibility depends on government immigration rules and implementation, and inclusion does not alone establish a general shortage. The separate Skilled Worker visa Temporary Shortage List guidance is an immigration-program list, not a general shortage measure.",
+    "country_en": "United Kingdom",
+    "country_zh": "英国",
+    "effective_period": "Not stated. The report recommends 18-month Temporary Shortage List access for the 28 occupations it identifies; this is a recommendation, not a stated effective period for an operative list.",
+    "id": "uk",
+    "list_title": "Temporary Shortage List: Stage 2 report (accessible) — final report, July 2026",
+    "methodology": "The MAC reviewed 82 occupations identified at Stage 1 as potentially crucial to the Industrial Strategy or critical infrastructure; 46 had Jobs Plans. It assessed sequential criteria including occupation importance to priority sectors, evidence of current or future workforce shortage, the credibility of plans to maximise domestic workforce use, and exploitation risks, drawing on quantitative labour-market/visa evidence and stakeholder engagement. It recommended 28 occupations for provisional 18-month TSL access; it states none had a plan strong enough to merit the full three-year access. Occupations below are a representative sample of those recommendations, not the complete set.",
+    "occupations": [
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 3112 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Electrical and electronics technicians",
+        "name_en": "Electrical and electronics technicians",
+        "sector": "Advanced Manufacturing; Clean Energy; Digital and Technology",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 3113 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Engineering technicians",
+        "name_en": "Engineering technicians",
+        "sector": "Advanced Manufacturing; Clean Energy; Digital and Technology; Defence",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 5211 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Sheet metal workers",
+        "name_en": "Sheet metal workers",
+        "sector": "Advanced Manufacturing; Clean Energy",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 5223 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Metal working production and maintenance fitters",
+        "name_en": "Metal working production and maintenance fitters",
+        "sector": "Advanced Manufacturing; Clean Energy; Defence; Foundational Industries/Critical Infrastructure",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 5213 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Welding trades",
+        "name_en": "Welding trades",
+        "sector": "Advanced Manufacturing; Clean Energy; Defence; Foundational Industries/Critical Infrastructure",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 5235 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Boat and ship builders and repairers",
+        "name_en": "Boat and ship builders and repairers",
+        "sector": "Advanced Manufacturing",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 3116 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Planning, process and production technicians",
+        "name_en": "Planning, process and production technicians",
+        "sector": "Clean Energy; Digital and Technology; Advanced Manufacturing",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 5212 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Metal plate workers, smiths, moulders and related occupations",
+        "name_en": "Metal plate workers, smiths, moulders and related occupations",
+        "sector": "Clean Energy",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends only Overhead Line Workers within occupation code 5249 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Electrical and electronic trades n.e.c. — Overhead Line Workers only",
+        "name_en": "Electrical and electronic trades n.e.c. — Overhead Line Workers only",
+        "sector": "Clean Energy; Foundational Industries/Critical Infrastructure",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 3133 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Database administrators and web content technicians",
+        "name_en": "Database administrators and web content technicians",
+        "sector": "Digital and Technology",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 3544 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Data analysts",
+        "name_en": "Data analysts",
+        "sector": "Digital and Technology; Advanced Manufacturing; Clean Energy; Financial Services; Foundational Industries/Critical Infrastructure",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      },
+      {
+        "basis": "MAC Table 3.2 recommends occupation code 5241 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
+        "local_name": "Electricians and electrical fitters",
+        "name_en": "Electricians and electrical fitters",
+        "sector": "Foundational Industries/Critical Infrastructure; Clean Energy",
+        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+      }
+    ],
+    "published_date": "23 July 2026",
+    "signal_label": "Migration Advisory Committee (MAC) Temporary Shortage List Stage 2 occupation shortage recommendations",
+    "signal_type": "official_shortage_analysis",
+    "source_title": "Temporary Shortage List: Stage 2 report (accessible)",
+    "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+  },
+  {
+    "authority": "Skills and Labour Market Research Unit (SLMRU), SOLAS",
+    "caveat": "This is an official labour-market shortage analysis based on selected recruitment agencies’ reported experience, not a formal exhaustive national shortage list. It reflects vacancy-filling difficulty and skill-supply perceptions in Ireland around November 2025; the survey's selected-agency coverage may not represent every employer, occupation, or region. Labour-market shortage evidence is distinct from immigration eligibility: inclusion here does not itself establish eligibility for an employment permit. The separate Critical Skills Occupations List is specifically used for Critical Skills Employment Permit eligibility and is not the basis of this sample.",
+    "country_en": "Ireland",
+    "country_zh": "爱尔兰",
+    "effective_period": "Survey conducted November 2025; no separate effective period stated",
+    "id": "ie",
+    "list_title": "Difficult-to-fill vacancies survey — November 2025",
+    "methodology": "The SLMRU in SOLAS collected input from selected recruitment agencies in Ireland on occupations requiring skills they considered in short supply and vacancies they considered difficult to fill. The report presents job-title mentions by sector and survey responses; it is qualitative recruiter evidence, not a census or exhaustive national occupation list. The report states that 49% of difficult-to-fill vacancy mentions were very or too difficult to fill.",
+    "occupations": [
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the construction sector grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Site/civil engineers",
+        "sector": "Construction",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the construction sector grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Quantity surveyors",
+        "sector": "Construction",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the construction sector grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Carpenters (including shuttering)",
+        "sector": "Construction",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the health sector grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Nurses (including midwives)",
+        "sector": "Health",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the health sector grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Healthcare assistants",
+        "sector": "Health",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the health sector grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Social care workers",
+        "sector": "Health",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the ICT grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Software developers",
+        "sector": "Science, engineering & technology — ICT",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; listed as a combined role grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Data scientists/analysts/engineers",
+        "sector": "Science, engineering & technology — ICT",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the life-sciences engineering grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Quality control/assurance engineers",
+        "sector": "Science, engineering & technology — Life sciences",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the drivers grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "HGV drivers",
+        "sector": "Transport & Logistics",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; listed as an accountant role grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Accountants (financial, tax, practice, insurance)",
+        "sector": "Financial",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      },
+      {
+        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; included in the report's ‘Other’ grouping.",
+        "local_name": "Not stated (English-language source)",
+        "name_en": "Chefs",
+        "sector": "Other (as grouped in the survey)",
+        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+      }
+    ],
+    "published_date": "November 2025 (report title; exact day not stated)",
+    "signal_label": "Official labour-market shortage analysis",
+    "signal_type": "official_shortage_analysis",
+    "source_title": "Difficult-to-fill vacancies survey — November 2025",
+    "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+  },
+  {
+    "authority": "Bundesagentur für Arbeit (BA), Statistik der Bundesagentur für Arbeit",
+    "caveat": "This is the latest verified national official shortage analysis available on the access date, not an immigration eligibility list. BA's 2 September 2026 release reports 157 bottleneck occupational categories (Berufsgattungen) for 2025, down from 163 in 2024; the interactive analysis provides results at occupational-category level, subject to reliable data. The occupations below are only representative examples explicitly named in the BA release, not a complete list, and the release does not state their individual scores/status or exact classification codes. Labour-market bottleneck status measures labour-market indicators; it does not by itself confer immigration eligibility. No separate effective date is stated.",
+    "country_en": "Germany",
+    "country_zh": "德国",
+    "effective_period": "Analysis year 2025",
+    "id": "de",
+    "list_title": "Fachkräfteengpassanalyse 2025（年度专业劳动力短缺分析）",
+    "methodology": "BA annual analysis rates occupations at Berufsgattungen level nationally (and Berufsgruppen level by Länder), where data are sufficiently reliable, using six statistical bottleneck indicators: median vacancy duration, jobseeker-to-vacancy ratio, occupation-specific unemployment rate, change in foreign nationals' share of employment subject to social insurance, exits from unemployment, and change in median earnings. The unweighted average indicator score identifies an Engpassberuf at 2.0 or above; 1.5 to below 2.0 is monitored; below 1.5 is not classified as bottleneck. The interactive page reports that the assessment covers 2025 indicators/results.",
+    "occupations": [
+      {
+        "basis": "BA states these continued to be among the occupations with the strongest bottlenecks in 2025; individual occupations and scores are not enumerated in the release.",
+        "local_name": "Pflege- und Gesundheitsberufe",
+        "name_en": "Nursing and healthcare occupations (examples; individual occupation categories not specified)",
+        "sector": "Healthcare and social care",
+        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+      },
+      {
+        "basis": "BA reports bottlenecks also existed in construction occupations in 2025; no individual occupation or score specified.",
+        "local_name": "Bau-Berufe",
+        "name_en": "Construction occupations (occupations not individually specified)",
+        "sector": "Construction",
+        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+      },
+      {
+        "basis": "BA reports bottlenecks also existed in skilled trades in 2025; no individual occupation or score specified.",
+        "local_name": "Handwerksberufe",
+        "name_en": "Skilled trades occupations (occupations not individually specified)",
+        "sector": "Skilled trades",
+        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+      },
+      {
+        "basis": "BA explicitly says cooks continued to be sought in 2025; release does not provide an individual score or classification code.",
+        "local_name": "Köchinnen und Köche",
+        "name_en": "Cooks",
+        "sector": "Hospitality and food services",
+        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+      },
+      {
+        "basis": "BA explicitly says professional drivers continued to be sought in 2025; release does not provide an individual score or classification code.",
+        "local_name": "Berufskraftfahrerinnen und Berufskraftfahrer",
+        "name_en": "Professional drivers",
+        "sector": "Transport and logistics",
+        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+      },
+      {
+        "basis": "BA explicitly says educators continued to be sought in 2025; release does not provide an individual score or classification code.",
+        "local_name": "Erzieherinnen und Erzieher",
+        "name_en": "Early childhood educators",
+        "sector": "Education and childcare",
+        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+      },
+      {
+        "basis": "BA says bottlenecks newly or again emerged in 2025 in occupations including surveying technology; individual occupation and score not specified.",
+        "local_name": "Berufe der Vermessungstechnik",
+        "name_en": "Surveying technology occupations",
+        "sector": "Surveying and geospatial services",
+        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+      },
+      {
+        "basis": "BA says bottlenecks newly or again emerged in 2025 in occupations including social work/social pedagogy; individual occupation and score not specified.",
+        "local_name": "Sozialarbeit bzw. Sozialpädagogik",
+        "name_en": "Social work and social pedagogy occupations",
+        "sector": "Social services",
+        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+      }
+    ],
+    "published_date": "2026-09-02",
+    "signal_label": "国家官方职业短缺分析（非移民资格清单）",
+    "signal_type": "official_shortage_analysis",
+    "source_title": "Fachkräfte bleiben knapp: Zuwanderung gewinnt weiter an Bedeutung; official Engpassanalyse interactive application",
+    "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-gewinnt-weiter-an-bedeutung",
+    "verified_analysis_url": "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Statistiken/Fachkraeftebedarf/Engpassanalyse-Nav.html"
+  },
+  {
+    "authority": "Ministère de l'Intérieur and Ministère du Travail, de la Santé, des Solidarités et des Familles; published in the Journal officiel and hosted by Légifrance",
+    "caveat": "The annex is geographically specific, listing occupation families for each metropolitan region and overseas territory; it is not a single uniform nationwide inventory. This is the newest verified direct official occupation list found, published in 2025. Its legal basis and purpose are immigration/employment eligibility-related under Article L. 414-13 CESEDA, rather than a comprehensive measure of labour-market shortages for all workers or a general forecast. Inclusion indicates the decree's listed status for the named region, not proof of a nationwide shortage or guaranteed eligibility in an individual case. The occupations below are illustrative entries from the Auvergne-Rhône-Alpes regional annex only, not the complete list.",
+    "country_en": "France",
+    "country_zh": "法国",
+    "effective_period": "Not stated",
+    "id": "fr",
+    "list_title": "Arrêté du 21 mai 2025 fixant la liste des métiers et zones géographiques caractérisés par des difficultés de recrutement en application de l'article L. 414-13 du code de l'entrée et du séjour des étrangers et du droit d'asile",
+    "methodology": "Annex I specifies occupation-family codes and titles region by region; Annex II maps occupational families to the ROME occupational directory. The decree does not state the underlying statistical methodology for determining recruitment difficulties.",
+    "occupations": [
+      {
+        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family T4Z60, ‘Agents d'entretien de locaux’.",
+        "local_name": "Agents d'entretien de locaux",
+        "name_en": "Building cleaners",
+        "sector": "Cleaning and facilities",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      },
+      {
+        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family A0Z40, ‘Agriculteurs salariés’.",
+        "local_name": "Agriculteurs salariés",
+        "name_en": "Agricultural workers",
+        "sector": "Agriculture",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      },
+      {
+        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family T2A60, ‘Aides à domicile et aides ménagères’.",
+        "local_name": "Aides à domicile et aides ménagères",
+        "name_en": "Home care and domestic aides",
+        "sector": "Care and domestic services",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      },
+      {
+        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family S1Z20, same title as local_name.",
+        "local_name": "Aides de cuisine, apprentis de cuisine et employés polyvalents de la restauration",
+        "name_en": "Kitchen assistants, apprentice cooks and multi-skilled restaurant employees",
+        "sector": "Hospitality and food service",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      },
+      {
+        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family S0Z40, ‘Bouchers’.",
+        "local_name": "Bouchers",
+        "name_en": "Butchers",
+        "sector": "Food processing and retail",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      },
+      {
+        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family S1Z80, ‘Chefs cuisiniers’.",
+        "local_name": "Chefs cuisiniers",
+        "name_en": "Chefs",
+        "sector": "Hospitality and food service",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      },
+      {
+        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family S1Z40, ‘Cuisiniers’.",
+        "local_name": "Cuisiniers",
+        "name_en": "Cooks",
+        "sector": "Hospitality and food service",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      },
+      {
+        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family M2Z90, same title as local_name.",
+        "local_name": "Ingénieurs et cadres d'étude, recherche et développement en informatique, chefs de projets informatiques",
+        "name_en": "Computer R&D engineers and managers, IT project managers",
+        "sector": "Information technology",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      },
+      {
+        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family B2Z40, ‘Maçons’.",
+        "local_name": "Maçons",
+        "name_en": "Masons",
+        "sector": "Construction",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      },
+      {
+        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family S2Z61, ‘Serveurs de cafés restaurants’.",
+        "local_name": "Serveurs de cafés restaurants",
+        "name_en": "Café and restaurant servers",
+        "sector": "Hospitality and food service",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      }
+    ],
+    "published_date": "2025-05-22 (Journal officiel publication; decree dated 2025-05-21)",
+    "signal_label": "Official occupation-and-region list for immigration/employment eligibility; not a general national labour-market shortage list",
+    "signal_type": "immigration_program_list",
+    "source_title": "Arrêté du 21 mai 2025 fixant la liste des métiers et zones géographiques caractérisés par des difficultés de recrutement… (JORF n° 0119 du 22 mai 2025, texte n° 21)",
+    "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+  },
+  {
+    "authority": "UWV (Uitvoeringsinstituut Werknemersverzekeringen), Netherlands",
+    "caveat": "This is the closest verified official occupation-level proxy, not an official national shortage list or a declaration that every named occupation has a labour shortage. ‘Kansrijk’ means good prospects for jobseekers; the signal reflects recent labour-market conditions, and prospects may differ by region. The page does not state an exact publication date or effective interval. It concerns employment prospects, not immigration eligibility; inclusion does not establish eligibility for a Dutch immigration program.",
+    "country_en": "Netherlands",
+    "country_zh": "荷兰",
+    "effective_period": "Not stated; the page identifies additions to the list in 2026.",
+    "id": "nl",
+    "list_title": "Kansrijke beroepen: beroepen met goede kansen op werk",
+    "methodology": "UWV describes its list as an annual, nationwide overview of occupations offering good job prospects. The linked UWV 2025–2026 report says it is based mainly on the relationship between vacancies and jobseekers over recent months, and that included occupations were reviewed by sector experts. The current official page explicitly names examples of occupations added in 2026.",
+    "occupations": [
+      {
+        "basis": "UWV identifies this as an example of a vocational (mbo-level) occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
+        "local_name": "Metselaars en voegers",
+        "name_en": "Bricklayers and pointing workers",
+        "sector": "Construction",
+        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+      },
+      {
+        "basis": "UWV identifies this as an example of a vocational (mbo-level) occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
+        "local_name": "Dierenartsassistenten",
+        "name_en": "Veterinary assistants",
+        "sector": "Veterinary services / animal care",
+        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+      },
+      {
+        "basis": "UWV identifies this as an example of a vocational (mbo-level) occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
+        "local_name": "Verkoopmedewerkers tweedehands artikelen",
+        "name_en": "Second-hand goods sales assistants",
+        "sector": "Retail / second-hand goods",
+        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+      },
+      {
+        "basis": "UWV identifies this as an example of an hbo/wo-level occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
+        "local_name": "Budgetconsulenten",
+        "name_en": "Budget advisers",
+        "sector": "Financial and social services",
+        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+      },
+      {
+        "basis": "UWV identifies this as an example of an hbo/wo-level occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
+        "local_name": "Facilitair managers",
+        "name_en": "Facilities managers",
+        "sector": "Facilities management",
+        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+      },
+      {
+        "basis": "UWV identifies this as an example of an hbo/wo-level occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
+        "local_name": "Eventmanagers / projectmanagers events",
+        "name_en": "Event managers / event project managers",
+        "sector": "Events and project management",
+        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+      }
+    ],
+    "published_date": "Not stated",
+    "signal_label": "UWV landelijke lijst ‘kansrijke beroepen’ (official labour-market proxy; not a formal shortage list)",
+    "signal_type": "official_proxy",
+    "source_title": "Kansrijke beroepen: beroepen met goede kansen op werk",
+    "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+  },
+  {
+    "authority": "Servicio Público de Empleo Estatal (SEPE), Spain",
+    "caveat": "This is a formal national catalogue, but it is geographically specific rather than a single uniform countrywide list; an occupation's inclusion applies only in the listed province/island/autonomous city. It reflects difficulties public employment services had managing vacancy offers, not a measure of all vacancies or a guarantee of economy-wide shortage. SEPE states that inclusion enables an employer to process an initial temporary residence and employed-work authorization for a foreign worker; labour-market shortage status and immigration eligibility are related here but not interchangeable in general. The latest published file accessible on the official SEPE page at access date was titled 3º trimestre 2026; do not treat this sample as exhaustive.",
+    "country_en": "Spain",
+    "country_zh": "西班牙",
+    "effective_period": "3rd quarter 2026 (catalogue title); SEPE says each catalogue is valid from the first through last working day of the calendar quarter following publication",
+    "id": "es",
+    "list_title": "Catálogo de Ocupaciones de Difícil Cobertura 3º Trimestre 2026",
+    "methodology": "SEPE says the catalogue records occupations for which Public Employment Services have encountered difficulty managing employers' vacancy offers. It is prepared separately for each province, islands in insular provinces, and the autonomous cities of Ceuta and Melilla; it is quarterly. The latest linked official PDF is titled for 3º trimestre 2026 and lists locations and occupations. Representative entries below are transcribed from that PDF; they are not a complete list.",
+    "occupations": [
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
+        "local_name": "frigoristas navales",
+        "name_en": "Ship refrigeration technicians",
+        "sector": "Maritime transport / ship operations",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
+        "local_name": "jefes de máquinas de buque mercante",
+        "name_en": "Merchant-ship engine chiefs",
+        "sector": "Maritime transport / ship operations",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
+        "local_name": "mecánicos navales",
+        "name_en": "Ship mechanics",
+        "sector": "Maritime transport / ship operations",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
+        "local_name": "pilotos de buques mercantes",
+        "name_en": "Merchant-ship pilots",
+        "sector": "Maritime transport / ship operations",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería, Cádiz, and Córdoba; inclusion is location-specific.",
+        "local_name": "deportistas profesionales",
+        "name_en": "Professional athletes",
+        "sector": "Sports",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería, Cádiz, and Córdoba; inclusion is location-specific.",
+        "local_name": "entrenadores deportivos",
+        "name_en": "Sports coaches",
+        "sector": "Sports",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
+        "local_name": "cocineros de barco",
+        "name_en": "Ship cooks",
+        "sector": "Maritime transport / hospitality",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
+        "local_name": "auxiliares de buques de pasaje",
+        "name_en": "Passenger-ship attendants",
+        "sector": "Maritime transport / passenger services",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
+        "local_name": "carpinteros de aluminio, metálico y pvc",
+        "name_en": "Aluminium, metal and PVC carpenters",
+        "sector": "Construction / metal fabrication",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
+        "local_name": "instaladores electricistas de edificios y viviendas",
+        "name_en": "Building and dwelling electricians",
+        "sector": "Construction / electrical installation",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
+        "local_name": "conductores-operadores de grúa en camión",
+        "name_en": "Truck-mounted crane operators",
+        "sector": "Transport / construction equipment",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      },
+      {
+        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
+        "local_name": "marineros de cubierta (excepto pesca)",
+        "name_en": "Deck sailors (excluding fishing) ",
+        "sector": "Maritime transport",
+        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+      }
+    ],
+    "published_date": "Not stated for the 3º trimestre 2026 catalogue on the catalog page (accessed 2026-11-09)",
+    "signal_label": "National quarterly difficult-to-cover occupations catalogue (province/island/Autonomous City specific)",
+    "signal_type": "official_shortage_list",
+    "source_title": "Qué es el catálogo de ocupaciones de difícil cobertura; linked official catalogue PDF for 3º trimestre 2026",
+    "source_url": "https://www.sepe.es/HomeSepe/empresas/informacion-para-empresas/profesiones-de-dificil-cobertura/profesiones-mas-demandadas.html"
+  },
+  {
+    "authority": "Jobs and Skills Australia, Australian Government",
+    "caveat": "This is an Australian labour-market shortage assessment, not an immigration-eligibility list: shortage status does not itself establish visa eligibility, and immigration occupation lists serve a separate purpose. It is a 2026 point-in-time result, not a guarantee of current vacancies or a forecast. The overall total covers 1,021 assessed occupations; the OSL page provides data at national and subnational levels. The two examples below are named in Jobs and Skills Australia’s accompanying 2026 Occupation Shortage Drivers analysis as occupations with identified shortage drivers; they are representative examples, not the complete list. The report notes Jockey was excluded from 2026 scope.",
+    "country_en": "Australia",
+    "country_zh": "澳大利亚",
+    "effective_period": "2026 OSL; point-in-time assessment. The page was last modified 21 October 2026.",
+    "id": "au",
+    "list_title": "2026 Occupation Shortage List (OSL)",
+    "methodology": "Jobs and Skills Australia describes the OSL as a point-in-time assessment of occupations shortages in the Australian labour market. The 2026 Key Findings Report states that 279 of 1,021 assessed occupations (27%) were in national shortage and distinguishes four statuses: shortage, metropolitan shortage, regional shortage, and no shortage. Results are available at 4-digit ANZSCO unit-group and 6-digit ANZSCO/OSCA occupation levels. The report’s results are on an OSCA basis.",
+    "occupations": [
+      {
+        "basis": "Named in Jobs and Skills Australia’s 2026 Occupation Shortage Drivers analysis: training was identified as the main driver. Representative example only; not the complete OSL.",
+        "local_name": "Motor Mechanics",
+        "name_en": "Motor Mechanics",
+        "sector": "Automotive technicians and trades",
+        "source_url": "https://www.jobsandskills.gov.au/news/occupation-shortages-continue-ease-while-new-analysis-reveals-whats-driving-persistent-gaps"
+      },
+      {
+        "basis": "Named in Jobs and Skills Australia’s 2026 Occupation Shortage Drivers analysis: suitability was identified as the main driver, with training also a significant contributor. Representative example only; not the complete OSL.",
+        "local_name": "Registered Nurses",
+        "name_en": "Registered Nurses",
+        "sector": "Health",
+        "source_url": "https://www.jobsandskills.gov.au/news/occupation-shortages-continue-ease-while-new-analysis-reveals-whats-driving-persistent-gaps"
+      }
+    ],
+    "published_date": "Not stated",
+    "signal_label": "National occupation shortage",
+    "signal_type": "official_shortage_list",
+    "source_title": "Occupation Shortage (official data and downloads page; includes 2026 OSL workbook and Key Findings Report)",
+    "source_url": "https://www.jobsandskills.gov.au/data/occupation-shortage"
+  },
+  {
+    "authority": "New Zealand Ministry of Business, Innovation and Employment (MBIE)",
+    "caveat": "This is a New Zealand-wide labour-demand proxy based on four online job boards, not a census of all vacancies and not a formal shortage determination. The page warns that the link between advertisements and labour demand is complex, especially for occupational and regional breakdowns; it also notes that small advertisement counts can distort comparisons. The latest release is current through the September 2026 quarter as of the source page last updated 6 November 2026. No individual occupations are returned because the verified page's headline shortage-relevant result names broad occupation groups only, without explicitly identifying individual occupations as being in shortage. Labour-market demand evidence is distinct from immigration eligibility: an occupation's appearance on any immigration pathway list would govern immigration criteria, not itself prove a general labour-market shortage.",
+    "country_en": "New Zealand",
+    "country_zh": "新西兰",
+    "effective_period": "September 2026 quarter; data page states monthly series through September 2026",
+    "id": "nz",
+    "list_title": "Not applicable — no verified current national occupation-shortage list or occupation-level shortage analysis identified; closest current official proxy is Jobs Online",
+    "methodology": "MBIE's Jobs Online tracks an index of online job advertisements from SEEK, Trade Me Jobs, Education Gazette, and Kiwi Health Jobs, treating online advertisements as a proxy for all advertisements and vacancies. The latest quarterly release reports year-on-year changes in the All Vacancies Index and makes occupation breakdowns available. It measures changes in advertised demand, not the number of actual vacancies or whether an occupation is in shortage. The page reports online advertisements grew for 6 of 8 occupation groups in the year to September 2026; Sales and Machinery operators & drivers showed the strongest growth, while Managers had the largest annual fall.",
+    "occupations": [],
+    "published_date": "06 November 2026 (page last updated; exact separate report publication date not stated)",
+    "signal_label": "Official labour-market proxy (online job-advertisement vacancies; not a shortage list or shortage analysis)",
+    "signal_type": "official_proxy",
+    "source_title": "Jobs Online — quarterly release, September 2026 quarter",
+    "source_url": "https://www.mbie.govt.nz/business-and-employment/employment-and-skills/labour-market-reports-data-and-analysis/jobs-online"
+  },
+  {
+    "authority": "Ministry of Health, Labour and Welfare (MHLW), Japan; dataset hosted by the Statistics Bureau of Japan’s e-Stat portal",
+    "caveat": "The source record covers Japan nationally and the September 2026 monthly observation, and is based on MHLW administrative employment-service statistics (一般職業紹介状況), not a census of all vacancies, workers, or recruitment channels. These indicators describe labour-market flows/ratios rather than a government-certified shortage list; no occupations are enumerated here because the verified record page does not expose occupation-level values. Labour-market tightness is distinct from eligibility under Japan’s immigration or residence-status programmes, and this source does not define immigration eligibility. No exact effective period beyond the monthly observation is stated.",
+    "country_en": "Japan",
+    "country_zh": "日本",
+    "effective_period": "Monthly observations; newest period shown is September 2026",
+    "id": "jp",
+    "list_title": "Not applicable — no national occupation shortage list verified; closest proxy is the occupational labour-market indicators table",
+    "methodology": "The official e-Stat record identifies the table as monthly nationwide administrative statistics compiled by MHLW’s Employment Security Bureau, Employment Policy Division. The table title specifies occupational labour-market indicators in actual values. The dataset is the closest verified official occupation-level proxy; its existence does not establish that MHLW classifies occupations in it as formally shortage occupations. The record does not state a particular shortage threshold or methodology for designating shortage occupations.",
+    "occupations": [],
+    "published_date": "2026-10-30 08:30 (official dataset record; access date 2026-11-09)",
+    "signal_label": "Official occupational labour-market proxy; not a formal shortage list or shortage analysis",
+    "signal_type": "official_proxy",
+    "source_title": "職業別労働市場関係指標（実数）（平成21年改定）（令和4年4月～） [Occupational labour-market indicators (actual values) (2009 revision; April 2022 onward)]",
+    "source_url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&data=1&metadata=1&cycle=1&toukei=00450222&tstat=000001020327&tclass1=000001249728&tclass2val=0&stat_infid=000040519001"
+  },
+  {
+    "authority": "Singapore Ministry of Manpower (MOM), developed with the Ministry of Trade and Industry and sector agencies",
+    "caveat": "This is a national government-published Shortage Occupation List, but its operative scope is Employment Pass COMPASS C5 skills-bonus eligibility and, for qualifying infocomm technology roles, possible five-year EP duration—not a census of all vacancies or a general list of every occupation experiencing shortage. Inclusion alone does not ensure eligibility: candidates must perform the listed key duties, select an eligible job title and satisfy additional requirements. Labour-market shortage status and immigration eligibility are related here but are not interchangeable. The guide is current for applications from 1 January 2027 and does not establish conditions for other populations or sectors outside the stated programme. Singapore has no Chinese titles in this English-language guide; local_name is blank where none is provided.",
+    "country_en": "Singapore",
+    "country_zh": "新加坡",
+    "effective_period": "Applies to new and renewal Employment Pass applications from 1 January 2027",
+    "id": "sg",
+    "list_title": "COMPASS C5 Shortage Occupation List (SOL) Employer Guide",
+    "methodology": "MOM says occupations are identified in consultation with sector agencies and tripartite partners, considering strategic importance to Singapore’s economic priorities, the degree and nature of labour shortage, and the sector’s commitment to developing the local pipeline to address shortages over the medium term. This guide specifies shortage occupations, eligible job titles, key duties and occupation-specific additional requirements. The occupations below are a representative sample, not the complete list.",
+    "occupations": [
+      {
+        "basis": "Listed as shortage occupation 1 in the November 2026 SOL guide; key duties involve new product development in alternative-protein food applications; supporting agency: EDB.",
+        "local_name": "",
+        "name_en": "Specialty Ingredient Application Scientist",
+        "sector": "Agritech",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed as shortage occupation 2 in the November 2026 SOL guide; supporting agency: EDB.",
+        "local_name": "",
+        "name_en": "Novel food biotechnologist",
+        "sector": "Agritech",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed as shortage occupation 3; covers specified petroleum/natural-gas plant operations and requires relevant engineering/science NITEC, Higher NITEC or diploma-level qualification; supporting agency: EDB.",
+        "local_name": "",
+        "name_en": "Chemical Engineering Technician (Petroleum/Natural Gas)",
+        "sector": "Energy & Chemicals",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed as shortage occupation 5; role must meet the duties and employer/qualification conditions set out in the guide; supporting agency: EDB.",
+        "local_name": "",
+        "name_en": "Materials Engineer",
+        "sector": "Energy & Chemicals",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed as shortage occupation 6; guide specifies carbon project development duties and employer plus qualification/experience conditions; supporting agencies: EnterpriseSG and EDB.",
+        "local_name": "",
+        "name_en": "Carbon project/program manager",
+        "sector": "Green economy",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed as shortage occupation 8; eligible job title is Carbon trader and the listed key duty is trading/brokering carbon credits.",
+        "local_name": "",
+        "name_en": "Carbon trader",
+        "sector": "Green economy",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed as shortage occupation 9 in the SOL guide; subject to the listed duties and occupation-specific requirements.",
+        "local_name": "",
+        "name_en": "Clinical psychologist",
+        "sector": "Healthcare",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed as shortage occupation 10 in the SOL guide; subject to the listed duties and occupation-specific requirements.",
+        "local_name": "",
+        "name_en": "Diagnostic radiographer",
+        "sector": "Healthcare",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed as shortage occupation 13; guide lists eligible job titles including assistant director of nursing and specifies key duties and additional requirements.",
+        "local_name": "",
+        "name_en": "Registered nurse",
+        "sector": "Healthcare",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed under shortage occupation 17 (Artificial intelligence (AI)); eligible job titles and requirements are specified in the guide. Qualifying infocomm technology SOL roles may also qualify for a five-year EP, subject to requirements.",
+        "local_name": "",
+        "name_en": "Artificial intelligence (AI) engineer",
+        "sector": "Infocomm technology",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed as shortage occupation 18; eligible titles include Cloud architect; subject to key-duty and additional requirements in the guide.",
+        "local_name": "",
+        "name_en": "Cloud specialist",
+        "sector": "Infocomm technology",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      },
+      {
+        "basis": "Listed as shortage occupation 25 in the November 2026 SOL guide; subject to the listed duties and occupation-specific additional requirements.",
+        "local_name": "",
+        "name_en": "Marine superintendent",
+        "sector": "Maritime",
+        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+      }
+    ],
+    "published_date": "November 2026",
+    "signal_label": "Ministry of Manpower (MOM) COMPASS C5 Shortage Occupation List (SOL), November 2026 edition",
+    "signal_type": "official_shortage_list",
+    "source_title": "COMPASS C5 Shortage Occupation List (SOL) Employer Guide (upcoming guide)",
+    "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+  }
+]

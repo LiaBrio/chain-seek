@@ -16,6 +16,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/labor-shortage`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.75,
+    },
     // 可以根据需要添加更多页面
   ]
 }
