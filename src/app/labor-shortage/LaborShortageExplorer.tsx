@@ -95,7 +95,7 @@ export default function LaborShortageExplorer() {
         return typeMatch && (!term || entryMatch || text.includes(term));
       });
       return { entry, pathways, countryMatch, entryMatch };
-    }).filter((item) => item.countryMatch && item.pathways.length > 0 && item.entryMatch);
+    }).filter((item) => item.countryMatch && item.pathways.length > 0);
   }, [query, countryFilter, typeFilter]);
 
   return <div className={styles.page}>

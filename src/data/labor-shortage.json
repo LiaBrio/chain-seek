@@ -68,6 +68,18 @@
       {
         "name": "U.S. Department of State — Visa Bulletin",
         "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html"
+      },
+      {
+        "name": "USCIS — H-1B Specialty Occupations",
+        "url": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations"
+      },
+      {
+        "name": "USCIS — H-2A Temporary Agricultural Workers",
+        "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2a-temporary-agricultural-workers"
+      },
+      {
+        "name": "U.S. Department of State — Temporary Worker Visas",
+        "url": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html"
       }
     ],
     "experiences": [
@@ -185,6 +197,14 @@
       {
         "name": "IRCC — Canadian Experience Class",
         "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html"
+      },
+      {
+        "name": "Hire through the International Mobility Program — Immigration, Refugees and Citizenship Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/hire-temporary-foreign/international-mobility-program.html"
+      },
+      {
+        "name": "Global Talent Stream requirements — Global talent occupations list for Category B, Employment and Social Development Canada",
+        "url": "https://www.canada.ca/en/employment-social-development/services/foreign-workers/global-talent/requirements.html"
       }
     ],
     "experiences": [
@@ -346,6 +366,18 @@
       {
         "name": "GOV.UK — Skilled Worker settlement: eligibility and salary",
         "url": "https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa"
+      },
+      {
+        "name": "Skilled Worker visa: eligible occupations and codes (UK Visas and Immigration); Skilled Worker visa: Your job",
+        "url": "https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations/skilled-worker-visa-eligible-occupations-and-codes"
+      },
+      {
+        "name": "Immigration Rules Appendix Skilled Worker; Skilled Worker visa: temporary shortage list",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker"
+      },
+      {
+        "name": "Health and Care Worker visa: Your job",
+        "url": "https://www.gov.uk/health-care-worker-visa/your-job"
       }
     ],
     "experiences": [
@@ -449,7 +481,7 @@
     ],
     "experiences": [
       {
-        "post_date": "2026-05-09 (source search result date; page displayed 7 months ago)",
+        "post_date": "Exact publication date not confirmed; source displayed “7 months ago” when checked 9 Nov 2026 / 未核实确切发布日期，核查时原帖显示“7个月前”",
         "source_name": "Reddit — r/usatoireland, “My step-by-step guide to the move with a CSEP”",
         "source_url": "https://www.reddit.com/r/usatoireland/comments/1spz5tc/my_stepbystep_guide_to_the_move_with_a_csep/",
         "summary_en": "The author says the checklist is based on their personal move from the US to Ireland with a spouse on a Critical Skills Employment Permit. They describe obtaining an employer sponsor, signing and returning permit forms, paying the permit fee, and checking processing-date information; they report approximate processing delays at the time and note the need for a signed employment contract. This is one person’s account, not representative evidence or legal advice.",
@@ -553,6 +585,10 @@
       {
         "name": "German Residence Act §18c (official legislation)",
         "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__18c.html"
+      },
+      {
+        "name": "Visa for Professionally Experienced Workers — Make it in Germany (official Federal Government portal)",
+        "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/professionally-experienced-workers"
       }
     ],
     "experiences": [
@@ -666,6 +702,18 @@
       {
         "name": "Service-Public: EU long-term resident card",
         "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17359?lang=en"
+      },
+      {
+        "name": "Légifrance — Arrêté du 21 mai 2025 fixant la liste des métiers et zones géographiques caractérisés par des difficultés de recrutement; Service-Public — Salarié étranger : comment sont délivrées les autorisations de travail ?",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+      },
+      {
+        "name": "Service-Public — Salarié étranger : comment sont délivrées les autorisations de travail ?; Autorisation de travail d'un salarié étranger en France",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3100"
+      },
+      {
+        "name": "France-Visas — Talents internationaux et attractivité économique; Service-Public — Autorisation de travail d'un salarié étranger en France",
+        "url": "https://france-visas.gouv.fr/talents-internationaux-et-attractivite-economique"
       }
     ],
     "experiences": [
@@ -754,6 +802,14 @@
       {
         "name": "IND — Permanent residence permit (formal requirements)",
         "url": "https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit"
+      },
+      {
+        "name": "IND — Employing a foreign national; Government of the Netherlands — What permits do foreign workers need?",
+        "url": "https://ind.nl/en/residence-permits/work/employing-a-foreign-national"
+      },
+      {
+        "name": "IND — Residence permit for seasonal work",
+        "url": "https://ind.nl/en/residence-permits/work/residence-permit-for-seasonal-work"
       }
     ],
     "experiences": [
@@ -829,6 +885,14 @@
       {
         "name": "Spanish Ministry of Inclusion, Migration and Social Security — National long-term residence authorization (Hoja 49)",
         "url": "https://www.inclusion.gob.es/web/migraciones/w/49.-autorizacion-de-residencia-de-larga-duracion-nacional"
+      },
+      {
+        "name": "SEPE — Qué es el catálogo de ocupaciones de difícil cobertura",
+        "url": "https://www.sepe.es/HomeSepe/empresas/informacion-para-empresas/profesiones-de-dificil-cobertura/profesiones-mas-demandadas.html"
+      },
+      {
+        "name": "BOE — Ley 14/2013, Article 71 (consolidated legal text)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-10074"
       }
     ],
     "experiences": [
@@ -924,6 +988,22 @@
       {
         "name": "Department of Home Affairs — Employer Nomination Scheme (subclass 186), Temporary Residence Transition stream",
         "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186/temporary-residence-transition-stream"
+      },
+      {
+        "name": "The Core Skills Occupation List (Australian Government, Department of Home Affairs)",
+        "url": "https://immi.homeaffairs.gov.au/Documents/core-sol.pdf"
+      },
+      {
+        "name": "Skills in Demand visa (subclass 482) — Specialist Skills stream (Australian Government, Department of Home Affairs)",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/specialist-skills-stream"
+      },
+      {
+        "name": "Skills in Demand visa (subclass 482) — Labour agreement stream (Australian Government, Department of Home Affairs)",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/labour-agreement-stream"
+      },
+      {
+        "name": "Employer Nomination Scheme visa (subclass 186) and Skilled occupation list (Australian Government, Department of Home Affairs)",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186"
       }
     ],
     "experiences": [
@@ -986,8 +1066,8 @@
     ],
     "work_permit_thresholds_en": "Practical route: Accredited Employer Work Visa (AEWV). You need a current full-time offer of at least 30 hours/week from an AEWV-accredited employer, with an approved job check, and pay at least the applicable job/visa wage requirement (the rate can depend on occupation and circumstances; there is no single universal AEWV salary floor on the cited visa page). As of 9 Nov 2026, Immigration NZ reports the immigration median wage is NZD 35/hour from 9 Mar 2026, but that is a reference used for some thresholds, not an automatic minimum for every AEWV. Applicants ordinarily need either 2 years of relevant experience or an NZQCF Level 4+ qualification (overseas below-bachelor qualifications may need NZQA assessment); relevant occupational registration if required; and English if the job is skill level 3–5. Employer accreditation/job check and an offer are prerequisites, not a labour-market test imposed directly on the applicant. Health, character and genuine-intent criteria also apply.",
     "work_permit_thresholds_zh": "实用路径：认证雇主工作签证（AEWV）。申请人须持有当前全职工作邀请（至少每周30小时），雇主须获AEWV认证并已通过该职位的Job Check；工资须达到适用于该职位/签证的要求（视职业和具体情况而定，官方签证页没有规定适用于所有AEWV的统一工资底线）。截至2026年11月9日，移民局公布自2026年3月9日起移民中位工资为每小时NZD 35；但它只是部分门槛的参考，并非所有AEWV的自动最低工资。通常须有至少2年相关工作经验，或NZQCF 4级以上学历（非新西兰、学士以下学历可能需要NZQA评估）；若职业要求则须职业注册；技能等级3–5工作须证明英语能力。雇主认证、Job Check和工作邀请是前置条件，并非申请人直接参加的劳动力市场测试。另须满足健康、品格及真实来新目的要求。",
-    "immigration_thresholds_en": "A salient permanent-residence route is the Skilled Migrant Category (SMC) Resident Visa, separate from work authorization. Formal entry requirements include age 55 or younger, English, and a skilled job/job offer with an accredited employer, plus eligibility under one SMC pathway. The points pathway requires 6 points: generally 3–6 from one qualifying skill category (qualification, eligible occupational registration or income), with up to 3 additional points from skilled New Zealand work experience if needed. Other pathways specify at least 5 years directly relevant experience including 2 years skilled work in New Zealand, or for eligible trades/technicians a relevant qualification plus 4 years post-qualification experience including 18 months skilled New Zealand work. Income-based points have explicit wage multiples: the official page gives NZD 105/hour for 6 points (3× the current SMC wage threshold) at the time checked. This is not a universal settlement salary; eligibility depends on pathway and evidence. No single fixed residence-duration requirement is stated for this SMC route on the overview page.",
-    "immigration_thresholds_zh": "显著的永居路径是技术移民类别（SMC）居民签证；它与工作许可分开。正式基本条件包括申请时不超过55岁、英语能力、在认证雇主处有技术工作/工作邀请，并符合一条SMC路径。积分路径须取得6分：通常从一个符合条件的技能类别（学历、认可职业注册或收入）取得3–6分；不足部分可用最多3分的新西兰技术工作经验补足。其他路径分别要求至少5年直接相关经验（含2年新西兰技术工作），或符合条件的技工/技术员拥有相关学历及毕业后4年工作经验（含18个月新西兰技术工作）。收入积分有明确倍数门槛：核查时官方页面列出6分对应每小时NZD 105（当前SMC工资门槛的3倍）。这不是所有定居申请通用的工资线；资格取决于路径及证明材料。该SMC概览页未规定统一的居住年限门槛。",
+    "immigration_thresholds_en": "A salient residence route is the Skilled Migrant Category (SMC) Resident Visa, separate from work authorization. Formal entry requirements include age 55 or younger, English, and a skilled job/job offer with an accredited employer, plus eligibility under one SMC pathway. The points pathway requires 6 points: generally 3–6 from one qualifying skill category (qualification, eligible occupational registration or income), with up to 3 additional points from skilled New Zealand work experience if needed. Other pathways specify at least 5 years directly relevant experience including 2 years skilled work in New Zealand, or for eligible trades/technicians a relevant qualification plus 4 years post-qualification experience including 18 months skilled New Zealand work. Income-based points have explicit wage multiples: the official page gives NZD 105/hour for 6 points (3× the current SMC wage threshold) at the time checked. This is not a universal settlement salary; eligibility depends on pathway and evidence. No single fixed residence-duration requirement is stated for this SMC route on the overview page. A Resident Visa is distinct from a Permanent Resident Visa (PRV). The PRV ordinarily requires holding a resident visa continuously for at least two years, a current resident visa (or one expired no more than 90 days), compliance with its conditions, good character and commitment to New Zealand through one of five accepted ways. For the time-in-country commitment option, the official threshold is at least 184 days in each of the last two years; other accepted commitment methods have their own rules.",
+    "immigration_thresholds_zh": "一项重要的居民签证途径是技术移民类别（SMC）居民签证；它与工作许可分开。正式基本条件包括申请时不超过55岁、英语能力、在认证雇主处有技术工作/工作邀请，并符合一条SMC路径。积分路径须取得6分：通常从一个符合条件的技能类别（学历、认可职业注册或收入）取得3–6分；不足部分可用最多3分的新西兰技术工作经验补足。其他路径分别要求至少5年直接相关经验（含2年新西兰技术工作），或符合条件的技工/技术员拥有相关学历及毕业后4年工作经验（含18个月新西兰技术工作）。收入积分有明确倍数门槛：核查时官方页面列出6分对应每小时NZD 105（当前SMC工资门槛的3倍）。这不是所有定居申请通用的工资线；资格取决于路径及证明材料。该SMC概览页未规定统一的居住年限门槛。 Resident Visa（居民签证）与Permanent Resident Visa（永久居民签证，PRV）并不相同。PRV通常要求连续持居民签证至少两年，现有居民签证仍有效（或到期不超过90天）、已满足该签证条件、品格良好，并以五种认可方式之一证明对新西兰的承诺。如选择以居留时间证明，官方标准为过去两年中每年在新西兰至少184天；其他承诺证明方式另有规则。",
     "official_sources": [
       {
         "name": "Immigration New Zealand — Accredited Employer Work Visa",
@@ -1004,6 +1084,14 @@
       {
         "name": "Immigration New Zealand — 2026 median wage update",
         "url": "https://www.immigration.govt.nz/about-us/news-centre/new-occupations-recognised-under-the-national-occupation-list-and-annual-median-wage-increase/"
+      },
+      {
+        "name": "Immigration New Zealand — Permanent Resident Visa (distinct from Resident Visa)",
+        "url": "https://www.immigration.govt.nz/visas/permanent-resident-visa/"
+      },
+      {
+        "name": "Green List roles — jobs we need people for in New Zealand",
+        "url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/green-list-occupations-qualifications-and-skills/green-list-roles-jobs-we-need-people-for-in-new-zealand/"
       }
     ],
     "experiences": [
@@ -1027,8 +1115,8 @@
     "summary_zh": "日本没有一份适用于所有人的通用职业清单，列入某职业并不自动取得工作许可。工作许可取决于具体在留资格、实际活动、雇主／合同及法定条件。特定技能制度是例外，具有实际适用的指定产业领域及工作内容框架；“技术・人文知识・国际业务”和“高度专门职”等广泛类别没有封闭职业清单，须个案审查。所查官方页面包含截至2026年11月9日的信息。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "Research reflects official sources accessed on 9 Nov 2026. Rules, guideline application dates, income provisions and administrative practice can change; the anecdotes are unverified individual reports, not representative, and are not legal advice. The guide’s existing route set was not supplied here, so work thresholds cover the standard professional route most plausibly represented by the guide. Forum accounts, where included, are individual anecdotes, not representative evidence or legal advice.",
-    "caveat_zh": "本研究依据2026年11月9日查阅的官方来源。规定、指南适用日期、收入条款和行政实践可能变化；论坛内容为未经核实的个人经历，不具代表性，也不是法律意见。此处未提供现有指南路线清单，因此工作门槛聚焦于指南最可能涵盖的标准专业工作路线。",
+    "caveat_en": "Official sources checked 9 Nov 2026. The threshold section focuses on Engineer/Specialist in Humanities/International Services; Specified Skilled Worker and other statuses have separate requirements. Rules, guideline dates, income provisions and administrative practice may change. Public discussions are unverified individual reports, not representative evidence or legal advice.",
+    "caveat_zh": "官方来源核验于2026年11月9日。门槛区聚焦于“技术・人文知识・国际业务”；特定技能及其他在留资格另有规定。规则、指南适用日期、收入条款和行政实践可能变化。公开讨论是未经独立核实的个人经历，不具代表性，也不是法律意见。",
     "pathways": [
       {
         "kind": "official_occupation_list",
@@ -1087,6 +1175,14 @@
       {
         "name": "Immigration Services Agency of Japan — Permanent Residence Guidelines (income update effective 1 Oct 2026)",
         "url": "https://www.moj.go.jp/isa/10_00279.html"
+      },
+      {
+        "name": "Immigration Services Agency of Japan — Specified Skilled Worker Status of Residence / Specified Skilled Worker System",
+        "url": "https://www.moj.go.jp/isa/applications/status/specifiedskilledworker.html"
+      },
+      {
+        "name": "Immigration Services Agency of Japan — What is the Highly Skilled Personnel Points System?",
+        "url": "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_system_index.html"
       }
     ],
     "experiences": [
@@ -1210,6 +1306,14 @@
       {
         "name": "MOM — S Pass quota and levy requirements",
         "url": "https://www.mom.gov.sg/passes-and-permits/s-pass/quota-and-levy/levy-and-quota-requirements"
+      },
+      {
+        "name": "Ministry of Manpower — Non-Traditional Sources (NTS) Occupation List",
+        "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/sector-specific-rules/non-traditional-sources-occupation-list"
+      },
+      {
+        "name": "Ministry of Manpower — COMPASS C5 Skills Bonus: Shortage Occupation List (SOL)",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c5-skills-bonus-shortage-occupation-list-sol"
       }
     ],
     "experiences": [
@@ -1229,8 +1333,8 @@
     "country_en": "Hong Kong",
     "country_zh": "香港",
     "authority": "Immigration Department; Labour Department",
-    "summary_en": "Hong Kong has broad employer-sponsored professional admission pathways assessed individually, rather than a general approved-occupations list. An explicitly named eight-trade Technical Professional List applies only within a restricted stream for eligible Mainland residents. Separately, employers may seek to import lower-skilled workers under ESLS only after local recruitment and case-by-case Labour Department approval.",
-    "summary_zh": "香港没有一份普遍决定工作签证资格的全国职业清单；专业人士的雇主担保申请按个案审查。明确列出的八类技术专业只适用于受限的内地居民技术专业人士输入安排。另有雇主可按补充劳工优化计划申请输入较低技术层级劳工，但须先本地招聘并经劳工处逐案批准。",
+    "summary_en": "Hong Kong has broad employer-sponsored professional admission pathways assessed individually, rather than a general approved-occupations list. The eight-trade Technical Professional List applies only within the specific GEP/ASMTP Technical Professionals Stream, subject to the applicable admission scheme and trade requirements. Separately, employers may seek to import lower-skilled workers under ESLS only after local recruitment and case-by-case Labour Department approval.",
+    "summary_zh": "香港没有一份普遍决定工作签证资格的职业清单；专业人士的雇主担保申请按个案审查。八类技术专业清单仅用于一般就业政策／输入内地人才计划下的特定技术专才类别，仍须符合所属入境计划及工种要求。另有雇主可按补充劳工优化计划申请输入较低技术层级劳工，但须先本地招聘并经劳工处逐案批准。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
     "caveat_en": "Official sources checked were the Immigration Department’s current GEP guidebook dated 04/2026 and its right-of-abode eligibility page; the material supports requirements as published by 9 Nov 2026. No fixed GEP salary threshold is published—the HK$2 million figure is only a specified recruitment-evidence facilitation criterion, not a salary minimum. Forum reports are anecdotal, not representative, and not legal advice.",
@@ -1252,10 +1356,10 @@
         "kind": "official_occupation_list",
         "name_en": "Technical Professionals Stream — GEP/ASMTP",
         "name_zh": "技术专业人士输入安排——GEP／ASMTP",
-        "scope_en": "A finite list directly defines trades covered by this specific stream, not all Hong Kong work visas: new industrialisation technicians; nurses; aircraft maintenance technicians; marine services technicians (local vessels); information technology technicians; lift/escalator technicians; building information modelling coordinators; and electrical technicians. The stream is for eligible Mainland residents and is subject to its quota and stream-specific age, qualification, experience and other requirements. A listed trade alone does not guarantee permission; a Hong Kong job offer/employer and the required trade-specific credentials (including registration/licence where specified) remain necessary.",
-        "scope_zh": "有限清单直接界定本特定安排涵盖的工种，并非香港所有工作签证的职业清单：新型工业化技术员、护士、飞机维修技术员、本地船舶海事服务技术员、资讯科技技术员、电梯／自动梯技术员、建筑信息模拟（BIM）协调员及电气技术员。此安排面向符合资格的内地居民，并受配额及该安排的年龄、学历、经验等要求限制。列入清单本身不保证获批；仍须有香港职位／雇主，并具备工种要求的资历（包括规定的注册／执照）。",
-        "conditions_en": "Applicants must meet the minimum requirements specified for the corresponding trade. The scheme page provides a quota and stream-specific eligibility rules; this is not an unrestricted route for foreign nationals generally.",
-        "conditions_zh": "申请人须符合相应工种的最低要求。该计划设有配额及专属资格规则；这不是面向一般外国国民的无限制途径。",
+        "scope_en": "A finite list directly defines trades covered by this specific stream, not all Hong Kong work visas: new industrialisation technicians; nurses; aircraft maintenance technicians; marine services technicians (local vessels); information technology technicians; lift/escalator technicians; building information modelling coordinators; and electrical technicians. It operates under the GEP/ASMTP Technical Professionals Stream; the applicable admission scheme, quota and stream-specific criteria must be met. A listed trade alone does not guarantee permission. Trade-specific academic, experience, professional-registration/licence and skills requirements still apply.",
+        "scope_zh": "有限清单直接界定本特定类别涵盖的工种，并非香港所有工作签证的职业清单：新型工业化技术员、护士、飞机维修技术员、本地船舶海事服务技术员、资讯科技技术员、电梯／自动梯技术员、建筑信息模拟（BIM）协调员及电气技术员。该类别设于一般就业政策／输入内地人才计划之下；申请人须符合相应入境计划、配额及本类别条件。列入清单本身不保证获批；仍须满足工种规定的学历、经验、专业注册／执照及技能要求。",
+        "conditions_en": "Applicants must satisfy the corresponding trade’s minimum qualifications and the current Technical Professionals Stream rules. The applicable GEP or ASMTP nationality/residence criteria, employer/job-offer requirements, quota and remuneration rules must also be checked. The occupation list does not itself confer work authorization or waive the other admission requirements.",
+        "conditions_zh": "申请人须符合相应工种的最低资历及现行技术专才类别规则；还须核实适用的一般就业政策或输入内地人才计划的国籍／居住身份条件，以及雇主／聘用、配额和薪酬要求。职业清单本身不授予工作许可，也不豁免其他入境条件。",
         "source_name": "Immigration Department — Relevant Information of “Technical Professional List”",
         "source_url": "https://www.immd.gov.hk/eng/services/visas/TPlist.html",
         "occupations": [
@@ -1310,10 +1414,10 @@
         "occupations": []
       }
     ],
-    "work_permit_thresholds_en": "For the page’s professional employment route (General Employment Policy, GEP), there is no fixed published minimum salary, age, points score, language test, or general years-of-experience threshold. A case is considered favourably where the applicant has a good education background (normally a relevant first degree; in special cases, documented technical qualifications, professional ability and/or relevant experience/achievements may substitute), a genuine vacancy and confirmed offer for work related to the applicant’s qualifications or experience that cannot readily be taken up by the local workforce, and a remuneration package broadly commensurate with prevailing Hong Kong professional market levels. No fixed LMIA-style recruitment test is stated as a universal threshold; local-recruitment evidence may be waived in specified facilitation cases, including a post on the Talent List or total annual remuneration of HK$2 million or above. These are considerations, not automatic approval guarantees; ImmD retains discretion. The employer and applicant submit supporting documents, and the employer must substantiate its business in the applicable cases.",
-    "work_permit_thresholds_zh": "就本页所涉专业人士就业路线（一般就业政策 GEP）而言，官方没有公布统一的最低薪金、年龄、积分、语言考试或一般年资门槛。通常须具备良好教育背景（一般为相关学科学士学位；特殊情况下，可凭文件证明的技术资格、专业能力及／或相关经验与成就替代），并有真实职位空缺及已确认聘用；工作须与申请人的学历或工作经验相关，且本地劳动力不易胜任。薪酬待遇须大致符合香港专业人士当时的市场水平。官方没有把类似 LMIA 的招聘测试列为普遍硬性门槛；在指定便利安排下（例如职位属于人才清单，或年薪总薪酬达港币200万元或以上），可免提交本地招聘困难证明。以上均非自动获批保证，入境处保留个案酌情权。申请人及雇主须提交文件；适用个案中雇主须证明其业务情况。",
-    "immigration_thresholds_en": "For a non-Chinese national, the salient permanent-residence route is Hong Kong right of abode: ordinarily reside in Hong Kong continuously for at least seven years immediately before applying, enter with a valid travel document, and declare and satisfy ImmD that Hong Kong has been taken as the person’s place of permanent residence. Evidence may include habitual residence, whether the spouse/minor children are in Hong Kong, reasonable means to support the person and family, and tax compliance. The seven-year residence test is not a work-visa rule; a work visa does not itself confer permanent residence, and status arises only after application and approval. Ordinary residence is assessed under the rules and facts of the case.",
-    "immigration_thresholds_zh": "非中国籍人士最相关的永久居留路线是香港居留权：申请前须在香港连续通常居住不少于七年、持有效旅行证件进入香港，并声明且令入境处信纳已以香港为永久居住地。证明材料可包括惯常居住情况、配偶及未成年子女是否在港、本人及家人的合理生活来源，以及是否依法缴税。七年居住要求属于永久居留条件，并非工作签证条件；工作签证本身不赋予永久居留，须另行申请并获批才取得身份。通常居住情况按规则及个案事实判断。",
+    "work_permit_thresholds_en": "For the page’s professional employment route (General Employment Policy, GEP), there is no fixed published minimum salary, age, points score, language test, or general years-of-experience threshold. A case is considered favourably where the applicant has a good education background (normally a relevant first degree; in special cases, documented technical qualifications, professional ability and/or relevant experience/achievements may substitute), a genuine vacancy and confirmed offer for work related to the applicant’s qualifications or experience that cannot readily be taken up by the local workforce, and a remuneration package broadly commensurate with prevailing Hong Kong professional market levels. No fixed LMIA-style recruitment test is stated as a universal threshold; local-recruitment evidence may be waived in specified facilitation cases, including a post on the Talent List or total annual remuneration of HK$2 million or above. These are considerations, not automatic approval guarantees; ImmD retains discretion. The employer and applicant submit supporting documents, and the employer must substantiate its business in the applicable cases. These GEP professional-route thresholds must not be confused with the separate GEP/ASMTP Technical Professionals Stream, which has its own eligibility rules, trade-specific credentials and published minimum market monthly remuneration schedule; consult that stream’s official guidance.",
+    "work_permit_thresholds_zh": "就本页所涉专业人士就业路线（一般就业政策 GEP）而言，官方没有公布统一的最低薪金、年龄、积分、语言考试或一般年资门槛。通常须具备良好教育背景（一般为相关学科学士学位；特殊情况下，可凭文件证明的技术资格、专业能力及／或相关经验与成就替代），并有真实职位空缺及已确认聘用；工作须与申请人的学历或工作经验相关，且本地劳动力不易胜任。薪酬待遇须大致符合香港专业人士当时的市场水平。官方没有把类似 LMIA 的招聘测试列为普遍硬性门槛；在指定便利安排下（例如职位属于人才清单，或年薪总薪酬达港币200万元或以上），可免提交本地招聘困难证明。以上均非自动获批保证，入境处保留个案酌情权。申请人及雇主须提交文件；适用个案中雇主须证明其业务情况。 上述一般就业政策专业人士条件，不应与另设的GEP／ASMTP技术专才类别混为一谈；后者另有资格规则、工种资历要求及已公布的最低市场月薪待遇表，须按该类别官方指引核实。",
+    "immigration_thresholds_en": "Hong Kong right of abode is separate from work permission. Under the ordinary-residence category for Chinese citizens, the official rule is continuous ordinary residence in Hong Kong for at least seven years. For non-Chinese nationals, the corresponding category requires entry with a valid travel document, continuous ordinary residence for at least seven years immediately before applying, and taking Hong Kong as the place of permanent residence, supported by the prescribed declaration and evidence (which may include habitual residence, spouse/minor children, means of support and tax compliance). Non-Chinese applicants do not acquire this status under that category until they apply and are approved. Ordinary residence is a legal test assessed on the facts; merely holding a work visa or spending seven calendar years in Hong Kong is not an automatic guarantee.",
+    "immigration_thresholds_zh": "香港居留权与工作许可是两回事。就中国籍人士的通常居住类别，官方规则为在香港连续通常居住不少于七年。非中国籍人士的对应类别还要求持有效旅行证件入境、申请前连续通常居住不少于七年，并已以香港为永久居住地，须作指定声明及提交证明（可能包括惯常居住、配偶／未成年子女、生活来源及依法缴税情况）。非中国籍申请人须提出申请并获批，才在该类别下取得身份。“通常居住”是按事实判断的法律标准；仅持工签或在港经过七个历年，不代表自动获批。",
     "official_sources": [
       {
         "name": "Hong Kong Immigration Department — Guidebook relating to employment as professionals (GEP), ID(E)991 (04/2026)",
@@ -1326,6 +1430,22 @@
       {
         "name": "Hong Kong Immigration Department — Eligibility for the Right of Abode in the HKSAR",
         "url": "https://www.immd.gov.hk/eng/services/roa/eligible.html"
+      },
+      {
+        "name": "Immigration Department — GEP/ASMTP Technical Professionals Stream",
+        "url": "https://www.immd.gov.hk/eng/services/visas/TPStream.html"
+      },
+      {
+        "name": "Immigration Department — Relevant Information of “Technical Professional List”",
+        "url": "https://www.immd.gov.hk/eng/services/visas/TPlist.html"
+      },
+      {
+        "name": "Labour Department — Enhanced Supplementary Labour Scheme",
+        "url": "https://www.labour.gov.hk/eng/plan/iwESLS.htm"
+      },
+      {
+        "name": "Immigration Department — Top Talent Pass Scheme FAQ",
+        "url": "https://www.immd.gov.hk/eng/faq/TTPS.html"
       }
     ],
     "experiences": [
