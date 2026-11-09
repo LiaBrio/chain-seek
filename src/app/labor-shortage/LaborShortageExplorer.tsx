@@ -9,42 +9,52 @@ import { useLanguage } from "@/hooks/useLanguage";
 import rawEntries from "@/data/labor-shortage.json";
 import styles from "./shortage.module.css";
 
-type SignalType = "official_shortage_list" | "official_shortage_analysis" | "immigration_program_list" | "official_proxy" | "not_found";
-type Occupation = { name_en: string; local_name: string; sector: string; source_url: string; basis: string };
-type CountryEntry = {
+type RouteKind = "official_occupation_list" | "program_specific_list" | "employer_sponsored" | "sector_limited" | "qualified_worker" | "talent_list_not_authorization";
+type Occupation = { name_en: string; local_name: string; basis_en: string; basis_zh: string };
+type WorkPathway = {
+  kind: RouteKind;
+  name_en: string;
+  name_zh: string;
+  scope_en: string;
+  scope_zh: string;
+  conditions_en: string;
+  conditions_zh: string;
+  source_name: string;
+  source_url: string;
+  occupations: Occupation[];
+};
+type Destination = {
   id: string;
   country_en: string;
   country_zh: string;
-  signal_type: SignalType;
-  signal_label: string;
-  list_title: string;
   authority: string;
-  source_title: string;
-  source_url: string;
+  summary_en: string;
+  summary_zh: string;
   published_date: string;
   effective_period: string;
-  methodology: string;
-  caveat: string;
-  occupations: Occupation[];
+  caveat_en: string;
+  caveat_zh: string;
+  pathways: WorkPathway[];
 };
-const entries = rawEntries as CountryEntry[];
+const entries = rawEntries as Destination[];
 
 const copy = {
   en: {
-    top: "GLOBAL LABOUR-MARKET SOURCES", title: "Where skills are in demand", subtitle: "A source-led guide to official shortage lists and labour-market signals from 12 major destinations. Check what each source actually measures before treating a role as a hiring or visa opportunity.", home: "Back to ChainSeek", badge: "CURATED · GOVERNMENT SOURCES", countries: "destinations", examples: "occupation examples", sources: "source types", search: "Search occupations, sectors, or source titles", allCountries: "All destinations", allTypes: "All source types", list: "Official shortage list", analysis: "Official shortage analysis", immigration: "Immigration occupation list", proxy: "Official labour-market data", noList: "No national list found", results: "destinations shown", examplesLabel: "Representative examples — not the complete list", noExamples: "No occupation examples are listed for this source.", source: "Open official source", authority: "Publishing authority", published: "Published", effective: "Period / validity", methodology: "What the source measures", caveat: "Read this before comparing", checked: "Source checked 9 Nov 2026", noMatches: "No destinations match those filters.", reset: "Clear filters", notFound: "No verified national shortage occupation list was located for this destination in this curated snapshot.", trustTitle: "Shortage lists are not all the same", trustBody: "Some governments publish labour-market shortage assessments. Others publish occupation lists for immigration eligibility, which are not proof of a nationwide hiring shortage. We label the source type and link to the original publication so you can judge the scope yourself.", disclaimer: "This is a research starting point, not a job offer, visa decision, or guarantee of current vacancies. Lists can change; always confirm details with the linked authority.", footer: "ChainSeek provides sourced information for exploration. Verify details with the issuing authority before making employment or immigration decisions."
+    top: "WORK VISAS FOR FOREIGN WORKERS", title: "Which jobs can qualify for a work visa?", subtitle: "Explore official occupation lists where they exist, plus verified work-permit routes and their limits. A listed role is not a visa guarantee, and labour shortage does not automatically mean visa eligibility.", home: "Back to ChainSeek", badge: "GOVERNMENT SOURCES · BILINGUAL GUIDE", destinations: "destinations", pathways: "official pathways", examples: "sample listed roles", search: "Search destinations, visa routes, occupations, or requirements", allCountries: "All destinations", allTypes: "All pathway types", list: "Occupation list", program: "Program-specific list", employer: "Employer-sponsored route", sector: "Sector-limited route", qualified: "Qualified-worker route", talent: "Talent list (not work authorization)", results: "destinations shown", routeLabel: "Official work-permit routes", scope: "Who / what the route covers", conditions: "Main conditions and limits", roles: "Examples explicitly named by the source", noRoles: "No general eligible-occupation list is established by this route. See its conditions and official guidance.", source: "Open official source", authority: "Government authority", published: "Source date", effective: "Validity / application period", caveat: "Important limits", checked: "Official sources checked 9 Nov 2026", noMatches: "No destinations match those filters.", reset: "Clear filters", trustTitle: "A job title alone does not secure a visa", trustBody: "Some governments publish occupation lists for a particular permit, stream, or points benefit. Others assess a specific job offer, employer, qualifications, salary, licensing, or sector instead. We keep those routes separate and link to the official rules; confirm current eligibility with the issuing authority before applying.", disclaimer: "This guide is for research only. It is not legal advice, a job offer, a visa decision, or a guarantee that a role or employer will qualify. Immigration rules and lists can change.", footer: "ChainSeek shares source-linked information for exploration. Verify employment and immigration requirements with the issuing authority." , noRoute: "No destinations match this route type."
   },
   zh: {
-    top: "全球劳动力市场官方来源", title: "哪些职业需求较高？", subtitle: "汇集 12 个主要目的地的官方短缺职业清单与劳动力市场信号。先看清每个来源实际衡量什么，不要把职业名单直接等同于招聘机会或签证资格。", home: "返回 ChainSeek", badge: "精选 · 政府来源", countries: "个目的地", examples: "条职业示例", sources: "种来源类型", search: "搜索职业、行业或来源名称", allCountries: "所有目的地", allTypes: "所有来源类型", list: "官方短缺清单", analysis: "官方短缺分析", immigration: "移民职业名单", proxy: "官方劳动力数据", noList: "未找到全国名单", results: "个目的地", examplesLabel: "代表性示例 · 并非完整名单", noExamples: "此来源暂无已核实的职业示例。", source: "查看官方原文", authority: "发布机构", published: "发布日期", effective: "适用期间 / 有效期", methodology: "来源衡量内容", caveat: "比较前请留意", checked: "来源核验于 2026 年 11 月 9 日", noMatches: "没有符合筛选条件的目的地。", reset: "清除筛选", notFound: "本精选快照中未找到该目的地经核实的全国性短缺职业名单。", trustTitle: "不同国家的“短缺名单”并不相同", trustBody: "部分政府发布劳动力市场短缺评估；另一些发布的是移民资格职业名单，它们并不能证明全国招聘普遍短缺。我们标明来源类型并链接官方原文，方便你自行判断范围。", disclaimer: "本页仅供研究参考，不构成工作邀约、签证决定或当前职位空缺保证。名单可能更新；就业或移民决定前，请以发布机构原文为准。", footer: "ChainSeek 提供有来源依据的信息以供查阅。就业或移民决定前，请向发布机构核实详情。"
+    top: "外国人工作签证与工作许可", title: "哪些岗位可以申请工签？", subtitle: "查看官方明确列出的职业（如有），以及经核实的工作许可路径和适用限制。岗位出现在名单中不代表必获签证；劳动力短缺也不自动等于具备工签资格。", home: "返回 ChainSeek", badge: "政府来源 · 中英双语指南", destinations: "个目的地", pathways: "条官方许可路径", examples: "个官方列明岗位示例", search: "搜索目的地、签证路径、职业或申请条件", allCountries: "所有目的地", allTypes: "所有路径类型", list: "官方职业名单", program: "特定项目名单", employer: "雇主担保路径", sector: "行业限制路径", qualified: "技术人才路径", talent: "人才名单（本身不授予工签）", results: "个目的地", routeLabel: "官方工作许可路径", scope: "适用岗位 / 范围", conditions: "主要条件与限制", roles: "官方来源明确列举的岗位示例", noRoles: "此路径没有设立通用的合资格职业名单；请查看路径条件及官方说明。", source: "查看官方来源", authority: "政府主管机构", published: "来源日期", effective: "有效期 / 申请期间", caveat: "重要限制", checked: "官方来源核验于 2026 年 11 月 9 日", noMatches: "没有符合筛选条件的目的地。", reset: "清除筛选", trustTitle: "仅有岗位名称，不足以确保获批工签", trustBody: "部分政府名单只适用于特定许可、项目或加分项；其他路径会审核具体职位、雇主、学历、薪资、执业资格或行业条件。我们分别标明这些路径并链接官方规则；申请前请向主管机构确认最新资格。", disclaimer: "本指南仅供研究参考，不构成法律意见、工作邀约、签证决定或对岗位/雇主资格的保证。移民规则和名单可能变更。", footer: "ChainSeek 提供带来源链接的信息供查阅。就业与移民决定前，请向主管机构核实要求。", noRoute: "没有符合此路径类型的目的地。"
   }
 } as const;
 
-function getTypeLabel(type: SignalType, lang: "en" | "zh") {
-  const labels = {
-    en: { official_shortage_list: "Official shortage list", official_shortage_analysis: "Official shortage analysis", immigration_program_list: "Immigration occupation list", official_proxy: "Official labour-market data", not_found: "No national list found" },
-    zh: { official_shortage_list: "官方短缺清单", official_shortage_analysis: "官方短缺分析", immigration_program_list: "移民职业名单", official_proxy: "官方劳动力数据", not_found: "未找到全国名单" }
-  };
-  return labels[lang][type];
-}
+const routeLabels: Record<RouteKind, { en: string; zh: string }> = {
+  official_occupation_list: { en: "Occupation list", zh: "官方职业名单" },
+  program_specific_list: { en: "Program-specific list", zh: "特定项目名单" },
+  employer_sponsored: { en: "Employer-sponsored route", zh: "雇主担保路径" },
+  sector_limited: { en: "Sector-limited route", zh: "行业限制路径" },
+  qualified_worker: { en: "Qualified-worker route", zh: "技术人才路径" },
+  talent_list_not_authorization: { en: "Talent list — not work authorization", zh: "人才名单（本身不授予工签）" }
+};
 
 export default function LaborShortageExplorer() {
   const { language, changeLanguage, availableLanguages, t } = useLanguage();
@@ -53,15 +63,21 @@ export default function LaborShortageExplorer() {
   const [query, setQuery] = useState("");
   const [countryFilter, setCountryFilter] = useState("all");
   const [typeFilter, setTypeFilter] = useState("all");
-  const totalExamples = entries.reduce((sum, entry) => sum + entry.occupations.length, 0);
+  const totalPathways = entries.reduce((sum, entry) => sum + entry.pathways.length, 0);
+  const totalRoles = entries.reduce((sum, entry) => sum + entry.pathways.reduce((n, path) => n + path.occupations.length, 0), 0);
   const filtered = useMemo(() => {
     const term = query.trim().toLowerCase();
-    return entries.filter((entry) => {
+    return entries.map((entry) => {
       const countryMatch = countryFilter === "all" || entry.id === countryFilter;
-      const typeMatch = typeFilter === "all" || entry.signal_type === typeFilter;
-      const text = [entry.country_en, entry.country_zh, entry.list_title, entry.authority, entry.methodology, ...entry.occupations.flatMap((job) => [job.name_en, job.local_name, job.sector, job.basis])].join(" ").toLowerCase();
-      return countryMatch && typeMatch && (!term || text.includes(term));
-    });
+      const entryText = [entry.country_en, entry.country_zh, entry.authority, entry.summary_en, entry.summary_zh, entry.caveat_en, entry.caveat_zh].join(" ").toLowerCase();
+      const entryMatch = !term || entryText.includes(term);
+      const pathways = entry.pathways.filter((path) => {
+        const typeMatch = typeFilter === "all" || path.kind === typeFilter;
+        const text = [path.name_en, path.name_zh, path.scope_en, path.scope_zh, path.conditions_en, path.conditions_zh, path.source_name, ...path.occupations.flatMap((job) => [job.name_en, job.local_name, job.basis_en, job.basis_zh])].join(" ").toLowerCase();
+        return typeMatch && (!term || entryMatch || text.includes(term));
+      });
+      return { entry, pathways, countryMatch, entryMatch };
+    }).filter((item) => item.countryMatch && item.pathways.length > 0 && item.entryMatch);
   }, [query, countryFilter, typeFilter]);
 
   return <div className={styles.page}>
@@ -78,9 +94,9 @@ export default function LaborShortageExplorer() {
           <p>{c.subtitle}</p>
           <span className={styles.curated}><FileCheck2 size={14} />{c.badge}</span>
           <div className={styles.stats}>
-            <div><strong>{entries.length}</strong><span>{c.countries}</span></div>
-            <div><strong>{totalExamples}</strong><span>{c.examples}</span></div>
-            <div><strong>{new Set(entries.map((entry) => entry.signal_type)).size}</strong><span>{c.sources}</span></div>
+            <div><strong>{entries.length}</strong><span>{c.destinations}</span></div>
+            <div><strong>{totalPathways}</strong><span>{c.pathways}</span></div>
+            <div><strong>{totalRoles}</strong><span>{c.examples}</span></div>
           </div>
         </div>
       </section>
@@ -89,32 +105,35 @@ export default function LaborShortageExplorer() {
         <div className={styles.filters}>
           <label className={styles.search}><Search size={17} /><span className={styles.srOnly}>{c.search}</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={c.search} /></label>
           <label><span className={styles.srOnly}>{c.allCountries}</span><select value={countryFilter} onChange={(event) => setCountryFilter(event.target.value)}><option value="all">{c.allCountries}</option>{entries.map((entry) => <option key={entry.id} value={entry.id}>{lang === "zh" ? entry.country_zh : entry.country_en}</option>)}</select></label>
-          <label><span className={styles.srOnly}>{c.allTypes}</span><select value={typeFilter} onChange={(event) => setTypeFilter(event.target.value)}><option value="all">{c.allTypes}</option>{(["official_shortage_list", "official_shortage_analysis", "immigration_program_list", "official_proxy", "not_found"] as SignalType[]).map((type) => <option key={type} value={type}>{getTypeLabel(type, lang)}</option>)}</select></label>
+          <label><span className={styles.srOnly}>{c.allTypes}</span><select value={typeFilter} onChange={(event) => setTypeFilter(event.target.value)}><option value="all">{c.allTypes}</option>{(Object.keys(routeLabels) as RouteKind[]).map((kind) => <option key={kind} value={kind}>{routeLabels[kind][lang]}</option>)}</select></label>
         </div>
         <div className={styles.resultsMeta}>{filtered.length} {c.results}</div>
 
         {filtered.length === 0 ? <div className={styles.empty}>{c.noMatches}<button type="button" onClick={() => { setQuery(""); setCountryFilter("all"); setTypeFilter("all"); }}>{c.reset}</button></div> : <div className={styles.grid}>
-          {filtered.map((entry) => <article className={styles.card} key={entry.id}>
+          {filtered.map(({ entry, pathways }) => <article className={styles.card} key={entry.id}>
             <div className={styles.cardHead}>
-              <div><div className={styles.countryName}>{lang === "zh" ? entry.country_zh : entry.country_en}</div><div className={styles.listTitle}>{entry.list_title}</div></div>
-              <span className={`${styles.type} ${styles[entry.signal_type]}`}>{getTypeLabel(entry.signal_type, lang)}</span>
+              <div><div className={styles.countryName}>{lang === "zh" ? entry.country_zh : entry.country_en}</div><div className={styles.summary}>{lang === "zh" ? entry.summary_zh : entry.summary_en}</div></div>
+              <span className={styles.type}>{c.routeLabel}</span>
             </div>
-            {entry.signal_type === "not_found" ? <p className={styles.notFound}>{c.notFound}</p> : <>
-              <div className={styles.facts}>
-                <div><span>{c.authority}</span><strong>{entry.authority}</strong></div>
-                <div><span>{c.published}</span><strong>{entry.published_date}</strong></div>
-                <div><span>{c.effective}</span><strong>{entry.effective_period}</strong></div>
-              </div>
-              <div className={styles.note}><strong>{c.methodology}</strong><p>{entry.methodology}</p></div>
-              {!!entry.occupations.length && <div className={styles.jobsBlock}>
-                <div className={styles.jobsTitle}><BriefcaseBusiness size={15} />{c.examplesLabel}</div>
-                <ul className={styles.jobs}>{entry.occupations.map((job, index) => <li key={`${job.name_en}-${index}`}><div><strong><a className={styles.jobLink} href={job.source_url || entry.source_url} target="_blank" rel="noopener noreferrer">{job.name_en}</a></strong>{job.local_name && job.local_name !== job.name_en && !job.local_name.startsWith("Not stated") && <span>{job.local_name}</span>}<details className={styles.jobBasis}><summary>{lang === "zh" ? "入选依据" : "Why this appears"}</summary><p>{job.basis}</p></details></div><em>{job.sector}</em></li>)}</ul>
-              </div>}
-              {!entry.occupations.length && <p className={styles.noExamples}>{c.noExamples}</p>}
-              <div className={styles.caveat}><strong>{c.caveat}</strong><p>{entry.caveat}</p></div>
-              <a className={styles.sourceLink} href={entry.source_url} target="_blank" rel="noopener noreferrer">{c.source}<ArrowUpRight size={15} /><ExternalLink size={13} /></a>
-              <div className={styles.checked}>{c.checked}</div>
-            </>}
+            <div className={styles.facts}>
+              <div><span>{c.authority}</span><strong>{entry.authority}</strong></div>
+              <div><span>{c.published}</span><strong>{entry.published_date}</strong></div>
+              <div><span>{c.effective}</span><strong>{entry.effective_period}</strong></div>
+            </div>
+            <div className={styles.pathways}>
+              {pathways.map((path, index) => <section className={styles.pathway} key={`${path.name_en}-${index}`}>
+                <div className={styles.pathwayHead}><h3>{lang === "zh" ? path.name_zh : path.name_en}</h3><span className={styles.pathKind}>{routeLabels[path.kind][lang]}</span></div>
+                <div className={styles.note}><strong>{c.scope}</strong><p>{lang === "zh" ? path.scope_zh : path.scope_en}</p></div>
+                <div className={styles.note}><strong>{c.conditions}</strong><p>{lang === "zh" ? path.conditions_zh : path.conditions_en}</p></div>
+                {!!path.occupations.length ? <div className={styles.jobsBlock}>
+                  <div className={styles.jobsTitle}><BriefcaseBusiness size={15} />{c.roles}</div>
+                  <ul className={styles.jobs}>{path.occupations.map((job, roleIndex) => <li key={`${job.name_en}-${roleIndex}`}><div><strong>{lang === "zh" && job.local_name ? job.local_name : job.name_en}</strong>{job.local_name && job.local_name !== job.name_en && <span>{lang === "zh" ? job.name_en : job.local_name}</span>}<details className={styles.jobBasis}><summary>{lang === "zh" ? "入选依据" : "Why this role appears"}</summary><p>{lang === "zh" ? job.basis_zh : job.basis_en}</p></details></div></li>)}</ul>
+                </div> : <p className={styles.noExamples}>{c.noRoles}</p>}
+                <a className={styles.sourceLink} href={path.source_url} target="_blank" rel="noopener noreferrer">{c.source}<ArrowUpRight size={15} /><ExternalLink size={13} /><small>{path.source_name}</small></a>
+              </section>)}
+            </div>
+            <div className={styles.caveat}><strong>{c.caveat}</strong><p>{lang === "zh" ? entry.caveat_zh : entry.caveat_en}</p></div>
+            <div className={styles.checked}>{c.checked}</div>
           </article>)}
         </div>}
 

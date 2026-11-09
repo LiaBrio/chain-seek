@@ -85,14 +85,14 @@ export default function Home() {
     <div className={styles.topline}><span className={styles.statusDot} />{c.strip}</div>
     <header className={styles.nav}><div className={styles.wrap + " " + styles.navInner}>
       <a className={styles.brand} href="#top" aria-label="ChainSeek home"><span className={styles.brandMark}><ShieldCheck size={20} /></span><span>ChainSeek<small>WEB3 SAFETY</small></span></a>
-      <nav className={styles.navLinks} aria-label="Main navigation"><a href="#safety">{c.navSafety}</a><a href="#decode">{c.navDecode}</a><a href="#directory">{c.navDirectory}</a><a href="/tools/">{c.explore}</a><a href="/labor-shortage/">{language === "zh" ? "国际用工数据" : "Global jobs data"}</a></nav>
+      <nav className={styles.navLinks} aria-label="Main navigation"><a href="#safety">{c.navSafety}</a><a href="#decode">{c.navDecode}</a><a href="#directory">{c.navDirectory}</a><a href="/tools/">{c.explore}</a><a href="/labor-shortage/">{language === "zh" ? "外国人工作签证" : "Work visa pathways"}</a></nav>
       <div className={styles.navActions}><LanguageSwitcher currentLanguage={language} onLanguageChange={(next) => { changeLanguage(next); setSelectedCategory("__ALL__"); }} availableLanguages={availableLanguages} /><a className={styles.navCta} href="#quick-check">{c.start}<ArrowRight size={15} /></a></div>
     </div></header>
 
     <main>
       <section className={styles.hero}><div className={`${styles.wrap} ${styles.heroInner}`}>
         <div className={styles.heroCopy}><div className={styles.eyebrow}><span />{c.eyebrow}</div><h1>{c.titleA}<br /><em>{c.titleB}</em></h1><p className={styles.lead}>{c.lead}</p>
-          <div className={styles.heroActions}><a className={styles.limeButton} href="#quick-check">{c.start}<ArrowRight size={16} /></a><a className={styles.outlineButton} href="#directory">{c.explore}</a><a className={styles.outlineButton} href="/labor-shortage/">{language === "zh" ? "全球职业短缺" : "Global shortage data"}</a></div>
+          <div className={styles.heroActions}><a className={styles.limeButton} href="#quick-check">{c.start}<ArrowRight size={16} /></a><a className={styles.outlineButton} href="#directory">{c.explore}</a><a className={styles.outlineButton} href="/labor-shortage/">{language === "zh" ? "外国人工作签证" : "Work visa pathways"}</a></div>
           <p className={styles.heroNote}><ShieldCheck size={15} />{c.noWallet}</p>
         </div>
         <aside className={styles.checklist} aria-label={c.checkTitle}><div className={styles.checklistHead}><span className={styles.checkIcon}><ShieldCheck size={17} /></span><strong>{c.checkTitle}</strong><span className={styles.label}>CHECKLIST</span></div><ol>{c.checklist.map((item, i) => <li key={item}><span>{String(i + 1).padStart(2, "0")}</span>{item}</li>)}</ol><p>{c.panelNote}</p><div className={styles.demoNotice}><b>{c.demoTitle}</b><span>{c.demo}</span></div></aside>

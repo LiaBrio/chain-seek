@@ -1,772 +1,871 @@
 [
   {
-    "authority": "U.S. Bureau of Labor Statistics (BLS), U.S. Department of Labor",
-    "caveat": "No verified federal national occupation shortage list or national shortage analysis was identified in the reviewed official sources. This is the closest verified broad national occupational proxy, covering projected U.S. employment and openings across occupations; it is not evidence that listed occupations are in shortage. The figures are projections, not current vacancy counts, and may not reflect local or sector-specific conditions. The proxy has no immigration-eligibility effect. Any immigration-specific occupation designation is a separate legal/program eligibility mechanism and should not be interpreted as a general labor-market shortage list. Dates are reported only as supported by the source: the projection period is 2025–35; an exact publication date is not stated in the page content reviewed.",
+    "id": "us",
     "country_en": "United States",
     "country_zh": "美国",
-    "effective_period": "Projection period: 2025–35",
-    "id": "us",
-    "list_title": "Not a shortage list; BLS Occupational Projections and Worker Characteristics, 2025–35",
-    "methodology": "BLS National Employment Matrix projects occupational employment and annual average occupational openings for 2025–35. BLS defines openings as net occupational employment change plus occupational separations; this is a projection of entry opportunities, not a direct measure of unmet labor demand or occupational shortage. Source definitions: https://www.bls.gov/emp/documentation/definitions.htm",
-    "occupations": [
+    "authority": "U.S. Citizenship and Immigration Services; U.S. Department of State; U.S. Department of Labor",
+    "summary_en": "U.S. work authorization is pathway-based, not based on a single national list of occupations. Temporary work usually requires classification-specific eligibility and, for most categories, an employer-filed petition. Permanent employment immigration has preference categories, many requiring a job offer and labor certification; these do not make ordinary jobs automatically eligible.",
+    "summary_zh": "美国工作许可按签证类别和申请途径决定，并无一份普遍适用、列明可获工作许可职业的全国清单。临时工作通常须符合具体类别条件，且多数类别需要雇主提交申请。就业移民设有优先类别，其中许多要求工作邀请和劳工认证；普通职业并不会因此自动符合条件。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "A visa category’s sector or worker-class description is not a guarantee that any particular job qualifies. Employer petition/sponsorship, labor certification or labor-market tests, education/experience, licensing, country eligibility, annual caps, and visa availability depend on the specific route. The official visa page’s H-2B designated-country rule is route-specific, not a universal rule for U.S. work visas.",
+    "caveat_zh": "签证类别所述行业或人员类别，并不保证任何具体职位符合条件。是否须雇主提交申请/担保、劳工认证或劳动力市场测试、学历/经验、执照、国籍限制、年度名额及签证是否可用，均取决于具体途径。官方签证网页所述 H-2B 指定国家要求仅适用于该类别，并非美国工作签证的普遍规则。",
+    "pathways": [
       {
-        "basis": "Proxy only: BLS reports 285.0 thousand occupational openings per year on average for 2025–35. This projected-opening figure is not a shortage designation.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "General and operations managers",
-        "sector": "Management",
-        "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+        "kind": "qualified_worker",
+        "name_en": "H-1B specialty occupation (temporary work)",
+        "name_zh": "H-1B 专业职业（临时工作）",
+        "scope_en": "A qualification-defined route, not a finite occupational whitelist. A position must require highly specialized knowledge and normally a directly related bachelor’s degree or equivalent as the minimum entry requirement. USCIS also identifies DOD cooperative research/development project services and fashion models of distinguished merit or ability under H-1B subcategories.",
+        "scope_zh": "这是按资格条件界定的途径，而非封闭职业清单。职位须要求高度专业知识，通常以相关专业学士学位或同等资格作为最低入职要求。USCIS 亦列出国防部合作研发项目服务，以及具卓越资历或能力的时装模特等 H-1B 子类别。",
+        "conditions_en": "A prospective U.S. petitioner generally files Form I-129; the specialty-occupation case requires a certified Department of Labor Labor Condition Application. The worker must satisfy the degree/equivalency or applicable licensing/experience criteria. USCIS adjudicates the petition; approval is not guaranteed merely because a job title sounds specialized.",
+        "conditions_zh": "通常由美国雇主/申请人提交 I-129；专业职业申请须有美国劳工部认证的劳动条件申请。申请人须满足学位/同等学历或适用的执照、经验标准。USCIS 审理申请；职位名称听起来专业并不意味着必然获批。",
+        "source_name": "USCIS — H-1B Specialty Occupations",
+        "source_url": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations",
+        "occupations": []
       },
       {
-        "basis": "Proxy only: BLS reports 34.0 thousand occupational openings per year on average for 2025–35. This projected-opening figure is not a shortage designation.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Marketing managers",
-        "sector": "Management",
-        "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+        "kind": "sector_limited",
+        "name_en": "H-2A temporary agricultural work",
+        "name_zh": "H-2A 临时农业工作",
+        "scope_en": "Sector-specific eligibility for temporary or seasonal agricultural jobs; this is not an occupation-by-occupation national list. The category itself specifies agriculture, and an offered job must be temporary or seasonal.",
+        "scope_zh": "适用于临时或季节性农业工作的行业类别，并非逐个职业列出的全国清单。类别限定为农业，所提供的工作须属临时或季节性。",
+        "conditions_en": "A U.S. employer, qualifying agent, or agricultural-producer association files the petition. The employer must show insufficient able, willing, qualified, and available U.S. workers, no adverse effect on similarly employed U.S. workers’ wages/conditions, and generally obtain DOL temporary labor certification before petition approval. The petition must reflect the labor certification’s job requirements. USCIS states that since Jan. 17, 2025, H-2A eligibility no longer requires the beneficiary to be a national of a designated country.",
+        "conditions_zh": "由美国雇主、符合规定的代理人或农业生产者协会提交申请。雇主须证明没有足够数量的有能力、愿意、合格且可用的美国工人，雇用 H-2A 工人不会不利影响类似岗位美国工人的工资与工作条件，并通常须先取得劳工部临时劳工认证。申请职位须符合认证所列要求。USCIS 说明，自 2025 年 1 月 17 日起，H-2A 不再要求受益人属于指定国家国民。",
+        "source_name": "USCIS — H-2A Temporary Agricultural Workers",
+        "source_url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-2a-temporary-agricultural-workers",
+        "occupations": []
       },
       {
-        "basis": "Proxy only: BLS reports 53.5 thousand occupational openings per year on average for 2025–35. This projected-opening figure is not a shortage designation.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Computer and information systems managers",
-        "sector": "Management / information technology",
-        "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
-      },
-      {
-        "basis": "Proxy only: BLS reports 65.6 thousand occupational openings per year on average for 2025–35. This projected-opening figure is not a shortage designation.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Financial managers",
-        "sector": "Business and finance",
-        "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+        "kind": "sector_limited",
+        "name_en": "H-2B temporary non-agricultural work",
+        "name_zh": "H-2B 临时非农业工作",
+        "scope_en": "A temporary/seasonal non-agricultural pathway, not a finite list of named occupations. The official visa-category description defines the sector and temporary nature, not guaranteed eligible job titles.",
+        "scope_zh": "临时/季节性非农业工作途径，并无封闭的具体职业名称清单。官方类别说明限定行业和临时性质，但不保证任何特定职位名称符合资格。",
+        "conditions_en": "Requires a U.S. employer’s petition and applicable labor certification; the employer must establish a temporary need and the required labor-market protections. The Department of State says only citizens or nationals of designated countries are eligible, subject to limited exceptions. H-2B is also numerically capped; an available job alone does not assure a visa.",
+        "conditions_zh": "须由美国雇主提交申请并满足适用的劳工认证要求；雇主须证明临时用工需求及相关劳动力市场保护条件。美国国务院说明，原则上仅指定国家的公民或国民可申请，另有有限例外。H-2B 还有名额上限；有职位空缺本身并不保证获签。",
+        "source_name": "U.S. Department of State — Temporary Worker Visas",
+        "source_url": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "occupations": []
       }
-    ],
-    "published_date": "Not stated",
-    "signal_label": "Official occupational employment-projections proxy (not a shortage list or shortage analysis)",
-    "signal_type": "official_proxy",
-    "source_title": "Occupational projections and worker characteristics",
-    "source_url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+    ]
   },
   {
-    "authority": "Employment and Social Development Canada (ESDC), Government of Canada",
-    "caveat": "This is an official national occupational projection/shortage-risk analysis, not a formal exhaustive shortage list and not a current vacancy count. It is national and forward-looking; the verified dataset page metadata says 2024–2033, while its downloadable CSV footer says 2026 projections based on 2025 data, so the catalog/file period discrepancy is reported rather than silently resolved. Occupation-based Express Entry eligibility is a separate immigration-program decision: IRCC states that its 2025 eligible occupations were informed by COPS long-term shortage projections but were selected for program categories and do not constitute a general Canadian shortage list or guarantee immigration eligibility. Access date: 2026-11-09.",
+    "id": "ca",
     "country_en": "Canada",
     "country_zh": "加拿大",
-    "effective_period": "2026–2035, per the downloaded CSV footer (the catalog resource title/metadata still says 2024–2033)",
-    "id": "ca",
-    "list_title": "Canadian Occupational Projection System (COPS) — Assessment of Projected Labour Market Conditions (shortage, surplus or balance), by Occupation",
-    "methodology": "ESDC's Canadian Occupational Projection System (COPS) models national job openings and job seekers by occupation, including demand from economic growth and retirements and supply from school leavers, immigration and other job seekers. The dataset assigns projected labour-market conditions such as shortage risk, surplus risk, or balance. The CSV footer identifies the displayed release as 2026 projections based on 2025 data. Dataset resource: https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/446fe474-96e7-47cd-a3f9-3bb391b2df60",
-    "occupations": [
+    "authority": "Immigration, Refugees and Citizenship Canada; Employment and Social Development Canada",
+    "summary_en": "Foreign nationals may qualify through multiple work-permit pathways rather than a general occupation-based entitlement. The standard employer-specific route is offer- and employer-based; most jobs require an LMIA. Certain LMIA-exempt International Mobility Program streams depend on the worker's qualifying situation, agreement, or public-interest basis, not a universal occupation list. The Global Talent Stream Category B list is a limited, operative occupation list for that employer LMIA stream only. No generic occupation can be guaranteed eligible.",
+    "summary_zh": "官方规则以多种工签路径为主，并非按职业普遍赋予资格。常见雇主专属路径要求雇主工作邀请；多数工作须LMIA。国际流动计划中的部分LMIA豁免路径取决于申请人的具体资格、协议或公共利益依据，而非通用职业清单。全球人才计划B类清单仅适用于该雇主LMIA类别。不能保证任何泛称职业必然符合资格。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "The Global Talent occupations list is a narrow employer-side LMIA stream list, not a general list of occupations entitled to Canadian work permits. Canada's broad pathways turn on the specific permit category, job offer/employer where required, LMIA or a valid exemption, and all applicable requirements; licensing and regulated-profession requirements may also apply. Do not infer guaranteed eligibility from a job title or labour-market demand.",
+    "caveat_zh": "全球人才职业清单仅是特定雇主LMIA类别的有限清单，并非获得加拿大工签的通用职业资格表。广泛工签路径取决于具体许可类别、所需的工作邀请/雇主、LMIA或有效豁免及所有适用条件；受监管职业还可能须取得执照。不得仅凭职业名称或劳动力需求推断必然符合资格。",
+    "pathways": [
       {
-        "basis": "COPS projected labour-market conditions: Moderate risk of Shortage (Risque modéré de pénurie). Representative example only; not a complete list.",
-        "local_name": "Courtiers/courtières en douanes, courtiers maritimes/courtières maritimes et autres courtiers/courtières",
-        "name_en": "Customs, ship and other brokers",
-        "sector": "Business, finance and administration",
-        "source_url": "https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/446fe474-96e7-47cd-a3f9-3bb391b2df60"
+        "kind": "employer_sponsored",
+        "name_en": "Employer-specific work permit (standard employer-sponsored route)",
+        "name_zh": "雇主专属工作许可（一般雇主担保路径）",
+        "scope_en": "Broad route across occupations; official IRCC guidance does not give a finite national occupation list. The permit identifies the employer, location, and occupation, but those particulars do not themselves create eligibility.",
+        "scope_zh": "适用于广泛职业；IRCC官方指引没有全国有限职业清单。许可会注明雇主、地点和职业，但这些信息本身不构成资格。",
+        "conditions_en": "A job offer from an eligible, non-compliant-list-free employer is required, along with general applicant requirements. Most jobs need an LMIA; the employer must determine whether an LMIA or exemption applies and provide required documents. Applicable wage, recruitment, qualification, licensing, and provincial rules depend on the job and stream; eligibility is not guaranteed by occupation title.",
+        "conditions_zh": "须有符合要求且不在违规雇主名单上的雇主提供工作邀请，并满足申请人一般条件。多数工作需要LMIA；雇主须确认LMIA或豁免适用情况并提供文件。工资、招聘、资历、执照及省级规则依工作和类别而定；职业名称不保证获批。",
+        "source_name": "Employer-specific work permits — Immigration, Refugees and Citizenship Canada",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/employer-specific.html",
+        "occupations": []
       },
       {
-        "basis": "COPS projected labour-market conditions: Moderate risk of Shortage (Risque modéré de pénurie). Representative example only; not a complete list.",
-        "local_name": "Manoeuvres dans la fabrication des produits en caoutchouc et en plastique",
-        "name_en": "Labourers in rubber and plastic products manufacturing",
-        "sector": "Manufacturing",
-        "source_url": "https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/446fe474-96e7-47cd-a3f9-3bb391b2df60"
+        "kind": "employer_sponsored",
+        "name_en": "International Mobility Program (LMIA-exempt employer-specific permits)",
+        "name_zh": "国际流动计划（LMIA豁免雇主专属许可）",
+        "scope_en": "Not a finite occupation list. Applies to qualifying LMIA-exempt categories, such as cases supporting Canada's economic, social, or cultural interests; eligibility is determined by the specific program exemption, not a job title alone.",
+        "scope_zh": "不是有限职业清单。适用于符合条件的LMIA豁免类别，例如支持加拿大经济、社会或文化利益的情形；资格由具体计划豁免规则决定，而非仅由职位名称决定。",
+        "conditions_en": "Employer obligations and an offer-of-employment process generally apply for employer-specific cases; the worker must satisfy the applicable exemption and permit requirements. Some exemptions may be tied to agreements, public policies, or particular worker circumstances. No generic occupation is guaranteed, and nationality or sector restrictions may apply under individual exemptions.",
+        "conditions_zh": "雇主专属个案通常仍须履行雇主义务并提交聘用信息；申请人须符合相应豁免及工签要求。部分豁免与国际协议、公共政策或特定申请人情形有关。不能保证任何泛称职业符合资格；个别豁免可能有国籍或行业限制。",
+        "source_name": "Hire through the International Mobility Program — Immigration, Refugees and Citizenship Canada",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/hire-temporary-foreign/international-mobility-program.html",
+        "occupations": []
       },
       {
-        "basis": "COPS projected labour-market conditions: Strong risk of Shortage (Risque important de pénurie). Representative example only; not a complete list.",
-        "local_name": "Manoeuvres dans la transformation du poisson et des fruits de mer",
-        "name_en": "Labourers in fish and seafood processing",
-        "sector": "Manufacturing / fish and seafood processing",
-        "source_url": "https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/446fe474-96e7-47cd-a3f9-3bb391b2df60"
+        "kind": "program_specific_list",
+        "name_en": "Global Talent Stream, Category B (program-specific occupation list)",
+        "name_zh": "全球人才计划B类（计划专属职业清单）",
+        "scope_en": "A finite list of specified highly skilled occupations is used for Category B LMIA applications, including listed NOC roles such as civil engineers, data scientists, cybersecurity specialists, and software engineers/designers. This list is operative only within Category B; it does not itself grant a work permit or make a worker eligible without an employer and approved process.",
+        "scope_zh": "B类LMIA申请使用指定高技能职业清单，其中列有土木工程师、数据科学家、网络安全专家、软件工程师及设计师等NOC职位。清单仅在B类计划内适用；它本身不授予工签，也不免除雇主及审批程序。",
+        "conditions_en": "A Canadian employer must qualify for Category B, obtain a positive LMIA, meet program obligations including a Labour Market Benefits Plan, and offer at least the applicable wage floor/prevailing wage. The foreign worker must then apply for the required work permit and meet its requirements. Quebec wage requirements differ and provincial rules may apply. The government page labels the list updated December 2022; no later list date was stated in the opened source.",
+        "conditions_zh": "加拿大雇主须符合B类条件、取得积极LMIA、履行包括劳动力市场福利计划在内的计划义务，并提供不低于适用工资下限/当地工资标准的薪酬。外国申请人之后仍须申请所需工签并满足工签条件。魁北克工资规定不同，亦可能适用省级要求。政府页面标注清单更新于2022年12月；所查页面未注明更新得更晚的日期。",
+        "source_name": "Global Talent Stream requirements — Global talent occupations list for Category B, Employment and Social Development Canada",
+        "source_url": "https://www.canada.ca/en/employment-social-development/services/foreign-workers/global-talent/requirements.html",
+        "occupations": [
+          {
+            "name_en": "Civil engineers",
+            "local_name": "土木工程师",
+            "basis_en": "Examples only; list membership does not guarantee approval.",
+            "basis_zh": "仅为示例；列入清单不保证获批。"
+          },
+          {
+            "name_en": "Data scientists",
+            "local_name": "数据科学家",
+            "basis_en": "Examples only; list membership does not guarantee approval.",
+            "basis_zh": "仅为示例；列入清单不保证获批。"
+          },
+          {
+            "name_en": "Cybersecurity specialists",
+            "local_name": "网络安全专家",
+            "basis_en": "Examples only; list membership does not guarantee approval.",
+            "basis_zh": "仅为示例；列入清单不保证获批。"
+          },
+          {
+            "name_en": "Software engineers/designers",
+            "local_name": "软件工程师／设计师",
+            "basis_en": "Examples only; list membership does not guarantee approval.",
+            "basis_zh": "仅为示例；列入清单不保证获批。"
+          }
+        ]
       }
-    ],
-    "published_date": "2025-02-12 (catalogued resource date; CSV footer identifies 2026 projections based on 2025 data)",
-    "signal_label": "Government occupational shortage-risk analysis",
-    "signal_type": "official_shortage_analysis",
-    "source_title": "Canadian Occupational Projection System (COPS) — Assessment of Projected Labour Market Conditions by Occupation (official dataset resource)",
-    "source_url": "https://open.canada.ca/data/en/dataset/e80851b8-de68-43bd-a85c-c72e1b3a3890/resource/446fe474-96e7-47cd-a3f9-3bb391b2df60"
+    ]
   },
   {
-    "authority": "Migration Advisory Committee (MAC), published on GOV.UK",
-    "caveat": "This is an official shortage analysis and set of MAC recommendations connected to the UK immigration system, not itself a comprehensive national labour-market shortage list or proof that every employer/location has a shortage. Its review covers selected RQF 3–5 occupations potentially relevant to UK Industrial Strategy priority sectors or critical infrastructure, rather than all occupations or a uniformly disaggregated UK-wide labour market; the report notes ongoing limitations in national/local occupational data. The report was published 23 July 2026 and describes recommendations for provisional 18-month access, but does not state an operative effective period here. Labour-market shortage evidence and recommended immigration eligibility are distinct: eligibility depends on government immigration rules and implementation, and inclusion does not alone establish a general shortage. The separate Skilled Worker visa Temporary Shortage List guidance is an immigration-program list, not a general shortage measure.",
+    "id": "uk",
     "country_en": "United Kingdom",
     "country_zh": "英国",
-    "effective_period": "Not stated. The report recommends 18-month Temporary Shortage List access for the 28 occupations it identifies; this is a recommendation, not a stated effective period for an operative list.",
-    "id": "uk",
-    "list_title": "Temporary Shortage List: Stage 2 report (accessible) — final report, July 2026",
-    "methodology": "The MAC reviewed 82 occupations identified at Stage 1 as potentially crucial to the Industrial Strategy or critical infrastructure; 46 had Jobs Plans. It assessed sequential criteria including occupation importance to priority sectors, evidence of current or future workforce shortage, the credibility of plans to maximise domestic workforce use, and exploitation risks, drawing on quantitative labour-market/visa evidence and stakeholder engagement. It recommended 28 occupations for provisional 18-month TSL access; it states none had a plan strong enough to merit the full three-year access. Occupations below are a representative sample of those recommendations, not the complete set.",
-    "occupations": [
+    "authority": "UK Visas and Immigration; Home Office",
+    "summary_en": "UK work permission is route-based, not a blanket permission for listed occupations. Skilled Worker applicants generally need an eligible SOC occupation code, a confirmed job offer and Certificate of Sponsorship from a Home Office-approved sponsor, English ability, and the applicable salary (normally at least £41,700 annually or the occupation’s going rate, whichever is higher). Medium-skilled roles qualify only in limited listed or transitional circumstances. Health and Care has its own named eligible codes and health-sector sponsor restrictions. Global Talent covers specified fields for endorsed leaders/potential leaders or named prize winners, without a job-offer requirement stated in the overview. No generic job title can be guaranteed eligible without checking actual duties, code, rules, sponsor, and individual conditions.",
+    "summary_zh": "英国工作许可按签证路径而定，并非职业名单上的工作一律获准。Skilled Worker 通常要求符合资格的 SOC 职业代码、已确认的工作 offer、由英国内政部批准的担保雇主签发的担保证书、英语能力及适用薪资（通常为年薪至少 £41,700 或该职业的 going rate，取较高者）。中技能岗位仅在有限的名单或过渡情形下符合条件。Health and Care 路径另有明确职业代码及医疗护理行业雇主限制。Global Talent 面向指定领域的获背书领军/潜在领军人才或指定奖项得主；概览未要求工作 offer。不能仅凭通用职位名称保证资格，须核对实际职责、代码、规则、担保雇主及个人条件。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "There is no single finite national occupation list that guarantees permission to work in the UK across all routes. Official lists are route-specific: the Skilled Worker eligible-occupation table is operative; the ISL principally enables salary concessions/points treatment for specified jobs rather than granting permission by itself; the TSL is a temporary Skilled Worker eligibility exception with a CoS deadline. The UK sources cited do not establish a universal labour-market test or blanket nationality rule for these routes. Always check the rules in force on the application date and the individual job code, actual duties, salary, sponsor licence, professional registration/licensing where relevant, and any transitional or sector limits.",
+    "caveat_zh": "英国不存在一份适用于所有路径、可保证获准工作的统一有限全国职业名单。官方名单均按路径划分：Skilled Worker 合资格职业表具有实际效力；ISL 主要为指定岗位提供薪资折扣/积分待遇，本身不授予工作许可；TSL 是临时 Skilled Worker 资格例外，且担保证书有截止日期。所引英国官方资料未确立这些路径普遍适用的劳动市场测试或一概适用的国籍限制。务必按申请时生效规则核对实际职业代码、职责、薪资、担保资格、相关职业注册/执照及过渡/行业限制。",
+    "pathways": [
       {
-        "basis": "MAC Table 3.2 recommends occupation code 3112 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Electrical and electronics technicians",
-        "name_en": "Electrical and electronics technicians",
-        "sector": "Advanced Manufacturing; Clean Energy; Digital and Technology",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+        "kind": "official_occupation_list",
+        "name_en": "Skilled Worker visa — eligible occupation codes",
+        "name_zh": "Skilled Worker（技术工人）签证——合资格职业代码",
+        "scope_en": "Operative occupation-code framework: higher-skilled occupations are generally eligible; medium-skilled occupations are eligible only where specifically covered by the ISL, TSL, or defined transitional provisions. The official table includes explicit examples such as bricklayers, roofers and carpenters as eligible, while construction labourers are not; check exact code and duties rather than relying on a broad job title.",
+        "scope_zh": "现行职业代码框架：较高技能职业通常可符合条件；中技能职业仅在被 ISL、TSL 或明确过渡条款涵盖时才可能符合。官方表明确举例：砌砖工、屋顶工和木工可符合条件，而建筑劳工不符合；应核对具体代码和职责，不能只看宽泛职位名称。",
+        "conditions_en": "Requires a confirmed offer and Certificate of Sponsorship from an authorized Home Office sponsor; normally salary must be at least £41,700/year or the occupation going rate, whichever is higher, with route-specific exceptions/discounts. English requirement applies. No general labour-market test is stated in the cited route criteria. Sponsor and applicant must meet Immigration Rules; list inclusion alone is not visa approval.",
+        "conditions_zh": "须有已确认的工作 offer，并由获内政部授权的担保人签发担保证书；通常薪资须达到年薪 £41,700 或该职业 going rate（取较高者），另有特定例外/折扣。须满足英语要求。所引路径条件未规定普遍劳动市场测试。担保人及申请人均须满足移民规则；列入名单本身不等于获签。",
+        "source_name": "Skilled Worker visa: eligible occupations and codes (UK Visas and Immigration); Skilled Worker visa: Your job",
+        "source_url": "https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations/skilled-worker-visa-eligible-occupations-and-codes",
+        "occupations": [
+          {
+            "name_en": "Bricklayers",
+            "local_name": "砌砖工",
+            "basis_en": "Official table example; list membership does not guarantee approval.",
+            "basis_zh": "官方表列举示例；列入名单不保证获批。"
+          },
+          {
+            "name_en": "Roofers",
+            "local_name": "屋顶工",
+            "basis_en": "Official table example; list membership does not guarantee approval.",
+            "basis_zh": "官方表列举示例；列入名单不保证获批。"
+          },
+          {
+            "name_en": "Carpenters",
+            "local_name": "木工",
+            "basis_en": "Official table example; list membership does not guarantee approval.",
+            "basis_zh": "官方表列举示例；列入名单不保证获批。"
+          }
+        ]
       },
       {
-        "basis": "MAC Table 3.2 recommends occupation code 3113 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Engineering technicians",
-        "name_en": "Engineering technicians",
-        "sector": "Advanced Manufacturing; Clean Energy; Digital and Technology; Defence",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+        "kind": "program_specific_list",
+        "name_en": "Temporary Shortage List — time-limited Skilled Worker exception",
+        "name_zh": "Temporary Shortage List（临时短缺清单）——限时 Skilled Worker 例外",
+        "scope_en": "A finite official list that makes listed medium-skilled occupations usable for Skilled Worker entry clearance, switching, or extension only within the rules’ limits. Officially named examples include laboratory technicians, engineering technicians, data analysts, welders, electricians, plumbers and specified construction trades. It is temporary, not a universal list of work-authorized jobs.",
+        "scope_zh": "该官方有限清单使所列中技能职业在规则限定范围内可用于 Skilled Worker 入境许可、转换或延期。官方列举岗位包括实验室技术员、工程技术员、数据分析师、焊工、电工、水管工及指定建筑行业工种。清单具临时性，并非普遍适用的工作许可职业清单。",
+        "conditions_en": "Immigration Rules state the Certificate of Sponsorship must be issued before 31 December 2026. Employer sponsorship, eligible code/job, and applicable salary remain necessary; listed rates vary by occupation and applicant circumstances. A TSL entry does not waive other visa requirements.",
+        "conditions_zh": "移民规则规定担保证书须于 2026 年 12 月 31 日前签发。仍须有雇主担保、符合职业代码/岗位及适用薪资；具体薪资依职业和申请人情形而异。列入 TSL 不免除其他签证要求。",
+        "source_name": "Immigration Rules Appendix Skilled Worker; Skilled Worker visa: temporary shortage list",
+        "source_url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker",
+        "occupations": [
+          {
+            "name_en": "Laboratory technicians",
+            "local_name": "实验室技术员",
+            "basis_en": "Officially named example; list membership does not guarantee approval.",
+            "basis_zh": "官方列举示例；列入名单不保证获批。"
+          },
+          {
+            "name_en": "Engineering technicians",
+            "local_name": "工程技术员",
+            "basis_en": "Officially named example; list membership does not guarantee approval.",
+            "basis_zh": "官方列举示例；列入名单不保证获批。"
+          },
+          {
+            "name_en": "Data analysts",
+            "local_name": "数据分析师",
+            "basis_en": "Officially named example; list membership does not guarantee approval.",
+            "basis_zh": "官方列举示例；列入名单不保证获批。"
+          },
+          {
+            "name_en": "Welders",
+            "local_name": "焊工",
+            "basis_en": "Officially named example; list membership does not guarantee approval.",
+            "basis_zh": "官方列举示例；列入名单不保证获批。"
+          }
+        ]
       },
       {
-        "basis": "MAC Table 3.2 recommends occupation code 5211 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Sheet metal workers",
-        "name_en": "Sheet metal workers",
-        "sector": "Advanced Manufacturing; Clean Energy",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
-      },
-      {
-        "basis": "MAC Table 3.2 recommends occupation code 5223 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Metal working production and maintenance fitters",
-        "name_en": "Metal working production and maintenance fitters",
-        "sector": "Advanced Manufacturing; Clean Energy; Defence; Foundational Industries/Critical Infrastructure",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
-      },
-      {
-        "basis": "MAC Table 3.2 recommends occupation code 5213 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Welding trades",
-        "name_en": "Welding trades",
-        "sector": "Advanced Manufacturing; Clean Energy; Defence; Foundational Industries/Critical Infrastructure",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
-      },
-      {
-        "basis": "MAC Table 3.2 recommends occupation code 5235 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Boat and ship builders and repairers",
-        "name_en": "Boat and ship builders and repairers",
-        "sector": "Advanced Manufacturing",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
-      },
-      {
-        "basis": "MAC Table 3.2 recommends occupation code 3116 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Planning, process and production technicians",
-        "name_en": "Planning, process and production technicians",
-        "sector": "Clean Energy; Digital and Technology; Advanced Manufacturing",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
-      },
-      {
-        "basis": "MAC Table 3.2 recommends occupation code 5212 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Metal plate workers, smiths, moulders and related occupations",
-        "name_en": "Metal plate workers, smiths, moulders and related occupations",
-        "sector": "Clean Energy",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
-      },
-      {
-        "basis": "MAC Table 3.2 recommends only Overhead Line Workers within occupation code 5249 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Electrical and electronic trades n.e.c. — Overhead Line Workers only",
-        "name_en": "Electrical and electronic trades n.e.c. — Overhead Line Workers only",
-        "sector": "Clean Energy; Foundational Industries/Critical Infrastructure",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
-      },
-      {
-        "basis": "MAC Table 3.2 recommends occupation code 3133 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Database administrators and web content technicians",
-        "name_en": "Database administrators and web content technicians",
-        "sector": "Digital and Technology",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
-      },
-      {
-        "basis": "MAC Table 3.2 recommends occupation code 3544 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Data analysts",
-        "name_en": "Data analysts",
-        "sector": "Digital and Technology; Advanced Manufacturing; Clean Energy; Financial Services; Foundational Industries/Critical Infrastructure",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
-      },
-      {
-        "basis": "MAC Table 3.2 recommends occupation code 5241 for 18-month TSL access; assessment says case for current or future shortage was plausible, not strong enough for three years.",
-        "local_name": "Electricians and electrical fitters",
-        "name_en": "Electricians and electrical fitters",
-        "sector": "Foundational Industries/Critical Infrastructure; Clean Energy",
-        "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+        "kind": "official_occupation_list",
+        "name_en": "Health and Care Worker visa",
+        "name_zh": "Health and Care Worker（医疗与护理工作者）签证",
+        "scope_en": "A sector-specific route with explicitly enumerated occupational codes; examples named by the official source include doctors, nurses, pharmacists, physiotherapists, social workers and laboratory technicians. A different limited set of medium-skilled care roles (care workers and senior care workers) is available only for qualifying in-country extensions/updates/switches under transitional rules, not as a general overseas recruitment route.",
+        "scope_zh": "行业专属路径，官方明确列出职业代码；官方举例包括医生、护士、药剂师、物理治疗师、社工及实验室技术员。另一组有限的中技能护理岗位（护理员及高级护理员）仅在过渡规则下适用于符合条件的境内延期/更新/转换，并非普遍的海外招聘途径。",
+        "conditions_en": "Requires a qualified professional in an eligible code, a job offer from an approved employer in the relevant health/care sector (NHS, an organization providing NHS medical services, or adult social care), and the applicable minimum/going-rate or national pay-scale salary. England-based care workers/senior care workers require a CQC-registered employer. Certain medium-skilled cases require at least 3 months’ lawful work for the sponsor and applications before 22 July 2028; see source for grandfathered cases.",
+        "conditions_zh": "须为符合代码的合资格专业人员，并取得相关医疗/护理行业获批雇主（NHS、为 NHS 提供医疗服务的机构或成人社会护理机构）的工作 offer，且达到适用最低/going-rate 或国家薪酬表薪资。英格兰的护理员/高级护理员雇主须在 CQC 注册。部分中技能情形要求已为担保人合法工作至少 3 个月，并须在 2028 年 7 月 22 日前申请；既有身份情形详见官方来源。",
+        "source_name": "Health and Care Worker visa: Your job",
+        "source_url": "https://www.gov.uk/health-care-worker-visa/your-job",
+        "occupations": [
+          {
+            "name_en": "Doctors",
+            "local_name": "医生",
+            "basis_en": "Official source example; list membership does not guarantee approval.",
+            "basis_zh": "官方来源示例；列入名单不保证获批。"
+          },
+          {
+            "name_en": "Nurses",
+            "local_name": "护士",
+            "basis_en": "Official source example; list membership does not guarantee approval.",
+            "basis_zh": "官方来源示例；列入名单不保证获批。"
+          },
+          {
+            "name_en": "Pharmacists",
+            "local_name": "药剂师",
+            "basis_en": "Official source example; list membership does not guarantee approval.",
+            "basis_zh": "官方来源示例；列入名单不保证获批。"
+          },
+          {
+            "name_en": "Physiotherapists",
+            "local_name": "物理治疗师",
+            "basis_en": "Official source example; list membership does not guarantee approval.",
+            "basis_zh": "官方来源示例；列入名单不保证获批。"
+          }
+        ]
       }
-    ],
-    "published_date": "23 July 2026",
-    "signal_label": "Migration Advisory Committee (MAC) Temporary Shortage List Stage 2 occupation shortage recommendations",
-    "signal_type": "official_shortage_analysis",
-    "source_title": "Temporary Shortage List: Stage 2 report (accessible)",
-    "source_url": "https://www.gov.uk/government/publications/temporary-shortage-list-stage-2-report/temporary-shortage-list-stage-2-report-accessible"
+    ]
   },
   {
-    "authority": "Skills and Labour Market Research Unit (SLMRU), SOLAS",
-    "caveat": "This is an official labour-market shortage analysis based on selected recruitment agencies’ reported experience, not a formal exhaustive national shortage list. It reflects vacancy-filling difficulty and skill-supply perceptions in Ireland around November 2025; the survey's selected-agency coverage may not represent every employer, occupation, or region. Labour-market shortage evidence is distinct from immigration eligibility: inclusion here does not itself establish eligibility for an employment permit. The separate Critical Skills Occupations List is specifically used for Critical Skills Employment Permit eligibility and is not the basis of this sample.",
+    "id": "ie",
     "country_en": "Ireland",
     "country_zh": "爱尔兰",
-    "effective_period": "Survey conducted November 2025; no separate effective period stated",
-    "id": "ie",
-    "list_title": "Difficult-to-fill vacancies survey — November 2025",
-    "methodology": "The SLMRU in SOLAS collected input from selected recruitment agencies in Ireland on occupations requiring skills they considered in short supply and vacancies they considered difficult to fill. The report presents job-title mentions by sector and survey responses; it is qualitative recruiter evidence, not a census or exhaustive national occupation list. The report states that 49% of difficult-to-fill vacancy mentions were very or too difficult to fill.",
-    "occupations": [
+    "authority": "Department of Enterprise, Tourism and Employment; Immigration Service Delivery",
+    "summary_en": "Non-EEA, non-Swiss and non-UK nationals generally need an employment permit or another specific permission before working. Ireland has two important operative occupation lists: the CSOL for the Critical Skills Employment Permit (CSEP), and the IOL, which excludes jobs from permits. The General Employment Permit (GEP) is a broad employer-offer pathway for jobs not on the IOL; in most cases it requires a Labour Market Needs Test. Permit issuance depends on the individual job, employer, remuneration and other criteria, not occupation title alone.",
+    "summary_zh": "非欧洲经济区、非瑞士及非英国国民通常须先取得就业许可或其他特定工作许可。爱尔兰有两项直接影响就业许可资格的官方职业清单：关键技能职业清单（CSOL）用于关键技能就业许可（CSEP）；不符合资格职业清单（IOL）所列职位则不能获就业许可。一般就业许可（GEP）是较宽泛的雇主聘用路径，通常可用于不在IOL上的职位，但多数情形须通过劳动力市场需求测试。许可仍取决于具体职位、雇主、薪酬及其他条件，不能仅凭职业名称保证获批。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "The reviewed official pages do not state an operative date for the current lists or thresholds; none is invented here. Ireland does not guarantee a permit merely because an occupation appears on the CSOL or is absent from the IOL. Separate permissions or professional registration may apply; check the live DETE list, current pay thresholds and individual permit conditions before relying on a role.",
+    "caveat_zh": "所查官方页面未明确注明现行清单或薪酬门槛的生效日期，因此不推定日期。职业列入CSOL或未列于IOL都不代表必然获批。还可能需要其他许可或专业注册；依赖某职位前，应核查DETE现行清单、薪酬门槛及个案许可条件。",
+    "pathways": [
       {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the construction sector grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Site/civil engineers",
-        "sector": "Construction",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+        "kind": "official_occupation_list",
+        "name_en": "Critical Skills Employment Permit (CSEP)",
+        "name_zh": "关键技能就业许可（CSEP）",
+        "scope_en": "An official finite positive list applies: occupations on the Critical Skills Occupations List are eligible for consideration under CSEP. The department gives examples such as ICT professionals, professional engineers and technologists; these are not a guarantee outside the list and permit conditions.",
+        "scope_zh": "适用官方有限正面清单：列入关键技能职业清单（CSOL）的职业可申请CSEP审理。主管部门举例包括ICT专业人员、专业工程师及技术人员；清单外不能据此认定符合资格，列入清单也不保证获批。",
+        "conditions_en": "Requires a qualifying offer from a bona fide Irish employer, normally for at least two years, relevant qualifications/skills/experience, and applicable minimum remuneration. The page states €40,904 for specified CSOL occupations (with a lower recent-Irish-graduate threshold of €36,848), or over €68,911 for other non-ineligible jobs; public-sector pay agreements and nurse/midwife registration rules have specified treatment. No Labour Market Needs Test. Employer 50:50 EEA staffing rule generally applies, with stated start-up exception. Thresholds are those stated on the official page retrieved; recheck at application.",
+        "conditions_zh": "须有爱尔兰真实雇主提供合格职位，通常至少两年；申请人须具备相关资格、技能或经验，并达到适用最低薪酬。官方页面列明：指定CSOL职业薪酬门槛€40,904（符合条件的近期爱尔兰毕业生门槛€36,848），或其他非IOL职位薪酬高于€68,911；公共部门薪酬协议及护士/助产士注册另有规则。不须劳动力市场需求测试。雇主通常须满足EEA员工50:50规则，指定初创企业可例外。上述金额依查询到的官方页面，申请前应复核。",
+        "source_name": "Critical Skills Employment Permit — Department of Enterprise, Tourism and Employment",
+        "source_url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/",
+        "occupations": [
+          {
+            "name_en": "ICT professionals",
+            "local_name": "ICT专业人员",
+            "basis_en": "Department examples only; inclusion does not guarantee a permit.",
+            "basis_zh": "主管部门示例；列入清单不保证获批。"
+          },
+          {
+            "name_en": "Professional engineers",
+            "local_name": "专业工程师",
+            "basis_en": "Department examples only; inclusion does not guarantee a permit.",
+            "basis_zh": "主管部门示例；列入清单不保证获批。"
+          },
+          {
+            "name_en": "Technologists",
+            "local_name": "技术人员",
+            "basis_en": "Department examples only; inclusion does not guarantee a permit.",
+            "basis_zh": "主管部门示例；列入清单不保证获批。"
+          }
+        ]
       },
       {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the construction sector grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Quantity surveyors",
-        "sector": "Construction",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
-      },
-      {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the construction sector grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Carpenters (including shuttering)",
-        "sector": "Construction",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
-      },
-      {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the health sector grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Nurses (including midwives)",
-        "sector": "Health",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
-      },
-      {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the health sector grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Healthcare assistants",
-        "sector": "Health",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
-      },
-      {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the health sector grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Social care workers",
-        "sector": "Health",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
-      },
-      {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the ICT grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Software developers",
-        "sector": "Science, engineering & technology — ICT",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
-      },
-      {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; listed as a combined role grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Data scientists/analysts/engineers",
-        "sector": "Science, engineering & technology — ICT",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
-      },
-      {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the life-sciences engineering grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Quality control/assurance engineers",
-        "sector": "Science, engineering & technology — Life sciences",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
-      },
-      {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; part of the drivers grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "HGV drivers",
-        "sector": "Transport & Logistics",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
-      },
-      {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; listed as an accountant role grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Accountants (financial, tax, practice, insurance)",
-        "sector": "Financial",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
-      },
-      {
-        "basis": "Named among occupations associated with reported difficult-to-fill vacancies in the November 2025 recruitment-agency survey; included in the report's ‘Other’ grouping.",
-        "local_name": "Not stated (English-language source)",
-        "name_en": "Chefs",
-        "sector": "Other (as grouped in the survey)",
-        "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+        "kind": "official_occupation_list",
+        "name_en": "General Employment Permit (GEP) and Ineligible Occupations List (IOL)",
+        "name_zh": "一般就业许可（GEP）及不符合资格职业清单（IOL）",
+        "scope_en": "Broad rather than a finite positive occupation list: DETE says all occupations are eligible for GEP unless excluded by the IOL. The IOL is operative and bars permits for listed occupations. Thus there is no basis to guarantee an unlisted generic role; eligibility is only subject to all other requirements.",
+        "scope_zh": "这是宽泛路径，而非有限正面职业清单：DETE说明，除IOL排除的职业外，所有职业原则上均可考虑GEP。IOL具有实际效力，所列职业不得获许可。因此，某个普通职位未列入IOL并不构成保证，仍须满足全部其他要求。",
+        "conditions_en": "Normally requires an offer from a genuine Irish employer, required qualifications/skills/experience and applicable minimum remuneration (the page states generally €36,605, with specified exceptions). A Labour Market Needs Test is required in most cases, with listed exceptions such as CSOL roles and eligible offers over €68,911. Employer registration/trading and the 50:50 EEA staffing rule generally apply, subject to exceptions. The GEP may cover a 12-month contract; initial permits can be issued for two years. Recheck current thresholds at application.",
+        "conditions_zh": "通常须有爱尔兰真实雇主的职位邀请、所需资格/技能/经验及达到适用最低薪酬（该页面一般列为€36,605，另有特定例外）。多数情形须进行劳动力市场需求测试；CSOL职位及薪酬高于€68,911的合格职位等存在例外。雇主通常须在爱尔兰注册并经营，且满足EEA员工50:50规则（有例外）。GEP可覆盖12个月合同，初次许可可签发两年。申请时应复核现行门槛。",
+        "source_name": "General Employment Permit — Department of Enterprise, Tourism and Employment",
+        "source_url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/general-employment-permit/",
+        "occupations": []
       }
-    ],
-    "published_date": "November 2025 (report title; exact day not stated)",
-    "signal_label": "Official labour-market shortage analysis",
-    "signal_type": "official_shortage_analysis",
-    "source_title": "Difficult-to-fill vacancies survey — November 2025",
-    "source_url": "https://a.storyblok.com/f/70398/x/b5123eb8c0/solas-difficult-to-fill-vacancies-survey.pdf"
+    ]
   },
   {
-    "authority": "Bundesagentur für Arbeit (BA), Statistik der Bundesagentur für Arbeit",
-    "caveat": "This is the latest verified national official shortage analysis available on the access date, not an immigration eligibility list. BA's 2 September 2026 release reports 157 bottleneck occupational categories (Berufsgattungen) for 2025, down from 163 in 2024; the interactive analysis provides results at occupational-category level, subject to reliable data. The occupations below are only representative examples explicitly named in the BA release, not a complete list, and the release does not state their individual scores/status or exact classification codes. Labour-market bottleneck status measures labour-market indicators; it does not by itself confer immigration eligibility. No separate effective date is stated.",
+    "id": "de",
     "country_en": "Germany",
     "country_zh": "德国",
-    "effective_period": "Analysis year 2025",
-    "id": "de",
-    "list_title": "Fachkräfteengpassanalyse 2025（年度专业劳动力短缺分析）",
-    "methodology": "BA annual analysis rates occupations at Berufsgattungen level nationally (and Berufsgruppen level by Länder), where data are sufficiently reliable, using six statistical bottleneck indicators: median vacancy duration, jobseeker-to-vacancy ratio, occupation-specific unemployment rate, change in foreign nationals' share of employment subject to social insurance, exits from unemployment, and change in median earnings. The unweighted average indicator score identifies an Engpassberuf at 2.0 or above; 1.5 to below 2.0 is monitored; below 1.5 is not classified as bottleneck. The interactive page reports that the assessment covers 2025 indicators/results.",
-    "occupations": [
+    "authority": "Federal Government of Germany; Federal Employment Agency",
+    "summary_en": "Foreign nationals can qualify through pathways defined by their qualification, job offer, salary and other conditions—not through a universal approved-occupations list. The qualified-professional route covers qualified employment in principle without requiring the job to match the qualification; a specific German employer offer is required. Regulated professions require authorisation. The EU Blue Card shortage list only lowers the salary threshold for qualifying Blue Card jobs; the Opportunity Card list can contribute points but is a job-search permit, not a job-specific work authorisation.",
+    "summary_zh": "外国人主要依据学历/职业资格、具体工作邀请、薪酬及其他条件通过不同途径申请；德国没有普遍适用的获准职业清单。合格专业人员途径原则上涵盖合格就业，工作不必与资格专业一致，但须有德国雇主的具体工作邀请；受监管职业须取得执业许可。欧盟蓝卡短缺职业清单仅适用于降低符合条件的蓝卡薪资门槛；机会卡中的短缺职业加分仅影响求职签证积分，并不等于某职位获准工作。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "The existence of occupation-specific exceptions in the Employment Ordinance does not create a universal national list of visa-eligible jobs: provisions are route-, circumstance-, employer-, duration-, quota- or nationality-specific. Verify the relevant residence title and legal requirements for the particular offer. Amounts above are only those explicitly marked 2026 on the official pages.",
+    "caveat_zh": "《外国人就业条例》确有针对特定职业或情形的例外规定，但这不构成普遍适用的签证职业清单：相关规则可能限于特定途径、情形、雇主、期限、配额或国籍。须针对具体工作邀请核对对应居留许可及法律条件。上述金额仅采用官方页面明确标注为2026年的数值。",
+    "pathways": [
       {
-        "basis": "BA states these continued to be among the occupations with the strongest bottlenecks in 2025; individual occupations and scores are not enumerated in the release.",
-        "local_name": "Pflege- und Gesundheitsberufe",
-        "name_en": "Nursing and healthcare occupations (examples; individual occupation categories not specified)",
-        "sector": "Healthcare and social care",
-        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+        "kind": "qualified_worker",
+        "name_en": "Qualified professionals work visa (Sections 18a/18b Residence Act)",
+        "name_zh": "合格专业人员工作签证（《居留法》第18a/18b条）",
+        "scope_en": "Broad qualified-employment route for people with recognised/comparable vocational or academic qualifications; no finite occupation list. The offered job need not relate to the qualification. No generic occupation can be guaranteed eligible.",
+        "scope_zh": "面向具备获认可或可比职业/学术资格者的广泛合格就业途径；没有封闭职业清单。工作不必与资格专业相关，不能保证任何一般职业必然符合条件。",
+        "conditions_en": "Requires a specific qualified job offer from a German employer; auxiliary work is insufficient. A regulated profession requires a licence to practise. The Federal Employment Agency generally approves employment and checks that conditions (including pay and hours) are comparable to domestic workers. For first-time workers over 45, the job must pay at least €55,770 gross/year (2026) or adequate pension provision must be shown.",
+        "conditions_zh": "须有德国雇主提供的具体合格职位；辅助性工作不符合。受监管职业须有执业许可。联邦就业局通常须批准就业，并审查薪酬、工时等是否与本国员工条件相当。首次赴德就业且年满45岁者，年薪至少为55,770欧元（2026年），或须证明有足够养老保障。",
+        "source_name": "Work Visa for Qualified Professionals — Make it in Germany (official Federal Government portal)",
+        "source_url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/qualified-professionals",
+        "occupations": []
       },
       {
-        "basis": "BA reports bottlenecks also existed in construction occupations in 2025; no individual occupation or score specified.",
-        "local_name": "Bau-Berufe",
-        "name_en": "Construction occupations (occupations not individually specified)",
-        "sector": "Construction",
-        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+        "kind": "program_specific_list",
+        "name_en": "EU Blue Card: shortage occupations (Section 18g Residence Act)",
+        "name_zh": "欧盟蓝卡：短缺职业类别（《居留法》第18g条）",
+        "scope_en": "A finite list affects only eligibility for the lower Blue Card salary threshold, not general work-permit eligibility. Officially named categories include specified managers; academic STEM professionals; academic architecture/spatial and transport planners; doctors, veterinarians, dentists, pharmacists; academic/comparable nursing and midwifery professionals; and school/out-of-school teachers and educators.",
+        "scope_zh": "有限清单仅决定能否适用较低的蓝卡薪资门槛，不是一般工作许可资格清单。官方列举类别包括特定管理人员、学术STEM专业人员、建筑/空间及交通规划学术人员、医生、兽医、牙医、药剂师、学术或同等护理及助产专业人员，以及校内外教师和教育工作者。",
+        "conditions_en": "Requires a qualifying academic or comparable tertiary qualification and a German job offer for at least six months matching the qualification. Standard minimum salary is €50,700 gross/year in 2026; the shortage-occupation threshold is €45,934.20 (2026), with Federal Employment Agency approval. Regulated jobs require the relevant licence. Even a listed occupation does not assure a Blue Card absent all requirements.",
+        "conditions_zh": "须具备符合要求的学术或同等高等教育资格，并有至少六个月、与资格相符的德国工作邀请。2026年标准最低年薪为50,700欧元；短缺职业门槛为45,934.20欧元，且须经联邦就业局批准。受监管职位须取得相应执业许可。即使职业列入名单，未满足全部条件也不能保证获蓝卡。",
+        "source_name": "EU Blue Card — Make it in Germany (official Federal Government portal)",
+        "source_url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/eu-blue-card",
+        "occupations": [
+          {
+            "name_en": "Specified managers",
+            "local_name": "特定管理人员",
+            "basis_en": "Listed category examples only; membership only affects the Blue Card salary threshold and does not guarantee approval.",
+            "basis_zh": "列举类别示例；仅影响蓝卡薪资门槛，不保证获批。"
+          },
+          {
+            "name_en": "Academic STEM professionals",
+            "local_name": "学术STEM专业人员",
+            "basis_en": "Listed category examples only; membership only affects the Blue Card salary threshold and does not guarantee approval.",
+            "basis_zh": "列举类别示例；仅影响蓝卡薪资门槛，不保证获批。"
+          },
+          {
+            "name_en": "Doctors",
+            "local_name": "医生",
+            "basis_en": "Listed category examples only; membership only affects the Blue Card salary threshold and does not guarantee approval.",
+            "basis_zh": "列举类别示例；仅影响蓝卡薪资门槛，不保证获批。"
+          },
+          {
+            "name_en": "Nurses and midwives",
+            "local_name": "护士及助产士",
+            "basis_en": "Listed category examples only; membership only affects the Blue Card salary threshold and does not guarantee approval.",
+            "basis_zh": "列举类别示例；仅影响蓝卡薪资门槛，不保证获批。"
+          }
+        ]
       },
       {
-        "basis": "BA reports bottlenecks also existed in skilled trades in 2025; no individual occupation or score specified.",
-        "local_name": "Handwerksberufe",
-        "name_en": "Skilled trades occupations (occupations not individually specified)",
-        "sector": "Skilled trades",
-        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
-      },
-      {
-        "basis": "BA explicitly says cooks continued to be sought in 2025; release does not provide an individual score or classification code.",
-        "local_name": "Köchinnen und Köche",
-        "name_en": "Cooks",
-        "sector": "Hospitality and food services",
-        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
-      },
-      {
-        "basis": "BA explicitly says professional drivers continued to be sought in 2025; release does not provide an individual score or classification code.",
-        "local_name": "Berufskraftfahrerinnen und Berufskraftfahrer",
-        "name_en": "Professional drivers",
-        "sector": "Transport and logistics",
-        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
-      },
-      {
-        "basis": "BA explicitly says educators continued to be sought in 2025; release does not provide an individual score or classification code.",
-        "local_name": "Erzieherinnen und Erzieher",
-        "name_en": "Early childhood educators",
-        "sector": "Education and childcare",
-        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
-      },
-      {
-        "basis": "BA says bottlenecks newly or again emerged in 2025 in occupations including surveying technology; individual occupation and score not specified.",
-        "local_name": "Berufe der Vermessungstechnik",
-        "name_en": "Surveying technology occupations",
-        "sector": "Surveying and geospatial services",
-        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
-      },
-      {
-        "basis": "BA says bottlenecks newly or again emerged in 2025 in occupations including social work/social pedagogy; individual occupation and score not specified.",
-        "local_name": "Sozialarbeit bzw. Sozialpädagogik",
-        "name_en": "Social work and social pedagogy occupations",
-        "sector": "Social services",
-        "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-weiter-an-bedeutung"
+        "kind": "qualified_worker",
+        "name_en": "Visa for professionally experienced workers (Section 19c(2) Residence Act; Section 6 Employment Ordinance)",
+        "name_zh": "具备职业经验者签证（《居留法》第19c(2)条；《外国人就业条例》第6条）",
+        "scope_en": "Broad route for qualified employment in non-regulated professions; no finite national occupation list. It permits work without German formal recognition of the qualification, but does not make any generic role automatically eligible.",
+        "scope_zh": "适用于非受监管职业的合格就业的广泛途径；没有全国封闭职业清单。可不经德国正式资格认可而就业，但不意味着任何一般职位自动符合资格。",
+        "conditions_en": "Requires a state-recognised foreign vocational qualification (vocational training of at least two years) or academic qualification, at least two years of relevant qualified experience within the last five years, a concrete job offer in a non-regulated profession, and Federal Employment Agency approval. Minimum gross salary is €45,630/year in 2026; for first-time workers over 45, €55,770/year or adequate pension provision. Separate statutory provisions may cover specific exceptions, but this route itself is not a universal occupations list.",
+        "conditions_zh": "须有颁证国认可的外国职业资格（职业培训至少两年）或学术资格、过去五年内至少两年相关合格工作经验、非受监管职业的具体工作邀请，并获联邦就业局批准。2026年最低年薪为45,630欧元；首次赴德就业且年满45岁者须达55,770欧元或证明有足够养老保障。法律另有针对特定情形的条款，但本途径本身不是普遍职业名单。",
+        "source_name": "Visa for Professionally Experienced Workers — Make it in Germany (official Federal Government portal)",
+        "source_url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/professionally-experienced-workers",
+        "occupations": []
       }
-    ],
-    "published_date": "2026-09-02",
-    "signal_label": "国家官方职业短缺分析（非移民资格清单）",
-    "signal_type": "official_shortage_analysis",
-    "source_title": "Fachkräfte bleiben knapp: Zuwanderung gewinnt weiter an Bedeutung; official Engpassanalyse interactive application",
-    "source_url": "https://www.arbeitsagentur.de/presse/2026-32-fachkraefte-bleiben-knapp-zuwanderung-gewinnt-weiter-an-bedeutung",
-    "verified_analysis_url": "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Statistiken/Fachkraeftebedarf/Engpassanalyse-Nav.html"
+    ]
   },
   {
-    "authority": "Ministère de l'Intérieur and Ministère du Travail, de la Santé, des Solidarités et des Familles; published in the Journal officiel and hosted by Légifrance",
-    "caveat": "The annex is geographically specific, listing occupation families for each metropolitan region and overseas territory; it is not a single uniform nationwide inventory. This is the newest verified direct official occupation list found, published in 2025. Its legal basis and purpose are immigration/employment eligibility-related under Article L. 414-13 CESEDA, rather than a comprehensive measure of labour-market shortages for all workers or a general forecast. Inclusion indicates the decree's listed status for the named region, not proof of a nationwide shortage or guaranteed eligibility in an individual case. The occupations below are illustrative entries from the Auvergne-Rhône-Alpes regional annex only, not the complete list.",
+    "id": "fr",
     "country_en": "France",
     "country_zh": "法国",
-    "effective_period": "Not stated",
-    "id": "fr",
-    "list_title": "Arrêté du 21 mai 2025 fixant la liste des métiers et zones géographiques caractérisés par des difficultés de recrutement en application de l'article L. 414-13 du code de l'entrée et du séjour des étrangers et du droit d'asile",
-    "methodology": "Annex I specifies occupation-family codes and titles region by region; Annex II maps occupational families to the ROME occupational directory. The decree does not state the underlying statistical methodology for determining recruitment difficulties.",
-    "occupations": [
+    "authority": "Ministry of the Interior; Ministry of Labour; Légifrance",
+    "summary_en": "Foreign nationals can qualify through a region-specific shortage-occupation mechanism or ordinary employer-sponsored employment, and through qualifying Passeport talent categories. For the ordinary route, an employer generally needs a specific job offer and work authorization; the role must either be on the relevant local shortage list or have been advertised through the public employment service for three consecutive weeks within the preceding six months with no valid application. Pay must meet at least the applicable SMIC or higher collective-agreement minimum, and regulated professions require their professional conditions/licensing. Talent pathways have category-specific contract, qualification and/or salary requirements and do not create a general list of eligible occupations. No generic role is guaranteed to qualify.",
+    "summary_zh": "外国公民可通过地区性紧缺职业机制、普通雇主担保就业，或符合条件的 Passeport talent 人才类别申请。普通就业通常需要具体职位和雇主申请工作许可；职位须在适用地区的紧缺职业清单上，或在申请前六个月内通过公共就业服务连续发布三周且没有收到合格申请。工资至少达到适用的最低工资 SMIC 或更高的集体协议工资；受监管职业还须满足执业条件/许可要求。人才类别有各自合同、资历和/或薪酬条件，并不构成通用职业清单。任何一般职业都不能保证符合资格。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "The official shortage list directly affects only a labour-market-test criterion and is region-specific; it does not guarantee a permit or visa. The ordinary route remains employer- and offer-specific, and occupations may be subject to licensing or separate nationality/sector rules. Some Service-Public content flags changes effective 30 October 2026 as under update; verify current implementation before relying on affected ICT/Blue Card details. No role should be represented as generally or automatically eligible.",
+    "caveat_zh": "官方紧缺清单仅直接影响劳动力市场测试条件，且按地区适用；它不保证获得工作许可或签证。普通路径仍取决于雇主和具体职位，职业还可能受执照或特定国籍/行业规则约束。部分 Service-Public 内容提示自2026年10月30日起的变更仍在更新中；依赖受影响的 ICT/欧盟蓝卡细节前应核实最新执行规则。不得将任何职位描述为普遍或自动符合资格。",
+    "pathways": [
       {
-        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family T4Z60, ‘Agents d'entretien de locaux’.",
-        "local_name": "Agents d'entretien de locaux",
-        "name_en": "Building cleaners",
-        "sector": "Cleaning and facilities",
-        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+        "kind": "official_occupation_list",
+        "name_en": "Regional shortage-occupation list (metiers en tension)",
+        "name_zh": "地区性紧缺职业清单（métiers en tension）",
+        "scope_en": "This is an operative finite official list, mapped by occupation family and region, not a universal occupation whitelist. The 21 May 2025 order covers metropolitan regions; separate 2026 orders list occupations for Guadeloupe, French Guiana, Réunion and Martinique. The list’s specific legal effect is that a listed job can satisfy the employment condition without opposition based on the labour-market situation; it does not itself grant a visa or work permission. Examples explicitly listed in metropolitan regions include cooks, waiters, welders, nurses, care aides, agricultural workers and IT R&D/project-management professionals, but only where the exact family appears for the relevant region.",
+        "scope_zh": "这是按职业类别和地区列出的现行有限官方清单，但不是普遍适用的职业白名单。2025年5月21日法令涵盖法国本土各大区；2026年另有法令规定瓜德罗普、法属圭亚那、留尼汪和马提尼克的职业。其具体法律效果是：清单内职位可满足就业条件，免于因劳动力市场情况而被拒；清单本身不授予签证或工作许可。官方本土清单明确列出厨师、餐厅服务员、焊工、护士、护理助理、农业工人及信息技术研发/项目管理人员等示例，但须以相应地区的具体职业类别为准。",
+        "conditions_en": "A genuine job offer and employer-filed work-authorisation application are still required for the standard salaried route. The employer and job must meet the permit conditions; pay cannot be below SMIC or the higher applicable collective-agreement minimum. Professionally regulated work requires compliance with its licensing/qualification rules. The list is geographic and occupation-family specific. Listed status waives only the labour-market-opposition criterion; it does not guarantee approval. Non-EU/EEA/Swiss nationals are in scope; Algerian nationals are handled under separate rules stated by Service-Public.",
+        "conditions_zh": "普通受薪路径仍须有真实职位，并由雇主提交工作许可申请。雇主及职位须满足许可条件；工资不得低于 SMIC 或更高的适用集体协议最低工资。受监管职业须符合执业许可/资质规定。清单按地区及职业类别适用；列入清单只免除劳动力市场异议条件，不保证获批。该清单针对非欧盟/欧洲经济区/瑞士公民；法国政府页面说明阿尔及利亚公民适用另行规定。",
+        "source_name": "Légifrance — Arrêté du 21 mai 2025 fixant la liste des métiers et zones géographiques caractérisés par des difficultés de recrutement; Service-Public — Salarié étranger : comment sont délivrées les autorisations de travail ?",
+        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488",
+        "occupations": [
+          {
+            "name_en": "Cooks",
+            "local_name": "厨师",
+            "basis_en": "Official example; exact occupation family and region matter; inclusion is not approval.",
+            "basis_zh": "官方示例；须符合具体职业类别及地区；列入清单不等于获批。"
+          },
+          {
+            "name_en": "Waiters",
+            "local_name": "餐厅服务员",
+            "basis_en": "Official example; exact occupation family and region matter; inclusion is not approval.",
+            "basis_zh": "官方示例；须符合具体职业类别及地区；列入清单不等于获批。"
+          },
+          {
+            "name_en": "Welders",
+            "local_name": "焊工",
+            "basis_en": "Official example; exact occupation family and region matter; inclusion is not approval.",
+            "basis_zh": "官方示例；须符合具体职业类别及地区；列入清单不等于获批。"
+          },
+          {
+            "name_en": "Nurses",
+            "local_name": "护士",
+            "basis_en": "Official example; exact occupation family and region matter; inclusion is not approval.",
+            "basis_zh": "官方示例；须符合具体职业类别及地区；列入清单不等于获批。"
+          }
+        ]
       },
       {
-        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family A0Z40, ‘Agriculteurs salariés’.",
-        "local_name": "Agriculteurs salariés",
-        "name_en": "Agricultural workers",
-        "sector": "Agriculture",
-        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+        "kind": "employer_sponsored",
+        "name_en": "Ordinary employer-sponsored salaried work permit",
+        "name_zh": "普通雇主担保受薪工作许可",
+        "scope_en": "Broad route with no single finite national occupation list. A non-EU worker may be sponsored for a specific salaried job if the job meets the statutory employment test—either it is on the applicable regional shortage list or it was advertised through the public employment service for three consecutive weeks within the six months before filing and no valid application was received. The list is therefore one route through the test, not the complete set of occupations that can be sponsored.",
+        "scope_zh": "这是没有单一全国有限职业清单的广泛路径。非欧盟雇员可由雇主为具体受薪职位申请担保，但职位须满足法定就业条件：要么列入适用地区的紧缺职业清单，要么在提交申请前六个月内通过公共就业服务连续招聘三周且未收到合格申请。因此紧缺清单只是满足该条件的一种方式，并非所有可担保职业的完整清单。",
+        "conditions_en": "A specific job offer and prior work authorisation are generally required; the worker’s salaried permit is tied to the authorised activity/contract, and a new contract requires a new authorisation. The employer must meet social-compliance and other statutory requirements. Salary must be at least SMIC or the higher collective-agreement rate. Regulated professions require the applicable professional authorisation. Some residence permits (for example, talent permits) exempt the employer from a separate work-authorisation application; eligibility depends on that permit’s own conditions. The Service-Public page excludes Algerian nationals from this general fiche.",
+        "conditions_zh": "通常须有具体职位并事先取得工作许可；受薪居留许可对应获批的活动/合同，更换合同须重新申请许可。雇主须满足社会合规及其他法定条件。工资至少达到 SMIC 或更高的集体协议标准。受监管职业须取得相应执业许可。某些居留许可（如人才居留）免于单独申请工作许可，但须符合该许可自身条件。Service-Public 此通用说明不涵盖阿尔及利亚公民。",
+        "source_name": "Service-Public — Salarié étranger : comment sont délivrées les autorisations de travail ?; Autorisation de travail d'un salarié étranger en France",
+        "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3100",
+        "occupations": []
       },
       {
-        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family T2A60, ‘Aides à domicile et aides ménagères’.",
-        "local_name": "Aides à domicile et aides ménagères",
-        "name_en": "Home care and domestic aides",
-        "sector": "Care and domestic services",
-        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
-      },
-      {
-        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family S1Z20, same title as local_name.",
-        "local_name": "Aides de cuisine, apprentis de cuisine et employés polyvalents de la restauration",
-        "name_en": "Kitchen assistants, apprentice cooks and multi-skilled restaurant employees",
-        "sector": "Hospitality and food service",
-        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
-      },
-      {
-        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family S0Z40, ‘Bouchers’.",
-        "local_name": "Bouchers",
-        "name_en": "Butchers",
-        "sector": "Food processing and retail",
-        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
-      },
-      {
-        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family S1Z80, ‘Chefs cuisiniers’.",
-        "local_name": "Chefs cuisiniers",
-        "name_en": "Chefs",
-        "sector": "Hospitality and food service",
-        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
-      },
-      {
-        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family S1Z40, ‘Cuisiniers’.",
-        "local_name": "Cuisiniers",
-        "name_en": "Cooks",
-        "sector": "Hospitality and food service",
-        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
-      },
-      {
-        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family M2Z90, same title as local_name.",
-        "local_name": "Ingénieurs et cadres d'étude, recherche et développement en informatique, chefs de projets informatiques",
-        "name_en": "Computer R&D engineers and managers, IT project managers",
-        "sector": "Information technology",
-        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
-      },
-      {
-        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family B2Z40, ‘Maçons’.",
-        "local_name": "Maçons",
-        "name_en": "Masons",
-        "sector": "Construction",
-        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
-      },
-      {
-        "basis": "Annex I, Auvergne-Rhône-Alpes: listed family S2Z61, ‘Serveurs de cafés restaurants’.",
-        "local_name": "Serveurs de cafés restaurants",
-        "name_en": "Café and restaurant servers",
-        "sector": "Hospitality and food service",
-        "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+        "kind": "qualified_worker",
+        "name_en": "Passeport talent (category-specific qualified worker, researcher and other talent routes)",
+        "name_zh": "Passeport talent（按类别设置的合格雇员、研究人员及其他人才路径）",
+        "scope_en": "Program-specific categories, not a universal occupation list. Official examples include qualified employees hired by a recognised young innovative company for work directly related to its R&D project, international-group assignees, and researchers/academics hosted by an eligible research or higher-education body. These named categories and conditions do not make every occupation eligible; the route has no single finite list of ordinary jobs.",
+        "scope_zh": "这是按项目类别规定的路径，不是通用职业清单。官方明确举例包括：受认可创新型初创企业聘用、且工作直接关联企业研发项目的合格雇员；国际集团内部派驻人员；以及由合格科研或高等教育机构接收的研究人员/学者。这些类别和条件不代表所有职业均符合资格；该路径没有普通职位的单一有限清单。",
+        "conditions_en": "A work contract/installation generally must exceed three months, with conditions varying by category. The official France-Visas page states, for example, an innovative-company employee needs a contract over three months, a role directly linked to the company’s R&D project and pay of at least twice the legal full-time minimum wage; a researcher needs at least a master-equivalent qualification and a hosting agreement. Some categories have separate salary thresholds. A talent residence permit authorises the qualifying activity and generally dispenses the employer from a separate work-authorisation application; it is not an automatic permission based merely on job title.",
+        "conditions_zh": "通常要求工作合同/在法居留超过三个月，具体条件因类别而异。法国签证官方页面举例：创新型企业雇员须有超过三个月的合同、职位直接关联企业研发项目，且工资至少为全职法定最低工资的两倍；研究人员须至少具有硕士同等学历并持接收协议。其他类别另有薪资门槛。人才居留许可授权符合条件的工作，通常免除雇主另行申请工作许可；不能仅凭职位名称自动获得许可。",
+        "source_name": "France-Visas — Talents internationaux et attractivité économique; Service-Public — Autorisation de travail d'un salarié étranger en France",
+        "source_url": "https://france-visas.gouv.fr/talents-internationaux-et-attractivite-economique",
+        "occupations": []
       }
-    ],
-    "published_date": "2025-05-22 (Journal officiel publication; decree dated 2025-05-21)",
-    "signal_label": "Official occupation-and-region list for immigration/employment eligibility; not a general national labour-market shortage list",
-    "signal_type": "immigration_program_list",
-    "source_title": "Arrêté du 21 mai 2025 fixant la liste des métiers et zones géographiques caractérisés par des difficultés de recrutement… (JORF n° 0119 du 22 mai 2025, texte n° 21)",
-    "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051643488"
+    ]
   },
   {
-    "authority": "UWV (Uitvoeringsinstituut Werknemersverzekeringen), Netherlands",
-    "caveat": "This is the closest verified official occupation-level proxy, not an official national shortage list or a declaration that every named occupation has a labour shortage. ‘Kansrijk’ means good prospects for jobseekers; the signal reflects recent labour-market conditions, and prospects may differ by region. The page does not state an exact publication date or effective interval. It concerns employment prospects, not immigration eligibility; inclusion does not establish eligibility for a Dutch immigration program.",
+    "id": "nl",
     "country_en": "Netherlands",
     "country_zh": "荷兰",
-    "effective_period": "Not stated; the page identifies additions to the list in 2026.",
-    "id": "nl",
-    "list_title": "Kansrijke beroepen: beroepen met goede kansen op werk",
-    "methodology": "UWV describes its list as an annual, nationwide overview of occupations offering good job prospects. The linked UWV 2025–2026 report says it is based mainly on the relationship between vacancies and jobseekers over recent months, and that included occupations were reviewed by sector experts. The current official page explicitly names examples of occupations added in 2026.",
-    "occupations": [
+    "authority": "Immigration and Naturalisation Service; UWV; Government of the Netherlands",
+    "summary_en": "For non-EEA/Swiss nationals, work permission generally depends on the permit route, employer and job offer, and route-specific conditions—not a nationally enumerated list of occupations. EU/EEA and Swiss nationals generally do not need a work permit. Broad routes include employer-sponsored highly skilled migrant status and ordinary paid-employment permits subject to UWV labour-market assessment; seasonal work is specifically confined to agriculture/horticulture and up to 24 weeks. No generic role can be guaranteed eligible.",
+    "summary_zh": "对非欧盟/欧洲经济区及瑞士公民，能否获准工作通常取决于许可类别、雇主与工作邀约及该类别的具体条件，而非全国统一的合资格职业清单。欧盟/欧洲经济区及瑞士公民通常无需工作许可。主要途径包括由雇主担保的高技术移民许可，以及须接受UWV劳动力市场审查的普通受雇工作许可；季节性工作则限定为农业/园艺且最长24周。不能保证任何一般职业必然符合资格。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "No national occupation list or general role-level guarantee is established by these official sources. Do not treat an occupation’s presence in a talent/shortage list, or an example named for a particular permit exception, as work authorisation. Nationality, residence status, employer sponsorship, salary/qualification thresholds, labour-market testing, work duration, sector and any professional licensing rules can change the result. The sources reviewed include pages updated in 2026; no future-effective rule beyond what those pages state is assumed.",
+    "caveat_zh": "这些官方来源没有确立全国职业清单，也没有保证任何一般职位必然获准。职业出现在人才／紧缺名单中，或某个许可例外中列出该职业，均不等于获得工作许可。国籍、居留身份、雇主担保、薪资／资格门槛、劳动力市场审查、工作期限、行业及专业执照要求都可能影响结果。所查阅来源包括2026年更新页面；未假定页面未载明的未来生效规定。",
+    "pathways": [
       {
-        "basis": "UWV identifies this as an example of a vocational (mbo-level) occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
-        "local_name": "Metselaars en voegers",
-        "name_en": "Bricklayers and pointing workers",
-        "sector": "Construction",
-        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+        "kind": "employer_sponsored",
+        "name_en": "Highly skilled migrant residence permit",
+        "name_zh": "高技术移民居留许可",
+        "scope_en": "Broad employer-sponsored route for highly skilled work; the IND page does not establish a finite qualifying occupation list. This is a qualification/salary-and-sponsor pathway, not a universal occupation-based entitlement.",
+        "scope_zh": "面向高技术工作的广泛雇主担保途径；IND页面并未规定有限的合资格职业清单。这是以资格、薪资及担保雇主为条件的途径，并非职业本身自动赋予许可。",
+        "conditions_en": "An employer recognised by the IND must apply. A salary requirement applies; the applicable threshold depends on the case. A job offer/employment with the sponsoring employer is required. Do not infer eligibility from an occupation title alone.",
+        "conditions_zh": "须由IND认可的担保雇主提出申请；适用薪资门槛，具体标准视个案而定。须有担保雇主提供的工作。不能仅凭职业名称推断符合资格。",
+        "source_name": "IND — Highly skilled migrant",
+        "source_url": "https://ind.nl/en/residence-permits/work/highly-skilled-migrant",
+        "occupations": []
       },
       {
-        "basis": "UWV identifies this as an example of a vocational (mbo-level) occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
-        "local_name": "Dierenartsassistenten",
-        "name_en": "Veterinary assistants",
-        "sector": "Veterinary services / animal care",
-        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+        "kind": "employer_sponsored",
+        "name_en": "Ordinary paid employment: GVVA single permit / TWV",
+        "name_zh": "普通受雇工作：GVVA单一许可／TWV工作许可",
+        "scope_en": "General paid employment route, not a finite occupation list. For longer stays the GVVA combines residence and work authorisation; in situations requiring a residence permit but not a GVVA, the employer may need a TWV. IND specifically names route-handled situations such as spiritual counsellors/officiating ministers, monastic members or missionaries, international non-profit and arts/culture employees, and specified media-correspondent or seafaring cases; these named cases do not make other occupations automatically eligible.",
+        "scope_zh": "普通受雇工作的通用途径，不是有限职业清单。较长期工作通常使用合并居留与工作许可的GVVA；须有居留许可但不适用GVVA的情形，雇主可能须申请TWV。IND明确列出的特定处理情形包括宗教辅导员／主持宗教仪式者、修会成员或传教士、国际非营利组织及艺术文化领域雇员，以及特定媒体记者或海上工作情形；这些列举不代表其他职业自动符合资格。",
+        "conditions_en": "Typically requires a genuine employer/job offer and employer application. UWV applies labour-market criteria: the employer generally must be unable to find a suitable candidate in the Netherlands/EEA/Switzerland and meet vacancy and recruitment requirements. The precise permit and any exceptions depend on work duration, status and category. A standard GVVA is not granted just because an occupation is in demand.",
+        "conditions_zh": "通常须有真实雇主及工作邀约，并由雇主申请。UWV适用劳动力市场审查：一般要求雇主无法在荷兰／欧洲经济区／瑞士找到合适人选，并满足职位空缺及招聘要求。具体许可及例外取决于工作期限、身份和类别。职业紧缺本身并不使普通GVVA自动获批。",
+        "source_name": "IND — Employing a foreign national; Government of the Netherlands — What permits do foreign workers need?",
+        "source_url": "https://ind.nl/en/residence-permits/work/employing-a-foreign-national",
+        "occupations": []
       },
       {
-        "basis": "UWV identifies this as an example of a vocational (mbo-level) occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
-        "local_name": "Verkoopmedewerkers tweedehands artikelen",
-        "name_en": "Second-hand goods sales assistants",
-        "sector": "Retail / second-hand goods",
-        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
-      },
-      {
-        "basis": "UWV identifies this as an example of an hbo/wo-level occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
-        "local_name": "Budgetconsulenten",
-        "name_en": "Budget advisers",
-        "sector": "Financial and social services",
-        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
-      },
-      {
-        "basis": "UWV identifies this as an example of an hbo/wo-level occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
-        "local_name": "Facilitair managers",
-        "name_en": "Facilities managers",
-        "sector": "Facilities management",
-        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
-      },
-      {
-        "basis": "UWV identifies this as an example of an hbo/wo-level occupation added to the ‘kansrijke beroepen’ list in 2026; this indicates good job prospects, not formal shortage-list status.",
-        "local_name": "Eventmanagers / projectmanagers events",
-        "name_en": "Event managers / event project managers",
-        "sector": "Events and project management",
-        "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+        "kind": "sector_limited",
+        "name_en": "Seasonal work residence permit (agriculture/horticulture only)",
+        "name_zh": "季节性工作居留许可（仅农业／园艺）",
+        "scope_en": "A sector-specific and time-limited route, not a list of occupations: seasonal work in agriculture or horticulture for no more than 24 weeks. It is the closest verified operative sector restriction; the official page does not enumerate eligible job titles.",
+        "scope_zh": "按行业及期限限定的途径，而非职业清单：农业或园艺季节性工作，最长24周。这是核实到的行业限制；官方页面没有列举合资格职位名称。",
+        "conditions_en": "The Dutch employer is the sponsor; recognition as an IND sponsor is not required. The employer must first seek workers in the Netherlands and EU/EEA and report the vacancy to UWV, pay the applicable collective-agreement standard wage, and arrange proper housing. Income and other residence requirements apply. The permit is valid for up to 24 weeks.",
+        "conditions_zh": "荷兰雇主为担保方，但无需取得IND认可担保人资格。雇主须先在荷兰及欧盟／欧洲经济区寻找员工，并向UWV申报职位；须支付适用集体劳动协议规定的标准工资并安排合适住宿。另须满足收入及其他居留条件；许可最长有效24周。",
+        "source_name": "IND — Residence permit for seasonal work",
+        "source_url": "https://ind.nl/en/residence-permits/work/residence-permit-for-seasonal-work",
+        "occupations": []
       }
-    ],
-    "published_date": "Not stated",
-    "signal_label": "UWV landelijke lijst ‘kansrijke beroepen’ (official labour-market proxy; not a formal shortage list)",
-    "signal_type": "official_proxy",
-    "source_title": "Kansrijke beroepen: beroepen met goede kansen op werk",
-    "source_url": "https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen"
+    ]
   },
   {
-    "authority": "Servicio Público de Empleo Estatal (SEPE), Spain",
-    "caveat": "This is a formal national catalogue, but it is geographically specific rather than a single uniform countrywide list; an occupation's inclusion applies only in the listed province/island/autonomous city. It reflects difficulties public employment services had managing vacancy offers, not a measure of all vacancies or a guarantee of economy-wide shortage. SEPE states that inclusion enables an employer to process an initial temporary residence and employed-work authorization for a foreign worker; labour-market shortage status and immigration eligibility are related here but not interchangeable in general. The latest published file accessible on the official SEPE page at access date was titled 3º trimestre 2026; do not treat this sample as exhaustive.",
+    "id": "es",
     "country_en": "Spain",
     "country_zh": "西班牙",
-    "effective_period": "3rd quarter 2026 (catalogue title); SEPE says each catalogue is valid from the first through last working day of the calendar quarter following publication",
-    "id": "es",
-    "list_title": "Catálogo de Ocupaciones de Difícil Cobertura 3º Trimestre 2026",
-    "methodology": "SEPE says the catalogue records occupations for which Public Employment Services have encountered difficulty managing employers' vacancy offers. It is prepared separately for each province, islands in insular provinces, and the autonomous cities of Ceuta and Melilla; it is quarterly. The latest linked official PDF is titled for 3º trimestre 2026 and lists locations and occupations. Representative entries below are transcribed from that PDF; they are not a complete list.",
-    "occupations": [
+    "authority": "State Public Employment Service (SEPE); Ministry of Inclusion, Social Security and Migration",
+    "summary_en": "Foreign nationals can qualify through specific job offers, not merely by selecting a job title. For an ordinary initial employed-work authorization, an employer must apply with a signed, qualifying employment contract and satisfy the national-employment-situation test: the job is on the applicable quarterly difficult-to-cover catalogue, or the employer proves recruitment difficulty for a non-listed job through the competent public employment service, or a statutory exception applies. Separately, the highly qualified professional/ EU Blue Card route has qualification and job/offer conditions but no finite occupation list. No generic occupation can be guaranteed eligible.",
+    "summary_zh": "外国人须基于符合条件的具体工作邀请申请，不能仅凭职业名称取得许可。普通初始雇佣工作居留许可要求雇主申请并提交合格的已签劳动合同，同时满足国家就业状况测试：职位列入适用地区和季度的紧缺职业目录；或雇主经公共就业服务部门证明普通招聘无法填补非目录职位；或适用法定例外。另有高技能专业人员／欧盟蓝卡途径，须符合资格及工作/录用条件，但没有固定职业清单。任何一般职业都不能保证符合资格。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "A job title, occupation's presence in a catalogue, or talent designation alone is not a work visa or permit. Catalogue access is territorial and time-limited and only addresses one part of the ordinary permit test. For non-listed jobs, employer recruitment evidence or a specific legal exception may work; high-skill routes have their own qualification and offer conditions. Licensing/recognition, lawful contract terms and any applicable wage thresholds remain decisive. The official Ministry information page says it is guidance and that the law in force when the application is filed controls.",
+    "caveat_zh": "职业名称、职业列入目录或人才称号本身都不是工作签证／许可。目录资格有地域和时间限制，且只解决普通许可测试的一项条件。非目录职位可能通过雇主招聘证明或特定法定例外申请；高技能途径另有学历/经验及工作邀请要求。执照／资格认可、合法合同条件及适用工资门槛仍具决定性。移民部官方信息页明确提示其仅供参考，申请时有效法律为准。",
+    "pathways": [
       {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
-        "local_name": "frigoristas navales",
-        "name_en": "Ship refrigeration technicians",
-        "sector": "Maritime transport / ship operations",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+        "kind": "official_occupation_list",
+        "name_en": "Quarterly Difficult-to-Cover Occupations Catalogue (ordinary employed-work authorization)",
+        "name_zh": "季度紧缺职业目录（普通雇佣工作许可）",
+        "scope_en": "A finite official catalogue, drawn up by province, islands where applicable, and Ceuta/Melilla and updated quarterly. Inclusion of the occupation for the relevant location can satisfy the national employment situation condition for an employer to process an initial residence-and-work authorization. It is a permit-eligibility mechanism, not a permit itself. The SEPE page displays a Q3 2026 catalogue link whose PDF filename refers to 2T26; consult the actual official file and correct quarter/location. No individual occupation examples are asserted here.",
+        "scope_zh": "官方有限目录，按省份、适用时按岛屿以及休达／梅利利亚编制并按季度更新。职位列入对应地区适用目录，可满足雇主办理初始居留工作许可所需的国家就业状况条件之一。目录本身不是许可。SEPE页面列有“2026年第三季度”目录链接，但PDF文件名标示2T26；应核对实际官方文件及适用季度、地区。此处不列举未经逐项核实的职业实例。",
+        "conditions_en": "A real employer and qualifying signed job contract are still required; the employer files the authorization. The job must match the catalogue entry and territorial scope. The contract must comply with Spanish employment rules; the worker must meet any legally required training/qualification, professional recognition or licence. General identity, criminal-record and other permit conditions also apply. Catalogue inclusion does not waive these requirements or guarantee approval.",
+        "conditions_zh": "仍须有真实雇主和符合要求的已签工作合同，并由雇主提交许可申请；职位须与目录条目及地域范围相符。合同须符合西班牙劳动法规；申请人须满足法律要求的培训／资格、职业认可或执照条件。一般身份、无犯罪记录及其他许可条件仍适用。列入目录不免除这些要求，也不保证获批。",
+        "source_name": "SEPE — Qué es el catálogo de ocupaciones de difícil cobertura",
+        "source_url": "https://www.sepe.es/HomeSepe/empresas/informacion-para-empresas/profesiones-de-dificil-cobertura/profesiones-mas-demandadas.html",
+        "occupations": []
       },
       {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
-        "local_name": "jefes de máquinas de buque mercante",
-        "name_en": "Merchant-ship engine chiefs",
-        "sector": "Maritime transport / ship operations",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+        "kind": "employer_sponsored",
+        "name_en": "Ordinary initial temporary residence and employed-work authorization; national employment situation and statutory exceptions",
+        "name_zh": "普通初始临时居留及雇佣工作许可：国家就业状况测试与法定例外",
+        "scope_en": "Broad employer-sponsored route, not a finite occupation list. For non-listed occupations, the employer may establish that vacancies cannot be filled by workers already in the domestic labour market; the competent public employment service report and evidenced hiring urgency are considered, and the employer must submit the vacancy to the competent service. The Ministry also identifies international-agreement cases (Chile and Peru) and specified Article 40 exceptions, including certain family relationships, installation/equipment workers, specified former protection statuses, Spanish-origin descendants, qualifying seasonal-return workers, senior-trust/director posts, certain highly qualified/research/teaching/artistic cases, and intra-company/group workers. These are exceptions to the national employment situation test, not a universally eligible occupation list.",
+        "scope_zh": "广泛的雇主担保途径，不是固定职业清单。对于非目录职业，雇主可证明国内劳动力市场无法填补空缺；主管公共就业服务部门的报告及经证明的招聘紧迫性会被考虑，且雇主须向主管服务部门提交职位。移民部还列明与智利、秘鲁的国际协定情形及《外国人法》第40条的特定例外，包括部分家庭关系、设备安装人员、特定曾获保护身份者、西班牙血统后代、符合条件的季节工返乡者、高管／信任职位、部分高技能／研究／教学／艺术情形及集团内部调动员工。这些是国家就业状况测试的例外，并非普遍适用的职业名单。",
+        "conditions_en": "The employer must apply and provide a signed contract guaranteeing continuous activity; contract terms must comply with law (for part-time work, the Ministry page says annual pay must equal or exceed the full-time annual minimum wage). The employer must be registered with Social Security, current on tax and Social Security obligations, and demonstrate sufficient means. The worker must have legally required qualifications/licensing and satisfy general immigration conditions. This authorization is for non-EU/EEA/Swiss nationals outside the applicable EU-family regime; ordinary applicants must not be irregularly present in Spain. No general salary figure is stated here; applicable statutory wage and contract rules control.",
+        "conditions_zh": "须由雇主申请并提交保证持续工作的已签合同；合同条件须符合法律（移民部页面说明，兼职年薪须达到全职年度最低工资）。雇主须在社保登记、税务及社保义务合规，并证明有足够财力。申请人须具备法律要求的资格／执照并满足一般移民条件。此许可适用于不受欧盟家庭成员制度覆盖的非欧盟／欧洲经济区／瑞士公民；普通申请人不得已在西班牙非法居留。此处不提供通用工资数字，具体以适用法定工资及合同规定为准。",
+        "source_name": "Ministry of Inclusion, Social Security and Migration — Hoja 12: Autorización inicial de residencia temporal y trabajo por cuenta ajena; Hoja 59: Supuestos en los que la SNE permite la contratación",
+        "source_url": "https://www.inclusion.gob.es/web/migraciones/w/autorizacion-inicial-de-residencia-temporal-y-trabajo-por-cuenta-ajena-hi-16-",
+        "occupations": []
       },
       {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
-        "local_name": "mecánicos navales",
-        "name_en": "Ship mechanics",
-        "sector": "Maritime transport / ship operations",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
-      },
-      {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
-        "local_name": "pilotos de buques mercantes",
-        "name_en": "Merchant-ship pilots",
-        "sector": "Maritime transport / ship operations",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
-      },
-      {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería, Cádiz, and Córdoba; inclusion is location-specific.",
-        "local_name": "deportistas profesionales",
-        "name_en": "Professional athletes",
-        "sector": "Sports",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
-      },
-      {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería, Cádiz, and Córdoba; inclusion is location-specific.",
-        "local_name": "entrenadores deportivos",
-        "name_en": "Sports coaches",
-        "sector": "Sports",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
-      },
-      {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
-        "local_name": "cocineros de barco",
-        "name_en": "Ship cooks",
-        "sector": "Maritime transport / hospitality",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
-      },
-      {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
-        "local_name": "auxiliares de buques de pasaje",
-        "name_en": "Passenger-ship attendants",
-        "sector": "Maritime transport / passenger services",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
-      },
-      {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
-        "local_name": "carpinteros de aluminio, metálico y pvc",
-        "name_en": "Aluminium, metal and PVC carpenters",
-        "sector": "Construction / metal fabrication",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
-      },
-      {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
-        "local_name": "instaladores electricistas de edificios y viviendas",
-        "name_en": "Building and dwelling electricians",
-        "sector": "Construction / electrical installation",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
-      },
-      {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
-        "local_name": "conductores-operadores de grúa en camión",
-        "name_en": "Truck-mounted crane operators",
-        "sector": "Transport / construction equipment",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
-      },
-      {
-        "basis": "Listed in the 3º trimestre 2026 catalogue for multiple specified provinces, including Almería and Cádiz; inclusion is location-specific.",
-        "local_name": "marineros de cubierta (excepto pesca)",
-        "name_en": "Deck sailors (excluding fishing) ",
-        "sector": "Maritime transport",
-        "source_url": "https://www.sepe.es/dam/jcr:02b4aeea-0c5b-4e9e-883b-d4b104d7309c/catalogo-ocupaciones-dificl-cobertura-2T26.pdf"
+        "kind": "qualified_worker",
+        "name_en": "Highly qualified professionals / EU Blue Card",
+        "name_zh": "高技能专业人员／欧盟蓝卡",
+        "scope_en": "A broad high-qualification employment or professional route without a finite national occupation list. The law provides a Blue Card modality and a national highly qualified professional modality; access depends on the position's qualification level and the applicant's qualifications or qualifying experience, not a generic named occupation list. Regulated professions require recognition/homologation as applicable.",
+        "scope_zh": "没有全国固定职业清单的高资格雇佣／专业工作途径。法律规定欧盟蓝卡及国家高技能专业人员两种方式；资格取决于职位要求的层级以及申请人的学历或符合要求的经验，而非通用职业名称表。受监管职业须按适用规定完成资格认可／认证。",
+        "conditions_en": "An employer must require the foreign professional's incorporation for a highly qualified employment/professional relationship; an employment contract or firm job offer is relevant for the EU Blue Card. Blue Card qualification generally requires at least three years of higher education equivalent to the specified Spanish/EU level, or five years of relevant comparable professional experience; ICT professionals/directors may use three years of relevant experience within the preceding seven years. The national highly qualified modality requires the specified higher-education level or at least three years of comparable professional experience. The cited provisions state no occupation list; check the current applicable salary and other statutory conditions before applying.",
+        "conditions_zh": "企业须因高技能雇佣／专业关系而需要该外国专业人员赴西班牙工作；欧盟蓝卡要求劳动合同或正式工作邀请。蓝卡资格通常要求至少三年、达到规定西班牙／欧盟层级的高等教育，或五年相关且可比的职业经验；信息通信技术专业人员／主管可使用申请前七年内至少三年的相关经验。国家高技能类别要求达到规定的高等教育层级，或至少三年可比职业经验。所引条文没有职业目录；申请前须核实当前适用工资及其他法定条件。",
+        "source_name": "BOE — Ley 14/2013, Article 71 (consolidated legal text)",
+        "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-10074",
+        "occupations": []
       }
-    ],
-    "published_date": "Not stated for the 3º trimestre 2026 catalogue on the catalog page (accessed 2026-11-09)",
-    "signal_label": "National quarterly difficult-to-cover occupations catalogue (province/island/Autonomous City specific)",
-    "signal_type": "official_shortage_list",
-    "source_title": "Qué es el catálogo de ocupaciones de difícil cobertura; linked official catalogue PDF for 3º trimestre 2026",
-    "source_url": "https://www.sepe.es/HomeSepe/empresas/informacion-para-empresas/profesiones-de-dificil-cobertura/profesiones-mas-demandadas.html"
+    ]
   },
   {
-    "authority": "Jobs and Skills Australia, Australian Government",
-    "caveat": "This is an Australian labour-market shortage assessment, not an immigration-eligibility list: shortage status does not itself establish visa eligibility, and immigration occupation lists serve a separate purpose. It is a 2026 point-in-time result, not a guarantee of current vacancies or a forecast. The overall total covers 1,021 assessed occupations; the OSL page provides data at national and subnational levels. The two examples below are named in Jobs and Skills Australia’s accompanying 2026 Occupation Shortage Drivers analysis as occupations with identified shortage drivers; they are representative examples, not the complete list. The report notes Jockey was excluded from 2026 scope.",
+    "id": "au",
     "country_en": "Australia",
     "country_zh": "澳大利亚",
-    "effective_period": "2026 OSL; point-in-time assessment. The page was last modified 21 October 2026.",
-    "id": "au",
-    "list_title": "2026 Occupation Shortage List (OSL)",
-    "methodology": "Jobs and Skills Australia describes the OSL as a point-in-time assessment of occupations shortages in the Australian labour market. The 2026 Key Findings Report states that 279 of 1,021 assessed occupations (27%) were in national shortage and distinguishes four statuses: shortage, metropolitan shortage, regional shortage, and no shortage. Results are available at 4-digit ANZSCO unit-group and 6-digit ANZSCO/OSCA occupation levels. The report’s results are on an OSCA basis.",
-    "occupations": [
+    "authority": "Department of Home Affairs",
+    "summary_en": "Foreign nationals generally need a visa pathway, not merely a job title. The clearest list-based employer-sponsored route is subclass 482 Core Skills: the employer nominates an eligible CSOL occupation and must meet sponsorship, salary and nomination rules. The Specialist Skills stream is a separately restricted high-earnings route, not a general open occupation list. Labour-agreement routes are limited to occupations and concessions specifically agreed for that employer/sector. Subclass 186 Direct Entry also uses an eligible occupation list, but still requires employer nomination. No occupation guarantees a visa.",
+    "summary_zh": "外国人需要符合具体签证途径，职位名称本身并不足够。最明确的清单型雇主担保途径是482签证核心技能类别：雇主须提名CSOL上的合格职业，并满足担保、薪资及提名规则。专业技能类别是另有高薪门槛的受限途径，并非开放通用职业清单。劳工协议途径仅限雇主/行业协议明确涵盖的职业及相关豁免。186直接申请类别也要求职业符合适用清单且须雇主提名。任何职业都不保证获签。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "The Home Affairs Skilled occupation list page was last updated 6 August 2025; the 482 Core Skills stream page showed last updated 12 October 2026 and the subclass 186 page 2 November 2026 when checked. A sector priority or talent/occupation list must not be mistaken for universal work authorization: lists can govern only specified streams, be subject to caveats, or affect processing priorities rather than independently confer permission. Eligibility depends on the exact visa stream, nomination, thresholds, licensing, and current legislation. The subclass 186 page's priority sectors (construction, healthcare, teaching, agriculture, aquaculture, fishing and resources, plus law-enforcement/defence interests) are processing priorities, not standalone occupational eligibility.",
+    "caveat_zh": "核查时，内政部技术职业清单页面标示最后更新为2025年8月6日；482核心技能类别页面为2026年10月12日，186页面为2026年11月2日。行业优先类别或人才/职业清单不能误作普遍工作许可：清单可能只适用于特定签证类别、附有排除条件，或仅影响审理优先次序，并不单独授予工作权。资格取决于具体类别、雇主提名、薪资门槛、执照及现行法律。186页面列出的优先行业（建筑、医疗、教学、农业、水产养殖、渔业、资源行业及执法/国防利益）属于审理优先事项，并非独立的职业资格清单。",
+    "pathways": [
       {
-        "basis": "Named in Jobs and Skills Australia’s 2026 Occupation Shortage Drivers analysis: training was identified as the main driver. Representative example only; not the complete OSL.",
-        "local_name": "Motor Mechanics",
-        "name_en": "Motor Mechanics",
-        "sector": "Automotive technicians and trades",
-        "source_url": "https://www.jobsandskills.gov.au/news/occupation-shortages-continue-ease-while-new-analysis-reveals-whats-driving-persistent-gaps"
+        "kind": "official_occupation_list",
+        "name_en": "Subclass 482 — Core Skills stream (CSOL list-based)",
+        "name_zh": "482签证——核心技能类别（依据CSOL职业清单）",
+        "scope_en": "Operative finite occupation list: the Department's Core Skills Occupation List. The list directly defines which occupations can be nominated in this stream; it names occupations such as Software Engineer, Registered Nurse and Construction Project Manager. It is not a stand-alone work permit and does not guarantee a visa.",
+        "scope_zh": "适用的有限职业清单为内政部核心技能职业清单（CSOL），直接规定此类别可提名的职业。清单明确列有软件工程师、注册护士、建筑项目经理等职业。该清单本身不是工作许可，也不保证获签。",
+        "conditions_en": "Requires an Australian employer sponsor and a genuine nominated position in an eligible occupation. The employer must meet applicable salary rules (annual market salary rate and the indexed Core Skills Income Threshold) and nomination requirements; labour-market testing generally applies unless an exception is available. Applicant must meet skill, experience, English, health and character criteria and any required registration/licensing. Thresholds and detailed requirements can change; verify at application time.",
+        "conditions_zh": "须有澳大利亚雇主担保并提名真实职位，职业须在适用清单内。雇主须符合薪资规则（年度市场薪酬及经调整的核心技能收入门槛）和提名要求；除非适用豁免，通常须进行劳动力市场测试。申请人还须满足技能、经验、英语、健康及品格要求，以及任何注册/执照规定。门槛和细则可能调整，申请时应核实。",
+        "source_name": "The Core Skills Occupation List (Australian Government, Department of Home Affairs)",
+        "source_url": "https://immi.homeaffairs.gov.au/Documents/core-sol.pdf",
+        "occupations": []
       },
       {
-        "basis": "Named in Jobs and Skills Australia’s 2026 Occupation Shortage Drivers analysis: suitability was identified as the main driver, with training also a significant contributor. Representative example only; not the complete OSL.",
-        "local_name": "Registered Nurses",
-        "name_en": "Registered Nurses",
-        "sector": "Health",
-        "source_url": "https://www.jobsandskills.gov.au/news/occupation-shortages-continue-ease-while-new-analysis-reveals-whats-driving-persistent-gaps"
+        "kind": "employer_sponsored",
+        "name_en": "Subclass 482 — Specialist Skills stream",
+        "name_zh": "482签证——专业技能类别",
+        "scope_en": "Separate high-earnings employer-sponsored stream. It does not rely on the CSOL as a finite occupation list; occupation eligibility is constrained by the stream's ANZSCO occupation-group rules and exclusions. Therefore this is not an unrestricted route for any occupation.",
+        "scope_zh": "独立的高薪雇主担保类别，不以CSOL作为有限职业清单；职业资格受该类别的ANZSCO职业大类规则及排除项限制。因此并非任何职业均可申请。",
+        "conditions_en": "Requires employer nomination/sponsorship, a qualifying position and earnings meeting the Specialist Skills income threshold and market salary requirements, as well as skills, English and other visa criteria. Not an assurance based solely on occupation or salary. Confirm the current occupation-group exclusions and indexed threshold in the official rules when applying.",
+        "conditions_zh": "须由雇主担保并提名合格职位，薪酬须达到专业技能收入门槛及市场薪酬要求，并满足技能、英语等签证条件。不能仅凭职业或薪资视为获批保证；申请时须核实官方现行职业大类排除项及调整后门槛。",
+        "source_name": "Skills in Demand visa (subclass 482) — Specialist Skills stream (Australian Government, Department of Home Affairs)",
+        "source_url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/specialist-skills-stream",
+        "occupations": []
+      },
+      {
+        "kind": "employer_sponsored",
+        "name_en": "Subclass 482 — Labour Agreement stream",
+        "name_zh": "482签证——劳工协议类别",
+        "scope_en": "No universal finite national occupation list for this stream: the eligible occupation is specified under the applicable labour agreement, which may be employer-specific or industry-specific. Any industry agreement occupation schedule is program-specific, not a general permission list.",
+        "scope_zh": "此类别没有适用于全国的通用有限职业清单；可提名职业由适用的劳工协议规定，协议可针对特定雇主或行业。行业协议中的职业表仅适用于该项目，不是普遍工作许可清单。",
+        "conditions_en": "Requires an employer party to an approved labour agreement and a nomination for an occupation permitted by that agreement. Salary concessions, occupation scope, labour-market testing and other conditions depend on the agreement and relevant rules; applicant must also meet visa criteria and any licensing requirements. No generic role can be assumed eligible.",
+        "conditions_zh": "须由已签订获批劳工协议的雇主提名，且职业须为协议允许的职业。薪资豁免、职业范围、劳动力市场测试及其他条件依协议和相关规则而定；申请人仍须满足签证要求及执照规定。不得推定普通职位符合资格。",
+        "source_name": "Skills in Demand visa (subclass 482) — Labour agreement stream (Australian Government, Department of Home Affairs)",
+        "source_url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/labour-agreement-stream",
+        "occupations": []
+      },
+      {
+        "kind": "official_occupation_list",
+        "name_en": "Employer Nomination Scheme — subclass 186 (Direct Entry and Temporary Residence Transition)",
+        "name_zh": "雇主提名计划——186签证（直接申请及临时居留过渡类别）",
+        "scope_en": "Direct Entry requires an occupation on the relevant eligible skilled occupation list; the official list page identifies the CSOL/ANZSCO 2022 framework for subclass 186. Temporary Residence Transition has no occupation list: eligibility is based on the occupation held on the most recent temporary skilled visa. This is not an occupation-only route.",
+        "scope_zh": "直接申请类别要求职业列入相关合格技术职业清单；官方清单页说明186签证采用CSOL/ANZSCO 2022框架。临时居留过渡类别没有职业清单，资格依据最近持有的临时技术签证职业判断。这不是仅凭职业即可申请的途径。",
+        "conditions_en": "Both streams require employer nomination. Direct Entry requires the relevant listed occupation, necessary skills and at least Competent English; additional assessment, experience, age, health and character rules may apply. Transition generally requires holding an eligible 457/482 or bridging visa and usually at least two years of full-time eligible sponsored employment, plus nomination. Lists and stream criteria must be checked for the nominated pathway.",
+        "conditions_zh": "两类别均须雇主提名。直接申请类别要求职业符合适用清单、具备必要技能及至少达到合格英语水平；还可能适用技能评估、工作经验、年龄、健康及品格条件。过渡类别通常要求持有符合条件的457/482或过桥签证，并通常有至少两年全职合格担保就业经历，同时须获雇主提名。须按申请类别核实清单及具体条件。",
+        "source_name": "Employer Nomination Scheme visa (subclass 186) and Skilled occupation list (Australian Government, Department of Home Affairs)",
+        "source_url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186",
+        "occupations": []
       }
-    ],
-    "published_date": "Not stated",
-    "signal_label": "National occupation shortage",
-    "signal_type": "official_shortage_list",
-    "source_title": "Occupation Shortage (official data and downloads page; includes 2026 OSL workbook and Key Findings Report)",
-    "source_url": "https://www.jobsandskills.gov.au/data/occupation-shortage"
+    ]
   },
   {
-    "authority": "New Zealand Ministry of Business, Innovation and Employment (MBIE)",
-    "caveat": "This is a New Zealand-wide labour-demand proxy based on four online job boards, not a census of all vacancies and not a formal shortage determination. The page warns that the link between advertisements and labour demand is complex, especially for occupational and regional breakdowns; it also notes that small advertisement counts can distort comparisons. The latest release is current through the September 2026 quarter as of the source page last updated 6 November 2026. No individual occupations are returned because the verified page's headline shortage-relevant result names broad occupation groups only, without explicitly identifying individual occupations as being in shortage. Labour-market demand evidence is distinct from immigration eligibility: an occupation's appearance on any immigration pathway list would govern immigration criteria, not itself prove a general labour-market shortage.",
+    "id": "nz",
     "country_en": "New Zealand",
     "country_zh": "新西兰",
-    "effective_period": "September 2026 quarter; data page states monthly series through September 2026",
-    "id": "nz",
-    "list_title": "Not applicable — no verified current national occupation-shortage list or occupation-level shortage analysis identified; closest current official proxy is Jobs Online",
-    "methodology": "MBIE's Jobs Online tracks an index of online job advertisements from SEEK, Trade Me Jobs, Education Gazette, and Kiwi Health Jobs, treating online advertisements as a proxy for all advertisements and vacancies. The latest quarterly release reports year-on-year changes in the All Vacancies Index and makes occupation breakdowns available. It measures changes in advertised demand, not the number of actual vacancies or whether an occupation is in shortage. The page reports online advertisements grew for 6 of 8 occupation groups in the year to September 2026; Sales and Machinery operators & drivers showed the strongest growth, while Managers had the largest annual fall.",
-    "occupations": [],
-    "published_date": "06 November 2026 (page last updated; exact separate report publication date not stated)",
-    "signal_label": "Official labour-market proxy (online job-advertisement vacancies; not a shortage list or shortage analysis)",
-    "signal_type": "official_proxy",
-    "source_title": "Jobs Online — quarterly release, September 2026 quarter",
-    "source_url": "https://www.mbie.govt.nz/business-and-employment/employment-and-skills/labour-market-reports-data-and-analysis/jobs-online"
+    "authority": "Immigration New Zealand",
+    "summary_en": "New Zealand has no universal occupation-based work-permit list. The principal employer-sponsored route is the Accredited Employer Work Visa (AEWV): eligible employment is assessed under employer accreditation, job-check, skill, pay and other requirements rather than a general whitelist of occupations. The National Occupation List (NOL) tables specify codes INZ currently recognises for AEWV use, while the Green List provides qualifying residence routes for listed roles—not automatic work permission.",
+    "summary_zh": "新西兰没有适用于所有工作签证、以职业名单决定资格的全国统一清单。主要雇主担保途径是认证雇主工作签证（AEWV），资格取决于雇主认证、岗位审核、技能、薪酬等要求，而非一份通用职业白名单。国家职业清单（NOL）表格列出移民局目前认可用于 AEWV 的职业代码；绿色清单则是针对名单内岗位的特定居留途径，并不自动赋予工作许可。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "List membership is not a guarantee of a visa. AEWV eligibility depends on the particular job check, accredited employer, offer, pay, skill evidence, and any licensing or other visa conditions. The NOL page is explicitly limited to AEWV use and directs other cases or unlisted occupations to ANZSCO. The Green List affects specified residence pathways; it does not independently authorise work. This reflects the official pages checked on 9 Nov 2026; do not treat announced future changes as already operative.",
+    "caveat_zh": "列入任何清单都不保证获签。AEWV 资格取决于具体岗位审核、认证雇主、工作邀请、薪酬、技能证明，以及适用的执照或其他签证条件。NOL 页面明确限定于 AEWV 用途，并要求其他签证或未列职业使用 ANZSCO。绿色清单影响的是特定居留途径，本身不授权工作。以上依据 2026 年 11 月 9 日核查的官方页面；已公布但尚未生效的未来变更不应视为现行规则。",
+    "pathways": [
+      {
+        "kind": "employer_sponsored",
+        "name_en": "Accredited Employer Work Visa (AEWV), including NOL-recognised occupations",
+        "name_zh": "认证雇主工作签证（AEWV），包括认可的 NOL 职业",
+        "scope_en": "Broad employer-sponsored pathway, not a universal finite occupation whitelist. INZ publishes finite NOL occupations usable for AEWV/job checks (the page says 47 more skill-level 1–3 occupations were added on 9 March 2026); a listed code is for classification/use in this visa process and is not a visa grant. For jobs not on the NOL tables, INZ says to use ANZSCO. No generic role can be guaranteed eligible.",
+        "scope_zh": "广泛的雇主担保途径，并非通用的有限职业白名单。移民局公布可用于 AEWV／岗位审核的 NOL 职业清单（页面注明 2026 年 3 月 9 日新增 47 个技能等级 1–3 的职业）；列入清单仅用于该签证流程中的职业分类，并不等于获批。未列入 NOL 表格的岗位按移民局要求使用 ANZSCO。不能保证任何泛称职业必然符合资格。",
+        "conditions_en": "Requires a current full-time offer of at least 30 hours/week from an AEWV-accredited employer with an approved job check, at least the applicable pay rate, required relevant experience and/or qualification (normally 2 years' relevant experience or NZQCF level 4+ qualification, subject to stated exceptions), applicable skill-level/English rules, and occupational registration where required. The employer and worker must meet other immigration and employment-law conditions. Some work, including specified horticulture/viticulture crop work, needs a different visa.",
+        "conditions_zh": "须有认证雇主提供的现行全职工作邀请（每周至少 30 小时），且岗位已通过岗位审核；薪酬须达到适用标准，并满足相关工作经验及／或学历要求（通常为 2 年相关经验或 NZQCF 4 级以上学历，另有页面所述例外）、相应技能等级／英语要求，以及适用的职业注册要求。雇主和申请人还须满足其他移民及劳动法条件。某些工作（包括指定的园艺／葡萄种植作物工作）须申请其他签证。",
+        "source_name": "Accredited Employer Work Visa",
+        "source_url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
+        "occupations": []
+      },
+      {
+        "kind": "program_specific_list",
+        "name_en": "Green List residence pathway (Straight to Residence / Work to Residence)",
+        "name_zh": "绿色清单居留途径（直接居留／工作后居留）",
+        "scope_en": "Program-specific finite role list for residence eligibility: Tier 1 may qualify for Straight to Residence and Tier 2 for Work to Residence after the required period. It is not a universal work-visa occupation list and the listing itself does not grant work permission. The official page’s interactive list identifies roles and their specific requirements; examples are omitted here to avoid implying the role alone is sufficient.",
+        "scope_zh": "针对居留资格的特定项目职业清单：Tier 1 可能符合直接居留条件，Tier 2 可在满足规定工作期限后申请工作后居留。它不是通用工作签证职业清单，列入本身也不授予工作许可。官方交互清单列出岗位及各自具体要求；此处不列举职业，以免造成仅凭岗位名称即可获批的印象。",
+        "conditions_en": "The role must be on the applicable tier and the applicant must meet that role’s stated qualifications, registration and/or experience requirements and the relevant residence-visa criteria. To work in New Zealand, the person still needs a visa that authorises that work; a qualifying job offer/employment and employer conditions apply under the relevant visa route.",
+        "conditions_zh": "岗位须属于相应层级，申请人须满足该岗位规定的学历、注册及／或经验要求和相应居留签证标准。要在新西兰工作，仍须持有允许该工作的签证；相关签证途径还可能要求合格工作邀请／雇佣关系及雇主满足条件。",
+        "source_name": "Green List roles — jobs we need people for in New Zealand",
+        "source_url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/green-list-occupations-qualifications-and-skills/green-list-roles-jobs-we-need-people-for-in-new-zealand/",
+        "occupations": []
+      }
+    ]
   },
   {
-    "authority": "Ministry of Health, Labour and Welfare (MHLW), Japan; dataset hosted by the Statistics Bureau of Japan’s e-Stat portal",
-    "caveat": "The source record covers Japan nationally and the September 2026 monthly observation, and is based on MHLW administrative employment-service statistics (一般職業紹介状況), not a census of all vacancies, workers, or recruitment channels. These indicators describe labour-market flows/ratios rather than a government-certified shortage list; no occupations are enumerated here because the verified record page does not expose occupation-level values. Labour-market tightness is distinct from eligibility under Japan’s immigration or residence-status programmes, and this source does not define immigration eligibility. No exact effective period beyond the monthly observation is stated.",
+    "id": "jp",
     "country_en": "Japan",
     "country_zh": "日本",
-    "effective_period": "Monthly observations; newest period shown is September 2026",
-    "id": "jp",
-    "list_title": "Not applicable — no national occupation shortage list verified; closest proxy is the occupational labour-market indicators table",
-    "methodology": "The official e-Stat record identifies the table as monthly nationwide administrative statistics compiled by MHLW’s Employment Security Bureau, Employment Policy Division. The table title specifies occupational labour-market indicators in actual values. The dataset is the closest verified official occupation-level proxy; its existence does not establish that MHLW classifies occupations in it as formally shortage occupations. The record does not state a particular shortage threshold or methodology for designating shortage occupations.",
-    "occupations": [],
-    "published_date": "2026-10-30 08:30 (official dataset record; access date 2026-11-09)",
-    "signal_label": "Official occupational labour-market proxy; not a formal shortage list or shortage analysis",
-    "signal_type": "official_proxy",
-    "source_title": "職業別労働市場関係指標（実数）（平成21年改定）（令和4年4月～） [Occupational labour-market indicators (actual values) (2009 revision; April 2022 onward)]",
-    "source_url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&data=1&metadata=1&cycle=1&toukei=00450222&tstat=000001020327&tclass1=000001249728&tclass2val=0&stat_infid=000040519001"
+    "authority": "Immigration Services Agency of Japan",
+    "summary_en": "Japan does not offer a generic work permit based on an occupation appearing on a universal list. Work permission is granted through a residence status tied to the actual activity, employer/contract and any applicable statutory conditions. The SSW program is the exception with a finite, operative field/task framework; broad professional categories such as Engineer/Specialist in Humanities/International Services and Highly Skilled Professional have no finite occupation list and require case-by-case qualification. Official pages reviewed include updates through 9 Nov 2026.",
+    "summary_zh": "日本没有一份适用于所有人的通用职业清单，列入某职业并不自动取得工作许可。工作许可取决于具体在留资格、实际活动、雇主／合同及法定条件。特定技能制度是例外，具有实际适用的指定产业领域及工作内容框架；“技术・人文知识・国际业务”和“高度专门职”等广泛类别没有封闭职业清单，须个案审查。所查官方页面包含截至2026年11月9日的信息。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "Japan does not publish a universal finite occupation list that guarantees a work visa. A job title alone is insufficient: immigration examines actual duties, employer/contract, applicant qualifications and category-specific rules. SSW lists are operative only within that program; highly-skilled points are a bonus/recognition scheme, not a standalone talent-list work permit. No occupation should be represented as guaranteed eligible.",
+    "caveat_zh": "日本没有能保证取得工作签证的通用有限职业清单。仅有职位名称不足以获批：入管会审查实际职责、雇主／合同、申请人资格及类别专属规则。特定技能清单仅在该制度内生效；高度人才积分属于优惠／认定机制，并非独立的职业清单式工作许可。不得将任何职业表述为必然合格。",
+    "pathways": [
+      {
+        "kind": "official_occupation_list",
+        "name_en": "Specified Skilled Worker (SSW), Types 1 and 2",
+        "name_zh": "特定技能（1号、2号）",
+        "scope_en": "Operative finite sector/field and task list directly controls this pathway. The ISA page lists 19 Type 1 fields and 11 Type 2 fields, with field-specific permissible tasks and supporting-document requirements. Examples of named fields include nursing care, building cleaning, industrial product manufacturing, construction, shipbuilding/marine equipment, automobile maintenance, aviation, accommodation, automobile transportation, railways, logistics warehousing, agriculture, fisheries, food and beverage manufacturing, food service, forestry, and lumber. The exact field-specific task rules govern; this is not a universal list for all Japanese work statuses.",
+        "scope_zh": "本路径有直接影响资格的有限领域／工作任务清单。入管厅页面列出1号19个领域、2号11个领域，并按领域规定可从事的工作及申请材料。官方列举的领域包括护理、建筑物清洁、工业产品制造、建筑、造船及船舶用工业、汽车维修、航空、住宿、汽车运输、铁路、物流仓储、农业、渔业、食品饮料制造、餐饮、林业及木材产业等。须以领域具体任务规定为准；该清单不适用于日本所有工作在留资格。",
+        "conditions_en": "Requires an employment contract with a designated Japanese public/private organization and work within a designated field/task. Type 1 requires the prescribed skill/experience level and generally has a cumulative five-year limit; Type 2 is for proficient skills and only designated fields. Field-specific exams/skill and Japanese-language requirements, employer eligibility, support duties and supplementary standards may apply. Some sectors have intake ceilings or other restrictions; check current field notices. SSW alone does not guarantee approval, and no general salary threshold or labour-market test is asserted here.",
+        "conditions_zh": "须与法务大臣指定的日本公私机构签订符合规定的雇佣合同，并在指定领域从事获准工作。1号要求相应技能／经验，原则上累计在留不超过五年；2号要求熟练技能且仅限指定领域。可能适用领域考试、技能及日语要求、雇主资格、支援义务和附加标准。部分领域另有接收上限或限制，应核对当前领域公告。本资格不保证获批；此处不推定存在统一工资门槛或劳动力市场测试。",
+        "source_name": "Immigration Services Agency of Japan — Specified Skilled Worker Status of Residence / Specified Skilled Worker System",
+        "source_url": "https://www.moj.go.jp/isa/applications/status/specifiedskilledworker.html",
+        "occupations": []
+      },
+      {
+        "kind": "qualified_worker",
+        "name_en": "Engineer / Specialist in Humanities / International Services",
+        "name_zh": "技术・人文知识・国际业务",
+        "scope_en": "Broad activity-based route, not a finite occupation list. Officially described as work requiring natural-science or humanities knowledge/skills, or work requiring thought/sensitivity based on foreign culture. The ISA expressly gives examples: mechanical engineers, interpreters, designers, private-company language teachers and marketing personnel. These are illustrations, not guaranteed eligible jobs.",
+        "scope_zh": "按活动类别审查的广泛路径，并非有限职业清单。官方定义涵盖需要自然科学或人文科学知识／技能的工作，或需要以外国文化为基础的思维／感受性的工作。入管厅明确举例：机械工程师、口译员、设计师、私营企业语言教师及市场营销人员。这些只是示例，不代表职位必然合格。",
+        "conditions_en": "Requires a contract with a Japanese public/private organization and work matching the status; the applicant must meet relevant education, related experience or specified IT-examination/qualification criteria. Foreign-culture-based work generally requires at least three years' relevant experience, except for the stated university-graduate translation/interpreting/language-instruction exception. Salary must be no less than that paid to a Japanese national for comparable work. Certain language-facing work in lower employer categories is subject to a CEFR B2-equivalent evidence requirement under the page's stated application rules. No generic role is guaranteed and no general labour-market test is stated on the cited page.",
+        "conditions_zh": "须与日本公私机构签订合同，实际工作须符合该在留资格；申请人须满足相关学历、相关工作经验或规定的信息技术考试／资格条件。以外国文化为基础的工作通常须有至少三年相关经验，但官方注明大学毕业者从事翻译、口译或语言教学的例外。报酬不得低于日本人从事同等工作的报酬。雇主类别较低且涉及语言沟通的部分工作，按页面所述申请规则须提供CEFR B2相当能力证明。任何一般职位均不保证获批；所引页面未规定普遍劳动力市场测试。",
+        "source_name": "Immigration Services Agency of Japan — Status of Residence: Engineer/Specialist in Humanities/International Services",
+        "source_url": "https://www.moj.go.jp/isa/applications/status/gijinkoku.html",
+        "occupations": []
+      },
+      {
+        "kind": "qualified_worker",
+        "name_en": "Highly Skilled Professional (points-based status)",
+        "name_zh": "高度专门职（积分制在留资格）",
+        "scope_en": "Program-specific points/bonus route across three activity types: advanced academic research, advanced specialized/technical activity, and advanced business management. It is not a finite occupational list and points do not independently authorize an otherwise ineligible job. The official source says the applicant must first satisfy work-status eligibility/landing criteria; 70 points qualifies for preferential immigration/residence treatment.",
+        "scope_zh": "适用于三类活动的项目专属积分／优惠路径：高度学术研究、高度专业技术及高度经营管理。它不是有限职业清单，积分本身不能使原本不合格的工作获得许可。官方说明申请人须先满足工作在留资格及上陆许可标准；达到70分可获入管及在留管理优惠。",
+        "conditions_en": "Requires a qualifying activity and contract/institution where specified, satisfaction of the relevant underlying residence-status and landing criteria, and at least 70 points under the applicable education, experience, income and other criteria. J-Skip is a separate special highly skilled personnel scheme with its own thresholds; neither points system guarantees approval for a generic occupation. No labour-market test is stated in the cited points explainer.",
+        "conditions_zh": "须从事符合条件的活动，并在要求情况下具备相应机构／合同；满足基础在留资格及上陆许可标准，并按适用的学历、经验、收入等项目达到至少70分。J-Skip是另一个具有自身门槛的特别高度人才制度；两种积分制度都不保证一般职业获批。所引积分说明未规定劳动力市场测试。",
+        "source_name": "Immigration Services Agency of Japan — What is the Highly Skilled Personnel Points System?",
+        "source_url": "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_system_index.html",
+        "occupations": []
+      }
+    ]
   },
   {
-    "authority": "Singapore Ministry of Manpower (MOM), developed with the Ministry of Trade and Industry and sector agencies",
-    "caveat": "This is a national government-published Shortage Occupation List, but its operative scope is Employment Pass COMPASS C5 skills-bonus eligibility and, for qualifying infocomm technology roles, possible five-year EP duration—not a census of all vacancies or a general list of every occupation experiencing shortage. Inclusion alone does not ensure eligibility: candidates must perform the listed key duties, select an eligible job title and satisfy additional requirements. Labour-market shortage status and immigration eligibility are related here but are not interchangeable. The guide is current for applications from 1 January 2027 and does not establish conditions for other populations or sectors outside the stated programme. Singapore has no Chinese titles in this English-language guide; local_name is blank where none is provided.",
+    "id": "sg",
     "country_en": "Singapore",
     "country_zh": "新加坡",
-    "effective_period": "Applies to new and renewal Employment Pass applications from 1 January 2027",
-    "id": "sg",
-    "list_title": "COMPASS C5 Shortage Occupation List (SOL) Employer Guide",
-    "methodology": "MOM says occupations are identified in consultation with sector agencies and tripartite partners, considering strategic importance to Singapore’s economic priorities, the degree and nature of labour shortage, and the sector’s commitment to developing the local pipeline to address shortages over the medium term. This guide specifies shortage occupations, eligible job titles, key duties and occupation-specific additional requirements. The occupations below are a representative sample, not the complete list.",
-    "occupations": [
+    "authority": "Ministry of Manpower",
+    "summary_en": "Singapore does not offer a general occupation list that guarantees a foreign national a work pass. A foreigner generally needs an employer and a qualifying offer for an Employment Pass (EP) or S Pass, subject to salary and other tests; Work Permits are restricted by approved source-country/region and sector rules, quotas and employer application. The official NTS Occupation List is a genuine, finite role restriction for specified non-traditional source nationalities seeking Work Permits in Manufacturing or Services. The SOL only provides designated COMPASS bonus points (and for listed infocomm tech jobs, potential 5-year EP duration) under additional requirements; it does not independently grant permission to work.",
+    "summary_zh": "新加坡没有一份可保证外国人取得工作准证的通用职业清单。外国人通常须有雇主及符合条件的职位，申请Employment Pass（EP）或S Pass，并满足薪资等条件；Work Permit则受获准来源国/地区、行业规则、配额及雇主申请限制。官方NTS职业清单确实是有限且具实际限制效力的名单，适用于特定非传统来源国籍人士在制造业或服务业申请Work Permit。SOL只在满足附加条件时提供COMPASS加分（列入的资讯通信科技职位还可能符合5年EP期限），本身不授予工作许可。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "Singapore work authorization is pass- and employer-specific; a role appearing on a list does not by itself confer permission. EP/S Pass remain discretionary assessments under salary, COMPASS/eligibility, advertising, quota or other applicable conditions. Work Permit occupation/source-country/sector restrictions must be checked for the specific worker and employer. The official pages reviewed display explicit dates; thresholds and lists can change, including the stated 2027 EP/S Pass salary revisions.",
+    "caveat_zh": "新加坡工作许可取决于具体准证及雇主；职位出现在名单中本身并不授予工作权。EP/S Pass仍须按薪资、COMPASS/资格、招聘广告、配额及其他适用条件逐案评估。Work Permit须针对具体工人及雇主核查职业、来源国和行业限制。所查官方页面明确列有日期；门槛和名单可能调整，包括页面注明的2027年EP/S Pass薪资调整。",
+    "pathways": [
       {
-        "basis": "Listed as shortage occupation 1 in the November 2026 SOL guide; key duties involve new product development in alternative-protein food applications; supporting agency: EDB.",
-        "local_name": "",
-        "name_en": "Specialty Ingredient Application Scientist",
-        "sector": "Agritech",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+        "kind": "official_occupation_list",
+        "name_en": "Work Permit for migrant workers — sector-specific rules and NTS Occupation List",
+        "name_zh": "外籍劳工Work Permit——行业规则及NTS职业清单",
+        "scope_en": "Work Permit is for semi-skilled migrant workers from approved source countries/regions working in certain sectors. The NTS list directly limits firms in Manufacturing and Services that hire Work Permit holders from Bangladesh, Bhutan, Cambodia, India, Laos, Myanmar, Philippines, Sri Lanka or Thailand to the occupations named on that list. Official examples include food services workers (such as cooks and waiters), housekeeping workers and porters, heavy vehicle drivers (such as bus, lorry and trailer-truck drivers), and listed manufacturing workers. This is not a universal list for all foreign workers or all sectors/nationalities.",
+        "scope_zh": "Work Permit适用于来自获准来源国/地区、在特定行业工作的半技术外籍劳工。NTS名单直接限制制造业及服务业雇主：若雇用来自孟加拉国、不丹、柬埔寨、印度、老挝、缅甸、菲律宾、斯里兰卡或泰国的Work Permit持有人，只能从名单所列职业中聘用。官方例子包括餐饮服务人员（如厨师、服务员）、客房清洁人员及行李员、重型车辆司机（如巴士、货车及拖车司机）和列名制造业工人。这不是适用于所有外国人、行业或国籍的通用职业清单。",
+        "conditions_en": "Employer must apply and comply with sector-specific source-country rules, quotas/Dependency Ratio Ceilings, levy and other pass conditions. For NTS-listed jobs, the employer must keep within the 8% sub-DRC, pay at least S$2,000 fixed monthly salary, and ensure the worker performs only the occupation stated on the permit. Individual roles may require a specific employer licence or other qualification; e.g. heavy vehicle drivers need a Class 4 or 5 licence, and specified childcare/food/cabin-attendant roles have employer licensing/appointment conditions. Work Permit source-country eligibility is not interchangeable with NTS-list eligibility.",
+        "conditions_zh": "雇主必须申请并遵守行业来源国规则、配额/依赖比上限、征费及其他准证条件。NTS名单职业须符合8%子依赖比上限，固定月薪至少S$2,000，且工人只能从事准证注明的职业。个别职业可能要求特定雇主执照或资质；例如重型车辆司机须持Class 4或5驾照，特定幼儿照护、餐饮及客舱服务职位还要求雇主具备牌照/指定资格。Work Permit来源国资格与NTS名单资格并非同一概念。",
+        "source_name": "Ministry of Manpower — Non-Traditional Sources (NTS) Occupation List",
+        "source_url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/sector-specific-rules/non-traditional-sources-occupation-list",
+        "occupations": [
+          {
+            "name_en": "Food services workers (cooks, waiters)",
+            "local_name": "餐饮服务人员（厨师、服务员）",
+            "basis_en": "Official examples; NTS list is restricted by source country, sector and employer conditions; membership is not authorization.",
+            "basis_zh": "官方示例；NTS名单受来源国、行业及雇主条件限制；列入清单不等于获准。"
+          },
+          {
+            "name_en": "Housekeeping workers and porters",
+            "local_name": "客房清洁人员及行李员",
+            "basis_en": "Official examples; NTS list is restricted by source country, sector and employer conditions; membership is not authorization.",
+            "basis_zh": "官方示例；NTS名单受来源国、行业及雇主条件限制；列入清单不等于获准。"
+          },
+          {
+            "name_en": "Heavy vehicle drivers",
+            "local_name": "重型车辆司机",
+            "basis_en": "Official examples; NTS list is restricted by source country, sector and employer conditions; membership is not authorization.",
+            "basis_zh": "官方示例；NTS名单受来源国、行业及雇主条件限制；列入清单不等于获准。"
+          }
+        ]
       },
       {
-        "basis": "Listed as shortage occupation 2 in the November 2026 SOL guide; supporting agency: EDB.",
-        "local_name": "",
-        "name_en": "Novel food biotechnologist",
-        "sector": "Agritech",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+        "kind": "employer_sponsored",
+        "name_en": "Employment Pass (EP)",
+        "name_zh": "Employment Pass（EP，就业准证）",
+        "scope_en": "Broad pathway for foreign professionals, managers, executives and technicians; MOM’s general EP framework is not a finite occupation list. An offer/job is assessed on pass criteria rather than a general catalogue of eligible job titles. No generic occupation can be guaranteed eligible from its title alone.",
+        "scope_zh": "面向外国专业人士、经理、主管及技术人员的广泛途径；MOM的EP通用框架不是有限职业清单。职位按准证标准评估，而非按通用合资格职位目录决定。不能仅凭职位名称保证任何普通职业符合资格。",
+        "conditions_en": "Requires an employer-sponsored application and qualifying fixed monthly salary benchmarked by age and sector (the official page states current minimum S$5,600 outside financial services and S$6,200 in financial services; higher with age), plus at least 40 COMPASS points unless exempt. Employers generally must advertise on MyCareersFuture for at least 14 consecutive days and consider candidates fairly, subject to stated exemptions. A job offer or a SOL occupation alone is not enough.",
+        "conditions_zh": "须由雇主提出申请，并达到按年龄及行业递增的固定月薪门槛（官方页面列出的现行最低标准为非金融业S$5,600、金融业S$6,200；年龄越高门槛越高），且除豁免情形外须在COMPASS取得至少40分。雇主通常须在MyCareersFuture刊登职位至少连续14天并公平考虑候选人，适用规定的豁免除外。仅有职位邀约或属于SOL职业均不足以取得EP。",
+        "source_name": "Ministry of Manpower — Eligibility for Employment Pass",
+        "source_url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+        "occupations": []
       },
       {
-        "basis": "Listed as shortage occupation 3; covers specified petroleum/natural-gas plant operations and requires relevant engineering/science NITEC, Higher NITEC or diploma-level qualification; supporting agency: EDB.",
-        "local_name": "",
-        "name_en": "Chemical Engineering Technician (Petroleum/Natural Gas)",
-        "sector": "Energy & Chemicals",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+        "kind": "employer_sponsored",
+        "name_en": "S Pass",
+        "name_zh": "S Pass（S准证）",
+        "scope_en": "Employer-sponsored route for foreign employees across nationalities/citizenships, without a finite general occupation list. The official criteria describe eligibility by job offer, salary and other conditions, not a specified occupation catalogue; no ordinary role is guaranteed eligible merely by title.",
+        "scope_zh": "面向各国籍外国雇员的雇主担保途径，没有通用有限职业清单。官方标准按工作邀约、薪资及其他条件评估，而非依指定职业目录；不能仅凭普通职位名称保证符合资格。",
+        "conditions_en": "Requires a Singapore job offer and employer application. The fixed monthly salary must meet the age- and sector-benchmarked threshold (current minimum S$3,300 outside financial services and S$3,800 in financial services, rising with age). Employers are subject to sector quota and monthly levy. Declaring qualifications is optional, but if declared they must be authentic and from an accredited institution in the application list. The official FCF advertising requirements apply as specified for S Pass applications, including exemptions.",
+        "conditions_zh": "须有新加坡工作邀约并由雇主申请。固定月薪须达到按年龄及行业设定的门槛（非金融业现行最低S$3,300、金融业S$3,800，随年龄上升）。雇主受行业配额及月度征费限制。学历申报可选；如申报，须真实且由申请表名单中的认可院校颁发。S Pass申请按规定适用公平考虑框架招聘广告要求及其豁免。",
+        "source_name": "Ministry of Manpower — Eligibility for S Pass",
+        "source_url": "https://www.mom.gov.sg/passes-and-permits/s-pass/eligibility",
+        "occupations": []
       },
       {
-        "basis": "Listed as shortage occupation 5; role must meet the duties and employer/qualification conditions set out in the guide; supporting agency: EDB.",
-        "local_name": "",
-        "name_en": "Materials Engineer",
-        "sector": "Energy & Chemicals",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
-      },
-      {
-        "basis": "Listed as shortage occupation 6; guide specifies carbon project development duties and employer plus qualification/experience conditions; supporting agencies: EnterpriseSG and EDB.",
-        "local_name": "",
-        "name_en": "Carbon project/program manager",
-        "sector": "Green economy",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
-      },
-      {
-        "basis": "Listed as shortage occupation 8; eligible job title is Carbon trader and the listed key duty is trading/brokering carbon credits.",
-        "local_name": "",
-        "name_en": "Carbon trader",
-        "sector": "Green economy",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
-      },
-      {
-        "basis": "Listed as shortage occupation 9 in the SOL guide; subject to the listed duties and occupation-specific requirements.",
-        "local_name": "",
-        "name_en": "Clinical psychologist",
-        "sector": "Healthcare",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
-      },
-      {
-        "basis": "Listed as shortage occupation 10 in the SOL guide; subject to the listed duties and occupation-specific requirements.",
-        "local_name": "",
-        "name_en": "Diagnostic radiographer",
-        "sector": "Healthcare",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
-      },
-      {
-        "basis": "Listed as shortage occupation 13; guide lists eligible job titles including assistant director of nursing and specifies key duties and additional requirements.",
-        "local_name": "",
-        "name_en": "Registered nurse",
-        "sector": "Healthcare",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
-      },
-      {
-        "basis": "Listed under shortage occupation 17 (Artificial intelligence (AI)); eligible job titles and requirements are specified in the guide. Qualifying infocomm technology SOL roles may also qualify for a five-year EP, subject to requirements.",
-        "local_name": "",
-        "name_en": "Artificial intelligence (AI) engineer",
-        "sector": "Infocomm technology",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
-      },
-      {
-        "basis": "Listed as shortage occupation 18; eligible titles include Cloud architect; subject to key-duty and additional requirements in the guide.",
-        "local_name": "",
-        "name_en": "Cloud specialist",
-        "sector": "Infocomm technology",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
-      },
-      {
-        "basis": "Listed as shortage occupation 25 in the November 2026 SOL guide; subject to the listed duties and occupation-specific additional requirements.",
-        "local_name": "",
-        "name_en": "Marine superintendent",
-        "sector": "Maritime",
-        "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+        "kind": "talent_list_not_authorization",
+        "name_en": "COMPASS Shortage Occupation List (SOL) — program-specific bonus, not a standalone work pass",
+        "name_zh": "COMPASS紧缺职业清单（SOL）——项目加分，不是独立工作准证",
+        "scope_en": "Lists specific shortage job titles eligible for EP COMPASS C5 Skills Bonus; listed infocomm technology jobs may also qualify for a 5-year EP. It is not a universal occupation eligibility list and does not itself authorize work. MOM states the displayed SOL was released in November 2025 and applies to new and renewal EP applications from 1 January 2026; the page also points to an upcoming guide for applications/renewals from 1 January 2027.",
+        "scope_zh": "列出可获EP COMPASS C5技能加分的特定紧缺职位；列出的资讯通信科技职位还可能符合5年EP。它不是通用职业准入清单，也不单独授权工作。MOM说明页面所示SOL于2025年11月发布，适用于2026年1月1日起的新EP及续签申请；页面另提供适用于2027年1月1日起申请/续签的未来指南。",
+        "conditions_en": "Candidate must actually perform the listed duties, select an eligible job title in the EP application and meet occupation-specific requirements, which may include relevant qualifications, experience, registration/accreditation or employer/sector conditions. EP salary and other eligibility requirements still apply; COMPASS points depend on the case. For C5, nationality share in the employer’s PMET workforce affects whether the bonus is 10 or 20 points. The official page describes SOL as a bonus list, not a guarantee of an EP.",
+        "conditions_zh": "候选人必须实际履行清单所列职责，在EP申请中选择合资格职位，并满足该职业的具体要求，可能包括相关学历、经验、注册/认证或雇主/行业条件。EP薪资及其他资格要求仍然适用，COMPASS得分取决于个案。C5加分为10或20分，视雇主PMET员工中候选人国籍占比而定。官方页面将SOL定位为加分名单，并非EP保证。",
+        "source_name": "Ministry of Manpower — COMPASS C5 Skills Bonus: Shortage Occupation List (SOL)",
+        "source_url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c5-skills-bonus-shortage-occupation-list-sol",
+        "occupations": []
       }
-    ],
-    "published_date": "November 2026",
-    "signal_label": "Ministry of Manpower (MOM) COMPASS C5 Shortage Occupation List (SOL), November 2026 edition",
-    "signal_type": "official_shortage_list",
-    "source_title": "COMPASS C5 Shortage Occupation List (SOL) Employer Guide (upcoming guide)",
-    "source_url": "https://www.mom.gov.sg/-/media/mom/documents/work-passes-and-permits/compass/sol-guidebook-upcoming.pdf"
+    ]
+  },
+  {
+    "id": "hk",
+    "country_en": "Hong Kong",
+    "country_zh": "香港",
+    "authority": "Immigration Department; Labour Department",
+    "summary_en": "Hong Kong has broad employer-sponsored professional admission pathways assessed individually, rather than a general approved-occupations list. An explicitly named eight-trade Technical Professional List applies only within a restricted stream for eligible Mainland residents. Separately, employers may seek to import lower-skilled workers under ESLS only after local recruitment and case-by-case Labour Department approval.",
+    "summary_zh": "香港没有一份普遍决定工作签证资格的全国职业清单；专业人士的雇主担保申请按个案审查。明确列出的八类技术专业只适用于受限的内地居民技术专业人士输入安排。另有雇主可按补充劳工优化计划申请输入较低技术层级劳工，但须先本地招聘并经劳工处逐案批准。",
+    "published_date": "Not stated / 未注明",
+    "effective_period": "Not stated / 未注明",
+    "caveat_en": "Do not infer eligibility from a job title alone. Except for the narrowly scoped Technical Professionals Stream list, the cited official sources establish pathways and case-specific tests, not guaranteed occupations. Hong Kong’s Talent List or TTPS eligible-university list (and any points/bonus they may confer) is not a work permit or a universal occupation whitelist. Nationality/residency, sector exclusions, employer sponsorship, quota, credentials/licensing and labour recruitment conditions can all control the route.",
+    "caveat_zh": "不得仅凭职位名称推断资格。除适用范围狭窄的技术专业人士清单外，所引官方来源规定的是途径及个案审查条件，并未保证特定职业可获批。香港人才清单或TTPS合资格大学名单（及其可能带来的计分／加分）不是工作许可，也不是普遍职业白名单。国籍／居留身份、行业排除、雇主担保、配额、资历／执照及本地招聘条件均可能决定适用途径。",
+    "pathways": [
+      {
+        "kind": "employer_sponsored",
+        "name_en": "General Employment Policy (GEP): employment as professionals",
+        "name_zh": "一般就业政策（GEP）：以专业人士身份就业",
+        "scope_en": "Broad employer-sponsored route for foreign professionals; there is no finite occupation list and no generic role can be guaranteed eligible. The applicant must possess special skills, knowledge or experience of value to, and not readily available in, Hong Kong; the job must be relevant to the applicant’s qualifications/experience and the remuneration should be at market level. A bona fide Hong Kong employer and specific job offer are required. No fixed salary threshold or universal labour-market-test checklist is stated as a general occupation rule on the cited page; assessment is case-specific.",
+        "scope_zh": "面向外籍专业人士的广泛雇主担保途径；没有有限职业清单，也不能保证任何一般职位必然合资格。申请人须具备对香港有价值且不易在本地取得的特殊技能、知识或经验；职位须与申请人的资历／经验相关，薪酬应符合市场水平。须有真实的香港雇主及具体职位聘用。所引官方页面未把固定薪资门槛或统一劳动力市场测试列作普遍职业规则，申请按个案评估。",
+        "conditions_en": "The Immigration Department assesses the application and may require evidence of qualifications/work experience, job duties, salary and the employer’s business. This is permission tied to the approved employment conditions, not blanket permission for every occupation or employer.",
+        "conditions_zh": "入境事务处会评估申请，并可要求提供学历／工作经验、职务、薪酬及雇主业务证明。许可受获批就业条件约束，并非对所有职业或雇主的通用许可。",
+        "source_name": "Immigration Department — General Employment Policy (GEP)",
+        "source_url": "https://www.immd.gov.hk/eng/services/visas/GEP.html",
+        "occupations": []
+      },
+      {
+        "kind": "official_occupation_list",
+        "name_en": "Technical Professionals Stream — GEP/ASMTP",
+        "name_zh": "技术专业人士输入安排——GEP／ASMTP",
+        "scope_en": "A finite list directly defines trades covered by this specific stream, not all Hong Kong work visas: new industrialisation technicians; nurses; aircraft maintenance technicians; marine services technicians (local vessels); information technology technicians; lift/escalator technicians; building information modelling coordinators; and electrical technicians. The stream is for eligible Mainland residents and is subject to its quota and stream-specific age, qualification, experience and other requirements. A listed trade alone does not guarantee permission; a Hong Kong job offer/employer and the required trade-specific credentials (including registration/licence where specified) remain necessary.",
+        "scope_zh": "有限清单直接界定本特定安排涵盖的工种，并非香港所有工作签证的职业清单：新型工业化技术员、护士、飞机维修技术员、本地船舶海事服务技术员、资讯科技技术员、电梯／自动梯技术员、建筑信息模拟（BIM）协调员及电气技术员。此安排面向符合资格的内地居民，并受配额及该安排的年龄、学历、经验等要求限制。列入清单本身不保证获批；仍须有香港职位／雇主，并具备工种要求的资历（包括规定的注册／执照）。",
+        "conditions_en": "Applicants must meet the minimum requirements specified for the corresponding trade. The scheme page provides a quota and stream-specific eligibility rules; this is not an unrestricted route for foreign nationals generally.",
+        "conditions_zh": "申请人须符合相应工种的最低要求。该计划设有配额及专属资格规则；这不是面向一般外国国民的无限制途径。",
+        "source_name": "Immigration Department — Relevant Information of “Technical Professional List”",
+        "source_url": "https://www.immd.gov.hk/eng/services/visas/TPlist.html",
+        "occupations": [
+          {
+            "name_en": "New industrialisation technicians",
+            "local_name": "新型工业化技术员",
+            "basis_en": "Named trade; stream eligibility, quota and credentials still apply; list membership does not guarantee permission.",
+            "basis_zh": "列明工种；仍须符合计划资格、配额及资历要求；列入清单不保证获准。"
+          },
+          {
+            "name_en": "Nurses",
+            "local_name": "护士",
+            "basis_en": "Named trade; stream eligibility, quota and credentials still apply; list membership does not guarantee permission.",
+            "basis_zh": "列明工种；仍须符合计划资格、配额及资历要求；列入清单不保证获准。"
+          },
+          {
+            "name_en": "Aircraft maintenance technicians",
+            "local_name": "飞机维修技术员",
+            "basis_en": "Named trade; stream eligibility, quota and credentials still apply; list membership does not guarantee permission.",
+            "basis_zh": "列明工种；仍须符合计划资格、配额及资历要求；列入清单不保证获准。"
+          },
+          {
+            "name_en": "Electrical technicians",
+            "local_name": "电气技术员",
+            "basis_en": "Named trade; stream eligibility, quota and credentials still apply; list membership does not guarantee permission.",
+            "basis_zh": "列明工种；仍须符合计划资格、配额及资历要求；列入清单不保证获准。"
+          }
+        ]
+      },
+      {
+        "kind": "employer_sponsored",
+        "name_en": "Enhanced Supplementary Labour Scheme (ESLS)",
+        "name_zh": "补充劳工优化计划（ESLS）",
+        "scope_en": "Employer-led route to import workers at technician level or below for vacancies the employer genuinely cannot fill locally. The Labour Department’s List of Common Posts gives wages, hours, entry requirements and duties for common posts and streamlines preliminary screening when the common-post form is used; it is not a general approved-occupations list or automatic individual eligibility. ESLS excludes job categories/sectors covered by separate care-worker, construction and transport importation schemes.",
+        "scope_zh": "由雇主申请，为确实难以在本地招聘的技术员或以下层级空缺输入劳工。劳工处《常见职位清单》列出常见职位的工资、工时、入职要求及职责；使用常见职位表格可加快初步筛查，但该清单不是普遍适用的获批职业清单，也不自动赋予个人资格。ESLS不涵盖另有照护工、建筑及运输输入计划的职位／行业。",
+        "conditions_en": "The employer must conduct the Labour Department-prescribed local recruitment exercise for each vacancy and obtain case-by-case approval. Contracts may not exceed 24 months; imported workers must be paid at least the median monthly wage for comparable local positions, work only for the approved employer and in the specified position, and return to their place of origin when the contract expires. Employer levy and a Standard Employment Contract apply. The official scheme page does not guarantee approval for any particular post.",
+        "conditions_zh": "雇主须按劳工处规定为每个空缺进行本地招聘，并逐案取得批准。合同不得超过24个月；输入劳工薪酬不得低于本地可比职位的月薪中位数，只可为获批雇主及指定职位工作，并须在合同期满后返回原居地。雇主须缴交征款并使用标准雇佣合约。官方计划页面不保证任何特定职位必获批准。",
+        "source_name": "Labour Department — Enhanced Supplementary Labour Scheme",
+        "source_url": "https://www.labour.gov.hk/eng/plan/iwESLS.htm",
+        "occupations": []
+      },
+      {
+        "kind": "qualified_worker",
+        "name_en": "Top Talent Pass Scheme (TTPS) — not an occupation list",
+        "name_zh": "高端人才通行证计划（TTPS）——非职业清单",
+        "scope_en": "A talent-based route whose published eligibility is based on income or academic/university and work-experience criteria, not a finite list of eligible occupations. It can allow qualifying applicants to enter to explore employment; it does not make a particular occupation universally eligible. For extension after finding a job, the Immigration Department assesses the employment and supporting requirements. The eligible-university list is not an occupation list and does not itself grant work permission.",
+        "scope_zh": "以人才条件为基础的途径，公开资格依据收入或学历／合资格大学及工作经验等条件，而非有限的合资格职业清单。符合条件者可获准入境探索就业；这并不意味着某一职业普遍合资格。找到工作后申请延长逗留，入境事务处仍会评估就业及相关证明。合资格大学名单不是职业清单，也不会自行授予工作许可。",
+        "conditions_en": "The scheme’s category-specific requirements apply; TTPS is not an employer-sponsored occupation list. The official FAQ distinguishes eligibility categories and separately addresses conditions of stay and employment-related extension assessment.",
+        "conditions_zh": "须符合计划各类别的专属要求；TTPS并非雇主担保职业清单。官方常见问题分别说明各类别资格，并另行规定逗留条件及就业相关的延期评估。",
+        "source_name": "Immigration Department — Top Talent Pass Scheme FAQ",
+        "source_url": "https://www.immd.gov.hk/eng/faq/TTPS.html",
+        "occupations": []
+      }
+    ]
   }
 ]
