@@ -8,8 +8,8 @@
     "summary_zh": "美国工作许可按签证类别和申请途径决定，并无一份普遍适用、列明可获工作许可职业的全国清单。临时工作通常须符合具体类别条件，且多数类别需要雇主提交申请。就业移民设有优先类别，其中许多要求工作邀请和劳工认证；普通职业并不会因此自动符合条件。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "A visa category’s sector or worker-class description is not a guarantee that any particular job qualifies. Employer petition/sponsorship, labor certification or labor-market tests, education/experience, licensing, country eligibility, annual caps, and visa availability depend on the specific route. The official visa page’s H-2B designated-country rule is route-specific, not a universal rule for U.S. work visas.",
-    "caveat_zh": "签证类别所述行业或人员类别，并不保证任何具体职位符合条件。是否须雇主提交申请/担保、劳工认证或劳动力市场测试、学历/经验、执照、国籍限制、年度名额及签证是否可用，均取决于具体途径。官方签证网页所述 H-2B 指定国家要求仅适用于该类别，并非美国工作签证的普遍规则。",
+    "caveat_en": "Checked official rule pages available on 9 Nov 2026. USCIS’s H-1B page could not be retrieved during this check; H-1B thresholds are based on the linked Department of Labor official program page. Visa Bulletin cutoff dates change monthly, and exact eligibility and processing depend on the facts, employer, category, country of chargeability, and current availability. Discussion accounts are self-reported and anecdotal. Forum accounts, where included, are individual anecdotes, not representative evidence or legal advice.",
+    "caveat_zh": "截至 2026 年 11 月 9 日核对可访问的官方规则页面。此次无法读取 USCIS 的 H-1B 页面；H-1B 门槛依据所链接的美国劳工部官方项目页面整理。签证公告排期每月变化，具体资格和处理结果取决于个人情况、雇主、类别、计费国别及当期名额。社区经历为发帖者自述，仅属个案轶事。",
     "pathways": [
       {
         "kind": "qualified_worker",
@@ -47,6 +47,48 @@
         "source_url": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
         "occupations": []
       }
+    ],
+    "work_permit_thresholds_en": "For the page’s H-1B specialty-occupation route: the position must require specialized knowledge and at least a bachelor’s degree (or equivalent) in a directly related specific specialty; the applicant must meet the position’s degree/equivalent and job requirements. A U.S. employer must sponsor and file the petition, first submitting a DOL Labor Condition Application (LCA). The employer attests to required wage/working-condition obligations; there is no single nationwide fixed salary threshold—the applicable required wage depends on the job and work location. Most H-1B cases are subject to an annual numerical cap (65,000 plus 20,000 U.S. advanced-degree exemption places), so selection/availability is an additional barrier, not guaranteed eligibility. This is temporary work authorization, not permanent residence.",
+    "work_permit_thresholds_zh": "针对页面中的 H-1B 专业职业路线：职位须要求运用专业知识，并至少要求与职位直接相关的特定专业本科（或同等学历）；申请人须满足职位规定的学历/同等资格及其他要求。须由美国雇主担保并递交申请，雇主先向劳工部提交劳动条件申请（LCA），并承诺遵守工资与工作条件义务。没有全国统一固定最低工资；适用工资取决于职位和工作地点。多数 H-1B 案件受年度名额限制（65,000 个常规名额，另有 20,000 个美国高等学位豁免名额），因此还须面对名额/抽选限制，并非符合条件即保证获批。这是临时工作授权，不等同永久居留。",
+    "immigration_thresholds_en": "A salient employer-sponsored settlement route is EB-3. It requires a permanent, full-time U.S. job offer and usually DOL labor certification showing insufficient able, willing, qualified, and available U.S. workers and no adverse wage/working-condition effect. The applicant must match the certified job requirements: skilled-worker jobs require at least 2 years of training/experience; professional jobs require at least a U.S. bachelor’s or foreign equivalent degree and normally a bachelor’s-level occupation; other-worker jobs require less than 2 years of training/experience. DOL certification is followed by an employer’s I-140 petition and visa/green-card availability under annual, category and country limits; there is no single fixed salary or residence-period threshold that guarantees permanent residence. EB-3 is distinct from H-1B temporary work authorization.",
+    "immigration_thresholds_zh": "一个相关的雇主担保定居路线是 EB-3。须有美国雇主提供永久、全职职位；通常先经劳工部劳工认证，证明没有足够、愿意、合格且可用的美国工人，且聘用不会不利影响同类工人的工资和工作条件。申请人须符合认证职位要求：技术工人职位要求至少 2 年培训或经验；专业人士职位要求至少美国本科或外国同等学历，且该职业通常要求本科；其他工人职位要求少于 2 年培训或经验。劳工认证后由雇主递交 I-140，之后仍受年度、类别及国别移民签证名额/排期限制；没有一个固定工资或居住年限可保证取得永久居留。EB-3 与 H-1B 临时工作授权彼此不同。",
+    "official_sources": [
+      {
+        "name": "U.S. Department of Labor — H-1B, H-1B1 and E-3 Specialty (Professional) Workers",
+        "url": "https://www.dol.gov/agencies/eta/foreign-labor/programs/h-1b"
+      },
+      {
+        "name": "U.S. Department of Labor — Permanent Labor Certification",
+        "url": "https://www.dol.gov/agencies/eta/foreign-labor/programs/permanent"
+      },
+      {
+        "name": "USCIS — Employment-Based Immigration: Third Preference EB-3",
+        "url": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-third-preference-eb-3"
+      },
+      {
+        "name": "U.S. Department of State — Visa Bulletin",
+        "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "July 9, 2025 (page shows 1y ago; Reddit’s page lists top posts of July 9, 2025)",
+        "source_name": "Reddit r/h1b — Visa Stamping Experience",
+        "source_url": "https://www.reddit.com/r/h1b/comments/1lv951y/visa_stamping_experience/",
+        "summary_en": "A poster said their first H-1B visa stamping in Hyderabad was approved after a brief interview about their employer, job location, title, salary and education. They reported bringing their passport, I-797 approval, LCA, full petition, employer letter, recent payslips and W-2. This is one anecdote, not representative and not legal advice.",
+        "summary_zh": "发帖者称其首次在海得拉巴办理 H-1B 签证盖章，面谈简短，问题涉及雇主、工作地点、职称、薪资和教育背景，最终获批。其称携带了护照、I-797 批准通知、LCA、完整申请材料、雇主信、近期工资单及 W-2。这仅为个案轶事，不具代表性，也不是法律意见。",
+        "topic_en": "H-1B visa stamping interview and document preparation",
+        "topic_zh": "H-1B 签证面谈与材料准备"
+      },
+      {
+        "post_date": "July 29, 2022 (page shows 4y ago; Reddit page lists top posts of July 29, 2022)",
+        "source_name": "Reddit r/h1b — 2022: My H1B Petition Got Approved! I do have some questions though",
+        "source_url": "https://www.reddit.com/r/h1b/comments/waszre/2022_my_h1b_petition_got_approved_i_do_have_some/",
+        "summary_en": "The poster reported that their H-1B petition had just been approved, then asked about changing employers, remote-work/address changes, studying on F-1 status, and how an employer-sponsored green-card category might relate to their education. The post does not provide a detailed filing timeline. This is one anecdote, not representative and not legal advice.",
+        "summary_zh": "发帖者称其 H-1B 申请刚获批准，随后询问更换雇主、远程工作/地址变更、转为 F-1 学习，以及雇主担保绿卡类别与学历的关系。帖子没有提供详细申请时间线。这仅为个案轶事，不具代表性，也不是法律意见。",
+        "topic_en": "H-1B petition approval and next-step concerns",
+        "topic_zh": "H-1B 申请获批及后续事项疑问"
+      }
     ]
   },
   {
@@ -58,8 +100,8 @@
     "summary_zh": "官方规则以多种工签路径为主，并非按职业普遍赋予资格。常见雇主专属路径要求雇主工作邀请；多数工作须LMIA。国际流动计划中的部分LMIA豁免路径取决于申请人的具体资格、协议或公共利益依据，而非通用职业清单。全球人才计划B类清单仅适用于该雇主LMIA类别。不能保证任何泛称职业必然符合资格。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "The Global Talent occupations list is a narrow employer-side LMIA stream list, not a general list of occupations entitled to Canadian work permits. Canada's broad pathways turn on the specific permit category, job offer/employer where required, LMIA or a valid exemption, and all applicable requirements; licensing and regulated-profession requirements may also apply. Do not infer guaranteed eligibility from a job title or labour-market demand.",
-    "caveat_zh": "全球人才职业清单仅是特定雇主LMIA类别的有限清单，并非获得加拿大工签的通用职业资格表。广泛工签路径取决于具体许可类别、所需的工作邀请/雇主、LMIA或有效豁免及所有适用条件；受监管职业还可能须取得执照。不得仅凭职业名称或劳动力需求推断必然符合资格。",
+    "caveat_en": "Rules checked against the linked Government of Canada pages available on 9 Nov 2026. Program-specific exemptions and job/occupation requirements may change; verify current instructions before applying. Forum accounts are self-reported anecdotes and do not establish general outcomes.",
+    "caveat_zh": "以上依据截至2026年11月9日可查阅的加拿大政府页面核对。项目豁免及职位/职业要求可能变更，申请前应复核最新指引。论坛内容为个人自述，不能代表普遍结果。",
     "pathways": [
       {
         "kind": "employer_sponsored",
@@ -122,6 +164,48 @@
           }
         ]
       }
+    ],
+    "work_permit_thresholds_en": "For the common employer-specific (closed) permit, the practical gateway is a genuine job offer from an employer not listed as non-compliant, plus the applicant meeting general admissibility/application requirements (including sufficient funds for the stay and return and showing they will leave when authorization expires). Most jobs require the employer to obtain a positive LMIA, demonstrating need and no available Canadian citizen or permanent resident; an exemption exists only where a specified LMIA-exempt category applies, and the worker still generally needs a permit. There is no single Canada-wide minimum salary, language score, age, or education threshold for every work permit: applicable program/job-specific rules and, for LMIA cases, employer/job conditions determine the bar. Open permits are limited to qualifying special circumstances and do not require a job offer.",
+    "work_permit_thresholds_zh": "常见的雇主指定（封闭式）工签，实际门槛是取得真实工作邀约，且雇主不在违规雇主名单内；申请人还须满足一般申请与入境条件（包括有足够资金维持停留及返程，并证明许可到期前会离境）。多数职位要求雇主先取得积极的LMIA，证明确有聘用需要且没有可用的加拿大公民或永久居民；只有符合特定LMIA豁免类别时才可免LMIA，通常仍需工签。加拿大没有适用于所有工签的统一最低工资、语言、年龄或学历门槛；实际要求依项目/职位规定，以及LMIA案件中的雇主和职位条件而定。开放工签仅适用于符合特定情形者，无需工作邀约。",
+    "immigration_thresholds_en": "A salient PR route for workers is the Canadian Experience Class (CEC), which is separate from work authorization and does not itself grant a work permit. The key floor is at least 1 year/1,560 hours of paid, authorized Canadian skilled work in TEER 0–3 during the 3 years before applying, with duties matching the NOC. Applicants also need an approved English or French test meeting the minimum in each ability: CLB 7 for TEER 0/1 jobs and CLB 5 for TEER 2/3 jobs, and must be admissible and intend to live outside Quebec. CEC has no education requirement and no fixed salary or age threshold. Meeting this minimum makes someone potentially eligible, not guaranteed PR: Express Entry invitation/ranking rounds apply.",
+    "immigration_thresholds_zh": "对有加拿大工作经验的劳动者而言，一个主要永居途径是加拿大经验类（CEC）；它与工作授权分开，本身不授予工签。核心门槛是在申请前3年内，累计至少1年/1,560小时、经授权且有薪的加拿大TEER 0–3技术工作，职责须符合相应NOC。申请人还须参加认可的英语或法语考试，各项达到最低水平：TEER 0/1职位CLB 7，TEER 2/3职位CLB 5；并须符合入境资格、计划居住在魁北克以外。CEC没有学历要求，也没有固定工资或年龄门槛。达到最低资格仅表示可能符合申请条件，并不保证永居；仍受快速通道邀请及排名轮次影响。",
+    "official_sources": [
+      {
+        "name": "IRCC — Employer-specific work permits",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/employer-specific.html"
+      },
+      {
+        "name": "ESDC/IRCC — Find out if you need a labour market impact assessment",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/hire-temporary-foreign/find-need-labour-market-impact-assessment.html"
+      },
+      {
+        "name": "IRCC — Work permit: Applying from outside Canada, eligibility",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/permit-outside/eligibility.html"
+      },
+      {
+        "name": "IRCC — Canadian Experience Class",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "2026 (thread displayed as 3mo ago; commenter reports refusal in August)",
+        "source_name": "Reddit — r/ImmigrationCanada, “LMIA question” (original post and comments)",
+        "source_url": "https://www.reddit.com/r/ImmigrationCanada/comments/1udnrvn/lmia_question/",
+        "summary_en": "A commenter said their employer began the LMIA process around late March/early April, they applied to extend their work permit while the LMIA was pending, and the extension was refused in August after about three months; they reported the LMIA was still unresolved. This is an individual report, not representative or legal advice.",
+        "summary_zh": "一位评论者称雇主约在3月底/4月初启动LMIA；其在LMIA审理期间申请延长工签，约三个月后于8月遭拒，并称当时LMIA仍未有结果。这是个别经历，不具代表性，也非法律意见。",
+        "topic_en": "Employer-supported LMIA and work-permit delay/refusal",
+        "topic_zh": "雇主支持的LMIA及工签延误/拒签"
+      },
+      {
+        "post_date": "2026-10-21 (comment; thread posted 2026-01-09)",
+        "source_name": "Reddit — r/ImmigrationCanada, “MEGATHREAD - Processing Times - Work Permits 2026”",
+        "source_url": "https://www.reddit.com/r/ImmigrationCanada/comments/1q6vmbo/megathread_processing_times_work_permits_2026/",
+        "summary_en": "A commenter reported submitting a spousal open work permit application on April 9, 2026 and receiving an approval letter on October 21, 2026. Individual anecdote only; not representative or a processing-time guarantee, and not legal advice.",
+        "summary_zh": "一位评论者报告称于2026年4月9日提交配偶开放工签申请，并于2026年10月21日收到批准信。仅为个案，不具代表性，也不构成处理时长保证或法律意见。",
+        "topic_en": "Spousal open work permit approval timeline",
+        "topic_zh": "配偶开放工签获批时间"
+      }
     ]
   },
   {
@@ -133,8 +217,8 @@
     "summary_zh": "英国工作许可按签证路径而定，并非职业名单上的工作一律获准。Skilled Worker 通常要求符合资格的 SOC 职业代码、已确认的工作 offer、由英国内政部批准的担保雇主签发的担保证书、英语能力及适用薪资（通常为年薪至少 £41,700 或该职业的 going rate，取较高者）。中技能岗位仅在有限的名单或过渡情形下符合条件。Health and Care 路径另有明确职业代码及医疗护理行业雇主限制。Global Talent 面向指定领域的获背书领军/潜在领军人才或指定奖项得主；概览未要求工作 offer。不能仅凭通用职位名称保证资格，须核对实际职责、代码、规则、担保雇主及个人条件。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "There is no single finite national occupation list that guarantees permission to work in the UK across all routes. Official lists are route-specific: the Skilled Worker eligible-occupation table is operative; the ISL principally enables salary concessions/points treatment for specified jobs rather than granting permission by itself; the TSL is a temporary Skilled Worker eligibility exception with a CoS deadline. The UK sources cited do not establish a universal labour-market test or blanket nationality rule for these routes. Always check the rules in force on the application date and the individual job code, actual duties, salary, sponsor licence, professional registration/licensing where relevant, and any transitional or sector limits.",
-    "caveat_zh": "英国不存在一份适用于所有路径、可保证获准工作的统一有限全国职业名单。官方名单均按路径划分：Skilled Worker 合资格职业表具有实际效力；ISL 主要为指定岗位提供薪资折扣/积分待遇，本身不授予工作许可；TSL 是临时 Skilled Worker 资格例外，且担保证书有截止日期。所引英国官方资料未确立这些路径普遍适用的劳动市场测试或一概适用的国籍限制。务必按申请时生效规则核对实际职业代码、职责、薪资、担保资格、相关职业注册/执照及过渡/行业限制。",
+    "caveat_en": "Rules checked against GOV.UK pages accessed 9 November 2026. Salary floors and permitted occupation codes can vary by route, application date and transitional provisions; verify the current job-code going rate and exact eligibility on the official pages before applying. Discussion posts are unverified personal accounts and not representative. Forum accounts, where included, are individual anecdotes, not representative evidence or legal advice.",
+    "caveat_zh": "依据2026年11月9日查阅的GOV.UK页面核对。薪资底线及可申请职业可能因路线、申请日期和过渡规定而异；申请前应在官方页面核实职业代码对应薪资及具体资格。论坛内容为未经核实的个人陈述，不具代表性。",
     "pathways": [
       {
         "kind": "official_occupation_list",
@@ -241,6 +325,48 @@
           }
         ]
       }
+    ],
+    "work_permit_thresholds_en": "Main route: Skilled Worker. Applicants need a confirmed eligible job offer and a Certificate of Sponsorship from a Home Office-approved UK employer; the job must be on the eligible occupation list and meet the applicable skill rules (normally higher-skilled; medium-skilled only in specified listed exceptions). For a new applicant, the usual salary floor is the higher of £41,700/year or the job’s occupation-code going rate. Limited exceptions can use a lower floor, generally at least £33,400 for qualifying cases, with their own conditions; healthcare/education and transitional cases have separate calculations. English must generally be proven at CEFR B2 for new applications (accepted qualifications or approved test); exemptions apply. No general applicant age, points total, degree, or prior-experience threshold is stated on this route’s overview; the job offer, occupation, sponsorship, salary and English requirements are operative barriers. This is work permission, not permanent residence.",
+    "work_permit_thresholds_zh": "主要路线：Skilled Worker（技术工人签证）。申请人须先取得符合条件的确定工作邀请及由英国内政部批准雇主签发的担保证明（CoS）；职位须列入合资格职业并符合技能规则（通常须属高技能职位；中技能职位仅在特定名单例外下可申请）。新申请通常须达到£41,700年薪或该职业代码的标准薪资率，取较高者。部分合资格情形可适用较低门槛，通常最低£33,400，但须满足各自条件；医疗/教育及过渡类别另有计算方式。新申请通常须证明英语达到CEFR B2（认可学历或获批考试；适用豁免者除外）。官方路线概要没有规定普遍适用的年龄、积分总分、学位或既往经验门槛；实际核心障碍是工作邀请、职业资格、雇主担保、薪资和英语。此为工作许可，不等同永久居留。",
+    "immigration_thresholds_en": "Settlement (indefinite leave to remain) is a separate application, not automatic with a work visa. Under the Skilled Worker route, the salient standard qualifying period is 5 years living and working in the UK on qualifying permission, with no more than 180 days outside the UK in any 12-month period; applications can be made up to 28 days before completing 5 years. The applicant must continue to be needed in the sponsored job and meet the applicable settlement salary rule—usually the higher of £41,700/year or that job’s standard going rate, with defined healthcare/education, Immigration Salary List and pre-4 April 2024 transitional exceptions. Applicants aged 18–64 must pass the Life in the UK Test; separate English proof is not required for settlement on this route. This is a route-specific formal threshold, not a guarantee of settlement.",
+    "immigration_thresholds_zh": "永久居留（无限期居留许可，ILR）须另行申请，工作签证不会自动转为永居。Skilled Worker 路线的主要标准年限为持合资格许可在英国居住并工作5年；每个12个月期间离境不得超过180天；最早可在满5年前28天申请。申请人须仍为担保职位所需，并符合适用的永居薪资标准——通常为£41,700年薪或该职位标准薪资率中较高者；医疗/教育、移民薪资名单及2024年4月4日前首次CoS等有明确例外。18至64岁申请人须通过Life in the UK考试；此路线永居申请无需另行证明英语。此为特定路线的正式要求，不代表必然获批。",
+    "official_sources": [
+      {
+        "name": "GOV.UK — Skilled Worker visa: overview",
+        "url": "https://www.gov.uk/skilled-worker-visa"
+      },
+      {
+        "name": "GOV.UK — Skilled Worker visa: your job and salary",
+        "url": "https://www.gov.uk/skilled-worker-visa/your-job"
+      },
+      {
+        "name": "GOV.UK — Skilled Worker visa: English language",
+        "url": "https://www.gov.uk/skilled-worker-visa/knowledge-of-english"
+      },
+      {
+        "name": "GOV.UK — Skilled Worker settlement: eligibility and salary",
+        "url": "https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "About 7 months ago (as displayed by Reddit)",
+        "source_name": "Reddit — r/SkilledWorkerVisaUK, ‘Skilled worker visa processing timeline’",
+        "source_url": "https://www.reddit.com/r/SkilledWorkerVisaUK/comments/1s7lw4b/skilled_worker_visa_processing_timeline/",
+        "summary_en": "The poster said they applied to switch from Youth Mobility to Skilled Worker on 5 March, were asked for additional payments on 9 March and paid that day; the payment was taken on 25 March. At posting, they were still awaiting a decision and worried about imminent travel. This is an individual account, not representative or legal advice.",
+        "summary_zh": "发帖者称其3月5日申请从Youth Mobility转为Skilled Worker，3月9日被要求补缴费用并当日付款，款项于3月25日扣取；发帖时仍在等待决定，并担心即将出行。此为个人经历，不具代表性，也非法律建议。",
+        "topic_en": "In-country Skilled Worker switch: additional payment and waiting",
+        "topic_zh": "境内转Skilled Worker：补缴费用与等待"
+      },
+      {
+        "post_date": "About 2 years ago (as displayed by Reddit)",
+        "source_name": "Reddit — r/ukvisa, ‘Skilled Worker Visa approved in less than 12 hours’",
+        "source_url": "https://www.reddit.com/r/ukvisa/comments/1gg8syn/skilled_worker_visa_approved_in_less_than_12_hours/",
+        "summary_en": "The poster reported receiving a Skilled Worker decision overnight on standard service, saying the application was approved within about 12 hours; they said the visa was granted for three years and two months. This is one person’s report, not a typical processing-time promise, representative evidence, or legal advice.",
+        "summary_zh": "发帖者称其Skilled Worker申请使用普通服务并在一夜间获批，约12小时收到决定；获批期限为三年零两个月。此为单一个案，不能视为典型审理时限或具有代表性的证据，也非法律建议。",
+        "topic_en": "In-country application approved overnight",
+        "topic_zh": "境内申请隔夜获批"
+      }
     ]
   },
   {
@@ -252,8 +378,8 @@
     "summary_zh": "非欧洲经济区、非瑞士及非英国国民通常须先取得就业许可或其他特定工作许可。爱尔兰有两项直接影响就业许可资格的官方职业清单：关键技能职业清单（CSOL）用于关键技能就业许可（CSEP）；不符合资格职业清单（IOL）所列职位则不能获就业许可。一般就业许可（GEP）是较宽泛的雇主聘用路径，通常可用于不在IOL上的职位，但多数情形须通过劳动力市场需求测试。许可仍取决于具体职位、雇主、薪酬及其他条件，不能仅凭职业名称保证获批。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "The reviewed official pages do not state an operative date for the current lists or thresholds; none is invented here. Ireland does not guarantee a permit merely because an occupation appears on the CSOL or is absent from the IOL. Separate permissions or professional registration may apply; check the live DETE list, current pay thresholds and individual permit conditions before relying on a role.",
-    "caveat_zh": "所查官方页面未明确注明现行清单或薪酬门槛的生效日期，因此不推定日期。职业列入CSOL或未列于IOL都不代表必然获批。还可能需要其他许可或专业注册；依赖某职位前，应核查DETE现行清单、薪酬门槛及个案许可条件。",
+    "caveat_en": "Official requirements and salary figures reflect the government pages available on 9 Nov 2026 and can change. Eligibility and permit decisions depend on the complete application and current occupation/employer rules. The forum account is anecdotal, not representative, and not legal advice.",
+    "caveat_zh": "官方要求及薪资数字依据截至2026年11月9日可查的政府页面，之后可能变更。资格与审批取决于完整申请及当时有效的职业、雇主规则。论坛内容仅属个人经验，不具代表性，也非法律意见。",
     "pathways": [
       {
         "kind": "official_occupation_list",
@@ -298,6 +424,39 @@
         "source_url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/general-employment-permit/",
         "occupations": []
       }
+    ],
+    "work_permit_thresholds_en": "For the practical routes covered here, a qualifying Irish job offer and employer are central; there is no language test, points score, or personal age cutoff stated on these permit pages. Critical Skills Employment Permit (CSEP): generally either an occupation on the Critical Skills list with a relevant degree and annual remuneration of at least €40,904 (or €36,848 for a relevant qualification awarded within the preceding 12 months), or another non-ineligible occupation paying over €68,911; a two-year job offer and relevant skills/experience are required. No Labour Market Needs Test applies, but the employer generally must meet the 50% EEA-employee rule (limited startup exception). General Employment Permit (GEP): generally at least €36,605 annual remuneration (with specified exceptions, including €34,009 for a relevant Irish degree earned in the previous 12 months and €32,691 for listed care/horticulture/meat-processing roles), a non-ineligible occupation, relevant skills/experience, and a bona fide Irish employer; a Labour Market Needs Test is required in most cases and the 50% EEA rule generally applies. These salary levels are the displayed operative thresholds on the official pages checked for 9 Nov 2026; occupation-list inclusion alone does not guarantee a permit. Permit is work authorization, not permanent residence.",
+    "work_permit_thresholds_zh": "此处涉及的实用路线都以符合条件的爱尔兰工作邀请及雇主为核心；官方许可页面未规定语言考试、积分分数或个人年龄门槛。关键技能就业许可（CSEP）：通常须满足以下之一：职业列于关键技能清单且具相关学位、年薪至少€40,904（若相关学历在申请前12个月内取得，则至少€36,848）；或从事其他非不合资格职业且年薪超过€68,911。还须有至少两年工作邀请及相关技能/经验。无需劳动力市场需求测试；雇主通常须符合员工中至少50%为欧洲经济区国民的规则（初创企业有有限例外）。一般就业许可（GEP）：通常年薪至少€36,605（有特定例外，包括过去12个月内取得相关爱尔兰学位者€34,009，以及列明的护理、园艺、肉类加工岗位€32,691），职业不得属于不合资格类别，申请人须具备相关技能/经验，雇主须为真实经营的爱尔兰雇主；多数情形须做劳动力市场需求测试，且通常适用50%欧洲经济区员工规则。以上为截至2026年11月9日所查官方页面显示的现行门槛；职业列入清单本身不保证获批。就业许可是工作授权，不等于永久居留。",
+    "immigration_thresholds_en": "Ireland does not offer a single automatic permanent-residence threshold through these work permits. A distinct Long Term Residency permission is available after at least 60 months of qualifying legal residence based on employment permits, evidenced by qualifying Stamp 1/Stamp 4 permissions or IRP cards; gaps without qualifying registered permission do not count. Applicants must also hold/ have held eligible employment permits, be legally resident and employed when applying and during processing (self-employed applicants are excluded), have complied with prior permissions, be of good character, and not have been an undue burden on the State. Approval grants permission to work without another employment permit for a further five years; it is not the same as citizenship. Separately, eligible CSEP holders may seek Stamp 4 after 21 months of qualifying employment, which removes the need for an employment permit but is not itself permanent residence.",
+    "immigration_thresholds_zh": "爱尔兰的这些就业许可并不对应单一、自动取得的永久居留门槛。另有长期居留许可：通常须基于就业许可累计至少60个月合资格合法居留，并以合资格Stamp 1/Stamp 4许可或IRP卡证明；没有合资格注册许可的空档期不计入。申请人还须持有/曾持有合资格就业许可、申请时及审理期间均合法居留并受雇（自雇者不符合该计划）、遵守既往许可条件、品行良好且未对国家造成过度负担。获批后可再获五年无需另办就业许可的工作居留许可；这不等于公民身份。此外，符合条件的CSEP持有人在开始合资格工作21个月后可申请Stamp 4；该身份免除就业许可要求，但本身不等于永久居留。",
+    "official_sources": [
+      {
+        "name": "Department of Enterprise, Tourism and Employment — Critical Skills Employment Permit",
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/"
+      },
+      {
+        "name": "Department of Enterprise, Tourism and Employment — General Employment Permit",
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/general-employment-permit/"
+      },
+      {
+        "name": "Immigration Service Delivery — Long Term Residency",
+        "url": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/long-term-residency/"
+      },
+      {
+        "name": "Immigration Service Delivery — Required Documents / Stamp 4 after Critical Skills employment",
+        "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-register-your-immigration-permission-for-the-first-time/required-documents/"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "2026-05-09 (source search result date; page displayed 7 months ago)",
+        "source_name": "Reddit — r/usatoireland, “My step-by-step guide to the move with a CSEP”",
+        "source_url": "https://www.reddit.com/r/usatoireland/comments/1spz5tc/my_stepbystep_guide_to_the_move_with_a_csep/",
+        "summary_en": "The author says the checklist is based on their personal move from the US to Ireland with a spouse on a Critical Skills Employment Permit. They describe obtaining an employer sponsor, signing and returning permit forms, paying the permit fee, and checking processing-date information; they report approximate processing delays at the time and note the need for a signed employment contract. This is one person’s account, not representative evidence or legal advice.",
+        "summary_zh": "作者称该清单依据其与配偶持关键技能就业许可从美国搬迁至爱尔兰的亲身经历编写。作者描述了寻找雇主担保、签署并交回许可表格、缴纳许可费用及查看处理日期信息；并记录了当时的大致等待时间以及需备妥已签署雇佣合同。此为个人经历，不能代表普遍情况，也非法律意见。",
+        "topic_en": "First-person CSEP relocation and paperwork account",
+        "topic_zh": "CSEP持有人亲述搬迁及文件办理经历"
+      }
     ]
   },
   {
@@ -309,8 +468,8 @@
     "summary_zh": "外国人主要依据学历/职业资格、具体工作邀请、薪酬及其他条件通过不同途径申请；德国没有普遍适用的获准职业清单。合格专业人员途径原则上涵盖合格就业，工作不必与资格专业一致，但须有德国雇主的具体工作邀请；受监管职业须取得执业许可。欧盟蓝卡短缺职业清单仅适用于降低符合条件的蓝卡薪资门槛；机会卡中的短缺职业加分仅影响求职签证积分，并不等于某职位获准工作。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "The existence of occupation-specific exceptions in the Employment Ordinance does not create a universal national list of visa-eligible jobs: provisions are route-, circumstance-, employer-, duration-, quota- or nationality-specific. Verify the relevant residence title and legal requirements for the particular offer. Amounts above are only those explicitly marked 2026 on the official pages.",
-    "caveat_zh": "《外国人就业条例》确有针对特定职业或情形的例外规定，但这不构成普遍适用的签证职业清单：相关规则可能限于特定途径、情形、雇主、期限、配额或国籍。须针对具体工作邀请核对对应居留许可及法律条件。上述金额仅采用官方页面明确标注为2026年的数值。",
+    "caveat_en": "Thresholds checked against official sources available on 9 November 2026; salary amounts are 2026 figures and may change annually. Eligibility and approval remain case-specific. Forum accounts are self-reported anecdotes only.",
+    "caveat_zh": "门槛依据截至2026年11月9日可查的官方来源核对；工资数额为2026年标准，可能逐年调整。是否符合资格及获批仍取决于个案。论坛内容仅为用户自述个案。",
     "pathways": [
       {
         "kind": "qualified_worker",
@@ -373,6 +532,48 @@
         "source_url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/professionally-experienced-workers",
         "occupations": []
       }
+    ],
+    "work_permit_thresholds_en": "For the EU Blue Card (the main practical route on the existing guide): a recognised/comparable academic or qualifying tertiary credential; a concrete German job offer lasting at least six months matching the qualification; and gross annual salary of at least €50,700 in 2026. The reduced €45,934.20 threshold applies only to listed shortage occupations (and qualifying recent graduates of under three years) and requires Federal Employment Agency approval. An alternative skilled-worker residence permit requires recognised/comparable vocational or academic qualification and a concrete qualified job offer (not auxiliary work); the role need not match the qualification. Regulated work requires a professional licence. Applicants over 45 coming to Germany for work for the first time must earn at least €55,770 gross annually or demonstrate adequate pension provision. As a rule, the Federal Employment Agency approves employment conditions; no general language minimum is stated for these routes, though regulated professions can have separate requirements.",
+    "work_permit_thresholds_zh": "欧盟蓝卡（现有指南对应的主要实用路径）要求：德国认可或可比的大学学历/合格高等教育资历；至少六个月、与资历相符的德国具体工作邀请；2026年年税前工资至少€50,700。较低的€45,934.20门槛仅适用于列明的短缺职业（以及符合条件、毕业/取得资历未满三年的新入职者），并须经联邦就业局批准。另一条合格技术人员居留许可路径要求德国认可或可比的职业培训或大学资历，以及具体的合格工作邀请（辅助性工作不够）；工作不必与资历相关。受监管职业须有执业许可。年满45岁且首次赴德工作的申请人，年税前工资须至少€55,770，或证明有足够养老保障。通常联邦就业局会审查并批准就业条件；这些路径没有统一公布的语言最低门槛，但受监管职业可能另有要求。",
+    "immigration_thresholds_en": "Settlement is separate from work authorisation. For EU Blue Card holders, the salient expedited settlement-permit threshold is at least 27 months in qualified employment with statutory pension contributions and German A1; with B1 German, the period falls to 21 months. Applicants must also show basic knowledge of Germany’s legal/social system (normally the ‘Living in Germany’ test), sufficient living space, and secure livelihood. This is not automatic and is decided by the local foreigners authority. The general skilled-worker route is normally three years plus 36 months’ pension contributions, B1 German, secure livelihood, suitable housing, and basic civic knowledge.",
+    "immigration_thresholds_zh": "定居许可与工作授权是两回事。欧盟蓝卡持有人较快取得定居许可的主要门槛是：至少27个月合格就业并缴纳法定养老保险，德语A1；德语达到B1时可缩短至21个月。还须证明了解德国法律和社会制度（通常通过“在德国生活”测试）、有足够居住空间且生活来源有保障。许可并非自动取得，由当地外国人管理局审理。一般技术人员路径通常须持相关居留许可三年、缴纳养老保险至少36个月、德语B1、生活来源有保障、住房充足并具备基本公民知识。",
+    "official_sources": [
+      {
+        "name": "Make it in Germany — EU Blue Card (official federal government portal)",
+        "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/eu-blue-card"
+      },
+      {
+        "name": "Make it in Germany — Work Visa for Qualified Professionals (official federal government portal)",
+        "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/qualified-professionals"
+      },
+      {
+        "name": "Make it in Germany — Settlement Permit (official federal government portal)",
+        "url": "https://www.make-it-in-germany.com/en/arriving-living/long-term/settlement-permit"
+      },
+      {
+        "name": "German Residence Act §18c (official legislation)",
+        "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__18c.html"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "October 2024 (thread displayed as 2y ago)",
+        "source_name": "Reddit r/askberliners — Blue Card processing times currently",
+        "source_url": "https://www.reddit.com/r/askberliners/comments/1gfvfo5/blue_card_processing_times_currently/",
+        "summary_en": "A self-described non-EU master’s student said they had a job offer and submitted an online Blue Card application on 7 October 2024. More than three weeks later, they were still waiting for an appointment notification, not the card itself. The post asks about others’ experience and reports no final outcome. Anecdotal, not representative, and not legal advice.",
+        "summary_zh": "一位自称非欧盟硕士生的发帖者称已获得工作邀请，并于2024年10月7日在线提交蓝卡申请。三周多后仍在等预约通知；其所问的是预约时间，而非蓝卡签发。帖子未报告最终结果。此为个案，不具代表性，也不是法律意见。",
+        "topic_en": "Berlin Blue Card application appointment wait",
+        "topic_zh": "柏林蓝卡申请预约等待"
+      },
+      {
+        "post_date": "January 2025 (author-reported appointment; thread displayed as 2y ago)",
+        "source_name": "Reddit r/germany — My Experience with German Permanent Residence Application in 2025",
+        "source_url": "https://www.reddit.com/r/germany/comments/1i5bvvc/my-experience-with-german-permanent-residence/",
+        "summary_en": "The author says they applied for German permanent residence in June 2024, received an appointment email in December 2024, attended a document-submission appointment in January 2025, and were given a provisional permit and a March 2025 collection date. They report organizing documents and being asked about their job and German ability. This is the author’s account, not a general prediction; anecdotal, not representative, and not legal advice.",
+        "summary_zh": "发帖者称于2024年6月申请德国永居，12月收到预约邮件，2025年1月赴约提交文件，随后获临时许可并被告知于2025年3月领取永居卡。其提到整理文件，并被询问工作和德语能力。仅为作者自述，不应视为普遍处理时间；此为个案，不具代表性，也不是法律意见。",
+        "topic_en": "Berlin permanent-residence application and appointment",
+        "topic_zh": "柏林永居申请及预约"
+      }
     ]
   },
   {
@@ -384,8 +585,8 @@
     "summary_zh": "外国公民可通过地区性紧缺职业机制、普通雇主担保就业，或符合条件的 Passeport talent 人才类别申请。普通就业通常需要具体职位和雇主申请工作许可；职位须在适用地区的紧缺职业清单上，或在申请前六个月内通过公共就业服务连续发布三周且没有收到合格申请。工资至少达到适用的最低工资 SMIC 或更高的集体协议工资；受监管职业还须满足执业条件/许可要求。人才类别有各自合同、资历和/或薪酬条件，并不构成通用职业清单。任何一般职业都不能保证符合资格。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "The official shortage list directly affects only a labour-market-test criterion and is region-specific; it does not guarantee a permit or visa. The ordinary route remains employer- and offer-specific, and occupations may be subject to licensing or separate nationality/sector rules. Some Service-Public content flags changes effective 30 October 2026 as under update; verify current implementation before relying on affected ICT/Blue Card details. No role should be represented as generally or automatically eligible.",
-    "caveat_zh": "官方紧缺清单仅直接影响劳动力市场测试条件，且按地区适用；它不保证获得工作许可或签证。普通路径仍取决于雇主和具体职位，职业还可能受执照或特定国籍/行业规则约束。部分 Service-Public 内容提示自2026年10月30日起的变更仍在更新中；依赖受影响的 ICT/欧盟蓝卡细节前应核实最新执行规则。不得将任何职位描述为普遍或自动符合资格。",
+    "caveat_en": "Rules and monetary thresholds were checked on official French government pages on 9 Nov 2026; one official talent page states it is being updated following an October 2026 decree. Salary figures and procedure can change, and eligibility depends on individual facts. Community posts are anecdotal, not representative and not legal advice. Forum accounts, where included, are individual anecdotes, not representative evidence or legal advice.",
+    "caveat_zh": "规则及金额门槛于2026年11月9日根据法国政府官方页面核查；一项Talent官方页面称其正因2026年10月法令而更新。工资标准与程序可能变化，资格取决于个人情况。社区帖子仅为个人轶闻，不具代表性，也不是法律意见。",
     "pathways": [
       {
         "kind": "official_occupation_list",
@@ -448,6 +649,44 @@
         "source_url": "https://france-visas.gouv.fr/talents-internationaux-et-attractivite-economique",
         "occupations": []
       }
+    ],
+    "work_permit_thresholds_en": "For the standard salarié route, a French employer must obtain work authorization for the specific job. Ordinarily the job must either be on the applicable shortage-occupation list or have been advertised through the public employment service for 3 consecutive weeks within the 6 months before filing without a valid candidate; exemptions exist for specific routes/statuses. Pay cannot be below the statutory SMIC or the applicable collective-agreement minimum if higher. No general degree, experience, age, or language score is fixed for this standard route; regulated jobs require their professional licensing conditions. A separate Talent–qualified employee route avoids the separate work-authorization request but has narrower criteria: for the qualified-employee pathway, a French master’s-equivalent degree (or qualifying CGE level-1 credential), a contract longer than 3 months, and at least €39,582 gross annual pay; the innovative-company and intra-group assignment pathways have distinct conditions (including 3 months’ group seniority for assignment) and the same salary floor. These amounts/requirements reflect the official page as checked 9 Nov 2026; it notes some rules are being updated.",
+    "work_permit_thresholds_zh": "普通 salarié（雇员）路线须由法国雇主为具体岗位申请工作许可。通常岗位须属于适用的紧缺职业清单，或在提交申请前6个月内通过公共就业服务连续发布3周且没有合格候选人；特定身份/路线可豁免。工资不得低于法定最低工资（SMIC）；如适用集体协议工资更高，则须达到较高标准。普通路线没有统一规定的学历、工作年限、年龄或语言分数；受监管职业仍须满足执业许可条件。另有 Talent–qualified employee 路线，无需雇主另行申请工作许可，但资格更窄：合格雇员路径要求法国硕士或同等学历（或符合条件的CGE一级认证）、超过3个月的合同及至少39,582欧元年税前工资；创新企业及集团内派遣路径条件不同（派遣路径还要求集团内任职至少3个月），但适用同一工资下限。以上为截至2026年11月9日查阅的官方页面要求；页面说明部分规则正在更新。",
+    "immigration_thresholds_en": "A salient settlement route is the 10-year EU long-term resident card, which is distinct from work authorization and is not automatic permanent residence. In the general case, applicants need 5 years of regular, uninterrupted qualifying residence in France (some absences allowed: at most 6 consecutive months and 10 months total), health insurance, stable/sufficient/regular resources at least the SMIC (official page currently states €1,867.02 gross monthly), and integration requirements including French at B1 and passing the resident-card civic examination, plus commitment to Republic principles. EU Blue Card holders have a qualifying route with at least 2 years in France and 3 years’ qualifying prior residence elsewhere in the EU. Application remains subject to verification of the individual conditions.",
+    "immigration_thresholds_zh": "一个重要定居途径是10年期“欧盟长期居民”居留卡；它不同于工作许可，也不是自动获得的永久居留。一般情形须在法国合法、连续居留满5年（允许一定离境：单次最长6个月、总计最多10个月），有医疗保险，具备稳定、充足、经常性收入，达到SMIC（官方页面当前列为每月税前1,867.02欧元），并满足融入要求，包括法语B1、通过居民卡公民考试及承诺遵守共和国原则。欧盟蓝卡持有人另有途径：在法国至少2年，且此前在欧盟其他国家有3年符合条件的居留。仍须经审核确认个人条件。",
+    "official_sources": [
+      {
+        "name": "Service-Public: Work authorization for a foreign employee in France",
+        "url": "https://www.service-public.fr/particuliers/vosdroits/F2728"
+      },
+      {
+        "name": "Service-Public: Talent-qualified employee residence permit",
+        "url": "https://www.service-public.fr/particuliers/vosdroits/F16922"
+      },
+      {
+        "name": "Service-Public: EU long-term resident card",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17359?lang=en"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "2y ago (as displayed by Reddit)",
+        "source_name": "Reddit, r/SchengenVisa",
+        "source_url": "https://www.reddit.com/r/SchengenVisa/comments/1fs7go9/applying_for_a_longterm_french_visa_for/",
+        "summary_en": "A Reddit poster described applying for a French long-stay visa for salaried full-time work. They said their French employer submitted the work permit and listed documents including an employer invitation letter and degree certificate. They reported submitting on 9 September, attending a London TLS appointment on 16 September, receiving a processed/decision notification on 26 September, and then collecting the passport a few hours later. This is one person's account, anecdotal and not representative or legal advice.",
+        "summary_zh": "一位Reddit发帖者分享了为法国全职受薪工作申请长期签证的经历。其称法国雇主提交了工作许可，并列出雇主邀请函、学位证书等材料。发帖者称9月9日提交申请、9月16日在伦敦TLS预约、9月26日收到已处理/作出决定的通知，数小时后获通知领取护照。这只是个人经历，属轶闻、不具代表性，也不是法律意见。",
+        "topic_en": "Long-stay salaried employment visa application and waiting period",
+        "topic_zh": "受薪长期工作签证申请与等待时间"
+      },
+      {
+        "post_date": "6mo ago (as displayed by Reddit)",
+        "source_name": "Reddit, r/Expats_In_France",
+        "source_url": "https://www.reddit.com/r/Expats_In_France/comments/1t2r7q4/a_question_for_noneu_citizens_who_found_jobs_to/",
+        "summary_en": "A US citizen who said they had completed a year in France as a TAPIF assistant asked whether it was worth seeking a sponsored job without a master’s degree. The original post describes a question and concern, not a completed application or outcome; replies are not treated as evidence of a successful or failed case. Anecdotal, not representative and not legal advice.",
+        "summary_zh": "一位自称美国公民、曾在法国做一年TAPIF助教的发帖者询问：没有硕士学位是否值得寻找愿意担保的工作。原帖表达的是疑问与顾虑，并未报告已完成申请或结果；回复不作为成功或失败案例证据。属轶闻、不具代表性，也不是法律意见。",
+        "topic_en": "Non-EU job-seeker’s sponsorship concerns",
+        "topic_zh": "非欧盟求职者对雇主担保的顾虑"
+      }
     ]
   },
   {
@@ -459,8 +698,8 @@
     "summary_zh": "对非欧盟/欧洲经济区及瑞士公民，能否获准工作通常取决于许可类别、雇主与工作邀约及该类别的具体条件，而非全国统一的合资格职业清单。欧盟/欧洲经济区及瑞士公民通常无需工作许可。主要途径包括由雇主担保的高技术移民许可，以及须接受UWV劳动力市场审查的普通受雇工作许可；季节性工作则限定为农业/园艺且最长24周。不能保证任何一般职业必然符合资格。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "No national occupation list or general role-level guarantee is established by these official sources. Do not treat an occupation’s presence in a talent/shortage list, or an example named for a particular permit exception, as work authorisation. Nationality, residence status, employer sponsorship, salary/qualification thresholds, labour-market testing, work duration, sector and any professional licensing rules can change the result. The sources reviewed include pages updated in 2026; no future-effective rule beyond what those pages state is assumed.",
-    "caveat_zh": "这些官方来源没有确立全国职业清单，也没有保证任何一般职位必然获准。职业出现在人才／紧缺名单中，或某个许可例外中列出该职业，均不等于获得工作许可。国籍、居留身份、雇主担保、薪资／资格门槛、劳动力市场审查、工作期限、行业及专业执照要求都可能影响结果。所查阅来源包括2026年更新页面；未假定页面未载明的未来生效规定。",
+    "caveat_en": "Rules and salary amounts verified against official IND pages available on 9 Nov 2026; the salary figures cited are expressly valid 1 Jul–31 Dec 2026. Routes and outcomes depend on the applicant’s circumstances. The community account is anecdotal, not representative and not legal advice. Forum accounts, where included, are individual anecdotes, not representative evidence or legal advice.",
+    "caveat_zh": "规则及工资金额依据截至2026年11月9日可查的IND官方页面核实；所列工资标准明确适用于2026年7月1日至12月31日。具体资格与结果取决于个人情况。社区帖文仅为个案，不具代表性，也非法律意见。",
     "pathways": [
       {
         "kind": "employer_sponsored",
@@ -498,6 +737,35 @@
         "source_url": "https://ind.nl/en/residence-permits/work/residence-permit-for-seasonal-work",
         "occupations": []
       }
+    ],
+    "work_permit_thresholds_en": "Relevant practical route: highly skilled migrant (HSM). The applicant needs a qualifying Dutch job offer/employment and the application must be made by an IND-recognised sponsor; the IND publishes no general degree, occupation-list, or work-experience minimum for this HSM route. Salary (gross monthly, excluding holiday allowance) must meet the applicable 2026 threshold: €5,942 if aged 30 or older; €4,357 if under 30; or €3,122 under the reduced criterion, which is limited to qualifying recent graduates/researchers/orientation-year cases (generally applications within 3 years of graduation/doctoral defence/research permit expiry). Salary and employer sponsorship are authorization conditions, not automatic approval guarantees. Amounts apply 1 Jul–31 Dec 2026 and change yearly.",
+    "work_permit_thresholds_zh": "相关实用途径：高技能移民（HSM）。申请人须有符合条件的荷兰工作/雇佣安排，并由IND认可的担保雇主提交申请；该HSM途径没有普遍适用的学历、职业清单或工作经验最低要求。2026年适用的月税前工资（不含假期津贴）须达到：30岁及以上€5,942；未满30岁€4,357；符合特定近期毕业生/研究人员/求职年条件者可适用€3,122的降低标准（通常须在毕业、博士答辩或研究居留许可到期后三年内申请）。工资与雇主担保是工作居留条件，并非获批保证。金额适用于2026年7月1日至12月31日，之后会调整。",
+    "immigration_thresholds_en": "Permanent residence is separate from the HSM work permit. The main regular permanent-residence route generally requires at least 5 consecutive years holding a valid Dutch residence permit, continuous principal residence in the Netherlands, timely extensions and continued compliance with permit conditions; at application, the permit must be for a non-temporary purpose. Applicants must also satisfy the IND income requirement, be registered in the BRP, and pass civic integration at least A2 or qualify for an exemption. This is not a simple automatic conversion after five years; there are exceptions and individual requirements.",
+    "immigration_thresholds_zh": "永久居留与HSM工作居留是两回事。普通永久居留主要途径通常要求持有效荷兰居留许可连续至少5年、期间主要居所在荷兰、按时延期且持续满足许可条件；申请时须持非临时居留目的的许可。还须满足IND收入要求、在BRP登记，并通过至少A2级融入考试或符合豁免条件。满五年并非自动转永居；另有例外及个案要求。",
+    "official_sources": [
+      {
+        "name": "IND — Highly skilled migrant (route, employer sponsorship)",
+        "url": "https://ind.nl/en/residence-permits/work/highly-skilled-migrant"
+      },
+      {
+        "name": "IND — Required amounts and income requirements (2026 HSM salary criteria)",
+        "url": "https://ind.nl/en/required-amounts-income-requirements"
+      },
+      {
+        "name": "IND — Permanent residence permit (formal requirements)",
+        "url": "https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "Approx. May 2026 (thread displays 6mo ago; exact date not shown)",
+        "source_name": "Reddit — r/Netherlands, “IND application for HSM (Highly Skilled Migrant) going into week 5, is this normal?”",
+        "source_url": "https://www.reddit.com/r/Netherlands/comments/1thkmjw/ind_application_for_hsm_highly_skilled_migrant/",
+        "summary_en": "A poster said their recognised-sponsor employer filed an HSM application at the end of April; by week five they had no update and were anxious. In later comments in the same thread, the poster reported that the decision took the full three months. This is one applicant’s account, anecdotal and not representative or legal advice.",
+        "summary_zh": "发帖者称其认可担保雇主在4月底提交HSM申请；到第5周仍无消息，感到焦虑。同一帖后续评论中，发帖者表示最终等满三个月才有决定。这只是单一申请者的个人经历，不具代表性，也非法律意见。",
+        "topic_en": "HSM application waiting period",
+        "topic_zh": "HSM申请等待时间"
+      }
     ]
   },
   {
@@ -509,8 +777,8 @@
     "summary_zh": "外国人须基于符合条件的具体工作邀请申请，不能仅凭职业名称取得许可。普通初始雇佣工作居留许可要求雇主申请并提交合格的已签劳动合同，同时满足国家就业状况测试：职位列入适用地区和季度的紧缺职业目录；或雇主经公共就业服务部门证明普通招聘无法填补非目录职位；或适用法定例外。另有高技能专业人员／欧盟蓝卡途径，须符合资格及工作/录用条件，但没有固定职业清单。任何一般职业都不能保证符合资格。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "A job title, occupation's presence in a catalogue, or talent designation alone is not a work visa or permit. Catalogue access is territorial and time-limited and only addresses one part of the ordinary permit test. For non-listed jobs, employer recruitment evidence or a specific legal exception may work; high-skill routes have their own qualification and offer conditions. Licensing/recognition, lawful contract terms and any applicable wage thresholds remain decisive. The official Ministry information page says it is guidance and that the law in force when the application is filed controls.",
-    "caveat_zh": "职业名称、职业列入目录或人才称号本身都不是工作签证／许可。目录资格有地域和时间限制，且只解决普通许可测试的一项条件。非目录职位可能通过雇主招聘证明或特定法定例外申请；高技能途径另有学历/经验及工作邀请要求。执照／资格认可、合法合同条件及适用工资门槛仍具决定性。移民部官方信息页明确提示其仅供参考，申请时有效法律为准。",
+    "caveat_en": "Rules verified against official Spanish government guidance available on 9 Nov 2026; the ministry describes its information sheets as guidance and says the law in force at filing controls. Employer eligibility, labour-market assessment and individual decisions remain case-specific. The forum report is anecdotal and not representative or legal advice.",
+    "caveat_zh": "按截至2026年11月9日可查的西班牙政府官方指南核实；部委说明信息页仅供参考，申请时以届时有效法律为准。雇主资格、劳动力市场评估及个案决定均视具体情况而定。论坛经历仅属个案轶事，不具代表性，也非法律意见。",
     "pathways": [
       {
         "kind": "official_occupation_list",
@@ -548,6 +816,31 @@
         "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-10074",
         "occupations": []
       }
+    ],
+    "work_permit_thresholds_en": "For the standard initial employee route (residence and work for employment, cuenta ajena), the employer—not the worker—applies. There is no single published minimum salary amount on the route page; the signed contract must guarantee continuous work and meet applicable Spanish labour rules. A part-time contract must pay at least the full-time annual minimum wage (SMI) pro-rated as required by law. The employer must be registered with Social Security, current on tax and Social Security obligations, and show sufficient economic/material/personnel means; an individual household employer must retain 50% of SMI after the agreed wage if no dependants, 100% of SMI for a two-person household, plus 25% of SMI per additional household member. The worker must be at least 16, have required professional competence/qualifications (homologated where required), pass criminal-record/public-order checks and generally be outside Spain irregularly. The national employment situation must permit hiring: typically the job is on the quarterly difficult-to-fill catalogue, the employer demonstrates inability to fill it from the domestic labour market through the prescribed recruitment process, or a statutory exception applies. No general language or points threshold is stated on this route page.",
+    "work_permit_thresholds_zh": "标准初次雇员居留及工作许可（cuenta ajena）由雇主申请；官方规则页没有规定统一最低工资金额，签署的合同须保证持续工作并符合西班牙劳动法规。兼职合同的报酬须至少达到全职年度最低工资（SMI）标准（依法核算）。雇主须在社保系统登记、税务及社保缴费无欠缴情形，并证明有足够经济、物质或人员资源；个人家庭雇主支付约定工资后，若无受抚养人须保留相当于SMI的50%，两人家庭为100%，每增加一名家庭成员再加25%。申请人须年满16岁，具备职业所需能力/资质（必要时完成认证），通过刑事记录及公共秩序审查，且通常不得处于在西班牙非法居留状态。还须满足国内就业状况要求：通常岗位属于季度发布的难以填补职业目录、雇主按规定证明无法从本地劳动力市场招聘，或符合成文法例外。该路线规则页未规定普遍适用的语言或积分门槛。",
+    "immigration_thresholds_en": "For the relevant national long-term residence route (residencia de larga duración nacional), the main ordinary threshold is five years of legal, continuous residence in Spain immediately before applying. Continuity generally tolerates absences up to six consecutive months, with no more than ten months total over the five years (up to 18 months total for work-related absences). Applicants must also meet criminal-record, admissibility, public-order/security/health requirements and pay the fee. The permit authorizes indefinite residence and work under the same conditions as Spaniards; it is distinct from the initial employer-sponsored work authorization. The official page lists alternative special grounds as well, but they are not the ordinary five-year route.",
+    "immigration_thresholds_zh": "相关的西班牙全国长期居留（residencia de larga duración nacional）通常要求：申请前连续五年在西班牙合法居住。连续居住通常允许单次离境不超过六个月，五年内累计不超过十个月（因工作离境累计上限为18个月）。申请人还须符合刑事记录、不得被拒入境、公共秩序/安全/卫生等要求并缴费。该许可允许无限期居留及在与西班牙公民相同条件下工作；它与雇主担保的初次工作许可不同。官方页面另列特殊替代情形，但不属于通常的五年路径。",
+    "official_sources": [
+      {
+        "name": "Spanish Ministry of Inclusion, Migration and Social Security — Initial employee residence and work authorization (Hoja 12)",
+        "url": "https://www.inclusion.gob.es/web/migraciones/w/autorizacion-inicial-de-residencia-temporal-y-trabajo-por-cuenta-ajena-hi-16-"
+      },
+      {
+        "name": "Spanish Ministry of Inclusion, Migration and Social Security — National long-term residence authorization (Hoja 49)",
+        "url": "https://www.inclusion.gob.es/web/migraciones/w/49.-autorizacion-de-residencia-de-larga-duracion-nacional"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "Displayed as 3mo ago (thread; date checked 9 Nov 2026)",
+        "source_name": "Reddit — r/GoingToSpain, “Initial Work Permit Timeline - cuenta ajena”",
+        "source_url": "https://www.reddit.com/r/GoingToSpain/comments/1njeaz7/initial_work_permit_timeline_cuenta_ajena/",
+        "summary_en": "A commenter said they had just received their initial employee permit in Barcelona after about four months. This is one person’s anecdote, not representative, not legal advice, and not a guaranteed processing time.",
+        "summary_zh": "一位评论者称，自己在巴塞罗那等待约四个月后刚获批初次雇员许可。这只是个人经历，不具代表性，也非法律意见，不能视为保证处理时限。",
+        "topic_en": "Initial employee work-permit waiting time / Barcelona",
+        "topic_zh": "初次雇员工作许可等待时间／巴塞罗那"
+      }
     ]
   },
   {
@@ -559,8 +852,8 @@
     "summary_zh": "外国人需要符合具体签证途径，职位名称本身并不足够。最明确的清单型雇主担保途径是482签证核心技能类别：雇主须提名CSOL上的合格职业，并满足担保、薪资及提名规则。专业技能类别是另有高薪门槛的受限途径，并非开放通用职业清单。劳工协议途径仅限雇主/行业协议明确涵盖的职业及相关豁免。186直接申请类别也要求职业符合适用清单且须雇主提名。任何职业都不保证获签。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "The Home Affairs Skilled occupation list page was last updated 6 August 2025; the 482 Core Skills stream page showed last updated 12 October 2026 and the subclass 186 page 2 November 2026 when checked. A sector priority or talent/occupation list must not be mistaken for universal work authorization: lists can govern only specified streams, be subject to caveats, or affect processing priorities rather than independently confer permission. Eligibility depends on the exact visa stream, nomination, thresholds, licensing, and current legislation. The subclass 186 page's priority sectors (construction, healthcare, teaching, agriculture, aquaculture, fishing and resources, plus law-enforcement/defence interests) are processing priorities, not standalone occupational eligibility.",
-    "caveat_zh": "核查时，内政部技术职业清单页面标示最后更新为2025年8月6日；482核心技能类别页面为2026年10月12日，186页面为2026年11月2日。行业优先类别或人才/职业清单不能误作普遍工作许可：清单可能只适用于特定签证类别、附有排除条件，或仅影响审理优先次序，并不单独授予工作权。资格取决于具体类别、雇主提名、薪资门槛、执照及现行法律。186页面列出的优先行业（建筑、医疗、教学、农业、水产养殖、渔业、资源行业及执法/国防利益）属于审理优先事项，并非独立的职业资格清单。",
+    "caveat_en": "Official requirements verified from Australian Department of Home Affairs pages available on 9 Nov 2026. Applicant discussion posts are anecdotal, not representative, not legal advice; rules and invitation/processing outcomes can change. Check linked official guidance and the applicable stream before applying. Forum accounts, where included, are individual anecdotes, not representative evidence or legal advice.",
+    "caveat_zh": "官方条件依据截至2026年11月9日可查的澳大利亚内政部网页核对。申请者讨论仅属个人经历，不具代表性，亦非法律意见；法规、邀请及审理结果可能变化。申请前请查阅官方链接及适用类别的最新要求。 论坛内容（如有）仅为个人经历，不具代表性，也不是法律意见。",
     "pathways": [
       {
         "kind": "official_occupation_list",
@@ -610,6 +903,48 @@
         "source_url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186",
         "occupations": []
       }
+    ],
+    "work_permit_thresholds_en": "Most relevant employer-sponsored route: Skills in Demand (subclass 482), Core Skills stream. A real Australian employer must sponsor/nominate an eligible skilled position, normally on the Core Skills Occupation List, and the applicant must have at least 1 year of relevant work experience; a skills assessment is required where applicable, and Core Skills applicants must meet the prescribed English requirement unless exempt. The nominated salary for nominations lodged 1 July 2026–30 June 2027 must be at least AUD 79,423 (Core Skills Income Threshold) and also not below the annual market salary rate. Employer labour-market testing applies unless an exemption applies; the employer—not the worker—must conduct it. This is temporary work authorization (up to 4 years), not permanent residence. There is no universal standalone salary/qualification threshold for every Australian work permit: other visa streams and labour agreements can differ.",
+    "work_permit_thresholds_zh": "最相关的雇主担保路线为技能需求签证（482类别）核心技能类别。须由澳大利亚雇主担保/提名符合条件的技能职位（通常须在核心技能职业清单上）；申请人至少有1年相关工作经验；如适用须通过技能评估，核心技能申请人还须满足规定英语要求（除非获豁免）。2026年7月1日至2027年6月30日递交的提名，提名薪酬至少为79,423澳元（核心技能收入门槛），且不得低于该职位年度市场薪酬。除适用豁免外，雇主须进行劳动力市场测试，该义务属于雇主。此为临时工作许可（最长4年），并非永久居留。澳大利亚没有适用于所有工作许可的统一薪酬/学历门槛，其他类别及劳工协议可能不同。",
+    "immigration_thresholds_en": "A salient independent permanent-residence route is subclass 189 (Points-tested stream). Formal minimums include an invitation, under age 45 when invited, competent English, a suitable skills assessment and nominated eligible occupation, and at least 65 points. Sixty-five is only the eligibility floor: it does not guarantee an invitation, as invitations depend on occupation, ranking and program rounds. This route is separate from a 482 work visa and has no employer job-offer requirement. Alternatively, the 186 Employer Nomination Scheme is a separate employer-sponsored permanent route; its Temporary Residence Transition stream generally requires 2 years of eligible sponsored employment in the 3 years before applying, as well as stream-specific requirements. There is no single settlement/PR threshold common to all routes.",
+    "immigration_thresholds_zh": "一个重要的独立技术永久居留路线是189类别（计分类别）。正式最低条件包括获邀请、获邀时未满45岁、具备合格英语、合格职业技能评估及提名符合条件的职业，并达到至少65分。65分只是申请资格下限，不保证获邀；邀请取决于职业、排名及轮次。此路线独立于482工作签证，无雇主工作邀请要求。另有独立的雇主担保永久居留路线186类别；其临时居留转永居类别通常要求申请前3年内有2年符合条件的担保就业，并须满足该类别其他条件。各路线不存在统一的永居门槛。",
+    "official_sources": [
+      {
+        "name": "Department of Home Affairs — Skills in Demand visa (subclass 482), Core Skills stream",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/core-skills-stream"
+      },
+      {
+        "name": "Department of Home Affairs — Salary requirements to nominate a worker (2026–27 thresholds)",
+        "url": "https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/nominating-a-position/salary-requirements"
+      },
+      {
+        "name": "Department of Home Affairs — Skilled Independent visa (subclass 189), Points-tested stream",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189/points-tested"
+      },
+      {
+        "name": "Department of Home Affairs — Employer Nomination Scheme (subclass 186), Temporary Residence Transition stream",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186/temporary-residence-transition-stream"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "2026 (thread shown as 2 months ago; comment date shown as 2 months ago)",
+        "source_name": "Reddit — r/AusVisa, “Question about 482 visa processing dates & actual pace”",
+        "source_url": "https://www.reddit.com/r/AusVisa/comments/1w4sqda/question_about_482_visa_processing_dates_actual/",
+        "summary_en": "In a public r/AusVisa thread, one commenter said they lodged an onshore Core Skills 482 application on 2 February and received the grant on 31 August (about seven months). This is one person's report only.",
+        "summary_zh": "在公开的r/AusVisa讨论中，一位评论者称其在境内于2月2日递交核心技能482申请，并于8月31日获批（约7个月）。仅为个人自述。",
+        "topic_en": "482 Core Skills processing wait",
+        "topic_zh": "482核心技能签证审理等待"
+      },
+      {
+        "post_date": "2025-06-26 (thread page lists top posts of June 26, 2025)",
+        "source_name": "Reddit — r/AusVisa, “Waiting for 482 visa decision – how long did yours take with an accredited sponsor?”",
+        "source_url": "https://www.reddit.com/r/AusVisa/comments/1ll1ufy/waiting_for_482_visa_decision_how_long_did_yours/",
+        "summary_en": "The original poster said they lodged a Core Skills 482 application on 16 April 2025, had an accredited Australian company as sponsor and had submitted documents, but were still waiting after more than 10 weeks. They said an agent handled the application, so they could not access ImmiAccount. This records the poster's circumstances, not a general processing norm.",
+        "summary_zh": "原帖作者称其于2025年4月16日递交核心技能482申请，担保方为获认可的澳大利亚公司，材料已提交，但超过10周仍在等待；申请由代理办理，因此本人无法登录ImmiAccount查询。此为发帖者个人情况，不代表一般审理时长。",
+        "topic_en": "482 applicant still awaiting decision",
+        "topic_zh": "482申请人仍在等待决定"
+      }
     ]
   },
   {
@@ -621,8 +956,8 @@
     "summary_zh": "新西兰没有适用于所有工作签证、以职业名单决定资格的全国统一清单。主要雇主担保途径是认证雇主工作签证（AEWV），资格取决于雇主认证、岗位审核、技能、薪酬等要求，而非一份通用职业白名单。国家职业清单（NOL）表格列出移民局目前认可用于 AEWV 的职业代码；绿色清单则是针对名单内岗位的特定居留途径，并不自动赋予工作许可。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "List membership is not a guarantee of a visa. AEWV eligibility depends on the particular job check, accredited employer, offer, pay, skill evidence, and any licensing or other visa conditions. The NOL page is explicitly limited to AEWV use and directs other cases or unlisted occupations to ANZSCO. The Green List affects specified residence pathways; it does not independently authorise work. This reflects the official pages checked on 9 Nov 2026; do not treat announced future changes as already operative.",
-    "caveat_zh": "列入任何清单都不保证获签。AEWV 资格取决于具体岗位审核、认证雇主、工作邀请、薪酬、技能证明，以及适用的执照或其他签证条件。NOL 页面明确限定于 AEWV 用途，并要求其他签证或未列职业使用 ANZSCO。绿色清单影响的是特定居留途径，本身不授权工作。以上依据 2026 年 11 月 9 日核查的官方页面；已公布但尚未生效的未来变更不应视为现行规则。",
+    "caveat_en": "Rules and figures reflect official Immigration New Zealand pages checked for the requested 9 Nov 2026 date; wage thresholds may change. The forum account is anecdotal, not representative and not legal advice; do not treat a shortage/occupation listing or another applicant’s outcome as guaranteed eligibility.",
+    "caveat_zh": "规则与数字依据移民局官方页面，并按题定日期2026年11月9日核查；工资门槛可能变化。论坛内容仅为个案，不具代表性，也不构成法律意见；短缺/职业清单或他人的申请结果均不保证个人符合资格。",
     "pathways": [
       {
         "kind": "employer_sponsored",
@@ -648,6 +983,39 @@
         "source_url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/green-list-occupations-qualifications-and-skills/green-list-roles-jobs-we-need-people-for-in-new-zealand/",
         "occupations": []
       }
+    ],
+    "work_permit_thresholds_en": "Practical route: Accredited Employer Work Visa (AEWV). You need a current full-time offer of at least 30 hours/week from an AEWV-accredited employer, with an approved job check, and pay at least the applicable job/visa wage requirement (the rate can depend on occupation and circumstances; there is no single universal AEWV salary floor on the cited visa page). As of 9 Nov 2026, Immigration NZ reports the immigration median wage is NZD 35/hour from 9 Mar 2026, but that is a reference used for some thresholds, not an automatic minimum for every AEWV. Applicants ordinarily need either 2 years of relevant experience or an NZQCF Level 4+ qualification (overseas below-bachelor qualifications may need NZQA assessment); relevant occupational registration if required; and English if the job is skill level 3–5. Employer accreditation/job check and an offer are prerequisites, not a labour-market test imposed directly on the applicant. Health, character and genuine-intent criteria also apply.",
+    "work_permit_thresholds_zh": "实用路径：认证雇主工作签证（AEWV）。申请人须持有当前全职工作邀请（至少每周30小时），雇主须获AEWV认证并已通过该职位的Job Check；工资须达到适用于该职位/签证的要求（视职业和具体情况而定，官方签证页没有规定适用于所有AEWV的统一工资底线）。截至2026年11月9日，移民局公布自2026年3月9日起移民中位工资为每小时NZD 35；但它只是部分门槛的参考，并非所有AEWV的自动最低工资。通常须有至少2年相关工作经验，或NZQCF 4级以上学历（非新西兰、学士以下学历可能需要NZQA评估）；若职业要求则须职业注册；技能等级3–5工作须证明英语能力。雇主认证、Job Check和工作邀请是前置条件，并非申请人直接参加的劳动力市场测试。另须满足健康、品格及真实来新目的要求。",
+    "immigration_thresholds_en": "A salient permanent-residence route is the Skilled Migrant Category (SMC) Resident Visa, separate from work authorization. Formal entry requirements include age 55 or younger, English, and a skilled job/job offer with an accredited employer, plus eligibility under one SMC pathway. The points pathway requires 6 points: generally 3–6 from one qualifying skill category (qualification, eligible occupational registration or income), with up to 3 additional points from skilled New Zealand work experience if needed. Other pathways specify at least 5 years directly relevant experience including 2 years skilled work in New Zealand, or for eligible trades/technicians a relevant qualification plus 4 years post-qualification experience including 18 months skilled New Zealand work. Income-based points have explicit wage multiples: the official page gives NZD 105/hour for 6 points (3× the current SMC wage threshold) at the time checked. This is not a universal settlement salary; eligibility depends on pathway and evidence. No single fixed residence-duration requirement is stated for this SMC route on the overview page.",
+    "immigration_thresholds_zh": "显著的永居路径是技术移民类别（SMC）居民签证；它与工作许可分开。正式基本条件包括申请时不超过55岁、英语能力、在认证雇主处有技术工作/工作邀请，并符合一条SMC路径。积分路径须取得6分：通常从一个符合条件的技能类别（学历、认可职业注册或收入）取得3–6分；不足部分可用最多3分的新西兰技术工作经验补足。其他路径分别要求至少5年直接相关经验（含2年新西兰技术工作），或符合条件的技工/技术员拥有相关学历及毕业后4年工作经验（含18个月新西兰技术工作）。收入积分有明确倍数门槛：核查时官方页面列出6分对应每小时NZD 105（当前SMC工资门槛的3倍）。这不是所有定居申请通用的工资线；资格取决于路径及证明材料。该SMC概览页未规定统一的居住年限门槛。",
+    "official_sources": [
+      {
+        "name": "Immigration New Zealand — Accredited Employer Work Visa",
+        "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/"
+      },
+      {
+        "name": "Immigration New Zealand — Work visa wage rates",
+        "url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/wage-rates-for-work-visas/"
+      },
+      {
+        "name": "Immigration New Zealand — Skilled Migrant Category Resident Visa",
+        "url": "https://www.immigration.govt.nz/visas/skilled-migrant-category-resident-visa/"
+      },
+      {
+        "name": "Immigration New Zealand — 2026 median wage update",
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/new-occupations-recognised-under-the-national-occupation-list-and-annual-median-wage-increase/"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "Comment displayed as 9 months ago (relative date shown on source)",
+        "source_name": "Reddit — r/immigration, comment in “Any New Zealand AEWV 'success stories' here?”",
+        "source_url": "https://www.reddit.com/r/immigration/comments/1oxzegd/any_new_zealand_aewv_success_stories_here_eager/",
+        "summary_en": "A commenter said they had recently applied for an AEWV after a former New Zealand employer agreed to sponsor them again. They described needing to take a more active role and gather substantially more evidence than during their earlier stay; they reported approval 33 days after submission, following a request for a medical certificate. This is one person’s account only.",
+        "summary_zh": "一位评论者称，自己近期申请AEWV，曾经的新西兰雇主同意再次担保。评论者表示，相较早年在新西兰工作时，这次需要更主动参与并准备更多证明材料；其称在提交申请后、移民局要求补交体检证明后，33天获批。这仅为个人经历。",
+        "topic_en": "AEWV approval and documentation experience",
+        "topic_zh": "AEWV获批与材料准备经历"
+      }
     ]
   },
   {
@@ -659,8 +1027,8 @@
     "summary_zh": "日本没有一份适用于所有人的通用职业清单，列入某职业并不自动取得工作许可。工作许可取决于具体在留资格、实际活动、雇主／合同及法定条件。特定技能制度是例外，具有实际适用的指定产业领域及工作内容框架；“技术・人文知识・国际业务”和“高度专门职”等广泛类别没有封闭职业清单，须个案审查。所查官方页面包含截至2026年11月9日的信息。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "Japan does not publish a universal finite occupation list that guarantees a work visa. A job title alone is insufficient: immigration examines actual duties, employer/contract, applicant qualifications and category-specific rules. SSW lists are operative only within that program; highly-skilled points are a bonus/recognition scheme, not a standalone talent-list work permit. No occupation should be represented as guaranteed eligible.",
-    "caveat_zh": "日本没有能保证取得工作签证的通用有限职业清单。仅有职位名称不足以获批：入管会审查实际职责、雇主／合同、申请人资格及类别专属规则。特定技能清单仅在该制度内生效；高度人才积分属于优惠／认定机制，并非独立的职业清单式工作许可。不得将任何职业表述为必然合格。",
+    "caveat_en": "Research reflects official sources accessed on 9 Nov 2026. Rules, guideline application dates, income provisions and administrative practice can change; the anecdotes are unverified individual reports, not representative, and are not legal advice. The guide’s existing route set was not supplied here, so work thresholds cover the standard professional route most plausibly represented by the guide. Forum accounts, where included, are individual anecdotes, not representative evidence or legal advice.",
+    "caveat_zh": "本研究依据2026年11月9日查阅的官方来源。规定、指南适用日期、收入条款和行政实践可能变化；论坛内容为未经核实的个人经历，不具代表性，也不是法律意见。此处未提供现有指南路线清单，因此工作门槛聚焦于指南最可能涵盖的标准专业工作路线。",
     "pathways": [
       {
         "kind": "official_occupation_list",
@@ -698,6 +1066,48 @@
         "source_url": "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_system_index.html",
         "occupations": []
       }
+    ],
+    "work_permit_thresholds_en": "For the existing guide’s likely skilled-professional route, Engineer/Specialist in Humanities/International Services (技術・人文知識・国際業務), this is employment authorization, not permanent residence: the work must be professional work requiring relevant technical/humanities knowledge or foreign-culture-based skills, under a contract with a Japanese public/private organization. In the usual case, an applicant must document either a relevant university-level qualification (or equivalent) or 10 years of relevant work experience; specified IT tests/qualifications can substitute in qualifying IT cases. The contract must provide remuneration at least equivalent to that of a Japanese worker doing comparable work; there is no published universal yen minimum. A job offer/contract and evidence about the employer and role are required; there is no general labour-market test or Japanese-language minimum stated for the route. For language-based interpersonal duties, the agency’s current application materials require evidence of CEFR B2-equivalent ability in the language used. Eligibility and approval depend on the actual duties and evidence, not merely a job title or shortage list.",
+    "work_permit_thresholds_zh": "就现有指南可能涉及的专业工作路线——「技术・人文知识・国际业务」（技術・人文知識・国際業務）而言，这是工作许可，不是永居：工作须是在日本公私机构合同下，从事需要相关技术／人文知识或以外国文化为基础的思维、感受性的专业工作。通常须证明具相关大学学历（或同等教育）或10年相关工作经验；符合条件的IT案件可用指定考试／资格替代。合同报酬不得低于日本人从事同类工作的报酬；官方没有统一的日元最低工资门槛。须有工作合同／聘用安排，并提供岗位及雇主材料；该路线没有一般劳动力市场测试，也未列普遍日语最低要求。若工作涉及以语言能力进行人际沟通，现行申请材料要求证明所用语言达到CEFR B2相当水平。是否符合资格及获批，取决于实际职责和证据，职位名称或短缺职业名单本身不保证资格。",
+    "immigration_thresholds_en": "Permanent residence (PR) is a separate status and is discretionary, not an automatic conversion from a work visa. The standard work-status route generally requires 10 consecutive years’ residence in Japan, including at least 5 years under a work or other qualifying residence status, plus good conduct, ability to maintain an independent livelihood, and a finding that PR serves Japan’s interests; required public obligations (including taxes and social insurance/pension where applicable) must be properly fulfilled. Exceptions/accelerated routes exist, including highly skilled points-based cases, but points do not guarantee approval. As of 9 Nov 2026, the agency says applications through 31 Mar 2027 use the Feb 2026 guideline, with the income provisions in the Oct 1 2026 revision applied; check the current guideline for the exact case. The official page lists a 4–6 month standard processing period, not a guarantee.",
+    "immigration_thresholds_zh": "永住（PR）是独立身份，不会因工作签证自动转换，且由主管机关酌情审查。一般工作居留路线通常要求在日本连续居住10年，其中至少5年持工作或其他合格居留身份；还须品行良好、具备独立维持生计能力，并认定永住符合日本利益。适用的税款、社会保险／养老金等公共义务亦须妥善履行。另有高度人才积分等例外／加速路线，但达到积分不等于必获批准。截至2026年11月9日，入管厅说明2027年3月31日前申请适用2026年2月指南，但收入部分适用2026年10月1日修订；个案应核对现行指南。官方所列4–6个月是标准处理期，并非保证。",
+    "official_sources": [
+      {
+        "name": "Immigration Services Agency of Japan — Engineer/Specialist in Humanities/International Services status (official eligibility and application materials)",
+        "url": "https://www.moj.go.jp/isa/applications/status/gijinkoku.html"
+      },
+      {
+        "name": "Immigration Services Agency of Japan — Permanent residence (eligibility and current guideline application dates)",
+        "url": "https://www.moj.go.jp/isa/applications/guide/eizyuu.html"
+      },
+      {
+        "name": "Immigration Services Agency of Japan — Permanent-residence application and screening criteria",
+        "url": "https://www.moj.go.jp/isa/applications/procedures/16-4.html"
+      },
+      {
+        "name": "Immigration Services Agency of Japan — Permanent Residence Guidelines (income update effective 1 Oct 2026)",
+        "url": "https://www.moj.go.jp/isa/10_00279.html"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "2025 (thread displays ‘1y ago’; comment states application date 29 May 2025)",
+        "source_name": "Reddit — r/japanresidents, “Recent Visa Renewal Experience (Engineer)”",
+        "source_url": "https://www.reddit.com/r/japanresidents/comments/1liycwb/recent_visa_renewal_experience_engineer/",
+        "summary_en": "A poster said they applied in Tokyo on 29 May 2025 and were still waiting when they posted; after calling, they were told it might take another 1–1.5 months. This is one applicant’s report, not representative or legal advice.",
+        "summary_zh": "发帖者称其于2025年5月29日在东京申请，发帖时仍在等待；致电询问后被告知可能还需1至1.5个月。这只是单一申请者的陈述，不具代表性，也不是法律意见。",
+        "topic_en": "Engineer status renewal waiting time",
+        "topic_zh": "工程师在留资格续签等待时间"
+      },
+      {
+        "post_date": "2026 (thread displays ‘4mo ago’; exact calendar date not displayed)",
+        "source_name": "Reddit — r/MOVE_TO_JAPAN, “8 months of « still processing » for engineer visa’s COE, going insane, need advice”",
+        "source_url": "https://www.reddit.com/r/MOVE_TO_JAPAN/comments/1v09y7f/8_months_of_still_processing_for_engineer_visas/",
+        "summary_en": "The author said a Japan employer offered sponsorship after a job offer; after the author returned home when a Working Holiday status ended, the Certificate of Eligibility application remained ‘still processing’ for more than eight months, with the sponsor reportedly active and no further documents requested. This is one applicant’s report, not representative or legal advice.",
+        "summary_zh": "作者称获得工作机会后，日本雇主提出担保；其打工度假身份到期回国后，资格认定证明书申请仍超过八个月处于“审理中”，据其所述雇主担保仍有效且未被要求补交材料。这只是单一申请者的陈述，不具代表性，也不是法律意见。",
+        "topic_en": "Engineer work-visa COE processing and sponsorship",
+        "topic_zh": "工程师工作签证COE审理及雇主担保"
+      }
     ]
   },
   {
@@ -709,8 +1119,8 @@
     "summary_zh": "新加坡没有一份可保证外国人取得工作准证的通用职业清单。外国人通常须有雇主及符合条件的职位，申请Employment Pass（EP）或S Pass，并满足薪资等条件；Work Permit则受获准来源国/地区、行业规则、配额及雇主申请限制。官方NTS职业清单确实是有限且具实际限制效力的名单，适用于特定非传统来源国籍人士在制造业或服务业申请Work Permit。SOL只在满足附加条件时提供COMPASS加分（列入的资讯通信科技职位还可能符合5年EP期限），本身不授予工作许可。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "Singapore work authorization is pass- and employer-specific; a role appearing on a list does not by itself confer permission. EP/S Pass remain discretionary assessments under salary, COMPASS/eligibility, advertising, quota or other applicable conditions. Work Permit occupation/source-country/sector restrictions must be checked for the specific worker and employer. The official pages reviewed display explicit dates; thresholds and lists can change, including the stated 2027 EP/S Pass salary revisions.",
-    "caveat_zh": "新加坡工作许可取决于具体准证及雇主；职位出现在名单中本身并不授予工作权。EP/S Pass仍须按薪资、COMPASS/资格、招聘广告、配额及其他适用条件逐案评估。Work Permit须针对具体工人及雇主核查职业、来源国和行业限制。所查官方页面明确列有日期；门槛和名单可能调整，包括页面注明的2027年EP/S Pass薪资调整。",
+    "caveat_en": "Official rules checked against government pages accessed 9 Nov 2026; thresholds can change. The discussion account is an anecdote, not representative and not legal advice; it documents a pending application, not approval or rejection. Forum accounts, where included, are individual anecdotes, not representative evidence or legal advice.",
+    "caveat_zh": "官方规则依据截至2026年11月9日查阅的政府页面；门槛可能变动。讨论帖仅为个案，不具代表性，也不是法律意见；该帖描述的是审理中申请，并未报告获批或拒批。 论坛内容（如有）仅为个人经历，不具代表性，也不是法律意见。",
     "pathways": [
       {
         "kind": "official_occupation_list",
@@ -779,6 +1189,39 @@
         "source_url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c5-skills-bonus-shortage-occupation-list-sol",
         "occupations": []
       }
+    ],
+    "work_permit_thresholds_en": "For the Employment Pass (EP), the applicant needs a Singapore job offer/employer application and fixed monthly salary at least S$5,600 outside financial services or S$6,200 in financial services for applicants aged 23 or below; the minimum rises progressively by age, reaching S$10,700/S$11,800 respectively at age 45+. Applicants must also score at least 40 points under COMPASS unless exempt. Employers must meet the Fair Consideration Framework job-advertising requirement for new applications. For the S Pass, a Singapore job offer is required and the age-benchmarked salary floor is currently S$3,300 outside financial services or S$3,800 in financial services for age 23 or below, rising to S$4,800/S$5,650 at age 45+; the employer must have available sector quota and pay the applicable levy. Qualifications are optional for S Pass; neither pass has a general fixed language-test or minimum-experience threshold on these eligibility pages. Thresholds change for applications from 1 Jan 2027: EP S$6,000/S$6,600 and S Pass S$3,600/S$4,000 at age 23 or below (with age progression).",
+    "work_permit_thresholds_zh": "就业准证（EP）：须有新加坡工作职位并由雇主/就业代理申请；23岁及以下申请人的固定月薪至少为非金融业S$5,600、金融服务业S$6,200；最低薪资随年龄递增，45岁及以上分别为S$10,700/S$11,800。除获豁免者外，还须在COMPASS中至少取得40分。雇主提交新申请前须遵守公平考虑框架的招聘广告要求。S准证：须有新加坡工作职位；目前23岁及以下固定月薪门槛为非金融业S$3,300、金融服务业S$3,800，随年龄递增，45岁及以上分别为S$4,800/S$5,650；雇主还须有相应行业配额并支付征费。S准证学历申报为可选；这些资格页面没有规定普遍适用的语言考试或最低工作年限门槛。2027年1月1日起新申请门槛将调整：23岁及以下EP为S$6,000/S$6,600、S准证为S$3,600/S$4,000（并随年龄递增）。",
+    "immigration_thresholds_en": "Permanent residence is separate from work authorization. A holder of an EP or S Pass is eligible to apply without a local sponsor; ICA publishes no fixed minimum salary, points score, language test, or minimum period of residence that guarantees PR. ICA assesses each application on its merits, considering factors including family ties, economic contributions, qualifications, age, family profile, length of residence, integration and commitment to settle. Complete applications are generally processed within six months, sometimes longer; an eligible application is not a guarantee of approval.",
+    "immigration_thresholds_zh": "永久居民身份与工作准证是两个独立程序。EP或S准证持有人可在无需本地担保人的情况下申请；ICA没有公布可保证获批的固定最低薪资、积分、语言考试或居住年限。ICA按个案评估，考虑家庭联系、经济贡献、学历、年龄、家庭情况、居住时间、融入情况及扎根意愿等。材料齐全的申请通常在六个月内处理，部分个案更久；符合申请资格并不代表必然获批。",
+    "official_sources": [
+      {
+        "name": "MOM — Eligibility for Employment Pass",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility"
+      },
+      {
+        "name": "MOM — Eligibility for S Pass",
+        "url": "https://www.mom.gov.sg/passes-and-permits/s-pass/eligibility"
+      },
+      {
+        "name": "ICA — Permanent Residence Application",
+        "url": "https://www.ica.gov.sg/information-and-e-services/citizenship-and-permanent-residence/permanent-residence/permanent-residence-application"
+      },
+      {
+        "name": "MOM — S Pass quota and levy requirements",
+        "url": "https://www.mom.gov.sg/passes-and-permits/s-pass/quota-and-levy/levy-and-quota-requirements"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "9 July 2026",
+        "source_name": "Reddit — r/malaysians",
+        "source_url": "https://www.reddit.com/r/malaysians/comments/1udeesa/how_long_did_you_wait_for_your_ipa_letter_for/",
+        "summary_en": "The first-person poster said this was their first EP application and first move to Singapore for work. They reported that the company submitted the application on 22 May and later received an MOM email saying extra review time was needed. The post asks about others’ timelines; it does not report the final outcome.",
+        "summary_zh": "发帖者以第一人称表示，这是其首次申请EP、首次赴新加坡工作。其称公司于5月22日提交申请，之后公司收到MOM邮件称需要额外时间审查。该帖询问他人的处理时长，并未说明最终结果。",
+        "topic_en": "EP application pending additional review",
+        "topic_zh": "EP申请等待额外审查"
+      }
     ]
   },
   {
@@ -790,8 +1233,8 @@
     "summary_zh": "香港没有一份普遍决定工作签证资格的全国职业清单；专业人士的雇主担保申请按个案审查。明确列出的八类技术专业只适用于受限的内地居民技术专业人士输入安排。另有雇主可按补充劳工优化计划申请输入较低技术层级劳工，但须先本地招聘并经劳工处逐案批准。",
     "published_date": "Not stated / 未注明",
     "effective_period": "Not stated / 未注明",
-    "caveat_en": "Do not infer eligibility from a job title alone. Except for the narrowly scoped Technical Professionals Stream list, the cited official sources establish pathways and case-specific tests, not guaranteed occupations. Hong Kong’s Talent List or TTPS eligible-university list (and any points/bonus they may confer) is not a work permit or a universal occupation whitelist. Nationality/residency, sector exclusions, employer sponsorship, quota, credentials/licensing and labour recruitment conditions can all control the route.",
-    "caveat_zh": "不得仅凭职位名称推断资格。除适用范围狭窄的技术专业人士清单外，所引官方来源规定的是途径及个案审查条件，并未保证特定职业可获批。香港人才清单或TTPS合资格大学名单（及其可能带来的计分／加分）不是工作许可，也不是普遍职业白名单。国籍／居留身份、行业排除、雇主担保、配额、资历／执照及本地招聘条件均可能决定适用途径。",
+    "caveat_en": "Official sources checked were the Immigration Department’s current GEP guidebook dated 04/2026 and its right-of-abode eligibility page; the material supports requirements as published by 9 Nov 2026. No fixed GEP salary threshold is published—the HK$2 million figure is only a specified recruitment-evidence facilitation criterion, not a salary minimum. Forum reports are anecdotal, not representative, and not legal advice.",
+    "caveat_zh": "核对的官方资料包括入境处04/2026版GEP指南及居留权资格页面，所述为截至2026年11月9日已公布的要求。GEP没有公布固定最低薪金；港币200万元仅是特定情况下免交本地招聘困难证明的便利条件，并非最低薪金门槛。论坛个案仅属轶事，不具代表性，亦不构成法律意见。",
     "pathways": [
       {
         "kind": "employer_sponsored",
@@ -865,6 +1308,44 @@
         "source_name": "Immigration Department — Top Talent Pass Scheme FAQ",
         "source_url": "https://www.immd.gov.hk/eng/faq/TTPS.html",
         "occupations": []
+      }
+    ],
+    "work_permit_thresholds_en": "For the page’s professional employment route (General Employment Policy, GEP), there is no fixed published minimum salary, age, points score, language test, or general years-of-experience threshold. A case is considered favourably where the applicant has a good education background (normally a relevant first degree; in special cases, documented technical qualifications, professional ability and/or relevant experience/achievements may substitute), a genuine vacancy and confirmed offer for work related to the applicant’s qualifications or experience that cannot readily be taken up by the local workforce, and a remuneration package broadly commensurate with prevailing Hong Kong professional market levels. No fixed LMIA-style recruitment test is stated as a universal threshold; local-recruitment evidence may be waived in specified facilitation cases, including a post on the Talent List or total annual remuneration of HK$2 million or above. These are considerations, not automatic approval guarantees; ImmD retains discretion. The employer and applicant submit supporting documents, and the employer must substantiate its business in the applicable cases.",
+    "work_permit_thresholds_zh": "就本页所涉专业人士就业路线（一般就业政策 GEP）而言，官方没有公布统一的最低薪金、年龄、积分、语言考试或一般年资门槛。通常须具备良好教育背景（一般为相关学科学士学位；特殊情况下，可凭文件证明的技术资格、专业能力及／或相关经验与成就替代），并有真实职位空缺及已确认聘用；工作须与申请人的学历或工作经验相关，且本地劳动力不易胜任。薪酬待遇须大致符合香港专业人士当时的市场水平。官方没有把类似 LMIA 的招聘测试列为普遍硬性门槛；在指定便利安排下（例如职位属于人才清单，或年薪总薪酬达港币200万元或以上），可免提交本地招聘困难证明。以上均非自动获批保证，入境处保留个案酌情权。申请人及雇主须提交文件；适用个案中雇主须证明其业务情况。",
+    "immigration_thresholds_en": "For a non-Chinese national, the salient permanent-residence route is Hong Kong right of abode: ordinarily reside in Hong Kong continuously for at least seven years immediately before applying, enter with a valid travel document, and declare and satisfy ImmD that Hong Kong has been taken as the person’s place of permanent residence. Evidence may include habitual residence, whether the spouse/minor children are in Hong Kong, reasonable means to support the person and family, and tax compliance. The seven-year residence test is not a work-visa rule; a work visa does not itself confer permanent residence, and status arises only after application and approval. Ordinary residence is assessed under the rules and facts of the case.",
+    "immigration_thresholds_zh": "非中国籍人士最相关的永久居留路线是香港居留权：申请前须在香港连续通常居住不少于七年、持有效旅行证件进入香港，并声明且令入境处信纳已以香港为永久居住地。证明材料可包括惯常居住情况、配偶及未成年子女是否在港、本人及家人的合理生活来源，以及是否依法缴税。七年居住要求属于永久居留条件，并非工作签证条件；工作签证本身不赋予永久居留，须另行申请并获批才取得身份。通常居住情况按规则及个案事实判断。",
+    "official_sources": [
+      {
+        "name": "Hong Kong Immigration Department — Guidebook relating to employment as professionals (GEP), ID(E)991 (04/2026)",
+        "url": "https://www.immd.gov.hk/pdforms/ID(E)991.pdf"
+      },
+      {
+        "name": "Hong Kong Immigration Department — General Employment Policy",
+        "url": "https://www.immd.gov.hk/eng/services/visas/GEP.html"
+      },
+      {
+        "name": "Hong Kong Immigration Department — Eligibility for the Right of Abode in the HKSAR",
+        "url": "https://www.immd.gov.hk/eng/services/roa/eligible.html"
+      }
+    ],
+    "experiences": [
+      {
+        "post_date": "2023 (displayed as 3y ago)",
+        "source_name": "Reddit r/HongKong — HK Work Visa application",
+        "source_url": "https://www.reddit.com/r/HongKong/comments/13x667s/hk_work_visa_application/",
+        "summary_en": "The poster said a Hong Kong company had submitted their work-visa application and they were waiting, expecting roughly four weeks; in a later reply in the same thread, they said the company withdrew the offer because of document issues. The poster did not report a visa decision, so this is not evidence of approval or rejection.",
+        "summary_zh": "发帖者称香港公司已递交其工作签证申请，自己正在等待，预期约四周；同一讨论串后续回复称公司因文件问题撤回聘用。发帖者没有报告签证决定，因此这并非获批或拒批的证据。",
+        "topic_en": "GEP application paperwork and timing (applicant post, 2023)",
+        "topic_zh": "GEP申请文件与时长（申请人帖子，2023年）"
+      },
+      {
+        "post_date": "2026-01-09",
+        "source_name": "Reddit r/HongKong — Employment Visa processing time",
+        "source_url": "https://www.reddit.com/r/HongKong/comments/1ppi1ps/employment_visa_processing_time/",
+        "summary_en": "A commenter said their GEP work visa was approved within five working days of application. This is one person’s report only; it does not establish a normal processing time or predict another application’s outcome.",
+        "summary_zh": "一名评论者称其GEP工作签证在递交后五个工作日内获批。这只是个人报告，不能代表通常处理时长，也不能预测其他申请的结果。",
+        "topic_en": "GEP application processing time reported by applicant (2026)",
+        "topic_zh": "申请人报告的GEP处理时长（2026年）"
       }
     ]
   }
