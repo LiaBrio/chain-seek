@@ -7,3 +7,49 @@
 
 .experienceHead strong{flex:1;min-width:0}.experienceHead time{flex:0 1 42%;max-width:48%;text-align:right;line-height:1.5;overflow-wrap:anywhere}
 @media(max-width:520px){.experienceHead time{flex:none;max-width:100%;text-align:left}.thresholdBox p,.experienceList p{font-size:12px;line-height:1.7}.thresholdBox strong,.experienceHead strong,.experiences summary{font-size:11px}.officialSources a,.experienceList a,.anecdoteDisclaimer{font-size:10px}}
+
+
+/* Readability: raise small labels and dense guide copy to comfortable sizes. */
+.page{font-size:16px}
+.brand{font-size:16px}.brand small{font-size:10px}
+.homeLink{font-size:14px}
+.eyebrow{font-size:12px}
+.hero p{font-size:18px;line-height:1.75}
+.curated{font-size:12px;padding:8px 12px}
+.stats strong{font-size:24px}.stats span{font-size:12px}
+.search input,.filters select{font-size:15px}
+.resultsMeta{font-size:13px}
+.summary{font-size:14px;line-height:1.65}
+.type,.pathKind{font-size:11px;padding:7px 10px}
+.facts span{font-size:12px}.facts strong{font-size:13px;line-height:1.6}
+.pathwayHead h3{font-size:17px}
+.note strong,.caveat strong{font-size:12px}
+.note p,.caveat p{font-size:15px;line-height:1.8}
+.jobsTitle{font-size:13px}
+.jobs li strong{font-size:13px}.jobs li span{font-size:12px}
+.jobBasis{font-size:12px;line-height:1.6}.jobBasis p{font-size:12px;line-height:1.65}
+.noExamples{font-size:13px;line-height:1.75}
+.sourceLink{font-size:13px}.sourceLink small{font-size:12px;line-height:1.55}
+.caveat p{font-size:14px;line-height:1.75}
+.checked{font-size:12px}
+.trust h2{font-size:16px}.trust p{font-size:15px;line-height:1.8}
+.disclaimer{font-size:13px;line-height:1.8}
+.empty{font-size:15px}
+.thresholdHead strong{font-size:14px}.thresholdHead span{font-size:12px}
+.thresholdBox strong{font-size:12px}.thresholdBox p{font-size:14px;line-height:1.75}
+.officialSources>strong,.officialSources a{font-size:12px;line-height:1.55}
+.experiences summary{font-size:14px}.experienceCount{font-size:12px}
+.anecdoteDisclaimer{font-size:12px;line-height:1.65}
+.experienceHead strong{font-size:13px;line-height:1.6}.experienceHead time{font-size:12px}
+.experienceList p{font-size:14px;line-height:1.75}.experienceList a{font-size:12px;line-height:1.55}
+.noExperience{font-size:12px;line-height:1.65}
+@media(max-width:520px){
+  .hero p{font-size:16px}
+  .search input,.filters select{font-size:16px}
+  .summary{font-size:14px}
+  .facts span{font-size:12px}.facts strong{font-size:13px}
+  .pathwayHead h3{font-size:16px}
+  .note p{font-size:14px}
+  .thresholdBox p,.experienceList p{font-size:14px;line-height:1.75}
+  .officialSources a,.experienceList a,.anecdoteDisclaimer{font-size:12px}
+}

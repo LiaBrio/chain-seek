@@ -175,6 +175,18 @@
             "basis_zh": "仅为示例；列入清单不保证获批。"
           }
         ]
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "International Experience Canada (IEC) — Working Holiday",
+        "name_zh": "加拿大国际体验计划（IEC）——工作假期类别",
+        "scope_en": "This open-work-permit route is limited to citizens of countries/territories with a Canadian youth-mobility agreement, and category access differs by partner; it is not available to every foreign passport. Most partners set ages 18–30 or 18–35, with stay lengths and repeat participation varying by agreement. Working Holiday is an IEC category; verify that the applicant’s citizenship has this category and check the live invitation pool.",
+        "scope_zh": "此开放式工签途径仅适用于与加拿大签有青年流动协议的国家／地区公民，且各伙伴可申请的类别不同；并非所有外国护照均可申请。多数伙伴规定年龄为18–30岁或18–35岁，停留期限及可参加次数因协议而异。工作假期是IEC其中一类；请核实申请人的国籍是否适用该类别，并查看实时邀请候选池。",
+        "conditions_en": "Applicants generally need a valid partner-country passport, at least CAN$2,500, health insurance for the authorized stay, a return ticket or funds for one, no accompanying dependants and admissibility to Canada. Working Holiday normally leads to an open work permit; the maximum duration and number of participations depend on nationality. Some jobs require a medical exam and restricted employers/occupations apply. Invitations depend on nationality-specific pools and available places; a profile alone does not guarantee an invitation. Check current IRCC rules and pool status.",
+        "conditions_zh": "申请人通常须持有效伙伴国护照、具备至少2,500加元资金、购买覆盖获准停留期的医疗保险、持有返程机票或购票资金、不得携带受养人，并符合加拿大入境要求。工作假期通常对应开放式工签；最长时限及参加次数取决于国籍。部分工作须体检，且有受限制的雇主／职业。邀请取决于国籍对应的候选池和名额；建立档案并不保证获邀。请核实IRCC当前规则和候选池状态。",
+        "source_name": "IRCC — International Experience Canada: eligibility by country and category",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec/eligibility.html",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "For the common employer-specific (closed) permit, the practical gateway is a genuine job offer from an employer not listed as non-compliant, plus the applicant meeting general admissibility/application requirements (including sufficient funds for the stay and return and showing they will leave when authorization expires). Most jobs require the employer to obtain a positive LMIA, demonstrating need and no available Canadian citizen or permanent resident; an exemption exists only where a specified LMIA-exempt category applies, and the worker still generally needs a permit. There is no single Canada-wide minimum salary, language score, age, or education threshold for every work permit: applicable program/job-specific rules and, for LMIA cases, employer/job conditions determine the bar. Open permits are limited to qualifying special circumstances and do not require a job offer.",
@@ -205,6 +217,18 @@
       {
         "name": "Global Talent Stream requirements — Global talent occupations list for Category B, Employment and Social Development Canada",
         "url": "https://www.canada.ca/en/employment-social-development/services/foreign-workers/global-talent/requirements.html"
+      },
+      {
+        "name": "IRCC — International Experience Canada: eligibility by country and category",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec/eligibility.html"
+      },
+      {
+        "name": "IRCC — International Experience Canada: about the program",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec/about.html"
+      },
+      {
+        "name": "IRCC — Create an IEC profile and check invitation pools",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec/become-candidate.html"
       }
     ],
     "experiences": [
@@ -225,6 +249,15 @@
         "summary_zh": "一位评论者报告称于2026年4月9日提交配偶开放工签申请，并于2026年10月21日收到批准信。仅为个案，不具代表性，也不构成处理时长保证或法律意见。",
         "topic_en": "Spousal open work permit approval timeline",
         "topic_zh": "配偶开放工签获批时间"
+      },
+      {
+        "topic_en": "UK/Ireland couple’s dated account of arriving in Canada on IEC permits",
+        "topic_zh": "一对英国／爱尔兰伴侣分享持IEC许可抵达加拿大的经历",
+        "summary_en": "The author reports that the couple arrived in Canada in October 2024 on IEC work permits. She reports waiting about an hour at Calgary airport’s immigration office, where the officer asked for their passports and Port of Entry letters before issuing the permits. The article does not specify which IEC category they held. This is an individual account, not representative and not legal advice.",
+        "summary_zh": "作者称，她和丈夫于2024年10月持IEC工作许可抵达加拿大。她自述在卡尔加里机场移民办公室等候约一小时，官员查看护照和入境介绍信后签发工作许可。文章没有说明两人持有哪一种IEC类别。这只是个人经历，不具代表性，也不是法律意见。",
+        "source_name": "Wild Lovely World — “IEC Arrival Experience – Moving To Canada From UK” (updated 28 August 2026)",
+        "source_url": "https://wildlovelyworld.com/iec-arrival-experience-moving-to-canada-from-uk/",
+        "post_date": "28 August 2026 (article update; author reports arrival in October 2024)"
       }
     ]
   },
@@ -344,6 +377,30 @@
             "basis_zh": "官方来源示例；列入名单不保证获批。"
           }
         ]
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Youth Mobility Scheme (YMS) visa",
+        "name_zh": "青年流动计划（YMS）签证",
+        "scope_en": "A temporary live-and-work route for specified nationalities, not a universal visa: Australia, Canada, New Zealand and South Korea (ages 18–35); Andorra, Iceland, Japan, Monaco, San Marino and Uruguay (18–30); Hong Kong SAR passport holders and Taiwan nationals (18–30, ballot required); and certain British overseas nationals. India has a separate scheme described below. Country-specific quotas and ballot requirements apply.",
+        "scope_zh": "向特定国籍人士提供的临时居住和工作途径，并非普遍签证：澳大利亚、加拿大、新西兰及韩国（18–35岁）；安道尔、冰岛、日本、摩纳哥、圣马力诺及乌拉圭（18–30岁）；香港特区护照持有人及台湾地区国民（18–30岁，须抽签）；以及部分英国海外国民。印度另有下述独立计划。按国家／地区设名额并适用抽签要求。",
+        "conditions_en": "YMS permits up to 24 months; Australians, Canadians and New Zealanders can extend by one year. Applicants generally need £2,530 held for 28 days, must be within the relevant age limit, and must not bring dependants on the application. Most jobs and study are permitted; professional-sportsperson work is barred, and self-employment is limited to a small business with rented premises, equipment worth no more than £5,000 and no employees. Hong Kong and Taiwan applicants must first be selected in a ballot. Verify the current country-specific allocation and ballot status before applying.",
+        "conditions_zh": "YMS最长允许停留24个月；澳大利亚、加拿大和新西兰公民可再延长一年。申请人通常须有连续28天持有的2,530英镑资金、符合相应年龄上限，且不得在申请中携带受养人。可从事大多数工作及学习；禁止职业运动员工作，自雇仅限于租用经营场所、设备价值不超过5,000英镑且没有雇员的小型企业。香港及台湾申请人须先经抽签选中。申请前请核实各地当前名额和抽签状态。",
+        "source_name": "GOV.UK — Youth Mobility Scheme visa overview and eligibility",
+        "source_url": "https://www.gov.uk/youth-mobility/eligibility",
+        "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "India Young Professionals Scheme visa (separate India route)",
+        "name_zh": "印度青年专业人士计划签证（印度专属独立途径）",
+        "scope_en": "For Indian citizens aged 18–30 only; unlike YMS, applicants must also have a bachelor’s-level or higher qualification and be selected in a ballot. The 2026 scheme had 3,000 places; all 2026 ballots had closed by 23 July 2026. This is a nationality-specific youth-mobility route, not employer sponsorship.",
+        "scope_zh": "仅适用于18–30岁的印度公民；与YMS不同，申请人还须具备学士或以上学历，并在抽签中获选。2026年计划有3,000个名额；截至2026年7月23日，当年所有抽签均已结束。这是按国籍限定的青年流动途径，并非雇主担保。",
+        "conditions_en": "Successful ballot applicants may live and work in the UK for up to 24 months. They need at least £2,530 in savings held for 28 consecutive days, an eligible qualification, and no dependent children under 18. Most jobs and study are allowed; professional-sportsperson work, public funds and extending this visa are not. Each invitation gives 90 days to apply and provide documents. The 2026 ballot is closed; future availability must be checked on GOV.UK.",
+        "conditions_zh": "抽签获选者可在英国居住和工作，最长24个月。申请人须有至少2,530英镑连续持有28天的存款、符合条件的学历，且不得有随行或由其供养的18岁以下子女。允许从事大多数工作及学习；不得从事职业运动员工作、领取公共资金或延期。收到邀请后须在90天内递交申请及材料。2026年抽签已结束；未来开放情况请查GOV.UK。",
+        "source_name": "GOV.UK — India Young Professionals Scheme visa",
+        "source_url": "https://www.gov.uk/india-young-professionals-scheme-visa",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "Main route: Skilled Worker. Applicants need a confirmed eligible job offer and a Certificate of Sponsorship from a Home Office-approved UK employer; the job must be on the eligible occupation list and meet the applicable skill rules (normally higher-skilled; medium-skilled only in specified listed exceptions). For a new applicant, the usual salary floor is the higher of £41,700/year or the job’s occupation-code going rate. Limited exceptions can use a lower floor, generally at least £33,400 for qualifying cases, with their own conditions; healthcare/education and transitional cases have separate calculations. English must generally be proven at CEFR B2 for new applications (accepted qualifications or approved test); exemptions apply. No general applicant age, points total, degree, or prior-experience threshold is stated on this route’s overview; the job offer, occupation, sponsorship, salary and English requirements are operative barriers. This is work permission, not permanent residence.",
@@ -378,6 +435,30 @@
       {
         "name": "Health and Care Worker visa: Your job",
         "url": "https://www.gov.uk/health-care-worker-visa/your-job"
+      },
+      {
+        "name": "GOV.UK — Youth Mobility Scheme visa overview",
+        "url": "https://www.gov.uk/youth-mobility"
+      },
+      {
+        "name": "GOV.UK — Youth Mobility Scheme eligibility",
+        "url": "https://www.gov.uk/youth-mobility/eligibility"
+      },
+      {
+        "name": "GOV.UK — Youth Mobility eligible nationals and country-specific allocations",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-youth-mobility-scheme-eligible-nationals"
+      },
+      {
+        "name": "GOV.UK — India Young Professionals Scheme overview",
+        "url": "https://www.gov.uk/india-young-professionals-scheme-visa"
+      },
+      {
+        "name": "GOV.UK — India Young Professionals Scheme ballot system (2026 places/status)",
+        "url": "https://www.gov.uk/guidance/india-young-professionals-scheme-visa-ballot-system"
+      },
+      {
+        "name": "GOV.UK — India Young Professionals Scheme eligibility",
+        "url": "https://www.gov.uk/india-young-professionals-scheme-visa/eligibility"
       }
     ],
     "experiences": [
@@ -455,6 +536,18 @@
         "source_name": "General Employment Permit — Department of Enterprise, Tourism and Employment",
         "source_url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/general-employment-permit/",
         "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Working Holiday Authorisation (WHA)",
+        "name_zh": "工作假期授权（WHA）",
+        "scope_en": "Ireland offers this route only to nationals of partner countries/areas: Andorra, Argentina, Australia, Canada, Chile, Hong Kong, Japan, New Zealand, South Korea, Taiwan and the United States. The usual maximum stay is one year; Canadians may stay up to two years. Age, study/graduation and application rules differ by bilateral agreement, so check the applicant’s country page. Not a general route for all foreign workers.",
+        "scope_zh": "爱尔兰仅向协议伙伴国家／地区公民提供此途径：安道尔、阿根廷、澳大利亚、加拿大、智利、中国香港、日本、新西兰、韩国、台湾及美国。通常最长停留一年；加拿大公民可达两年。年龄、在学／毕业及申请规则因双边协议而异，请查申请人所属国家页面。并非所有外国工人均可申请。",
+        "conditions_en": "The authorisation is for a holiday with temporary work to help fund the stay; applicants generally apply from outside Ireland. Partner-specific requirements apply. For example, US citizens must be 18 or older and currently in qualifying full-time post-secondary study or have graduated within the previous 12 months; the official US page lists funds, return travel and insurance requirements. Holders staying more than 90 days must register after arrival. Check the relevant Irish DFA or embassy page for exact age, duration and documents.",
+        "conditions_zh": "此授权以度假为主，允许从事临时工作补贴停留费用；申请人通常须在爱尔兰境外申请。各伙伴另有具体要求。例如，美国公民须年满18岁，且正在接受符合条件的全日制高等中学后教育，或在过去12个月内毕业；美国官方专页还列出资金、返程安排及保险要求。停留超过90天者抵达后须登记。准确年龄、期限和材料请查爱尔兰外交部或相关使馆页面。",
+        "source_name": "Irish Immigration Service Delivery — Working holidays in Ireland",
+        "source_url": "https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-more-than-90-days/working-holidays-in-ireland/",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "For the practical routes covered here, a qualifying Irish job offer and employer are central; there is no language test, points score, or personal age cutoff stated on these permit pages. Critical Skills Employment Permit (CSEP): generally either an occupation on the Critical Skills list with a relevant degree and annual remuneration of at least €40,904 (or €36,848 for a relevant qualification awarded within the preceding 12 months), or another non-ineligible occupation paying over €68,911; a two-year job offer and relevant skills/experience are required. No Labour Market Needs Test applies, but the employer generally must meet the 50% EEA-employee rule (limited startup exception). General Employment Permit (GEP): generally at least €36,605 annual remuneration (with specified exceptions, including €34,009 for a relevant Irish degree earned in the previous 12 months and €32,691 for listed care/horticulture/meat-processing roles), a non-ineligible occupation, relevant skills/experience, and a bona fide Irish employer; a Labour Market Needs Test is required in most cases and the 50% EEA rule generally applies. These salary levels are the displayed operative thresholds on the official pages checked for 9 Nov 2026; occupation-list inclusion alone does not guarantee a permit. Permit is work authorization, not permanent residence.",
@@ -477,6 +570,18 @@
       {
         "name": "Immigration Service Delivery — Required Documents / Stamp 4 after Critical Skills employment",
         "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-register-your-immigration-permission-for-the-first-time/required-documents/"
+      },
+      {
+        "name": "Irish Immigration Service Delivery — Working holidays in Ireland",
+        "url": "https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-more-than-90-days/working-holidays-in-ireland/"
+      },
+      {
+        "name": "Ireland Department of Foreign Affairs — Working Holiday Authorisation and partner links",
+        "url": "https://www.ireland.ie/en/dfa/visas-for-ireland/working-holiday-authorisation/"
+      },
+      {
+        "name": "Embassy of Ireland, Washington — US applicant requirements",
+        "url": "https://www.ireland.ie/en/usa/washington/services/visas/working-holiday-authorisation/"
       }
     ],
     "experiences": [
@@ -488,6 +593,15 @@
         "summary_zh": "作者称该清单依据其与配偶持关键技能就业许可从美国搬迁至爱尔兰的亲身经历编写。作者描述了寻找雇主担保、签署并交回许可表格、缴纳许可费用及查看处理日期信息；并记录了当时的大致等待时间以及需备妥已签署雇佣合同。此为个人经历，不能代表普遍情况，也非法律意见。",
         "topic_en": "First-person CSEP relocation and paperwork account",
         "topic_zh": "CSEP持有人亲述搬迁及文件办理经历"
+      },
+      {
+        "topic_en": "US applicant’s first-person account of getting an Irish Working Holiday Visa and finding work",
+        "topic_zh": "美国申请人自述获批爱尔兰工作假期签证及在当地工作的经历",
+        "summary_en": "The author says she submitted her documents in person at the Irish Embassy in Chicago, received approval about six weeks later, moved to Ireland, and later worked in a university international office in Cork. This is an individual account from 2020, not representative and not legal advice; current rules must be checked with Irish authorities.",
+        "summary_zh": "作者称，她在爱尔兰驻芝加哥使馆现场递交材料，约六周后获批，之后搬到爱尔兰，并在科克一所大学的国际办公室工作。这是2020年的个人经历，不具代表性，也不是法律意见；当前规定应向爱尔兰主管部门核实。",
+        "source_name": "Mindful Mermaid — “How to Get a Working Holiday Visa in Ireland as a U.S. Citizen”",
+        "source_url": "https://mindfulmermaid.com/get-u-s-working-holiday-visa-ireland/",
+        "post_date": "15 January 2020"
       }
     ]
   },
@@ -563,6 +677,18 @@
         "source_name": "Visa for Professionally Experienced Workers — Make it in Germany (official Federal Government portal)",
         "source_url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/professionally-experienced-workers",
         "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Working Holiday / Youth Mobility bilateral programmes",
+        "name_zh": "双边工作假期／青年流动计划",
+        "scope_en": "Germany has temporary agreements with partner countries/territories, not a universal working-holiday visa. Official pages cover Argentina, Australia, Brazil, Canada, Chile, Hong Kong, Israel, Japan, New Zealand, South Korea, Taiwan and Uruguay; application access and rules depend on the applicant’s nationality. The usual age ceiling is 30, with some arrangements extending it to 35. Check the relevant German mission’s current country-specific terms.",
+        "scope_zh": "德国通过伙伴国家／地区双边协议提供临时计划，并无面向所有国籍的通用工作假期签证。官方页面涵盖阿根廷、澳大利亚、巴西、加拿大、智利、中国香港、以色列、日本、新西兰、韩国、台湾及乌拉圭；申请资格与规定取决于国籍。通常年龄上限为30岁，部分安排放宽至35岁。请查阅德国相关使团的当前国别规则。",
+        "conditions_en": "The programme normally allows a stay of up to 12 months. Work is temporary and may be limited by the partner agreement—for example, some nationalities may work for one employer only for a set number of months. Financial means, insurance, application location and repeat participation also vary. This is not a blanket entitlement to work in Germany; use the official country-specific checklist before applying.",
+        "conditions_zh": "计划通常允许停留最长12个月。工作须为临时性质，并可能受伙伴协议限制；例如，部分国籍不得为同一雇主工作超过规定月数。资金、保险、申请地点及可否重复参加也因协议而异。这并非在德国工作的普遍权利；申请前请使用官方国别材料清单。",
+        "source_name": "German Federal Foreign Office — What exactly is the Working Holiday programme?",
+        "source_url": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/06-workingholiday-606672",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "For the EU Blue Card (the main practical route on the existing guide): a recognised/comparable academic or qualifying tertiary credential; a concrete German job offer lasting at least six months matching the qualification; and gross annual salary of at least €50,700 in 2026. The reduced €45,934.20 threshold applies only to listed shortage occupations (and qualifying recent graduates of under three years) and requires Federal Employment Agency approval. An alternative skilled-worker residence permit requires recognised/comparable vocational or academic qualification and a concrete qualified job offer (not auxiliary work); the role need not match the qualification. Regulated work requires a professional licence. Applicants over 45 coming to Germany for work for the first time must earn at least €55,770 gross annually or demonstrate adequate pension provision. As a rule, the Federal Employment Agency approves employment conditions; no general language minimum is stated for these routes, though regulated professions can have separate requirements.",
@@ -589,6 +715,18 @@
       {
         "name": "Visa for Professionally Experienced Workers — Make it in Germany (official Federal Government portal)",
         "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/professionally-experienced-workers"
+      },
+      {
+        "name": "German Federal Foreign Office — Working Holiday programme",
+        "url": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/06-workingholiday-606672"
+      },
+      {
+        "name": "German Missions in Australia — Working Holiday Visa programme",
+        "url": "https://australien.diplo.de/au-en/service/visa/long-term/working-holiday-2640582"
+      },
+      {
+        "name": "German Missions in Canada — Youth Mobility and Working Holiday visa programme",
+        "url": "https://canada.diplo.de/ca-en/consular-services/visa/working-holiday-2653142"
       }
     ],
     "experiences": [
@@ -684,6 +822,18 @@
         "source_name": "France-Visas — Talents internationaux et attractivité économique; Service-Public — Autorisation de travail d'un salarié étranger en France",
         "source_url": "https://france-visas.gouv.fr/talents-internationaux-et-attractivite-economique",
         "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Working Holiday programme (visa vacances-travail / PVT)",
+        "name_zh": "工作假期计划（visa vacances-travail／PVT）",
+        "scope_en": "France has bilateral working-holiday agreements with 16 countries/territories, including Australia, Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Hong Kong, Japan, Mexico, New Zealand, Peru, Russia, South Korea, Taiwan and Uruguay. It is not open to every nationality. Age limits vary by partner: generally 18–30 or 18–35. Check the country-specific France-Visas page.",
+        "scope_zh": "法国与16个国家／地区签订工作假期协议，包括澳大利亚、阿根廷、巴西、加拿大、智利、哥伦比亚、厄瓜多尔、中国香港、日本、墨西哥、新西兰、秘鲁、俄罗斯、韩国、台湾及乌拉圭；并非所有国籍均可申请。年龄上限因伙伴而异，通常为18–30岁或18–35岁。请查阅对应国家的France-Visas页面。",
+        "conditions_en": "The main purpose must be tourism and cultural discovery; work is secondary and helps fund the stay. The visa is generally a one-year, non-renewable long-stay visa, unless the relevant agreement says otherwise. For this visa holders may work without the employer obtaining a separate French work authorization. Minimum funds, quota and application arrangements vary by bilateral agreement and consulate.",
+        "conditions_zh": "主要目的须为旅游和文化交流；工作为次要目的，用于补充停留期间的资金。除适用协议另有规定外，签证通常为期一年且不可续签的长期签证。持此签证工作时，雇主无需另行申请法国工作许可。最低资金、名额及申请安排因双边协议和领事机构而异。",
+        "source_name": "France-Visas — Young travellers / Working Holiday programme",
+        "source_url": "https://france-visas.gouv.fr/en/jeunes-voyageurs",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "For the standard salarié route, a French employer must obtain work authorization for the specific job. Ordinarily the job must either be on the applicable shortage-occupation list or have been advertised through the public employment service for 3 consecutive weeks within the 6 months before filing without a valid candidate; exemptions exist for specific routes/statuses. Pay cannot be below the statutory SMIC or the applicable collective-agreement minimum if higher. No general degree, experience, age, or language score is fixed for this standard route; regulated jobs require their professional licensing conditions. A separate Talent–qualified employee route avoids the separate work-authorization request but has narrower criteria: for the qualified-employee pathway, a French master’s-equivalent degree (or qualifying CGE level-1 credential), a contract longer than 3 months, and at least €39,582 gross annual pay; the innovative-company and intra-group assignment pathways have distinct conditions (including 3 months’ group seniority for assignment) and the same salary floor. These amounts/requirements reflect the official page as checked 9 Nov 2026; it notes some rules are being updated.",
@@ -714,6 +864,10 @@
       {
         "name": "France-Visas — Talents internationaux et attractivité économique; Service-Public — Autorisation de travail d'un salarié étranger en France",
         "url": "https://france-visas.gouv.fr/talents-internationaux-et-attractivite-economique"
+      },
+      {
+        "name": "France-Visas — Young travellers / Working Holiday programme",
+        "url": "https://france-visas.gouv.fr/en/jeunes-voyageurs"
       }
     ],
     "experiences": [
@@ -784,6 +938,18 @@
         "source_name": "IND — Residence permit for seasonal work",
         "source_url": "https://ind.nl/en/residence-permits/work/residence-permit-for-seasonal-work",
         "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Working Holiday Programme / Scheme (WHP / WHS)",
+        "name_zh": "工作假期计划／方案（WHP／WHS）",
+        "scope_en": "The Netherlands grants a cultural-exchange residence permit only to eligible nationals of Argentina, Australia, Canada, Hong Kong, Japan, New Zealand, South Korea, Taiwan and Uruguay. Applicants must generally be 18–30 and not have previously stayed in the Netherlands on an ordinary residence permit. Annual quotas apply to some partner countries, including Japan and South Korea; check the IND page for current nationality-specific limits.",
+        "scope_zh": "荷兰仅向阿根廷、澳大利亚、加拿大、中国香港、日本、新西兰、韩国、台湾和乌拉圭的合资格国民提供文化交流类居留许可。申请人通常须年满18至30岁，且此前未持普通居留许可在荷兰居住。部分伙伴国（包括日本和韩国）设年度名额；当前国籍对应的上限请查IND页面。",
+        "conditions_en": "The type-I temporary regular residence permit lasts at most one year and cannot be extended. The purpose is cultural exchange; only occasional/incidental work to support the stay is allowed. Self-employment is prohibited, and holders may not work the full year for one employer. Applicants need sufficient funds, health insurance, onward/return travel funds and must meet the nationality-specific memorandum or application-location rules.",
+        "conditions_zh": "此类I型临时普通居留许可最长一年且不可延期。主要目的是文化交流；仅允许为维持在荷期间生活而进行的偶发／附带工作。禁止自雇，也不得全年为同一雇主工作。申请人须具备足够资金、医疗保险、返程旅费，并符合按国籍制定的谅解备忘录或申请地点规则。",
+        "source_name": "Dutch Immigration and Naturalisation Service (IND) — Residence permit Working Holiday",
+        "source_url": "https://ind.nl/en/residence-permits/au-pair-and-exchange/residence-permit-working-holiday",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "Relevant practical route: highly skilled migrant (HSM). The applicant needs a qualifying Dutch job offer/employment and the application must be made by an IND-recognised sponsor; the IND publishes no general degree, occupation-list, or work-experience minimum for this HSM route. Salary (gross monthly, excluding holiday allowance) must meet the applicable 2026 threshold: €5,942 if aged 30 or older; €4,357 if under 30; or €3,122 under the reduced criterion, which is limited to qualifying recent graduates/researchers/orientation-year cases (generally applications within 3 years of graduation/doctoral defence/research permit expiry). Salary and employer sponsorship are authorization conditions, not automatic approval guarantees. Amounts apply 1 Jul–31 Dec 2026 and change yearly.",
@@ -810,6 +976,10 @@
       {
         "name": "IND — Residence permit for seasonal work",
         "url": "https://ind.nl/en/residence-permits/work/residence-permit-for-seasonal-work"
+      },
+      {
+        "name": "Dutch Immigration and Naturalisation Service (IND) — Working Holiday residence permit (updated 9 October 2026)",
+        "url": "https://ind.nl/en/residence-permits/au-pair-and-exchange/residence-permit-working-holiday"
       }
     ],
     "experiences": [
@@ -821,6 +991,15 @@
         "summary_zh": "发帖者称其认可担保雇主在4月底提交HSM申请；到第5周仍无消息，感到焦虑。同一帖后续评论中，发帖者表示最终等满三个月才有决定。这只是单一申请者的个人经历，不具代表性，也非法律意见。",
         "topic_en": "HSM application waiting period",
         "topic_zh": "HSM申请等待时间"
+      },
+      {
+        "topic_en": "New Zealand author’s first-person account of applying for a Dutch Working Holiday visa",
+        "topic_zh": "新西兰作者自述申请荷兰工作假期签证的经历",
+        "summary_en": "The author says he applied for the Netherlands Working Holiday visa in late November 2019, submitted passport and bank-balance evidence, completed biometrics at an IND office and received the permit. He describes his own application steps; this older anecdote is not representative or legal advice, and current requirements must be checked with IND.",
+        "summary_zh": "作者称，他于2019年11月下旬申请荷兰工作假期签证，提交护照及银行余额证明，在IND办公室完成生物信息采集后获批居留许可。文章描述的是个人申请步骤；这则较早的经历不具代表性，也不是法律意见，当前要求应以IND为准。",
+        "source_name": "Shut Up Hamish! — “Guide for getting the Working Holiday Visa for Netherlands (from a New Zealander)”",
+        "source_url": "https://shutuphamish.wordpress.com/2019/12/30/guide-for-getting-the-working-holiday-visa-for-netherlands-from-a-new-zealander/",
+        "post_date": "30 December 2019"
       }
     ]
   },
@@ -871,6 +1050,18 @@
         "source_name": "BOE — Ley 14/2013, Article 71 (consolidated legal text)",
         "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-10074",
         "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Youth mobility / Working Holiday agreements (country-specific visas)",
+        "name_zh": "青年流动／工作假期协议（按国家分别适用的签证）",
+        "scope_en": "Spain has bilateral youth-mobility agreements with Argentina, Australia, Canada, Japan, New Zealand and South Korea. The exact visa type and eligibility depend on the country pair; this is not a general route for every nationality. For example, the Spanish consulates publish separate Working Holiday terms for Australian and Canadian citizens. Check the applicant’s own consulate page and agreement.",
+        "scope_zh": "西班牙与阿根廷、澳大利亚、加拿大、日本、新西兰及韩国签有双边青年流动协议。具体签证类别及资格取决于国家配对，并非所有国籍都可申请。例如，西班牙领事馆分别公布澳大利亚和加拿大公民的工作假期条件。请查申请人对应的领事馆页面及协议。",
+        "conditions_en": "Age, stay duration, study, work and quota rules vary by agreement; do not apply one partner’s terms to another. As two examples, Australian citizens may apply for a 12-month Working Holiday visa, while Canadian citizens aged 18–35 have a separate Youth Mobility visa with its own duration, education, funds, insurance and document requirements. Official consular pages control; fees and processing requirements can change.",
+        "conditions_zh": "年龄、停留期限、学习、工作及名额规则因协议而异，不应将一个伙伴国的条件套用于另一个伙伴国。例如，澳大利亚公民可申请12个月工作假期签证；18–35岁的加拿大公民则适用另一个青年流动签证，另有停留期限、学历、资金、保险及材料要求。以官方领事页面为准；费用和办理要求可能变化。",
+        "source_name": "Spanish Ministry of Inclusion — Youth Mobility Agreements",
+        "source_url": "https://www.inclusion.gob.es/web/migraciones/convenios-de-movilidad-de-jovenes",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "For the standard initial employee route (residence and work for employment, cuenta ajena), the employer—not the worker—applies. There is no single published minimum salary amount on the route page; the signed contract must guarantee continuous work and meet applicable Spanish labour rules. A part-time contract must pay at least the full-time annual minimum wage (SMI) pro-rated as required by law. The employer must be registered with Social Security, current on tax and Social Security obligations, and show sufficient economic/material/personnel means; an individual household employer must retain 50% of SMI after the agreed wage if no dependants, 100% of SMI for a two-person household, plus 25% of SMI per additional household member. The worker must be at least 16, have required professional competence/qualifications (homologated where required), pass criminal-record/public-order checks and generally be outside Spain irregularly. The national employment situation must permit hiring: typically the job is on the quarterly difficult-to-fill catalogue, the employer demonstrates inability to fill it from the domestic labour market through the prescribed recruitment process, or a statutory exception applies. No general language or points threshold is stated on this route page.",
@@ -893,6 +1084,18 @@
       {
         "name": "BOE — Ley 14/2013, Article 71 (consolidated legal text)",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-10074"
+      },
+      {
+        "name": "Spanish Ministry of Inclusion — Youth Mobility Agreements (partner-country list and instruments)",
+        "url": "https://www.inclusion.gob.es/web/migraciones/convenios-de-movilidad-de-jovenes"
+      },
+      {
+        "name": "Spanish Consulate General in Toronto — Youth mobility visa for Canadian citizens",
+        "url": "https://www.exteriores.gob.es/Consulados/toronto/en/ServiciosConsulares/Paginas/Consular/Youth-mobility-visa.aspx"
+      },
+      {
+        "name": "Spanish Consulate General in Sydney — Working Holiday visa for Australian citizens",
+        "url": "https://www.exteriores.gob.es/Consulados/sydney/en/ServiciosConsulares/Paginas/Work-and-Holiday.aspx"
       }
     ],
     "experiences": [
@@ -966,6 +1169,18 @@
         "source_name": "Employer Nomination Scheme visa (subclass 186) and Skilled occupation list (Australian Government, Department of Home Affairs)",
         "source_url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186",
         "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Working Holiday Maker (WHM): subclass 417 and Work and Holiday subclass 462",
+        "name_zh": "打工度假者（WHM）计划：417类别打工度假签证及462类别工作与度假签证",
+        "scope_en": "A temporary route for eligible young adults holding passports from designated partner countries/regions—not a visa open to all nationalities. The two subclasses have different passport lists; some partners have age limits up to 35, while many are limited to age 30. China is among the subclass 462 partner passports; that stream has country-specific annual caps and some passport-specific education, English, support-letter or ballot requirements, while 417 has no country cap. Check the official country list and current cap/ballot status before applying.",
+        "scope_zh": "面向指定伙伴国家／地区合资格年轻护照持有人的临时途径，并非所有国籍均可申请。两个类别的护照名单不同；部分伙伴年龄上限为35岁，许多则为30岁。中国护照列入462类别伙伴名单；该类别按国家设年度名额，部分国籍另有学历、英语、政府支持文件或抽签要求；417类别没有国家配额上限。申请前请查阅官方国家名单及当前名额／抽签状态。",
+        "conditions_en": "Each first visa generally permits a 12-month stay. Work is intended to help fund the holiday; study is limited to 4 months. Condition 8547 generally limits work with one employer to 6 months, subject to specified exemptions or written permission. Eligible specified work may support second/third visas, usually for a further 12 months each. Applicants need an eligible passport and must meet that stream’s age, health, character and funds requirements. See the current Home Affairs checklist for the applicant’s passport; rules and 462 caps can change.",
+        "conditions_zh": "每张首次签证通常允许停留12个月。工作是为假期提供资金，学习最长4个月。签证条件8547通常限制为同一雇主工作不超过6个月，特定豁免或取得书面许可的情况除外。完成符合要求的指定工作可能支持申请第二／第三张签证，每张通常再延长12个月。申请人须持合资格护照，并符合相应类别的年龄、健康、品格和资金要求。请按申请人护照查阅内政部当前清单；规则及462名额可能变更。",
+        "source_name": "Australian Department of Home Affairs — Working Holiday Maker program overview",
+        "source_url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/overview",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "Most relevant employer-sponsored route: Skills in Demand (subclass 482), Core Skills stream. A real Australian employer must sponsor/nominate an eligible skilled position, normally on the Core Skills Occupation List, and the applicant must have at least 1 year of relevant work experience; a skills assessment is required where applicable, and Core Skills applicants must meet the prescribed English requirement unless exempt. The nominated salary for nominations lodged 1 July 2026–30 June 2027 must be at least AUD 79,423 (Core Skills Income Threshold) and also not below the annual market salary rate. Employer labour-market testing applies unless an exemption applies; the employer—not the worker—must conduct it. This is temporary work authorization (up to 4 years), not permanent residence. There is no universal standalone salary/qualification threshold for every Australian work permit: other visa streams and labour agreements can differ.",
@@ -1004,6 +1219,22 @@
       {
         "name": "Employer Nomination Scheme visa (subclass 186) and Skilled occupation list (Australian Government, Department of Home Affairs)",
         "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186"
+      },
+      {
+        "name": "Australian Department of Home Affairs — Working Holiday Maker program overview",
+        "url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/overview"
+      },
+      {
+        "name": "Australian Department of Home Affairs — Latest WHM program updates",
+        "url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/latest-news"
+      },
+      {
+        "name": "Australian Department of Home Affairs — Country cap status for subclass 462",
+        "url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/status-of-country-caps"
+      },
+      {
+        "name": "Australian Department of Home Affairs — Six-month work limitation (condition 8547)",
+        "url": "https://immi.homeaffairs.gov.au/what-we-do/whm-program/specified-work-conditions/6-month-work-limitation"
       }
     ],
     "experiences": [
@@ -1024,6 +1255,15 @@
         "summary_zh": "原帖作者称其于2025年4月16日递交核心技能482申请，担保方为获认可的澳大利亚公司，材料已提交，但超过10周仍在等待；申请由代理办理，因此本人无法登录ImmiAccount查询。此为发帖者个人情况，不代表一般审理时长。",
         "topic_en": "482 applicant still awaiting decision",
         "topic_zh": "482申请人仍在等待决定"
+      },
+      {
+        "topic_en": "A forum poster describes a partner’s second subclass 417 grant after a prior Working Holiday stay",
+        "topic_zh": "论坛发帖者讲述其伴侣曾持有工作假期签证后，再获批417类别签证",
+        "summary_en": "The poster said their girlfriend had previously received a Working Holiday visa, stayed for less than three months and did not work, then received another subclass 417 grant using a new passport. In a later reply, the poster said the earlier omission was unintentional. This is one individual account, not representative and not legal advice; it is not a statement of current eligibility rules.",
+        "summary_zh": "发帖者称，其女友此前获批工作假期签证，停留不足三个月且没有工作，之后使用新护照再次获批417类别签证。发帖者在后续回复称此前漏报并非故意。这只是个人个案，不具代表性，也不是法律意见；不能据此判断当前资格规则。",
+        "source_name": "Australia Forum — “Granted Working Holiday Visa 417 twice”",
+        "source_url": "https://www.australiaforum.com/threads/granted-working-holiday-visa-417-twice.243922/",
+        "post_date": "24 September 2017 (original post; follow-up 25 September 2017)"
       }
     ]
   },
@@ -1062,6 +1302,18 @@
         "source_name": "Green List roles — jobs we need people for in New Zealand",
         "source_url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/green-list-occupations-qualifications-and-skills/green-list-roles-jobs-we-need-people-for-in-new-zealand/",
         "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Working Holiday Visa (country-specific schemes)",
+        "name_zh": "打工度假签证（按国籍分别设立的计划）",
+        "scope_en": "New Zealand offers working-holiday visas only to citizens of partner countries/territories; each has its own rules and some have annual caps. Ages are typically 18–30, with selected partners allowed to apply through age 35. The usual stay is up to 12 months; Canadian citizens may stay up to 23 months and UK citizens up to 36 months. This is not a universal visa—check the page for the applicant’s citizenship.",
+        "scope_zh": "新西兰仅向协议伙伴国家／地区公民提供打工度假签证；各计划有自己的规则，部分设年度名额。年龄通常为18–30岁，少数伙伴可至35岁申请。通常最长停留12个月；加拿大公民可至23个月，英国公民可至36个月。此签证并非普遍开放，请按申请人国籍查询具体页面。",
+        "conditions_en": "The visa is for a holiday with temporary work to supplement travel funds; it does not authorize permanent employment or running a business as owner. Study/training is usually limited to 6 months. Applicants need to meet the nationality-specific age, funds, health, character and insurance requirements. Some schemes close when their quota fills. As one example, the Czech scheme is for ages 18–35, allows up to 12 months, requires NZD 4,200 plus onward-travel funds and insurance, and has 1,200 places per year. Use the official country page for the rules and current cap.",
+        "conditions_zh": "签证以度假为主，可从事临时工作补充旅费；不允许永久就业或以业主身份经营企业。学习／培训通常最多6个月。申请人须符合相应国籍的年龄、资金、健康、品格及保险要求。部分计划在名额用尽后关闭。例如，捷克计划适用于18–35岁申请人，最长停留12个月，要求4,200新西兰元及离境旅费和保险，每年1,200个名额。具体规则及当前名额请查官方国籍专页。",
+        "source_name": "Immigration New Zealand — Who can apply for a working holiday visa",
+        "source_url": "https://www.immigration.govt.nz/work/working-holiday-visas/who-can-apply-for-a-working-holiday-visa/",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "Practical route: Accredited Employer Work Visa (AEWV). You need a current full-time offer of at least 30 hours/week from an AEWV-accredited employer, with an approved job check, and pay at least the applicable job/visa wage requirement (the rate can depend on occupation and circumstances; there is no single universal AEWV salary floor on the cited visa page). As of 9 Nov 2026, Immigration NZ reports the immigration median wage is NZD 35/hour from 9 Mar 2026, but that is a reference used for some thresholds, not an automatic minimum for every AEWV. Applicants ordinarily need either 2 years of relevant experience or an NZQCF Level 4+ qualification (overseas below-bachelor qualifications may need NZQA assessment); relevant occupational registration if required; and English if the job is skill level 3–5. Employer accreditation/job check and an offer are prerequisites, not a labour-market test imposed directly on the applicant. Health, character and genuine-intent criteria also apply.",
@@ -1092,6 +1344,18 @@
       {
         "name": "Green List roles — jobs we need people for in New Zealand",
         "url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/green-list-occupations-qualifications-and-skills/green-list-roles-jobs-we-need-people-for-in-new-zealand/"
+      },
+      {
+        "name": "Immigration New Zealand — Who can apply for a working holiday visa",
+        "url": "https://www.immigration.govt.nz/work/working-holiday-visas/who-can-apply-for-a-working-holiday-visa/"
+      },
+      {
+        "name": "Immigration New Zealand — 2026 opening dates for capped working-holiday schemes",
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/2026-opening-dates-for-capped-working-holiday-schemes-confirmed/"
+      },
+      {
+        "name": "Immigration New Zealand — Czech Working Holiday Visa (example of country-specific terms) ",
+        "url": "https://immigration.govt.nz/visas/czech-working-holiday-visa"
       }
     ],
     "experiences": [
@@ -1153,6 +1417,18 @@
         "source_name": "Immigration Services Agency of Japan — What is the Highly Skilled Personnel Points System?",
         "source_url": "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_system_index.html",
         "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Japan Working Holiday Programme",
+        "name_zh": "日本打工度假计划",
+        "scope_en": "Japan’s bilateral Working Holiday route is limited to partner countries/regions, with 33 listed as of 1 November 2026; each has its own annual cap and eligibility terms. Applicants are generally aged 18–30, with nationality-specific exceptions. The authorised stay is normally up to one year; some partners may participate twice. Check Japan’s official partner list and the local mission’s current instructions.",
+        "scope_zh": "日本通过双边协议提供工作假期途径；截至2026年11月1日列有33个伙伴国家／地区，各自设年度名额及资格条件。申请人通常为18–30岁，部分国籍例外。获准停留通常最长一年，部分伙伴可参加两次。请查阅日本官方伙伴名单及当地使领馆现行指引。",
+        "conditions_en": "The primary purpose must be holiday; employment is incidental and helps fund travel. Applicants generally need a valid passport, adequate initial funds and good health/character; exact requirements and quotas vary by nationality. Work in bars, nightclubs, gambling establishments and other premises affecting public morals is prohibited. Participants must register their address with the local municipality within 14 days of settling. Check the current MOFA page for country-specific caps and rules.",
+        "conditions_zh": "主要目的须为度假；就业仅为附带活动，用于补充旅费。申请人通常须持有效护照、具备足够初期资金并符合健康／品格要求；具体材料及名额因国籍而异。禁止在酒吧、夜总会、赌场等影响公共道德的场所工作。定居后须在14天内向当地市政机关办理住址登记。各国别名额和规定请查阅日本外务省当前页面。",
+        "source_name": "Ministry of Foreign Affairs of Japan — The Working Holiday Programmes in Japan",
+        "source_url": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "For the existing guide’s likely skilled-professional route, Engineer/Specialist in Humanities/International Services (技術・人文知識・国際業務), this is employment authorization, not permanent residence: the work must be professional work requiring relevant technical/humanities knowledge or foreign-culture-based skills, under a contract with a Japanese public/private organization. In the usual case, an applicant must document either a relevant university-level qualification (or equivalent) or 10 years of relevant work experience; specified IT tests/qualifications can substitute in qualifying IT cases. The contract must provide remuneration at least equivalent to that of a Japanese worker doing comparable work; there is no published universal yen minimum. A job offer/contract and evidence about the employer and role are required; there is no general labour-market test or Japanese-language minimum stated for the route. For language-based interpersonal duties, the agency’s current application materials require evidence of CEFR B2-equivalent ability in the language used. Eligibility and approval depend on the actual duties and evidence, not merely a job title or shortage list.",
@@ -1183,6 +1459,10 @@
       {
         "name": "Immigration Services Agency of Japan — What is the Highly Skilled Personnel Points System?",
         "url": "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_system_index.html"
+      },
+      {
+        "name": "Ministry of Foreign Affairs of Japan — Working Holiday Programmes (updated 1 November 2026)",
+        "url": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html"
       }
     ],
     "experiences": [
@@ -1284,6 +1564,18 @@
         "source_name": "Ministry of Manpower — COMPASS C5 Skills Bonus: Shortage Occupation List (SOL)",
         "source_url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c5-skills-bonus-shortage-occupation-list-sol",
         "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Work Holiday Pass (Work Holiday Programme)",
+        "name_zh": "工作假期准证（工作假期计划）",
+        "scope_en": "Singapore has a temporary work-and-holiday route for eligible foreign students and recent graduates, but eligibility is based on attending a recognised university in one of 10 listed countries/regions—not a universal nationality-based visa. Applicants must be 18–25 and meet the programme’s student/graduate conditions. The programme can have up to 2,000 pass holders at one time.",
+        "scope_zh": "新加坡向符合条件的外国学生及近期毕业生提供临时工作与度假途径，但资格取决于是否就读于10个所列国家／地区之一的受认可大学，并非面向所有国籍的签证。申请人须年满18–25岁并符合计划的在学／毕业条件。计划同时最多容纳2,000名准证持有人。",
+        "conditions_en": "The pass is valid for up to 6 months and is not renewable. It permits work, but regulated professions such as medicine, dentistry, pharmacy, architecture and law require the relevant Singapore registration. Applicants must provide passport and university evidence; previous pass holders may only reapply after 12 months from the end of their last pass. Verify the live Ministry of Manpower eligibility and application checklist.",
+        "conditions_zh": "准证最长有效6个月且不可续签。准证允许工作，但医学、牙科、药学、建筑及法律等受监管职业须完成新加坡相应注册。申请人须提交护照及大学证明；曾持有准证者须在上次准证结束12个月后方可再次申请。请核对人力部实时资格及申请清单。",
+        "source_name": "Singapore Ministry of Manpower — Work Holiday Programme eligibility and key facts",
+        "source_url": "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/eligibility",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "For the Employment Pass (EP), the applicant needs a Singapore job offer/employer application and fixed monthly salary at least S$5,600 outside financial services or S$6,200 in financial services for applicants aged 23 or below; the minimum rises progressively by age, reaching S$10,700/S$11,800 respectively at age 45+. Applicants must also score at least 40 points under COMPASS unless exempt. Employers must meet the Fair Consideration Framework job-advertising requirement for new applications. For the S Pass, a Singapore job offer is required and the age-benchmarked salary floor is currently S$3,300 outside financial services or S$3,800 in financial services for age 23 or below, rising to S$4,800/S$5,650 at age 45+; the employer must have available sector quota and pay the applicable levy. Qualifications are optional for S Pass; neither pass has a general fixed language-test or minimum-experience threshold on these eligibility pages. Thresholds change for applications from 1 Jan 2027: EP S$6,000/S$6,600 and S Pass S$3,600/S$4,000 at age 23 or below (with age progression).",
@@ -1314,6 +1606,18 @@
       {
         "name": "Ministry of Manpower — COMPASS C5 Skills Bonus: Shortage Occupation List (SOL)",
         "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c5-skills-bonus-shortage-occupation-list-sol"
+      },
+      {
+        "name": "Singapore Ministry of Manpower — Work Holiday Programme eligibility",
+        "url": "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/eligibility"
+      },
+      {
+        "name": "Singapore Ministry of Manpower — Work Holiday Programme key facts",
+        "url": "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/key-facts"
+      },
+      {
+        "name": "Singapore Ministry of Manpower — Apply for a Work Holiday Pass",
+        "url": "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/apply-for-a-pass"
       }
     ],
     "experiences": [
@@ -1412,6 +1716,18 @@
         "source_name": "Immigration Department — Top Talent Pass Scheme FAQ",
         "source_url": "https://www.immd.gov.hk/eng/faq/TTPS.html",
         "occupations": []
+      },
+      {
+        "kind": "working_holiday",
+        "name_en": "Hong Kong SAR Working Holiday Scheme",
+        "name_zh": "香港特别行政区工作假期计划",
+        "scope_en": "A temporary holiday-first scheme for eligible nationals holding passports of 13 bilateral partners: Australia, Austria, Canada, France, Germany, Hungary, Ireland, Japan, South Korea, the Netherlands, New Zealand, Sweden and the UK. Applicants are aged 18–30 and must ordinarily reside in their home country. Annual quotas differ by partner; this is not available to every foreign passport.",
+        "scope_zh": "以度假为主的临时计划，仅适用于持有13个双边伙伴国家／地区护照的合资格国民：澳大利亚、奥地利、加拿大、法国、德国、匈牙利、爱尔兰、日本、韩国、荷兰、新西兰、瑞典及英国。申请人须年满18–30岁，并通常居住在本国。各伙伴年度名额不同；并非所有外国护照均可申请。",
+        "conditions_en": "A successful applicant may stay for up to 12 months. Work must be temporary and incidental to the holiday; employer-specific work limits differ by partner, generally 3–12 months, and permanent employment is not allowed. Applicants need adequate funds, a return ticket or equivalent funds, and partner-specific medical/health, repatriation and liability insurance. The scheme is normally single-participation and not extendable. Check the Hong Kong Immigration Department’s current partner quota and conditions.",
+        "conditions_zh": "获批者可在港停留最长12个月。工作须为临时性质并附带于度假；按伙伴国规定，同一雇主的工作期限通常为3–12个月，不允许永久就业。申请人须有足够资金、返程机票或等值资金，并购买符合伙伴国规定的医疗／健康、遣返及责任保险。通常仅可参加一次且不可延期。请查香港入境事务处当前的伙伴名额及条件。",
+        "source_name": "Hong Kong Immigration Department — Guidance Notes: Application for Working Holiday Visa",
+        "source_url": "https://www.immd.gov.hk/pdforms/id(e)940a.pdf",
+        "occupations": []
       }
     ],
     "work_permit_thresholds_en": "For the page’s professional employment route (General Employment Policy, GEP), there is no fixed published minimum salary, age, points score, language test, or general years-of-experience threshold. A case is considered favourably where the applicant has a good education background (normally a relevant first degree; in special cases, documented technical qualifications, professional ability and/or relevant experience/achievements may substitute), a genuine vacancy and confirmed offer for work related to the applicant’s qualifications or experience that cannot readily be taken up by the local workforce, and a remuneration package broadly commensurate with prevailing Hong Kong professional market levels. No fixed LMIA-style recruitment test is stated as a universal threshold; local-recruitment evidence may be waived in specified facilitation cases, including a post on the Talent List or total annual remuneration of HK$2 million or above. These are considerations, not automatic approval guarantees; ImmD retains discretion. The employer and applicant submit supporting documents, and the employer must substantiate its business in the applicable cases. These GEP professional-route thresholds must not be confused with the separate GEP/ASMTP Technical Professionals Stream, which has its own eligibility rules, trade-specific credentials and published minimum market monthly remuneration schedule; consult that stream’s official guidance.",
@@ -1446,6 +1762,14 @@
       {
         "name": "Immigration Department — Top Talent Pass Scheme FAQ",
         "url": "https://www.immd.gov.hk/eng/faq/TTPS.html"
+      },
+      {
+        "name": "Hong Kong Immigration Department — Working Holiday Scheme",
+        "url": "https://www.immd.gov.hk/eng/services/visas/working_holiday_scheme.html"
+      },
+      {
+        "name": "Hong Kong Immigration Department — Working Holiday Visa Guidance Notes (partner quotas and conditions)",
+        "url": "https://www.immd.gov.hk/pdforms/id(e)940a.pdf"
       }
     ],
     "experiences": [
