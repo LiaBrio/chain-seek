@@ -131,7 +131,43 @@
         "work_en": "Work only in the approved field/activity and during the petition validity; it is not open work authorization.",
         "work_zh": "只可在申请批准的有效期内，从事获批领域/活动所授权的工作；不是不受限的开放工签。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "B-1/B-2 Visitor Visa",
+      "route_zh": "B-1/B-2 访客签证",
+      "summary_en": "For a VWP-eligible passport, approved ESTA costs USD 40.62 for a qualifying visit up to 90 days; visa-required passports pay USD 185 for B-1/B-2, plus any reciprocity fee. Neither permits work; trip funds vary.",
+      "summary_zh": "符合VWP资格的护照可用获批的ESTA短期商务／旅游（最多90天），申请费40.62美元；须签证者支付B-1/B-2签证费185美元，另可能有签发费。两者均不可工作；旅费因人而异。",
+      "sources": [
+        {
+          "title": "Visitor Visa — U.S. Department of State",
+          "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html/visa"
+        },
+        {
+          "title": "Fees for Visa Services — U.S. Department of State",
+          "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html"
+        },
+        {
+          "title": "Visa Waiver Program / ESTA — U.S. CBP and DHS",
+          "url": "https://www.cbp.gov/travel/international-visitors/visa-waiver-program"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "H-1B Specialty-Occupation Employment",
+      "route_zh": "H-1B 专业职业雇佣",
+      "summary_en": "Only with a qualifying specialty job and sponsoring employer: the H-category consular fee is USD 205; variable USCIS petition fees are generally employer-paid. No universal personal-funds minimum; work is limited to the approved employer and role.",
+      "summary_zh": "须有合格的专业职位及担保雇主：H类领事签证费为205美元；金额不一的USCIS请愿费通常由雇主支付。没有统一的个人最低资金门槛；工作限于获批的雇主及职位。",
+      "sources": [
+        {
+          "title": "H-1B Specialty Occupations — USCIS",
+          "url": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations"
+        },
+        {
+          "title": "Form I-129 — USCIS",
+          "url": "https://www.uscis.gov/i-129"
+        }
+      ]
+    }
   },
   {
     "destination_en": "Canada",
@@ -290,12 +326,52 @@
         "work_en": "Express Entry itself does not authorize work in Canada; a separate valid work permit or permanent-resident status is required to work.",
         "work_zh": "Express Entry本身不授权在加拿大工作；需另持有效工签或取得永久居民身份后才可工作。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Visitor visa / short visit",
+      "route_zh": "访客签证／短期访问",
+      "summary_en": "Passport and travel mode decide the fee: an eTA is CAD 7 for eligible air travelers; a visitor visa is CAD 100 plus CAD 85 biometrics if required. Some visa-exempt land/sea visits need no eTA. Funds depend on the trip; no work.",
+      "summary_zh": "费用取决于护照及交通方式：符合资格的航空旅客eTA费用为7加元；访客签证为100加元，如需生物识别另加85加元。部分免签旅客陆路／海路入境无需eTA。资金需求视行程而定；访客不能工作。",
+      "sources": [
+        {
+          "title": "What you need to enter Canada",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html"
+        },
+        {
+          "title": "Visitor visa",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "International Experience Canada (IEC) Working Holiday for Hong Kong youth",
+      "route_zh": "国际经验加拿大（IEC）香港青年工作假期",
+      "summary_en": "Conditional youth option: eligible Hong Kong residents aged 18–30 with a qualifying HKSAR or BN(O) passport pay CAD 439.75 in listed government fees (plus CAD 85 biometrics if required) and must show CAD 2,500, departure-ticket funds and full-stay insurance; invitation/quota applies. An employer-specific permit can cost less in applicant fees if you already have a qualifying job offer.",
+      "summary_zh": "青年条件式选择：符合资格、年满18至30岁的香港居民，须持合格的香港特区或BNO护照；所列政府费用合计439.75加元（如需生物识别另加85加元），并须证明有2,500加元、离境机票资金及全程保险；须获邀请且受名额限制。若已有合格工作邀请，雇主指定工签的申请人费用可能更低。",
+      "sources": [
+        {
+          "title": "IEC: Who can apply (country/category list)",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec/eligibility.html"
+        },
+        {
+          "title": "IRCC fee list",
+          "url": "https://ircc.canada.ca/english/information/fees/fees.asp"
+        }
+      ]
+    }
   },
   {
     "destination_en": "United Kingdom",
     "destination_zh": "英国",
-    "experiences": [],
+    "experiences": [
+      {
+        "title": "Skilled Worker visa approved in less than 12 hours",
+        "date": "2024-10-28",
+        "url": "https://www.reddit.com/r/ukvisa/comments/1gg8syn/skilled_worker_visa_approved_in_less_than_12_hours/",
+        "summary_en": "The author says their UK Skilled Worker application on the standard service was approved overnight, with a three-year-two-month grant; they had expected 6–8 weeks and noted their passport expired in 2025. This is one applicant’s account, not a general processing-time or outcome indicator.",
+        "summary_zh": "作者称其以标准服务申请英国Skilled Worker签证，隔夜获批，签证有效期为三年零两个月；作者原预计需6至8周，并提到护照于2025年到期。这是单一个案，不代表一般处理时长或获批结果。"
+      }
+    ],
     "id": "uk",
     "notes_en": "Official rules checked as of 10 November 2026; this is route-comparison information, not individual legal advice. Eligibility, visa/ETA requirements and work rights depend on the actual passport, circumstances and eVisa conditions. Youth Mobility eligibility differs materially between Mainland Chinese and Hong Kong SAR passports. All amounts are GBP; recheck official pages before applying as fees can change. No unverified personal anecdotes are included.",
     "notes_zh": "信息按2026-11-10可查官方规则整理，仅用于路线比较，不构成个案法律意见。资格、签证／ETA要求及工作权利均取决于实际护照、个人情况及电子签证条件；大陆中国与香港特区护照的YMS资格明显不同。金额均为英镑；申请前复核官方页面，费用可能调整。未纳入未核实的个人经历帖。",
@@ -449,12 +525,52 @@
         "work_en": "Allows most work, job-seeking and self-employment; professional sport is prohibited. It cannot be extended, but eligible holders may switch to routes such as Skilled Worker.",
         "work_zh": "可从事大多数工作、求职及自雇；不得做职业运动员。不可延长毕业生签证，但符合条件时可转技术工签等路线。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Standard Visitor",
+      "route_zh": "标准访客（旅游／短期访问）",
+      "summary_en": "Passport-dependent: visa-free visitors pay £0, ETA-required travelers £20, and visa-required visitors £135 for a Standard Visitor visa. No fixed funds minimum; show adequate support and onward/return travel. Visitor status does not permit ordinary work.",
+      "summary_zh": "费用取决于护照：免签旅客费用为0英镑；须ETA者20英镑；须签证者申请标准访客签证需135英镑。没有固定最低存款额，须证明有足够旅费及返程／续程安排；访客身份通常不允许工作。",
+      "sources": [
+        {
+          "title": "Visit the UK as a Standard Visitor",
+          "url": "https://www.gov.uk/standard-visitor"
+        },
+        {
+          "title": "UK visa fees from 8 April 2026",
+          "url": "https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-april-2026"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Youth Mobility Scheme (passport-specific)",
+      "route_zh": "青年流动计划（仅部分护照适用）",
+      "summary_en": "For eligible Youth Mobility passports and ages (Hong Kong applicants are 18–30 and ballot-selected; Mainland China passports are not eligible): £340 application fee plus usually £776/year health surcharge, and £2,530 held for 28 days. No job offer or English test is required for this scheme.",
+      "summary_zh": "仅适用于符合青年流动计划护照及年龄要求者（香港申请人18至30岁并须抽签中选；中国大陆护照不符合资格）：申请费340英镑，另通常每年缴776英镑医疗附加费，并须连续28天持有2,530英镑存款。该计划不要求工作邀请或英语考试。",
+      "sources": [
+        {
+          "title": "Youth Mobility Scheme: Eligibility",
+          "url": "https://www.gov.uk/youth-mobility/eligibility"
+        },
+        {
+          "title": "Youth Mobility Scheme: Overview, fees and work",
+          "url": "https://www.gov.uk/youth-mobility"
+        }
+      ]
+    }
   },
   {
     "destination_en": "Ireland",
     "destination_zh": "爱尔兰",
-    "experiences": [],
+    "experiences": [
+      {
+        "title": "Ireland Short-Stay Visa Timeline – My Experience",
+        "date": "2026-03-15 (Reddit page date)",
+        "url": "https://www.reddit.com/r/visas/comments/1rujfr2/ireland_shortstay_visa_timeline_my_experience/",
+        "summary_en": "Applying from India, the author reports submitting at VFS on Feb 10, a decision on Mar 5 and a passport with a single-entry visa delivered Mar 6. The embassy checked with the Dublin employer after the planned travel dates passed; the company later cancelled the trip. One case, not a processing-time rule.",
+        "summary_zh": "作者在印度申请，称于2月10日在VFS递交、3月5日收到决定，并于3月6日收到附有单次入境签证的护照。原定出行日期已过后，使馆联系都柏林雇主核实；公司后来取消了行程。这是单一个案，不代表一般处理时长。"
+      }
+    ],
     "id": "ie",
     "notes_en": "Compiled as of 2026-11-10. Immigration rules, salary thresholds, exchange rates, quotas and fees may change. Amounts retain the official currency; proof of living funds is not a fee or tuition. Visa/entry eligibility and route access depend on passport, residence and individual circumstances; Mainland China and Hong Kong SAR eligibility must not be conflated. No anecdotal posts included: candidate pages showed only relative dates, not a verifiable visible exact posting date, so the experiences array is empty.",
     "notes_zh": "截至2026-11-10整理。移民规则、薪资门槛、汇率、配额及费用可能变化；金额按官方页面原币种列示，生活资金证明不等于费用或学费。爱尔兰签证/入境资格及各计划均取决于护照、居住地和个人情况；中国大陆与香港特区资格不可混同。公开经历未收录：检索到的候选帖页面只显示相对日期，无法核验所要求的可见确切发帖日期，因此按要求留空。",
@@ -596,7 +712,39 @@
         "work_en": "Stamp 1G allows seeking graduate-level employment; employment must comply with the applicable permission and permit rules, and a qualifying permit/status is needed to continue beyond it.",
         "work_zh": "可在Stamp 1G期间寻求毕业生级工作；若就业须转为合适工作许可/许可类别，不可超过许可条件。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Short-stay visit / tourism (Short Stay ‘C’)",
+      "route_zh": "短期访问 / 旅游（Short Stay ‘C’）",
+      "summary_en": "Passport-dependent: visa-exempt travelers pay no Irish visa fee; visa-required visitors pay €60 for a single-entry Short Stay C visa, plus any local service fee. No fixed minimum funds amount; show means for the trip. No work on ordinary visitor status.",
+      "summary_zh": "费用取决于护照：免签旅客无需支付爱尔兰签证费；须签证者的单次入境C类短期签证为60欧元，另可能有当地服务费。没有固定最低资金额，须证明有足够旅费；普通访客身份不可工作。",
+      "sources": [
+        {
+          "title": "Irish Immigration Service — Frequently asked questions (visiting Ireland)",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/frequently-asked-questions/"
+        },
+        {
+          "title": "Irish Immigration Service — Visa fees",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Hong Kong SAR Working Holiday Authorisation (WHA)",
+      "route_zh": "香港特区护照青年工作假期（WHA）",
+      "summary_en": "Conditional Hong Kong youth route: an eligible Hong Kong SAR/BN(O) passport holder resident in Hong Kong, aged 18–30, pays no WHA application fee, but pays €300 registration if staying over 3 months. Show HKD 40,000 plus a return ticket, or HKD 60,000 without one, and 1-year insurance; work is incidental and limited to 3 months per employer.",
+      "summary_zh": "香港青年条件式路线：符合资格、居住在香港且年满18至30岁的香港特区／BNO护照持有人，WHA申请费为0欧元；逗留超过3个月须缴300欧元登记费。须证明有4万港元及回程机票；没有机票则须6万港元，并购买一年期保险。工作仅属附带活动，且每名雇主最多工作3个月。",
+      "sources": [
+        {
+          "title": "Consulate General of Ireland, Hong Kong — Working Holiday Authorisation",
+          "url": "https://www.ireland.ie/en/china/hongkong/services/visas/working-holiday-authorisation/"
+        },
+        {
+          "title": "Irish Immigration Service — Working holidays in Ireland / eligible jurisdictions",
+          "url": "https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/coming-to-work-for-more-than-90-days/working-holidays-in-ireland/"
+        }
+      ]
+    }
   },
   {
     "destination_en": "Germany",
@@ -706,12 +854,52 @@
         "work_en": "During job search, part-time work is permitted up to 20 hours/week, plus trial work with a potential employer for up to two weeks per employer; observe permit limits.",
         "work_zh": "求职期间可兼职每周最多20小时，并可在潜在雇主处进行每次最多两周的试工；须遵守许可限制。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Short-stay Schengen visit (tourism / visiting family or friends)",
+      "route_zh": "短期申根访问（旅游／探亲访友）",
+      "summary_en": "For a short Schengen visit, the standard fee is €90 when a visa is required; HKSAR passport holders are visa-exempt, while ordinary Mainland China passports require a visa. Adequate trip funds may be requested; no universal daily minimum. No work.",
+      "summary_zh": "申根短期访问在须签证时标准费用为90欧元；香港特区护照持有人免签，中国大陆普通护照须办签证。可能要求证明有足够旅费；没有统一每日最低额。访客不可工作。",
+      "sources": [
+        {
+          "title": "Federal Foreign Office: Visas for Germany (fees and visa types)",
+          "url": "https://www.auswaertiges-amt.de/en/visa-service/215870-215870"
+        },
+        {
+          "title": "Federal Foreign Office: Visa for Germany FAQ (short stays and proof of funds)",
+          "url": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/606848-606848"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Work visa for qualified professionals",
+      "route_zh": "合格专业人员就业签证",
+      "summary_en": "With a recognized/comparable qualification and a qualifying job offer, the national visa is normally €75; no general personal-funds minimum is stated. First-time workers over 45 must earn at least €55,770 gross/year in 2026 or show adequate pension provision. Work is tied to the approved employment.",
+      "summary_zh": "须具获认可／可比资历及合格工作邀请；国家签证通常为75欧元，没有一般个人最低资金要求。首次赴德工作的45岁以上申请人，2026年年薪须至少55,770欧元（税前），或证明有足够养老保障；工作限于获批的职位。",
+      "sources": [
+        {
+          "title": "Make it in Germany: Work Visa for Qualified Professionals",
+          "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/qualified-professionals"
+        },
+        {
+          "title": "Federal Foreign Office: Visas for Germany (national visa fees)",
+          "url": "https://www.auswaertiges-amt.de/en/visa-service/215870-215870"
+        }
+      ]
+    }
   },
   {
     "destination_en": "France",
     "destination_zh": "法国",
-    "experiences": [],
+    "experiences": [
+      {
+        "title": "My experience getting my long-stay student visa for France",
+        "date": "2023-01-19",
+        "url": "https://www.reddit.com/r/visas/comments/109emss/my_experience_getting_my_longstay_student_visa/",
+        "summary_en": "A U.S.-born student says she began her French long-stay study visa application about three months before departure; her VFS appointment was Dec 29, 2022, and her passport/visa arrived Jan 9, 2023. She describes using Études en France, Campus France, France-Visas and VFS. This is not a general timeline.",
+        "summary_zh": "一名在美国出生的学生称，她约在出发前三个月开始申请法国长期学生签证；VFS面谈日期为2022年12月29日，护照和签证于2023年1月9日寄达。她提到使用Études en France、Campus France、France-Visas及VFS。这不代表一般办理时长。"
+      }
+    ],
     "id": "fr",
     "notes_en": "Based on France government pages accessible as of 2026-11-10. Visa obligation, fees, documents and available categories depend on passport, residence, itinerary and case; check the current France-Visas wizard and competent consulate checklist before applying. Amounts identify currency, period and nature; unstated thresholds are marked as not specified/not found. No credible first-person applicant post with both an exact original URL and visible posting date was verified, so the experiences array is empty.",
     "notes_zh": "信息基于截至2026-11-10可检索的法国官方页面；具体签证义务、费用、材料及可用类别取决于护照、居住地、行程和个案，申请前以France-Visas向导及主管领馆最新清单为准。金额已标示币种、周期和性质；未公布的门槛明确标为未列/未找到。未找到可可靠核实且同时有原帖链接及可见发布日期的申请者第一人称公开帖，因此经历数组留空。",
@@ -870,7 +1058,39 @@
         "work_en": "Allows job-search/business-creation activity; whether employment may begin and which status is needed depends on the job, contract and subsequent residence rules—do not assume unrestricted work permission.",
         "work_zh": "可在法国求职/筹备创业；取得工作后能否就业及所需身份取决于工作、合同和后续居留规则，不能假设求职签证允许无限制工作。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Short-stay tourism/private visit",
+      "route_zh": "短期旅游/探亲（申根短停留）",
+      "summary_en": "Visa-exempt passports pay no Schengen visa fee; visa-required applicants generally pay €90 for a short stay of up to 90 days in 180. Trip funds and travel insurance are separate. Visitor status does not allow work.",
+      "summary_zh": "免签护照无需缴纳申根签证费；须签证者申请短期签证通常需90欧元，每180天最多停留90天。旅费及旅行保险另计；访客身份不允许工作。",
+      "sources": [
+        {
+          "title": "France-Visas: Short-stay visa",
+          "url": "https://france-visas.gouv.fr/en/visa-de-court-sejour"
+        },
+        {
+          "title": "France-Visas: Visa fees FAQ",
+          "url": "https://france-visas.gouv.fr/en/faq"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Hong Kong SAR passport: France working holiday",
+      "route_zh": "香港特区护照：法国打工度假",
+      "summary_en": "Conditional Hong Kong option: an HKSAR passport holder aged 18–29 may apply for the one-year working-holiday route (tourism must remain the main purpose); the standard visa fee is €99. The Hong Kong-specific minimum funds are not published on the general route page—confirm with the consulate; paid work is secondary.",
+      "summary_zh": "香港条件式选择：持香港特区护照、年满18至29岁者可申请一年期打工度假（旅游须为主要目的），标准签证费99欧元。一般路线页面未公布香港专属最低资金额，须向领事馆确认；受薪工作仅为次要活动。",
+      "sources": [
+        {
+          "title": "France-Visas: Young travellers / working holiday",
+          "url": "https://www.france-visas.gouv.fr/en/jeunes-voyageurs"
+        },
+        {
+          "title": "France-Visas: Hong Kong",
+          "url": "https://france-visas.gouv.fr/en/hong-kong"
+        }
+      ]
+    }
   },
   {
     "destination_en": "Netherlands",
@@ -1025,12 +1245,52 @@
         "work_en": "During the permit, employment, internships and self-employment are allowed without an employer TWV. It is a job-search bridge, not a job guarantee.",
         "work_zh": "许可有效期内可自由受雇、实习或自雇，无须雇主TWV；可用于求职过渡，但不是保证就业。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Short-stay visit / Schengen stay",
+      "route_zh": "短期访问／申根短期停留",
+      "summary_en": "Visa-exempt passports pay no Schengen visa fee; visa-required passports generally pay €90. IND asks visitors to show €55 per person per day or an eligible sponsor. This is a short visit only, not work authorization.",
+      "summary_zh": "免签护照无需缴纳申根签证费；须签证者通常支付90欧元。IND要求访客证明每人每天55欧元，或由合格担保人承担。这仅适用于短期访问，不授予工作许可。",
+      "sources": [
+        {
+          "title": "IND: Short stay, holiday or business visa",
+          "url": "https://ind.nl/en/short-stay/short-stay-holiday-or-business-visa"
+        },
+        {
+          "title": "IND: Required amounts (short-stay and financial requirements)",
+          "url": "https://ind.nl/en/required-amounts-income-requirements"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Working Holiday cultural exchange (Hong Kong SAR passports eligible; Mainland Chinese passports are not)",
+      "route_zh": "Working Holiday青年文化交流（香港特区护照可申请；内地护照不符合）",
+      "summary_en": "Conditional Hong Kong option: eligible HKSAR passport holders aged 18–30 pay an €85 application fee and need sufficient stay funds, health insurance and a return ticket or funds to buy one. Only occasional work is permitted for cultural exchange; Mainland China passports are not eligible.",
+      "summary_zh": "香港条件式选择：符合资格、年满18至30岁的香港特区护照持有人，申请费85欧元，并须具备足够生活资金、医疗保险及返程机票或购票资金。仅可为文化交流目的偶尔工作；中国大陆护照不符合资格。",
+      "sources": [
+        {
+          "title": "IND: Residence permit Working Holiday",
+          "url": "https://ind.nl/en/residence-permits/au-pair-and-exchange/working-holiday-residence-permit"
+        },
+        {
+          "title": "IND fee schedule",
+          "url": "https://ind.nl/en/fees-costs-of-an-application"
+        }
+      ]
+    }
   },
   {
     "destination_en": "Spain",
     "destination_zh": "西班牙",
-    "experiences": [],
+    "experiences": [
+      {
+        "title": "Schengen visa for Spain - BLS San Francisco experience",
+        "date": "February 2025 (application Feb 18; passport collected Feb 27)",
+        "url": "https://www.reddit.com/r/SchengenVisa/comments/1iy6ugy/schengen_visa_for_spain_bls_san_francisco/",
+        "summary_en": "The author says they applied for a Spain tourism Schengen visa through BLS San Francisco on Feb 18; the passport was ready Feb 26 and collected Feb 27. The author does not state the decision. One account, not a general timeline.",
+        "summary_zh": "作者称其于2025年2月18日通过旧金山BLS申请西班牙旅游申根签证，护照于2月26日可领取，并在2月27日取回；作者没有说明签证决定结果。这是单一个案，不代表一般办理时长。"
+      }
+    ],
     "id": "es",
     "notes_en": "As of 2026-11-10. Rules, fees, IPREM and SMI can change; verify amounts with the Spanish consular post handling the application. Short-stay visa exemption depends on travel document: Mainland Chinese and HKSAR passports are not interchangeable. No credible public firsthand applicant account with a verifiable original URL and visible posting date was found, so experiences is empty. General information only, not legal advice.",
     "notes_zh": "截至2026-11-10。规则、收费及IPREM/SMI可变；金额须按申请地西班牙使领馆最新清单核实。短期入境免签与否取决于旅行证件：大陆中国护照和香港特区护照不可混为一谈。未找到满足要求、可核验原始网址及可见发布日期的可靠公开申请者第一人称记录，因此 experiences 留空。信息仅供一般参考，不构成法律意见。",
@@ -1156,12 +1416,48 @@
         "work_en": "Up to 24 months, non-renewable; no work is permitted during job-search/entrepreneurship status. Once a suitable job or venture is found, apply for the appropriate separate authorization.",
         "work_zh": "最长24个月、不可续期；求职／创业期间不准工作。找到与学历相符的工作或创业后，须另行申请相应工作／创业许可。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Short-stay tourism, family visit or other non-gainful visit (Schengen)",
+      "route_zh": "短期旅游／探亲／访问（申根）",
+      "summary_en": "Passport-dependent: visa-exempt Schengen travelers pay no visa fee; visa-required applicants generally pay €90 (exceptions may apply). In 2026, proof of funds is at least €122.10/person/day and €1,098.90 total. A visitor cannot work.",
+      "summary_zh": "费用取决于护照：申根免签旅客无需缴签证费；须签证者通常支付90欧元（或有例外）。2026年资金证明至少为每人每天122.10欧元，且总额不少于1,098.90欧元。访客不得工作。",
+      "sources": [
+        {
+          "title": "Spain MFA: Conditions for entry into Spain (2026 means) ",
+          "url": "https://www.exteriores.gob.es/Consulados/toronto/en/ServiciosConsulares/Paginas/Consular/Condiciones-de-entrada-en-Espana.aspx"
+        },
+        {
+          "title": "Spain MFA: Schengen visas",
+          "url": "https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visados-Schengen.aspx"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Employer-sponsored employed-work authorization",
+      "route_zh": "雇主担保受雇工作许可",
+      "summary_en": "No universal lowest-cost work route could be verified. The listed employer-sponsored route requires a qualifying job offer; the employer pays the work-authorization fee (€203.84 or €407.71 by salary band), while the worker also owes a residence fee whose current amount was not verifiable. No personal savings minimum is stated on the permit page.",
+      "summary_zh": "无法核实适用于所有人的最低成本工作路线。所列雇主担保路径须有合格工作邀请；雇主支付工作许可费（按薪资级别为203.84或407.71欧元），工作者另须缴居留费，但当前金额未能核实。许可页面未规定个人最低存款额。",
+      "sources": [
+        {
+          "title": "Spain Ministry of Inclusion: Initial employed-work authorization (Hoja 12)",
+          "url": "https://www.inclusion.gob.es/web/migraciones/w/autorizacion-inicial-de-residencia-temporal-y-trabajo-por-cuenta-ajena-hi-16-"
+        }
+      ]
+    }
   },
   {
     "destination_en": "Australia",
     "destination_zh": "澳大利亚",
-    "experiences": [],
+    "experiences": [
+      {
+        "title": "My Experience Applying for the Australian Work and Holiday Visa (Subclass 462)",
+        "date": "2025-10-20",
+        "url": "https://forum4travel.com/threads/my-experience-applying-for-the-australian-work-and-holiday-visa-subclass-462.47292/",
+        "summary_en": "The author says they applied for subclass 462, submitted a three-month bank statement showing about AUD 6,000, and received approval after 10 working days. This is one applicant’s 2025 account, not a general proof-of-funds or processing rule.",
+        "summary_zh": "作者称其申请澳大利亚462类签证时提交了显示约6,000澳元的三个月银行流水，并在10个工作日后获批。这是2025年的单一个案，不代表一般资金证明或办理时限要求。"
+      }
+    ],
     "id": "au",
     "notes_en": "Research date: 2026-11-10. Some official pages were dynamically rendered during extraction; verify amounts and conditions through the linked pages before applying. Mainland China and Hong Kong SAR passports are not interchangeable; eligibility depends on passport, individual circumstances, visa conditions and rules at lodgement. Fees, tuition and proof of living funds are distinguished; all amounts are AUD.",
     "notes_zh": "研究日期：2026-11-10。官方页面本次提取部分受动态页面限制，金额/工作条件应在申请前通过链接核验。中国大陆与香港特区护照类别不可互换；所有资格均依护照、个人情况、签证条件及递交时规则而定。费用、学费、生活费证明分别列示；币种均为澳元AUD。",
@@ -1307,7 +1603,43 @@
         "work_en": "Work is generally permitted after grant, subject to the visa’s specific conditions and stream duration.",
         "work_zh": "获批后通常可工作；遵守具体签证条件及类别期限。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Visitor visa (subclass 600, Tourist stream)",
+      "route_zh": "访客签证（600类，旅游类别）",
+      "summary_en": "Passport-dependent: eligible eVisitor (651) applicants pay no application charge; eligible ETA (601) holders pay no visa charge (a service fee may apply). Other travelers need a subclass 600 visa; check the official price estimator. Trip funds vary; visitor visas do not permit work.",
+      "summary_zh": "费用取决于护照：符合资格的eVisitor（651类）申请免申请费；ETA（601类）免签证费（可能另有服务费）。其他旅客须办600类签证，费用请查官方估算器。旅费因人而异；访客签证不允许工作。",
+      "sources": [
+        {
+          "title": "Visitor visa (subclass 600), Tourist stream—apply outside Australia",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas"
+        },
+        {
+          "title": "Visitor visa (subclass 600)—official overview",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Work and Holiday visa (subclass 462; ballot/cap rules for Mainland China passports)",
+      "route_zh": "工作与度假签证（462类；中国大陆护照适用名额/抽签规则）",
+      "summary_en": "For eligible subclass 462 passports: the visa charge is AUD 840, plus AUD 5,000 funds and onward-travel money; Mainland China applicants face ballot and education/English rules. Hong Kong SAR passport holders may instead qualify for subclass 417 (not a separate card in this 64-route set); check Home Affairs. Work is temporary and restricted.",
+      "summary_zh": "符合462类护照资格者：签证费840澳元，另须证明有5,000澳元及离境旅费；中国大陆申请人受抽签及学历／英语要求限制。香港特区护照持有人可能适用417类签证（本64条路径中未单独列卡），请查内政部规定。此为临时且受限制的工作许可。",
+      "sources": [
+        {
+          "title": "First Work and Holiday visa (subclass 462)",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-462/first-work-holiday-462"
+        },
+        {
+          "title": "Work and Holiday visa (subclass 462)",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-462"
+        },
+        {
+          "title": "First Working Holiday visa (subclass 417) — Home Affairs",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417/first-working-holiday-417"
+        }
+      ]
+    }
   },
   {
     "destination_en": "New Zealand",
@@ -1450,12 +1782,52 @@
         "work_en": "Graduates with a degree-level 7+ qualification may work; non-degree level 7 or lower graduates generally must work in an eligible job related to their study, as specified by visa conditions.",
         "work_zh": "7级及以上学位毕业生可工作；非学位7级或以下通常只能为符合条件、与所学相关的雇主/工作工作，依签证条件执行。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Visitor Visa (tourism / family visit)",
+      "route_zh": "访问签证（旅游／探亲）",
+      "summary_en": "Passport-dependent: Australian citizens need no pre-travel visa/NZeTA; eligible visa-waiver travelers usually pay NZD 117 for app NZeTA plus IVL (NZD 123 online); other passports need a Visitor Visa from NZD 441. Show NZD 1,000/month, or NZD 400/month with prepaid accommodation. No local work.",
+      "summary_zh": "费用取决于护照：澳洲公民出行前无需签证／NZeTA；符合免签资格者通常支付手机申请NZeTA及旅客税共117纽元（网上申请共123纽元）；其他护照须申请441纽元起的访客签证。须证明每月1,000纽元，或预付住宿时每月400纽元；不得从事本地工作。",
+      "sources": [
+        {
+          "title": "Visitor Visa — Immigration New Zealand",
+          "url": "https://www.immigration.govt.nz/visas/visitor-visa/"
+        },
+        {
+          "title": "Application guide for visitor visas for citizens of China — Immigration New Zealand",
+          "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/application-guide-for-visitor-visas-for-citizens-of-china/"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Accredited Employer Work Visa (AEWV)",
+      "route_zh": "认证雇主工作签证（AEWV）",
+      "summary_en": "For a qualifying offer from an accredited employer, AEWV costs the applicant from NZD 1,540; no universal personal-funds minimum is stated. The employer pays accreditation (NZD 775–1,280) and job-check (NZD 735) fees. Requires a genuine full-time job of at least 30 hours/week and relevant skills; work is employer/role-specific.",
+      "summary_zh": "若取得认证雇主的合格聘用，AEWV申请人费用为1,540纽元起；没有统一个人最低资金要求。雇主支付认证费（775至1,280纽元）及职位审核费（735纽元）。须有真实全职工作（每周至少30小时）及相关技能；工作限于指定雇主／职位。",
+      "sources": [
+        {
+          "title": "Accredited Employer Work Visa — Immigration New Zealand",
+          "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/"
+        },
+        {
+          "title": "Accredited employer list — Immigration New Zealand",
+          "url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/approved-employers/accredited-employer-list/"
+        }
+      ]
+    }
   },
   {
     "destination_en": "Japan",
     "destination_zh": "日本",
-    "experiences": [],
+    "experiences": [
+      {
+        "title": "Japan eVisa: My experience applying for an electronic tourist visa to Japan",
+        "date": "Updated 2026-03-16; application timeline 2023-10-07–24",
+        "url": "https://girleatworld.net/japan-evisa-how-to/",
+        "summary_en": "The author says she applied for a Japan tourist eVisa from Singapore on Oct 7, 2023, was asked for a fuller itinerary on Oct 18, and received the eVisa on Oct 24 (12 business days). This individual account is not a service standard.",
+        "summary_zh": "作者称她于2023年10月7日在新加坡申请日本旅游电子签证，10月18日被要求补交详细行程，并于10月24日收到电子签证（12个工作日）。这是个人经历，不代表官方办理时限。"
+      }
+    ],
     "id": "jp",
     "notes_en": "Research checked 2026-11-10. Mainland China and Hong Kong readers must verify by passport, residence, application jurisdiction and intended activity. Hong Kong’s visa-free short visit and working-holiday eligibility do not themselves authorize work. A visa is distinct from status of residence/landing permission; a COE does not guarantee visa issuance. Fees shown are official approximate general figures and may vary by mission, nationality or visa type; where no universal funds threshold/tuition is published, this is stated. Official sources only; no first-person post with reliably verifiable original date was included, so experiences is empty.",
     "notes_zh": "资料核对日期：2026-11-10。面向中国大陆与香港读者时，须按护照、居住地、申请领区及具体活动逐项确认；香港免签短访与打工度假资格不等于可工作。签证（入境文件）与在留资格/登陆许可不同；COE不保证签证签发。费用只列官方公开的近似普遍收费，地方、国籍和签证类型可能不同；未公布统一资金线/学费时已明确说明。仅列官方来源；未纳入无法可靠核验原文日期的个人帖，因此 experiences 为空。",
@@ -1601,7 +1973,39 @@
         "work_en": "Only remote-work activities covered by this category are allowed, for at most six months with no extension; it does not authorize employment by a Japanese employer or other unapproved local work.",
         "work_zh": "仅准许该类别覆盖的远程工作活动，最多6个月且不延期；不可据此受雇于日本雇主或从事未获准的本地工作。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Short-term visitor / tourism",
+      "route_zh": "短期访问／旅游",
+      "summary_en": "Eligible visa-exempt passports (including HKSAR) pay no visa fee; ordinary Mainland China passports require a visa, generally about ¥15,000 for a single-entry issue from July 2026 (local variation/waiver possible). No universal funds minimum; no work.",
+      "summary_zh": "符合免签资格的护照（包括香港特区护照）无需签证费；中国大陆普通护照须办签证，2026年7月起单次入境一般约15,000日元（当地金额或有差异／豁免）。没有统一最低资金额；访客不可工作。",
+      "sources": [
+        {
+          "title": "MOFA Japan—Visa overview / short-term stay",
+          "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html"
+        },
+        {
+          "title": "MOFA Japan—Visa exemption list (Hong Kong SAR passport conditions)",
+          "url": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Working holiday (available to eligible Hong Kong youth)",
+      "route_zh": "打工度假（香港特区青年可申请）",
+      "summary_en": "Conditional Hong Kong route: HKSAR/BNO passport, Hong Kong residence and age 18–30; holiday must be the main purpose. Show about HKD 22,000+ for a return ticket and initial living costs, plus insurance; the local visa charge varies (MOFA reference about ¥15,000). Work is incidental, not open employment; Mainland China passports are not eligible.",
+      "summary_zh": "香港条件式路线：须持香港特区／BNO护照、居住在香港且年满18至30岁；赴日度假须为主要目的。须证明约22,000港元以上以支付返程机票及初期生活费，并购买保险；当地签证费用因领区而异（外务省参考约15,000日元）。工作仅为附带活动，并非开放就业；中国大陆护照不符合资格。",
+      "sources": [
+        {
+          "title": "MOFA Japan—Working Holiday Programmes (updated November 1, 2026)",
+          "url": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html"
+        },
+        {
+          "title": "MOFA Japan—Hong Kong mission visa information",
+          "url": "https://www.hk.emb-japan.go.jp/itpr_en/visa.html"
+        }
+      ]
+    }
   },
   {
     "destination_en": "Singapore",
@@ -1752,7 +2156,39 @@
         "work_en": "The job-search LTVP itself does not authorize work; after securing a job, the employer must obtain the appropriate work pass before work begins.",
         "work_zh": "LTVP求职期间本身不准工作；获得工作后须由雇主申请适用工作准证，批准后方可开工。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Short-term visit (tourism/social/medical) ",
+      "route_zh": "短期访客入境（旅游／探亲／医疗）",
+      "summary_en": "Visa-free travel documents pay no visa fee; visa-required documents pay S$30. Ordinary PRC passports have a specific 30-day exemption. No universal visitor-funds minimum is published; visitors cannot work. The SG Arrival Card is separate from a visa.",
+      "summary_zh": "免签旅行证件无需签证费；须签证者支付30新元。中国普通护照另有特定30天免签安排。没有统一公布的访客最低资金额；访客不得工作。SG Arrival Card为独立入境申报，并非签证。",
+      "sources": [
+        {
+          "title": "ICA: Mutual 30-Day Visa-Exemption Arrangement with the PRC",
+          "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/mutual-30-day-visa-exemption-arrangement-between-singapore-and-the-people-s-republic-of-china"
+        },
+        {
+          "title": "ICA: Short-Term Visit Pass Extension (STVP purposes, work restriction and fees)",
+          "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/short-term-visit-pass/short-term-visit-pass-extension"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Work Holiday Programme",
+      "route_zh": "Work Holiday Programme（青年工作假期）",
+      "summary_en": "Conditional youth option for qualifying students/graduates aged 18–25 from specified recognized universities: S$175 pass issuance plus S$30 visa if applicable; no minimum funds amount is stated. Allows work for up to 6 months, subject to eligibility and quota; regulated jobs need professional registration.",
+      "summary_zh": "青年条件式选择：符合条件、年满18至25岁且就读／毕业于指定认可大学者，准证签发费175新元，如适用另加30新元签证费；官方未规定最低资金额。获批后可工作最多6个月，受资格及名额限制；受监管职业须专业注册。",
+      "sources": [
+        {
+          "title": "MOM: Eligibility for Work Holiday Programme",
+          "url": "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/eligibility"
+        },
+        {
+          "title": "MOM: Work Holiday Pass",
+          "url": "https://www.mom.gov.sg/passes-and-permits/work-holiday-programme"
+        }
+      ]
+    }
   },
   {
     "destination_en": "Hong Kong",
@@ -1911,6 +2347,38 @@
         "work_en": "After approval, employment is allowed under IANG conditions; initial stay and extension requirements depend on category and current policy.",
         "work_zh": "获批留港后可按IANG条件就业；首次逗留及续期条件以类别和最新政策为准。"
       }
-    ]
+    ],
+    "budget_visit": {
+      "route_en": "Visitor entry (tourism/family or short visit)",
+      "route_zh": "访客入境（旅游/探亲/短期访问）",
+      "summary_en": "Visa-free passports/documents pay no fee for their permitted short stay; others need an entry visa/permit and pay the applicable charge. No universal visitor-funds minimum is published. Visitor status permits neither work nor study.",
+      "summary_zh": "符合免签条件的护照／旅行证件在获准短期逗留期间无需签证费；其他人士须申请进入许可并缴纳适用费用。没有统一公布的访客最低资金额；访客身份不准工作或学习。",
+      "sources": [
+        {
+          "title": "Immigration Department: Visit/Transit",
+          "url": "https://www.immd.gov.hk/eng/services/visas/visit_transit.html"
+        },
+        {
+          "title": "Visit Visa / Entry Permit Requirements",
+          "url": "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html"
+        }
+      ]
+    },
+    "budget_work": {
+      "route_en": "Top Talent Pass Scheme (TTPS)",
+      "route_zh": "高端人才通行证计划（TTPS）",
+      "summary_en": "Conditional TTPS option: applicant fees are HKD 600 plus HKD 600–1,300 issuance (HKD 1,200–1,900 total), with no job offer or universal savings minimum. Eligibility requires (for example) prior-year income of HKD 2.5m, or an eligible-university degree plus work experience; quota/rules vary by category. GEP/IANG use the same fee schedule, so choose by eligibility.",
+      "summary_zh": "TTPS条件式选择：申请费600港元，另加600至1,300港元签发费（合计1,200至1,900港元）；无须工作邀请，也没有统一最低存款要求。资格条件包括（例如）上一年度收入达250万港元，或合资格大学学位及工作经验；名额／规则依类别而异。GEP／IANG费用结构相同，应按个人资格选择。",
+      "sources": [
+        {
+          "title": "Immigration Department: Top Talent Pass Scheme",
+          "url": "https://www.immd.gov.hk/eng/services/visas/TTPS.html"
+        },
+        {
+          "title": "Immigration Department: TTPS FAQ",
+          "url": "https://www.immd.gov.hk/eng/faq/TTPS.html"
+        }
+      ]
+    }
   }
 ]

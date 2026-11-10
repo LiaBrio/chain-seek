@@ -26,6 +26,13 @@ type MobilityRoute = {
   sources: Source[];
 };
 type Experience = { title: string; date: string; url: string; summary_zh: string; summary_en: string };
+type BudgetHighlight = {
+  route_en: string;
+  route_zh: string;
+  summary_en: string;
+  summary_zh: string;
+  sources: Source[];
+};
 type MobilityDestination = {
   id: string;
   destination_en: string;
@@ -34,6 +41,8 @@ type MobilityDestination = {
   experiences: Experience[];
   notes_zh: string;
   notes_en: string;
+  budget_visit: BudgetHighlight;
+  budget_work: BudgetHighlight;
 };
 
 const destinations = rawRoutes as MobilityDestination[];
@@ -54,10 +63,29 @@ const kindIcons: Record<PathKind, LucideIcon> = {
 
 const copy = {
   zh: {
-    eyebrow: "不止工作签证", title: "旅游、留学、工作，还有哪些合法路径？", subtitle: "按目的地筛选常见入境和长期停留方法。每条路径都分开写清语言、资金、费用、工作权限和实际切入点。", destinations: "个目的地", options: "条路径", search: "搜索国家、签证、语言、学历、资金或关键词", allCountries: "所有目的地", allKinds: "所有路径", shown: "个目的地显示", openHint: "点开国家，再展开具体路径看门槛与来源", noMatch: "没有符合条件的路径。", clear: "清除筛选", routeCount: "种路径", gate: "核心门槛（语言 / 学历 / 年龄 / 资格）", cost: "费用与资金证明", work: "能否工作及限制", tactic: "合法切入点 / 省力策略", official: "官方规则来源", experiences: "申请者公开经验帖", anecdote: "个人分享只作参考，不代表获批概率或官方规则。", noExperiences: "本次未找到可核实日期和原帖链接的公开经验。", note: "先看护照与国籍", noteText: "年龄、免签范围、工作假期名额和居留资格都可能取决于护照。访问签证通常不能工作；不要靠逾期停留、假入学或虚假材料“转身份”。", checked: "官方门槛与费用按各来源页面核对；金额和政策会变。申请前请点开官方链接复核。", people: "则公开分享", source: "查看来源"
+    eyebrow: "不止工作签证", title: "旅游、留学、工作，还有哪些合法路径？", subtitle: "按目的地筛选常见入境和长期停留方法。每条路径都分开写清语言、资金、费用、工作权限和实际切入点。", destinations: "个目的地", options: "条路径", search: "搜索国家、签证、语言、学历、资金或关键词", allCountries: "所有目的地", allKinds: "所有路径", shown: "个目的地显示", openHint: "点开国家，再展开具体路径看门槛与来源", noMatch: "没有符合条件的路径。", clear: "清除筛选", routeCount: "种路径", gate: "核心门槛（语言 / 学历 / 年龄 / 资格）", cost: "费用与资金证明", work: "能否工作及限制", tactic: "合法切入点 / 省力策略", official: "官方规则来源", experiences: "申请者公开经验帖", anecdote: "个人分享只作参考，不代表获批概率或官方规则。", noExperiences: "本次未找到与所列签证路径直接相关、且日期和原帖链接可核实的公开申请经验。", note: "先看护照与国籍", noteText: "年龄、免签范围、工作假期名额和居留资格都可能取决于护照。访问签证通常不能工作；不要靠逾期停留、假入学或虚假材料“转身份”。", checked: "官方门槛与费用按各来源页面核对；金额和政策会变。申请前请点开官方链接复核。", people: "则公开分享", source: "查看来源"
   },
   en: {
-    eyebrow: "MORE THAN WORK VISAS", title: "Visit, study, work: what are the lawful routes?", subtitle: "Filter common entry and longer-stay options by destination. Each route separates language, funds, fees, work rights and a practical legal angle.", destinations: "destinations", options: "route options", search: "Search countries, visas, language, education, funds or keywords", allCountries: "All destinations", allKinds: "All routes", shown: "destinations shown", openHint: "Open a country, then expand a route for requirements and sources", noMatch: "No routes match those filters.", clear: "Clear filters", routeCount: "routes", gate: "Main gate (language / education / age / eligibility)", cost: "Fees and proof of funds", work: "Work rights and limits", tactic: "Lawful entry angle / practical tip", official: "Official rules", experiences: "Public applicant accounts", anecdote: "Personal reports are for context only; they do not establish rules or approval odds.", noExperiences: "No public first-person post with a verifiable date and original link was found in this collection.", note: "Check passport and nationality first", noteText: "Age, visa-free access, working-holiday places and residence eligibility can depend on passport. Visitor status usually does not permit work. Do not rely on overstaying, sham study or false documents to change status.", checked: "Requirements and fees were checked against linked authority pages; amounts and policies can change. Recheck official sources before applying.", people: "public reports", source: "Open source"
+    eyebrow: "MORE THAN WORK VISAS", title: "Visit, study, work: what are the lawful routes?", subtitle: "Filter common entry and longer-stay options by destination. Each route separates language, funds, fees, work rights and a practical legal angle.", destinations: "destinations", options: "route options", search: "Search countries, visas, language, education, funds or keywords", allCountries: "All destinations", allKinds: "All routes", shown: "destinations shown", openHint: "Open a country, then expand a route for requirements and sources", noMatch: "No routes match those filters.", clear: "Clear filters", routeCount: "routes", gate: "Main gate (language / education / age / eligibility)", cost: "Fees and proof of funds", work: "Work rights and limits", tactic: "Lawful entry angle / practical tip", official: "Official rules", experiences: "Public applicant accounts", anecdote: "Personal reports are for context only; they do not establish rules or approval odds.", noExperiences: "No dated public first-person post directly matching the listed visa pathways was verifiable in this collection.", note: "Check passport and nationality first", noteText: "Age, visa-free access, working-holiday places and residence eligibility can depend on passport. Visitor status usually does not permit work. Do not rely on overstaying, sham study or false documents to change status.", checked: "Requirements and fees were checked against linked authority pages; amounts and policies can change. Recheck official sources before applying.", people: "public reports", source: "Open source"
+  }
+} as const;
+
+const budgetCopy = {
+  zh: {
+    heading: "低成本路径（按目的区分）",
+    intro: "以下预算选择均附条件；护照、年龄、资金和资格会改变费用与可行性。",
+    visit: "短期访问｜有条件",
+    work: "允许工作｜有条件",
+    study: "留学未纳入低成本排名：学费和生活费因院校、课程及个人情况差异很大。",
+    source: "官方核对"
+  },
+  en: {
+    heading: "Low-cost picks, by purpose",
+    intro: "Each pick is conditional; passport, age, funds and eligibility can change both price and availability.",
+    visit: "Short visit | conditional",
+    work: "Work-authorizing | conditional",
+    study: "Study is not ranked here: tuition and living costs vary widely by school, course and applicant.",
+    source: "Official check"
   }
 } as const;
 
@@ -113,6 +141,21 @@ export default function MobilityPathwaysExplorer() {
             <ChevronDown size={18} className={styles.countryChevron} />
           </summary>
           <div className={styles.countryBody}>
+            <section className={styles.budgetPanel} aria-label={budgetCopy[lang].heading}>
+              <div className={styles.budgetHeading}><strong>{budgetCopy[lang].heading}</strong><p>{budgetCopy[lang].intro}</p></div>
+              <div className={styles.budgetGrid}>
+                {[
+                  { label: budgetCopy[lang].visit, data: destination.budget_visit },
+                  { label: budgetCopy[lang].work, data: destination.budget_work }
+                ].map((pick) => <article className={styles.budgetCard} key={pick.label}>
+                  <span className={styles.budgetLabel}>{pick.label}</span>
+                  <h4>{lang === "zh" ? pick.data.route_zh : pick.data.route_en}</h4>
+                  <p>{lang === "zh" ? pick.data.summary_zh : pick.data.summary_en}</p>
+                  {!!pick.data.sources.length && <div>{pick.data.sources.map((source, sourceIndex) => <a className={styles.budgetSource} href={source.url} target="_blank" rel="noopener noreferrer" key={`${source.url}-${sourceIndex}`}>{budgetCopy[lang].source}: {source.title}<ExternalLink size={13} /></a>)}</div>}
+                </article>)}
+              </div>
+              <p className={styles.budgetStudyNote}>{budgetCopy[lang].study}</p>
+            </section>
             {routes.length > 0 && <div className={styles.routeList}>{routes.map((route, index) => {
               const Icon = kindIcons[route.kind];
               return <details className={styles.route} key={`${route.name_en}-${index}`}>

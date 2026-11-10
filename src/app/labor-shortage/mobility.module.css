@@ -214,6 +214,24 @@
   padding: 13px 15px 16px;
   border-top: 1px solid #e9eee8;
 }
+.budgetPanel {
+  margin-bottom: 13px;
+  padding: 12px;
+  border: 1px solid #cfe1d1;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f5faf4, #fbfdf9);
+}
+.budgetHeading { margin-bottom: 10px; }
+.budgetHeading > strong { color: #2f5d3a; font-size: 14px; }
+.budgetHeading p { margin: 4px 0 0; color: #69766b; font-size: 12px; line-height: 1.5; }
+.budgetGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.budgetCard { min-width: 0; padding: 10px 11px; border: 1px solid #dce8db; border-radius: 9px; background: #fff; }
+.budgetLabel { display: inline-block; padding: 4px 7px; border-radius: 6px; background: #edf6eb; color: #396b43; font-size: 11px; font-weight: 750; line-height: 1.35; }
+.budgetCard h4 { margin: 7px 0 8px; color: #294631; font-size: 14px; line-height: 1.45; overflow-wrap: anywhere; }
+.budgetCard p { margin: 6px 0 0; color: #5d6c60; font-size: 12px; line-height: 1.5; overflow-wrap: anywhere; }
+.budgetCard p strong { color: #405a46; }
+.budgetSource { display: inline-flex; align-items: center; gap: 4px; margin-top: 8px; color: #3c7549; font-size: 11px; font-weight: 700; line-height: 1.4; }
+.budgetStudyNote { margin: 9px 1px 0; color: #778178; font-size: 11px; line-height: 1.45; }
 .routeList {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -496,6 +514,8 @@
   .countrySummary { padding: 14px 13px; }
   .countryName { font-size: 18px; }
   .countryBody { padding: 11px 10px 13px; }
+  .budgetGrid { grid-template-columns: 1fr; }
+  .budgetCard { padding: 10px; }
   .routeList { grid-template-columns: 1fr; }
   .routeSummary { min-height: 58px; }
   .facts { grid-template-columns: 1fr; }
