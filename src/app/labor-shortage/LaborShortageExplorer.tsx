@@ -8,6 +8,7 @@ import { SimpleFooter } from "@/components/SimpleFooter";
 import { useLanguage } from "@/hooks/useLanguage";
 import rawEntries from "@/data/labor-shortage.json";
 import styles from "./shortage.module.css";
+import MobilityPathwaysExplorer from "./MobilityPathwaysExplorer";
 
 type RouteKind = "official_occupation_list" | "program_specific_list" | "employer_sponsored" | "sector_limited" | "qualified_worker" | "talent_list_not_authorization" | "working_holiday";
 type Occupation = { name_en: string; local_name: string; basis_en: string; basis_zh: string };
@@ -119,19 +120,22 @@ export default function LaborShortageExplorer() {
     <main>
       <section className={styles.hero}>
         <div className={styles.heroInner}>
-          <div className={styles.eyebrow}><Globe2 size={15} />{c.top}</div>
-          <h1>{lang === "zh" ? "各国工作签证与永居路径" : "Work visas & residence by country"}</h1>
-          <p>{lang === "zh" ? "查看外国人可申请的工作签证、主要条件，以及长期居留或永久居留的可能路径。" : "See work visas open to foreign applicants, their main requirements, and possible routes to long-term or permanent residence."}</p>
+          <div className={styles.eyebrow}><Globe2 size={15} />{lang === "zh" ? "出国路径速查" : "WAYS TO MOVE ABROAD"}</div>
+          <h1>{lang === "zh" ? "去其他国家，有哪些办法？" : "How can you move, study, work or visit abroad?"}</h1>
+          <p>{lang === "zh" ? "不只工签：比较 13 个目的地的旅游、留学、工作及其他合法路径，快速看语言、资金、费用和能否工作。" : "More than work visas: compare visitor, study, work and other lawful routes across 13 destinations, including language, funds, fees and work rights."}</p>
           <span className={styles.curated}><FileCheck2 size={14} />{c.badge}</span>
           <div className={styles.stats}>
             <div><strong>{entries.length}</strong><span>{c.destinations}</span></div>
-            <div><strong>{totalPathways}</strong><span>{c.pathways}</span></div>
+            <div><strong>{totalPathways}</strong><span>{lang === "zh" ? "条工作许可路径" : "work-permit routes"}</span></div>
             <div><strong>{totalRoles}</strong><span>{c.examples}</span></div>
           </div>
         </div>
       </section>
+      <MobilityPathwaysExplorer />
 
       <section className={styles.content}>
+        <h2 className={styles.sectionTitle}>{lang === "zh" ? "深挖工作许可：雇主条件、职业名单与长期居留" : "Detailed work-permit rules, occupation lists and residence routes"}</h2>
+        <p className={styles.destinationIntro}>{lang === "zh" ? "下方保留原有官方工作许可数据库：按目的地查看雇主担保、特定项目和工作假期规则，并对照官方职业示例与申请者经验。" : "The original official work-permit database remains below. Browse employer-sponsored, programme-specific and working-holiday rules by destination, with cited role examples and applicant accounts."}</p>
         <div className={styles.filters}>
           <label className={styles.search}><Search size={17} /><span className={styles.srOnly}>{c.search}</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={c.search} /></label>
           <label><span className={styles.srOnly}>{c.allCountries}</span><select value={countryFilter} onChange={(event) => setCountryFilter(event.target.value)}><option value="all">{c.allCountries}</option>{entries.map((entry) => <option key={entry.id} value={entry.id}>{lang === "zh" ? entry.country_zh : entry.country_en}</option>)}</select></label>
