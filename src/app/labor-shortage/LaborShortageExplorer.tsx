@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, ArrowUpRight, BriefcaseBusiness, ExternalLink, FileCheck2, Globe2, Search, ShieldCheck } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, BriefcaseBusiness, ChevronDown, ExternalLink, FileCheck2, Globe2, Search, ShieldCheck } from "lucide-react";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { SimpleFooter } from "@/components/SimpleFooter";
 import { useLanguage } from "@/hooks/useLanguage";
@@ -53,6 +53,17 @@ type Destination = {
   pathways: WorkPathway[];
 };
 const entries = rawEntries as Destination[];
+
+function compactPreview(text: string, lang: "en" | "zh") {
+  const limit = lang === "zh" ? 82 : 210;
+  if (text.length <= limit) return text;
+  const snippet = text.slice(0, limit);
+  if (lang === "en") {
+    const wordBoundary = snippet.lastIndexOf(" ");
+    return `${snippet.slice(0, wordBoundary > limit - 28 ? wordBoundary : limit).trimEnd()}…`;
+  }
+  return `${snippet.trimEnd()}…`;
+}
 
 const copy = {
   en: {
@@ -109,8 +120,8 @@ export default function LaborShortageExplorer() {
       <section className={styles.hero}>
         <div className={styles.heroInner}>
           <div className={styles.eyebrow}><Globe2 size={15} />{c.top}</div>
-          <h1>{c.title}</h1>
-          <p>{c.subtitle}</p>
+          <h1>{lang === "zh" ? "各国工作签证与永居路径" : "Work visas & residence by country"}</h1>
+          <p>{lang === "zh" ? "查看外国人可申请的工作签证、主要条件，以及长期居留或永久居留的可能路径。" : "See work visas open to foreign applicants, their main requirements, and possible routes to long-term or permanent residence."}</p>
           <span className={styles.curated}><FileCheck2 size={14} />{c.badge}</span>
           <div className={styles.stats}>
             <div><strong>{entries.length}</strong><span>{c.destinations}</span></div>
@@ -126,50 +137,98 @@ export default function LaborShortageExplorer() {
           <label><span className={styles.srOnly}>{c.allCountries}</span><select value={countryFilter} onChange={(event) => setCountryFilter(event.target.value)}><option value="all">{c.allCountries}</option>{entries.map((entry) => <option key={entry.id} value={entry.id}>{lang === "zh" ? entry.country_zh : entry.country_en}</option>)}</select></label>
           <label><span className={styles.srOnly}>{c.allTypes}</span><select value={typeFilter} onChange={(event) => setTypeFilter(event.target.value)}><option value="all">{c.allTypes}</option>{(Object.keys(routeLabels) as RouteKind[]).map((kind) => <option key={kind} value={kind}>{routeLabels[kind][lang]}</option>)}</select></label>
         </div>
-        <div className={styles.resultsMeta}>{filtered.length} {c.results}</div>
+        <div className={styles.resultsMeta}>
+          <span>{filtered.length} {c.results}</span>
+          <span className={styles.browseHint}>{lang === "zh" ? "先看签证、门槛和永居机会；点击卡片查看官方细则" : "Scan visa options, entry gates and residence prospects; open a card for official details"}</span>
+        </div>
 
         {filtered.length === 0 ? <div className={styles.empty}>{c.noMatches}<button type="button" onClick={() => { setQuery(""); setCountryFilter("all"); setTypeFilter("all"); }}>{c.reset}</button></div> : <div className={styles.grid}>
           {filtered.map(({ entry, pathways }) => <article className={styles.card} key={entry.id}>
-            <div className={styles.cardHead}>
-              <div><div className={styles.countryName}>{lang === "zh" ? entry.country_zh : entry.country_en}</div><div className={styles.summary}>{lang === "zh" ? entry.summary_zh : entry.summary_en}</div></div>
-              <span className={styles.type}>{c.routeLabel}</span>
-            </div>
-            <div className={styles.facts}>
-              <div><span>{c.authority}</span><strong>{entry.authority}</strong></div>
-              <div><span>{c.published}</span><strong>{entry.published_date}</strong></div>
-              <div><span>{c.effective}</span><strong>{entry.effective_period}</strong></div>
-            </div>
-            <section className={styles.thresholds}>
-              <div className={styles.thresholdHead}><strong>{c.thresholdTitle}</strong><span>{c.thresholdCase}</span></div>
-              <div className={styles.thresholdGrid}>
-                <div className={styles.thresholdBox}><strong>{c.workThreshold}</strong><p>{lang === "zh" ? entry.work_permit_thresholds_zh : entry.work_permit_thresholds_en}</p></div>
-                <div className={styles.thresholdBox}><strong>{c.immigrationThreshold}</strong><p>{lang === "zh" ? entry.immigration_thresholds_zh : entry.immigration_thresholds_en}</p></div>
+            <details className={styles.destination}>
+              <summary className={styles.destinationSummary}>
+                <div className={styles.destinationMain}>
+                  <div className={styles.countryTitleRow}>
+                    <span className={styles.countryName}>{lang === "zh" ? entry.country_zh : entry.country_en}</span>
+                    <span className={styles.routeCount}><BriefcaseBusiness size={14} />{pathways.length} {lang === "zh" ? "条路径" : pathways.length === 1 ? "route" : "routes"}</span>
+                  </div>
+                  <span className={styles.quickFacts}>
+                    <span className={styles.quickSection}>
+                      <span className={styles.quickLabel}>{lang === "zh" ? "对外国人开放的签证 / 路径" : "Work visas and routes for foreigners"}</span>
+                      <span className={styles.routePreview}>{pathways.map((path, index) => <span className={styles.previewTag} key={`${path.name_en}-${index}`}>{lang === "zh" ? path.name_zh : path.name_en}</span>)}</span>
+                    </span>
+                    <span className={styles.quickSection}>
+                      <span className={styles.quickLabel}>{lang === "zh" ? "主要申请条件" : "Main application requirements"}</span>
+                      <span className={styles.quickText}>{compactPreview(lang === "zh" ? entry.work_permit_thresholds_zh : entry.work_permit_thresholds_en, lang)}</span>
+                    </span>
+                    <span className={styles.quickSection}>
+                      <span className={styles.quickLabel}>{lang === "zh" ? "长期居留 / 永居机会" : "Long-term / permanent residence"}</span>
+                      <span className={styles.quickText}>{compactPreview(lang === "zh" ? entry.immigration_thresholds_zh : entry.immigration_thresholds_en, lang)}</span>
+                    </span>
+                  </span>
+                </div>
+                <span className={styles.expandIcon} aria-hidden="true"><ChevronDown size={20} /></span>
+              </summary>
+
+              <div className={styles.destinationBody}>
+                <div className={styles.facts}>
+                  <div><span>{c.authority}</span><strong>{entry.authority}</strong></div>
+                  <div><span>{c.published}</span><strong>{entry.published_date}</strong></div>
+                  <div><span>{c.effective}</span><strong>{entry.effective_period}</strong></div>
+                </div>
+
+                <details className={styles.overview}>
+                  <summary><span>{lang === "zh" ? "该国工作签证体系说明" : "How the work-visa system works"}</span><ChevronDown size={17} /></summary>
+                  <p>{lang === "zh" ? entry.summary_zh : entry.summary_en}</p>
+                </details>
+
+                <details className={styles.thresholds}>
+                  <summary className={styles.sectionTrigger}><span><strong>{c.thresholdTitle}</strong><small>{c.thresholdCase}</small></span><ChevronDown size={18} /></summary>
+                  <div className={styles.thresholdBody}>
+                    <div className={styles.thresholdGrid}>
+                      <div className={styles.thresholdBox}><strong>{c.workThreshold}</strong><p>{lang === "zh" ? entry.work_permit_thresholds_zh : entry.work_permit_thresholds_en}</p></div>
+                      <div className={styles.thresholdBox}><strong>{c.immigrationThreshold}</strong><p>{lang === "zh" ? entry.immigration_thresholds_zh : entry.immigration_thresholds_en}</p></div>
+                    </div>
+                    {!!entry.official_sources.length && <div className={styles.officialSources}><strong>{lang === "zh" ? "摘要、门槛与日期的官方来源" : "Official sources for summary, thresholds and dates"}</strong>{entry.official_sources.map((source, index) => <a key={`${source.url}-${index}`} href={source.url} target="_blank" rel="noopener noreferrer">{source.name}<ExternalLink size={13} /></a>)}</div>}
+                  </div>
+                </details>
+
+                <h2 className={styles.sectionTitle}>{lang === "zh" ? "官方许可路径" : "Official permit pathways"}<span>{pathways.length}</span></h2>
+                <div className={styles.pathways}>
+                  {pathways.map((path, index) => <details className={styles.pathway} key={`${path.name_en}-${index}`}>
+                    <summary className={styles.pathwayHead}>
+                      <span className={styles.pathwayTitle}>{lang === "zh" ? path.name_zh : path.name_en}</span>
+                      <span className={styles.pathKind}>{routeLabels[path.kind][lang]}</span>
+                      <ChevronDown className={styles.pathChevron} size={17} />
+                    </summary>
+                    <div className={styles.pathwayBody}>
+                      <div className={styles.note}><strong>{c.scope}</strong><p>{lang === "zh" ? path.scope_zh : path.scope_en}</p></div>
+                      <div className={styles.note}><strong>{c.conditions}</strong><p>{lang === "zh" ? path.conditions_zh : path.conditions_en}</p></div>
+                      {!!path.occupations.length ? <div className={styles.jobsBlock}>
+                        <div className={styles.jobsTitle}><BriefcaseBusiness size={16} />{c.roles}</div>
+                        <ul className={styles.jobs}>{path.occupations.map((job, roleIndex) => <li key={`${job.name_en}-${roleIndex}`}><div><strong>{lang === "zh" && job.local_name ? job.local_name : job.name_en}</strong>{job.local_name && job.local_name !== job.name_en && <span>{lang === "zh" ? job.name_en : job.local_name}</span>}<details className={styles.jobBasis}><summary>{lang === "zh" ? "入选依据" : "Why this role appears"}</summary><p>{lang === "zh" ? job.basis_zh : job.basis_en}</p></details></div></li>)}</ul>
+                      </div> : <p className={styles.noExamples}>{c.noRoles}</p>}
+                      <a className={styles.sourceLink} href={path.source_url} target="_blank" rel="noopener noreferrer">{c.source}<ArrowUpRight size={15} /><ExternalLink size={13} /><small>{path.source_name}</small></a>
+                    </div>
+                  </details>)}
+                </div>
+
+                <details className={styles.experiences}>
+                  <summary><span>{c.experiences}</span><span className={styles.experienceCount}>{entry.experiences.length} {c.experienceCount}</span><ChevronDown size={18} /></summary>
+                  <p className={styles.anecdoteDisclaimer}>{c.anecdoteDisclaimer}</p>
+                  {entry.experiences.length ? <ul className={styles.experienceList}>{entry.experiences.map((item, index) => <li key={`${item.source_url}-${index}`}>
+                    <div className={styles.experienceHead}><strong>{lang === "zh" ? item.topic_zh : item.topic_en}</strong><time>{item.post_date}</time></div>
+                    <p>{lang === "zh" ? item.summary_zh : item.summary_en}</p>
+                    <a href={item.source_url} target="_blank" rel="noopener noreferrer">{item.source_name}<ExternalLink size={13} /></a>
+                  </li>)}</ul> : <p className={styles.noExperience}>{c.noExperience}</p>}
+                </details>
+
+                <details className={styles.caveat}>
+                  <summary><ShieldCheck size={16} /><strong>{c.caveat}</strong><ChevronDown className={styles.caveatChevron} size={17} /></summary>
+                  <p>{lang === "zh" ? entry.caveat_zh : entry.caveat_en}</p>
+                </details>
+                <div className={styles.checked}>{c.checked}</div>
               </div>
-              {!!entry.official_sources.length && <div className={styles.officialSources}><strong>{lang === "zh" ? "摘要、门槛与日期的官方来源" : "Official sources for summary, thresholds and dates"}</strong>{entry.official_sources.map((source, index) => <a key={`${source.url}-${index}`} href={source.url} target="_blank" rel="noopener noreferrer">{source.name}<ExternalLink size={11} /></a>)}</div>}
-            </section>
-            <div className={styles.pathways}>
-              {pathways.map((path, index) => <section className={styles.pathway} key={`${path.name_en}-${index}`}>
-                <div className={styles.pathwayHead}><h3>{lang === "zh" ? path.name_zh : path.name_en}</h3><span className={styles.pathKind}>{routeLabels[path.kind][lang]}</span></div>
-                <div className={styles.note}><strong>{c.scope}</strong><p>{lang === "zh" ? path.scope_zh : path.scope_en}</p></div>
-                <div className={styles.note}><strong>{c.conditions}</strong><p>{lang === "zh" ? path.conditions_zh : path.conditions_en}</p></div>
-                {!!path.occupations.length ? <div className={styles.jobsBlock}>
-                  <div className={styles.jobsTitle}><BriefcaseBusiness size={15} />{c.roles}</div>
-                  <ul className={styles.jobs}>{path.occupations.map((job, roleIndex) => <li key={`${job.name_en}-${roleIndex}`}><div><strong>{lang === "zh" && job.local_name ? job.local_name : job.name_en}</strong>{job.local_name && job.local_name !== job.name_en && <span>{lang === "zh" ? job.name_en : job.local_name}</span>}<details className={styles.jobBasis}><summary>{lang === "zh" ? "入选依据" : "Why this role appears"}</summary><p>{lang === "zh" ? job.basis_zh : job.basis_en}</p></details></div></li>)}</ul>
-                </div> : <p className={styles.noExamples}>{c.noRoles}</p>}
-                <a className={styles.sourceLink} href={path.source_url} target="_blank" rel="noopener noreferrer">{c.source}<ArrowUpRight size={15} /><ExternalLink size={13} /><small>{path.source_name}</small></a>
-              </section>)}
-            </div>
-            <details className={styles.experiences}>
-              <summary><span>{c.experiences}</span><span className={styles.experienceCount}>{entry.experiences.length} {c.experienceCount}</span></summary>
-              <p className={styles.anecdoteDisclaimer}>{c.anecdoteDisclaimer}</p>
-              {entry.experiences.length ? <ul className={styles.experienceList}>{entry.experiences.map((item, index) => <li key={`${item.source_url}-${index}`}>
-                <div className={styles.experienceHead}><strong>{lang === "zh" ? item.topic_zh : item.topic_en}</strong><time>{item.post_date}</time></div>
-                <p>{lang === "zh" ? item.summary_zh : item.summary_en}</p>
-                <a href={item.source_url} target="_blank" rel="noopener noreferrer">{item.source_name}<ExternalLink size={11} /></a>
-              </li>)}</ul> : <p className={styles.noExperience}>{c.noExperience}</p>}
             </details>
-            <div className={styles.caveat}><strong>{c.caveat}</strong><p>{lang === "zh" ? entry.caveat_zh : entry.caveat_en}</p></div>
-            <div className={styles.checked}>{c.checked}</div>
           </article>)}
         </div>}
 
