@@ -29,8 +29,18 @@ type Experience = { title: string; date: string; url: string; summary_zh: string
 type BudgetHighlight = {
   route_en: string;
   route_zh: string;
-  summary_en: string;
-  summary_zh: string;
+  passport_scope_en: string;
+  passport_scope_zh: string;
+  fee_en: string;
+  fee_zh: string;
+  funds_en: string;
+  funds_zh: string;
+  eligibility_en: string;
+  eligibility_zh: string;
+  caveat_en: string;
+  caveat_zh: string;
+  tuition_en?: string;
+  tuition_zh?: string;
   sources: Source[];
 };
 type MobilityDestination = {
@@ -43,6 +53,7 @@ type MobilityDestination = {
   notes_en: string;
   budget_visit: BudgetHighlight;
   budget_work: BudgetHighlight;
+  budget_study: BudgetHighlight;
 };
 
 const destinations = rawRoutes as MobilityDestination[];
@@ -72,20 +83,34 @@ const copy = {
 
 const budgetCopy = {
   zh: {
-    heading: "低成本路径（按目的区分）",
-    intro: "以下预算选择均附条件；护照、年龄、资金和资格会改变费用与可行性。",
-    visit: "短期访问｜有条件",
-    work: "允许工作｜有条件",
-    study: "留学未纳入低成本排名：学费和生活费因院校、课程及个人情况差异很大。",
-    source: "官方核对"
+    heading: "最低成本合法路径（按用途）",
+    intro: "只比较政府申请费；机票、保险、学费和日常开销另计。需证明的存款不是已花费用，护照与资格会改变结果。官方核对：2026-11-12。",
+    visit: "短期访问｜不能工作",
+    work: "可合法工作｜有条件",
+    studyLabel: "留学｜低成本切入点",
+    studyNote: "学费取决于学校与课程，不能用签证费代替总预算；优先查公立院校和奖学金。",
+    fee: "签证／许可申请费",
+    funds: "需证明或预存的资金（非费用）",
+    tuition: "学费（另计）",
+    eligibility: "主要资格条件",
+    caveat: "限制与未计入项",
+    more: "展开门槛、限制与官方来源",
+    source: "官方依据"
   },
   en: {
-    heading: "Low-cost picks, by purpose",
-    intro: "Each pick is conditional; passport, age, funds and eligibility can change both price and availability.",
-    visit: "Short visit | conditional",
-    work: "Work-authorizing | conditional",
-    study: "Study is not ranked here: tuition and living costs vary widely by school, course and applicant.",
-    source: "Official check"
+    heading: "Lowest-cost lawful routes, by purpose",
+    intro: "Compares government application fees only; flights, insurance, tuition and living expenses are separate. Proof of funds is money you must show, not a fee. Passport and eligibility matter. Checked: 2026-11-12.",
+    visit: "Short visit | no work",
+    work: "Legal work | conditional",
+    studyLabel: "Study | lower-cost starting point",
+    studyNote: "Tuition varies by school and course; a visa fee is not the total budget. Check public institutions and scholarships first.",
+    fee: "Visa / permit application fee",
+    funds: "Funds to show or hold (not a fee)",
+    tuition: "Tuition (separate)",
+    eligibility: "Main eligibility gates",
+    caveat: "Limits and excluded costs",
+    more: "Show eligibility, limits and official sources",
+    source: "Official basis"
   }
 } as const;
 
@@ -146,15 +171,28 @@ export default function MobilityPathwaysExplorer() {
               <div className={styles.budgetGrid}>
                 {[
                   { label: budgetCopy[lang].visit, data: destination.budget_visit },
-                  { label: budgetCopy[lang].work, data: destination.budget_work }
+                  { label: budgetCopy[lang].work, data: destination.budget_work },
+                  { label: budgetCopy[lang].studyLabel, data: destination.budget_study }
                 ].map((pick) => <article className={styles.budgetCard} key={pick.label}>
                   <span className={styles.budgetLabel}>{pick.label}</span>
                   <h4>{lang === "zh" ? pick.data.route_zh : pick.data.route_en}</h4>
-                  <p>{lang === "zh" ? pick.data.summary_zh : pick.data.summary_en}</p>
-                  {!!pick.data.sources.length && <div>{pick.data.sources.map((source, sourceIndex) => <a className={styles.budgetSource} href={source.url} target="_blank" rel="noopener noreferrer" key={`${source.url}-${sourceIndex}`}>{budgetCopy[lang].source}: {source.title}<ExternalLink size={13} /></a>)}</div>}
+                  <p className={styles.budgetPassport}>{lang === "zh" ? pick.data.passport_scope_zh : pick.data.passport_scope_en}</p>
+                  <div className={styles.budgetFacts}>
+                    <div><strong>{budgetCopy[lang].fee}</strong><p>{lang === "zh" ? pick.data.fee_zh : pick.data.fee_en}</p></div>
+                    <div><strong>{budgetCopy[lang].funds}</strong><p>{lang === "zh" ? pick.data.funds_zh : pick.data.funds_en}</p></div>
+                    {(pick.data.tuition_zh || pick.data.tuition_en) && <div><strong>{budgetCopy[lang].tuition}</strong><p>{lang === "zh" ? pick.data.tuition_zh : pick.data.tuition_en}</p></div>}
+                  </div>
+                  <details className={styles.budgetMore}>
+                    <summary>{budgetCopy[lang].more}</summary>
+                    <div className={styles.budgetFacts}>
+                      <div><strong>{budgetCopy[lang].eligibility}</strong><p>{lang === "zh" ? pick.data.eligibility_zh : pick.data.eligibility_en}</p></div>
+                      <div><strong>{budgetCopy[lang].caveat}</strong><p>{lang === "zh" ? pick.data.caveat_zh : pick.data.caveat_en}</p></div>
+                    </div>
+                    {!!pick.data.sources.length && <div>{pick.data.sources.map((source, sourceIndex) => <a className={styles.budgetSource} href={source.url} target="_blank" rel="noopener noreferrer" key={`${source.url}-${sourceIndex}`}>{budgetCopy[lang].source}: {source.title}<ExternalLink size={13} /></a>)}</div>}
+                  </details>
                 </article>)}
               </div>
-              <p className={styles.budgetStudyNote}>{budgetCopy[lang].study}</p>
+              <p className={styles.budgetStudyNote}>{budgetCopy[lang].studyNote}</p>
             </section>
             {routes.length > 0 && <div className={styles.routeList}>{routes.map((route, index) => {
               const Icon = kindIcons[route.kind];
