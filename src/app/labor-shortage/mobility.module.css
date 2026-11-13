@@ -59,6 +59,72 @@
   font-size: 11px;
   font-weight: 500;
 }
+.planning {
+  margin: 0 0 20px;
+  padding: 15px;
+  border: 1px solid #dce7da;
+  border-radius: 13px;
+  background: linear-gradient(135deg, #f5faf4, #fcfdfb);
+}
+.planningHeading { margin-bottom: 11px; }
+.planningHeading h3 {
+  margin: 6px 0 5px;
+  color: #294631;
+  font-size: 19px;
+  line-height: 1.3;
+  letter-spacing: -.02em;
+}
+.planningHeading > p {
+  margin: 0;
+  color: #68766b;
+  font-size: 13px;
+  line-height: 1.55;
+}
+.planningSteps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.planningSteps li {
+  min-width: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #e2ebe0;
+  border-radius: 9px;
+  background: #fff;
+}
+.stepNumber {
+  flex: 0 0 23px;
+  width: 23px;
+  height: 23px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #edf5ed;
+  color: #387047;
+  font-size: 12px;
+  font-weight: 800;
+}
+.planningSteps li > div { min-width: 0; }
+.planningSteps strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #405747;
+  font-size: 12px;
+  line-height: 1.45;
+}
+.planningSteps p {
+  margin: 0;
+  color: #5d6c60;
+  font-size: 12px;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
 .controls {
   display: grid;
   grid-template-columns: minmax(240px, 1fr) minmax(160px, 220px) minmax(160px, 220px);
@@ -514,6 +580,7 @@
   .headingRow { align-items: flex-start; flex-direction: column; gap: 13px; }
   .stats { width: 100%; }
   .stats strong { flex: 1; }
+  .planningSteps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 700px) {
   .section { padding: 27px 15px 18px; }
@@ -533,6 +600,10 @@
   .experiences li > div { flex-direction: column; gap: 2px; }
   .experiences time { text-align: left; }
   .experienceCount { margin-left: auto; }
+}
+@media (max-width: 480px) {
+  .planning { padding: 12px; }
+  .planningSteps { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) {
   .countryChevron, .routeChevron, .experiences > summary svg { transition: none; }

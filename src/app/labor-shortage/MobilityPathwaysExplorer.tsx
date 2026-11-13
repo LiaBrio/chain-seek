@@ -81,6 +81,31 @@ const copy = {
   }
 } as const;
 
+const planningCopy = {
+  zh: {
+    eyebrow: "出发前先做这四项筛选",
+    title: "先选对路径，再比较目的地",
+    intro: "签证费低不代表搬迁总成本低。先完成这四步，再查看各地的费用卡与官方规则。",
+    steps: [
+      { title: "护照、年龄与名额", text: "核对具体旅行证件/国籍、年龄上限、名额及申请地点；免签、香港特区与中国大陆资格不可互换。" },
+      { title: "目的与工作权限", text: "区分访问、正式学习、受雇工作和青年流动。访客身份通常不能工作；学生及打工度假的工作权限以许可条件为准。" },
+      { title: "计算完整预算", text: "分开看申请与处理费、需证明但不一定花掉的存款、学费、生活费、保险和交通。签证费不是第一年总成本。" },
+      { title: "核对长期路径", text: "临时签证不等于永居。单独核对毕业后工作、续签或永居路径及其资格和期限；留学或工作假期本身不保证永居。" }
+    ]
+  },
+  en: {
+    eyebrow: "FOUR CHECKS BEFORE YOU APPLY",
+    title: "Choose a route before comparing destinations",
+    intro: "A low application fee is not a low-cost move. Use these four checks, then open a destination’s cost cards and official rules.",
+    steps: [
+      { title: "Passport, age & quota", text: "Check the exact passport/nationality, age limits, quotas and where you may apply; visa-free, HKSAR and Mainland PRC eligibility are not interchangeable." },
+      { title: "Purpose & work rights", text: "Separate visiting, formal study, employment and youth mobility. Visitor status generally does not permit work; student and working-holiday work is limited by permit conditions." },
+      { title: "Budget the whole move", text: "Separate application/processing fees, proof of funds (money to show, not a fee), tuition, living costs, insurance and travel. A visa fee is not a first-year budget." },
+      { title: "Check the long-term route", text: "Temporary permission is not permanent residence. Check any graduate, extension or PR route separately, including its eligibility and deadlines; study or a working-holiday stay does not guarantee PR." }
+    ]
+  }
+} as const;
+
 const budgetCopy = {
   zh: {
     heading: "最低成本合法路径（按用途）",
@@ -148,6 +173,20 @@ export default function MobilityPathwaysExplorer() {
         </div>
       </div>
     </div>
+
+    <section className={styles.planning} aria-labelledby="route-planning-title">
+      <div className={styles.planningHeading}>
+        <span className={styles.eyebrow}><Sparkles size={14} />{planningCopy[lang].eyebrow}</span>
+        <h3 id="route-planning-title">{planningCopy[lang].title}</h3>
+        <p>{planningCopy[lang].intro}</p>
+      </div>
+      <ol className={styles.planningSteps}>
+        {planningCopy[lang].steps.map((step, index) => <li key={step.title}>
+          <span className={styles.stepNumber}>{index + 1}</span>
+          <div><strong>{step.title}</strong><p>{step.text}</p></div>
+        </li>)}
+      </ol>
+    </section>
 
     <div className={styles.controls}>
       <label className={styles.search}><Search size={17} /><span className={styles.srOnly}>{c.search}</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={c.search} /></label>
