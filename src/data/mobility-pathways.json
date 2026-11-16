@@ -130,6 +130,27 @@
         "threshold_zh": "须由美国雇主、美国代理人或通过美国代理人的外国雇主递交；证明杰出能力/成就，通常提交至少三类规定证据，并有具体工作活动/行程及行业咨询意见。",
         "work_en": "Work only in the approved field/activity and during the petition validity; it is not open work authorization.",
         "work_zh": "只可在申请批准的有效期内，从事获批领域/活动所授权的工作；不是不受限的开放工签。"
+      },
+      {
+        "kind": "work",
+        "name_zh": "L-1B 跨国公司内部调动（专门知识）",
+        "name_en": "L-1B Intracompany Transfer (Specialized Knowledge)",
+        "summary_zh": "由合资格跨国公司的美国实体，为掌握公司专门知识的员工递交调动申请；适合已有相关公司工作经历者，不是任意换雇主或一般求职签证。",
+        "summary_en": "A qualifying multinational organization’s U.S. entity petitions to transfer an employee with specialized knowledge of its business. This is an employer-linked transfer route, not an open job-search or general work visa.",
+        "threshold_zh": "雇主须有合资格母子公司、分支或关联关系，并在美国及至少一个其他国家持续经营。员工通常须在入境前 3 年内，为合资格海外实体连续工作至少 1 年，且赴美从事专门知识工作。",
+        "threshold_en": "The employer needs a qualifying parent, branch, subsidiary or affiliate relationship and ongoing business in the U.S. and at least one other country. The employee generally must have worked for a qualifying overseas organization for one continuous year within the three years before admission and enter for specialized-knowledge duties.",
+        "cost_zh": "由雇主提交 I-129 并缴纳适用费用；金额依雇主、递件事项及现行费表而异。USCIS 提醒部分适用雇主另须缴纳 9-11 生物识别费。引用路径页未列统一个人存款最低额；领事签证费、搬迁及生活支出须另行预算，勿将雇主递件费用混作个人签证费。",
+        "cost_en": "The employer files Form I-129 with applicable fees, which vary by employer, filing and the current schedule. USCIS flags an additional 9-11 Biometric Fee for covered employers. The cited route page sets no universal personal savings figure. Budget any separate consular visa fee, relocation and living costs; distinguish employer petition costs from personal visa fees.",
+        "work_zh": "仅限获授权的公司及工作活动。一般初次停留最多 3 年，新设办公室最多 1 年；符合条件可续期，L-1B 总计最多 5 年。不是开放工作许可，也不自动取得永居。",
+        "work_en": "Work is limited to the authorized company and activities. Initial stay is generally up to three years, or one year for a new office. Eligible extensions are possible, up to five years total in L-1B. It is not open work authorization or automatic permanent residence.",
+        "tactic_zh": "先向所在公司 HR 确认海外关联关系、内部转岗政策、接收团队及递件支持，再盘点海外任职年限和专门知识证据。社区中的 2019 年内调经历仅供准备参考；如计划长期居留，须另评估相应移民类别。官方核对：2026-11-16。",
+        "tactic_en": "Ask HR to confirm the qualifying company relationship, transfer policy, receiving team and petition support; document overseas service and specialized knowledge. The linked 2019 community account is preparation context only. Assess any permanent-residence category separately. Official page checked: 2026-11-16.",
+        "sources": [
+          {
+            "title": "L-1B Intracompany Transferee Specialized Knowledge — USCIS",
+            "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/l-1b-intracompany-transferee-specialized-knowledge"
+          }
+        ]
       }
     ],
     "budget_visit": {

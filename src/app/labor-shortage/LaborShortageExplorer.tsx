@@ -9,6 +9,7 @@ import { useLanguage } from "@/hooks/useLanguage";
 import rawEntries from "@/data/labor-shortage.json";
 import styles from "./shortage.module.css";
 import MobilityPathwaysExplorer from "./MobilityPathwaysExplorer";
+import RunCommunityLibrary from "./RunCommunityLibrary";
 
 type RouteKind = "official_occupation_list" | "program_specific_list" | "employer_sponsored" | "sector_limited" | "qualified_worker" | "talent_list_not_authorization" | "working_holiday";
 type Occupation = { name_en: string; local_name: string; basis_en: string; basis_zh: string };
@@ -132,6 +133,7 @@ export default function LaborShortageExplorer() {
         </div>
       </section>
       <MobilityPathwaysExplorer />
+      <RunCommunityLibrary />
 
       <section className={styles.content}>
         <h2 className={styles.sectionTitle}>{lang === "zh" ? "深挖工作许可：雇主条件、职业名单与长期居留" : "Detailed work-permit rules, occupation lists and residence routes"}</h2>

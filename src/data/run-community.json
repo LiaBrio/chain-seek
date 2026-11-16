@@ -1,0 +1,379 @@
+[
+  {
+    "id": "route-planning",
+    "destination": "all",
+    "category": "planning",
+    "source_path": "润学方法论/如何寻找适合自己的方案.md",
+    "title_zh": "按个人条件评估迁移路径",
+    "title_en": "Assessing Mobility Paths by Personal Fit",
+    "source_type": "first_person",
+    "author": null,
+    "publication_date": null,
+    "date_note_zh": "原文未标明发布日期；这是截至 2024-01-01 的仓库快照，不是当前政策核验日期。",
+    "date_note_en": "Original publication date not stated; repository snapshot as of 2024-01-01, not a current-policy check.",
+    "summary_zh": "作者以个人经验建议，先比较学习、求职等路径与自身资历、预算、时间和风险的匹配度，再通过相似背景案例交叉核实；迁居后的就业与生活适应也应纳入评估。",
+    "summary_en": "A first-person account recommends comparing study and work routes against your qualifications, budget, timeline, and risk tolerance, then checking details against cases with similar backgrounds. It also urges considering employment and day-to-day adjustment after moving.",
+    "lessons": [
+      {
+        "zh": "先盘点资历、预算、耗时与失败后的备选，再比较可行路径。",
+        "en": "Map qualifications, budget, timeline, and fallback options before comparing routes."
+      },
+      {
+        "zh": "留学要同时核算申请匹配、学费生活费、机会成本及毕业后就业可能。",
+        "en": "For study, assess admissions fit, total costs, foregone income, and post-study job prospects."
+      },
+      {
+        "zh": "求职路径要核实雇主支持工作授权的能力，并考虑当地就业和生活适应。",
+        "en": "For work routes, verify employer authorization support and weigh local job and lifestyle fit."
+      }
+    ],
+    "cautions": [
+      {
+        "zh": "这是作者的个人分析，不是普遍结论或成功证明；文中案例、费用及门槛均不可视为现行信息。",
+        "en": "This is personal analysis, not a general rule or verified outcome. Treat its cases, costs, and thresholds as historical, not current."
+      },
+      {
+        "zh": "申请资格、签证/居留规则、雇主担保、费用与处理时间须向官方及雇主重新核实。",
+        "en": "Recheck eligibility, visa/residence rules, sponsorship, fees, and processing times with official sources and employers."
+      }
+    ],
+    "suitable": true,
+    "source_url": "https://github.com/The-Run-Philosophy-Organization/run/blob/87f325210ffea9e16ac4c7cde39f4451bdc10bb5/%E6%B6%A6%E5%AD%A6%E6%96%B9%E6%B3%95%E8%AE%BA/%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E9%80%82%E5%90%88%E8%87%AA%E5%B7%B1%E7%9A%84%E6%96%B9%E6%A1%88.md",
+    "repository_url": "https://github.com/The-Run-Philosophy-Organization/run",
+    "snapshot_commit": "87f325210ffea9e16ac4c7cde39f4451bdc10bb5",
+    "snapshot_date": "2024-01-01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Adapted and translated by ChainSeek from The-Run-Philosophy-Organization/run and its contributors; CC BY-SA 4.0. Summarized, edited and translated; no author endorsement implied.",
+    "official_sources": []
+  },
+  {
+    "id": "japan-tech",
+    "destination": "jp",
+    "category": "work",
+    "source_path": "润学方法论/各国选择/亚洲和大洋洲/日本/程序员润日.md",
+    "title_zh": "日本 IT 求职经验",
+    "title_en": "Japan IT Job-Search Notes",
+    "source_type": "first_person",
+    "author": null,
+    "publication_date": null,
+    "date_note_zh": "原文未标明发布日期；这是截至 2024-01-01 的仓库快照，不是当前政策核验日期",
+    "date_note_en": "Original publication date not stated; repository snapshot as of 2024-01-01, not a current-policy check.",
+    "summary_zh": "作者以个人经历介绍日本 IT 求职准备与外包项目工作模式，强调日语面试练习、学历及工作经历材料整理，也提醒留意项目转换和雇佣条件。",
+    "summary_en": "The author shares personal observations on preparing for Japanese IT job interviews and working through outsourcing firms, where assignments may involve client-site interviews and project changes. Useful preparation includes practicing a Japanese self-introduction and organizing education and employment records. These are individual experiences, not assured outcomes or current immigration guidance.",
+    "lessons": [
+      {
+        "zh": "整理学历、专业及相关工作经历证明，求职和资格审核时便于说明背景。",
+        "en": "Organize education, field-of-study, and relevant employment records to explain your background during hiring or eligibility review."
+      },
+      {
+        "zh": "提前练习日语自我介绍与常见问答；作者建议面试前加强口语准备。",
+        "en": "Practice a Japanese self-introduction and common interview questions; the author specifically recommends speaking preparation."
+      },
+      {
+        "zh": "了解外包岗位可能按项目面试、项目结束后再找新现场，并核对合同与工作安排。",
+        "en": "Ask whether outsourced work involves client-site interviews and reassignment after projects end; review contract terms and work arrangements."
+      }
+    ],
+    "cautions": [
+      {
+        "zh": "文中学历、考试、签证及居留资格说法可能过时；逐项向日本官方渠道或合格专业人士核实现行条件。",
+        "en": "The document's education, exam, visa, and residence-eligibility claims may be outdated; verify current requirements with official Japanese sources or a qualified professional."
+      },
+      {
+        "zh": "这是未具名作者的个人经历与观察，不代表普遍招聘或工作结果；核实雇主、合同、薪酬及项目稳定性。",
+        "en": "This is an unnamed author's personal account, not a typical hiring or work outcome; independently check the employer, contract, compensation, and project stability."
+      }
+    ],
+    "suitable": true,
+    "source_url": "https://github.com/The-Run-Philosophy-Organization/run/blob/87f325210ffea9e16ac4c7cde39f4451bdc10bb5/%E6%B6%A6%E5%AD%A6%E6%96%B9%E6%B3%95%E8%AE%BA/%E5%90%84%E5%9B%BD%E9%80%89%E6%8B%A9/%E4%BA%9A%E6%B4%B2%E5%92%8C%E5%A4%A7%E6%B4%8B%E6%B4%B2/%E6%97%A5%E6%9C%AC/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%B6%A6%E6%97%A5.md",
+    "repository_url": "https://github.com/The-Run-Philosophy-Organization/run",
+    "snapshot_commit": "87f325210ffea9e16ac4c7cde39f4451bdc10bb5",
+    "snapshot_date": "2024-01-01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Adapted and translated by ChainSeek from The-Run-Philosophy-Organization/run and its contributors; CC BY-SA 4.0. Summarized, edited and translated; no author endorsement implied.",
+    "official_sources": [
+      {
+        "title": "Immigration Services Agency—Status of residence categories and procedures",
+        "url": "https://www.moj.go.jp/isa/applications/status/index.html"
+      },
+      {
+        "title": "Specified Skilled Worker—Official overview, fields and work conditions",
+        "url": "https://www.ssw.go.jp/en/about/visa/"
+      }
+    ]
+  },
+  {
+    "id": "japan-masters",
+    "destination": "jp",
+    "category": "study",
+    "source_path": "润学方法论/各国选择/亚洲和大洋洲/日本/读硕士润日.md",
+    "title_zh": "赴日读硕士：准备与衔接",
+    "title_en": "A Japan Master’s Path: Preparation and Transition",
+    "source_type": "community_guide",
+    "author": null,
+    "publication_date": null,
+    "date_note_zh": "原文未标明发布日期；这是截至 2024-01-01 的仓库快照，不是当前政策核验日期",
+    "date_note_en": "Original publication date not stated; repository snapshot as of 2024-01-01, not a current-policy check.",
+    "summary_zh": "社区指南以工科申请者为例，描述联系教授、取得考试许可、赴日参加选拔、攻读硕士并在校期间求职的衔接。准备语言与目标专业规划；实际招生、费用、就业和身份规定均须向校方及官方渠道复核。",
+    "summary_en": "A community guide sketches an engineering applicant’s sequence: contact a prospective professor, obtain permission to sit the entrance exam, travel for selection, pursue a master’s degree, then job-hunt during study. Plan language and subject fit early; verify admissions, costs, employment practices, and immigration rules with universities and official sources.",
+    "lessons": [
+      {
+        "zh": "先查目标大学和实验室要求，再联系教授；确认考试资格与选拔流程。",
+        "en": "Check each university and lab’s requirements before contacting a professor; confirm exam eligibility and selection steps."
+      },
+      {
+        "zh": "把语言准备、研究方向与既有专业经历一并纳入申请规划。",
+        "en": "Plan language study, research interests, and how your prior academic experience fits the proposed field."
+      },
+      {
+        "zh": "将实习和求职时间纳入硕士阶段安排，并提前了解住房与生活成本。",
+        "en": "Build internship and job-search timing into the degree plan, and research housing and living costs early."
+      }
+    ],
+    "cautions": [
+      {
+        "zh": "文中路线是个案式示例，不代表各校通用；考试、语言、费用及求职安排逐校核实。",
+        "en": "The route is an illustrative account, not universal; verify exam, language, cost, and job-search expectations with each institution."
+      },
+      {
+        "zh": "文中的签证、永住、归化和就业判断可能过时；以日本官方现行规定及专业意见为准。",
+        "en": "Visa, permanent-residence, naturalization, and employment claims may be outdated; consult current Japanese authorities and qualified advisers."
+      }
+    ],
+    "suitable": true,
+    "source_url": "https://github.com/The-Run-Philosophy-Organization/run/blob/87f325210ffea9e16ac4c7cde39f4451bdc10bb5/%E6%B6%A6%E5%AD%A6%E6%96%B9%E6%B3%95%E8%AE%BA/%E5%90%84%E5%9B%BD%E9%80%89%E6%8B%A9/%E4%BA%9A%E6%B4%B2%E5%92%8C%E5%A4%A7%E6%B4%8B%E6%B4%B2/%E6%97%A5%E6%9C%AC/%E8%AF%BB%E7%A1%95%E5%A3%AB%E6%B6%A6%E6%97%A5.md",
+    "repository_url": "https://github.com/The-Run-Philosophy-Organization/run",
+    "snapshot_commit": "87f325210ffea9e16ac4c7cde39f4451bdc10bb5",
+    "snapshot_date": "2024-01-01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Adapted and translated by ChainSeek from The-Run-Philosophy-Organization/run and its contributors; CC BY-SA 4.0. Summarized, edited and translated; no author endorsement implied.",
+    "official_sources": [
+      {
+        "title": "Immigration Services Agency—Student status of residence and application documents",
+        "url": "https://www.moj.go.jp/isa/applications/status/student.html"
+      },
+      {
+        "title": "MOFA Japan—Visa overview / long-term stay and COE process",
+        "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html"
+      }
+    ]
+  },
+  {
+    "id": "australia-budget",
+    "destination": "au",
+    "category": "budget",
+    "source_path": "润学方法论/各国选择/亚洲和大洋洲/澳大利亚/没钱人如何移民澳洲.md",
+    "title_zh": "澳洲学习与迁居的预算思路",
+    "title_en": "Budgeting for Study and Relocation to Australia",
+    "source_type": "first_person",
+    "author": null,
+    "publication_date": null,
+    "date_note_zh": "原文未标明发布日期；这是截至 2024-01-01 的仓库快照，不是当前政策核验日期",
+    "date_note_en": "Original publication date not stated; repository snapshot as of 2024-01-01, not a current-policy check.",
+    "summary_zh": "作者以个人经历讨论澳洲护理课程与迁居的资金压力，强调英语准备、比较学习路径，并提醒预算紧张者勿只靠落地打工周转。文中政策与费用均属历史信息。",
+    "summary_en": "A first-person account discusses the financial pressures of nursing study and relocation to Australia. It stresses English preparation, comparing education pathways, and not relying on work after arrival to cover a funding shortfall. Its policy and cost details are historical, not current guidance.",
+    "lessons": [
+      {
+        "zh": "先评估英语考试准备时间；语言能力可能是申请和学习的重要前置条件。",
+        "en": "Allow time to prepare for English tests; language ability can be an important prerequisite for applications and study."
+      },
+      {
+        "zh": "选课前核对课程资质、职业要求及目标州的现行签证路径，勿只听中介口头承诺。",
+        "en": "Before choosing a course, verify accreditation, occupation requirements, and current state-specific visa pathways; do not rely only on an agent's verbal assurance."
+      },
+      {
+        "zh": "预算应涵盖学费、住房、交通与应急金；不要假设抵达后打工必能补足缺口。",
+        "en": "Budget for tuition, housing, transport, and emergencies; do not assume work after arrival will reliably cover a shortfall."
+      }
+    ],
+    "cautions": [
+      {
+        "zh": "原文关于签证资格、时间线、英语门槛、费用、工时及收入的说法均不可视为现行规则；逐项向澳洲官方渠道核实。",
+        "en": "The account's visa eligibility, timelines, English thresholds, fees, work conditions, and earnings are not current rules; verify each item with official Australian sources."
+      },
+      {
+        "zh": "这是作者个人叙述，非经核实的普遍指南；文中未证明任何申请或移民结果。",
+        "en": "This is a personal account, not a verified general guide; it does not establish that any application or migration outcome occurred."
+      }
+    ],
+    "suitable": true,
+    "attribution": "Adapted and translated by ChainSeek from The-Run-Philosophy-Organization/run and its contributors; CC BY-SA 4.0. Summarized, edited and translated; no author endorsement implied.",
+    "source_url": "https://github.com/The-Run-Philosophy-Organization/run/blob/87f325210ffea9e16ac4c7cde39f4451bdc10bb5/%E6%B6%A6%E5%AD%A6%E6%96%B9%E6%B3%95%E8%AE%BA/%E5%90%84%E5%9B%BD%E9%80%89%E6%8B%A9/%E4%BA%9A%E6%B4%B2%E5%92%8C%E5%A4%A7%E6%B4%8B%E6%B4%B2/%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A/%E6%B2%A1%E9%92%B1%E4%BA%BA%E5%A6%82%E4%BD%95%E7%A7%BB%E6%B0%91%E6%BE%B3%E6%B4%B2.md",
+    "repository_url": "https://github.com/The-Run-Philosophy-Organization/run",
+    "snapshot_commit": "87f325210ffea9e16ac4c7cde39f4451bdc10bb5",
+    "snapshot_date": "2024-01-01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "official_sources": [
+      {
+        "title": "Student visa (subclass 500)—Home Affairs",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+      },
+      {
+        "title": "Genuine Student requirement",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500/genuine-student-requirement"
+      }
+    ]
+  },
+  {
+    "id": "us-transfer",
+    "destination": "us",
+    "category": "work",
+    "source_path": "润学实例/计算机/通过L1来美帝.md",
+    "title_zh": "公司内部调动的个人经验",
+    "title_en": "A Personal Account of an Internal Transfer",
+    "source_type": "first_person",
+    "author": null,
+    "publication_date": null,
+    "date_note_zh": "原文未标明发布日期；这是截至 2024-01-01 的仓库快照，不是当前政策核验日期",
+    "date_note_en": "Original publication date not stated; repository snapshot as of 2024-01-01, not a current-policy check.",
+    "summary_zh": "这篇自述记录作者2019年通过公司内部调动赴西雅图的经历，并概述先加入国内团队、积累工作表现、联系美国团队再启动流程的步骤。它是个人历史经验，不代表现行政策或结果保证。",
+    "summary_en": "This first-person account describes the author's 2019 move to Seattle through an employer transfer. It outlines joining a home-country team, building a work record, finding a U.S. team, and then starting the process. It is historical personal experience, not current policy or a guarantee.",
+    "lessons": [
+      {
+        "zh": "先确认目标公司的国内团队确有相关岗位，并了解内部转岗渠道。",
+        "en": "First confirm the employer has a relevant home-country role and an internal transfer channel."
+      },
+      {
+        "zh": "作者建议积累工作表现记录，再主动联系美国团队确认接收意向。",
+        "en": "The author recommends building a work record, then contacting a U.S. team to confirm interest."
+      },
+      {
+        "zh": "把团队接收意向与正式申请流程分开确认，并向公司核实各步骤。",
+        "en": "Confirm team interest separately from formal filing steps, and verify each step with the employer."
+      }
+    ],
+    "cautions": [
+      {
+        "zh": "文中的签证资格、时限、续签及换雇主限制均属历史说法；申请前向美国官方信息及合格移民律师核实现行规则。",
+        "en": "Treat the account's visa eligibility, timing, extensions, and employer-change claims as historical; verify current rules with official U.S. sources and qualified immigration counsel."
+      },
+      {
+        "zh": "这是单一作者的经历，未提供可验证结果；文中未讨论住房或当地生活成本，需另行核实。",
+        "en": "This is one person's account, not a verified outcome; housing and local living costs are not covered and need separate checking."
+      }
+    ],
+    "suitable": true,
+    "source_url": "https://github.com/The-Run-Philosophy-Organization/run/blob/87f325210ffea9e16ac4c7cde39f4451bdc10bb5/%E6%B6%A6%E5%AD%A6%E5%AE%9E%E4%BE%8B/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E9%80%9A%E8%BF%87L1%E6%9D%A5%E7%BE%8E%E5%B8%9D.md",
+    "repository_url": "https://github.com/The-Run-Philosophy-Organization/run",
+    "snapshot_commit": "87f325210ffea9e16ac4c7cde39f4451bdc10bb5",
+    "snapshot_date": "2024-01-01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Adapted and translated by ChainSeek from The-Run-Philosophy-Organization/run and its contributors; CC BY-SA 4.0. Summarized, edited and translated; no author endorsement implied.",
+    "official_sources": [
+      {
+        "title": "L-1B Intracompany Transferee Specialized Knowledge — USCIS",
+        "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/l-1b-intracompany-transferee-specialized-knowledge"
+      }
+    ]
+  },
+  {
+    "id": "us-phd",
+    "destination": "all",
+    "category": "study",
+    "source_path": "润学实例/物理/理科生申请PhD，你需要做什么.md",
+    "title_zh": "理科博士申请准备建议",
+    "title_en": "Preparing for a Science PhD Application",
+    "source_type": "community_guide",
+    "author": null,
+    "publication_date": null,
+    "date_note_zh": "原文未标明发布日期；这是截至 2024-01-01 的仓库快照，不是当前政策核验日期。",
+    "date_note_en": "Original publication date not stated; repository snapshot as of 2024-01-01, not a current-policy check.",
+    "summary_zh": "这篇未完的社区指南建议理科生尽早规划博士申请，重视本科成绩、推荐信与英语准备，并通过科研经历建立学术联系。文中未说明适用国家，申请章节也未完成。",
+    "summary_en": "This unfinished community guide advises science undergraduates to plan early, sustain academic performance, build research experience and academic relationships, and prepare English skills. It does not identify a destination country, and its application-period section is incomplete; treat it as general preparation advice, not a U.S.-specific process or current policy guide.",
+    "lessons": [
+      {
+        "zh": "尽早规划本科阶段准备，兼顾学科兴趣、稳定成绩与英语能力。",
+        "en": "Plan early; maintain subject interest, steady academic performance, and English skills."
+      },
+      {
+        "zh": "争取参与本科科研，与导师建立真实学术联系；推荐信可能因此更具体。",
+        "en": "Seek undergraduate research and build genuine faculty relationships that may support more detailed recommendations."
+      },
+      {
+        "zh": "把语言考试安排纳入计划；原文建议大三开始考虑，但应按目标项目时间倒推。",
+        "en": "Include language tests in your plan; the source suggests considering them in junior year, but work backward from each program’s deadlines."
+      }
+    ],
+    "cautions": [
+      {
+        "zh": "原文未注明美国或其他目的地，且申请部分仅写“未完待续”；不可据此判断录取标准或流程。",
+        "en": "The source names no destination and leaves its application section unfinished; do not infer admission criteria or process from it."
+      },
+      {
+        "zh": "申请材料权重、考试要求、截止日期及资助条件均须逐项目核对当前官方信息；这是社区建议，不是已核实结果。",
+        "en": "Recheck materials, test requirements, deadlines, and funding with each program’s current official information; these are community suggestions, not verified outcomes."
+      }
+    ],
+    "suitable": true,
+    "source_url": "https://github.com/The-Run-Philosophy-Organization/run/blob/87f325210ffea9e16ac4c7cde39f4451bdc10bb5/%E6%B6%A6%E5%AD%A6%E5%AE%9E%E4%BE%8B/%E7%89%A9%E7%90%86/%E7%90%86%E7%A7%91%E7%94%9F%E7%94%B3%E8%AF%B7PhD%EF%BC%8C%E4%BD%A0%E9%9C%80%E8%A6%81%E5%81%9A%E4%BB%80%E4%B9%88.md",
+    "repository_url": "https://github.com/The-Run-Philosophy-Organization/run",
+    "snapshot_commit": "87f325210ffea9e16ac4c7cde39f4451bdc10bb5",
+    "snapshot_date": "2024-01-01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Adapted and translated by ChainSeek from The-Run-Philosophy-Organization/run and its contributors; CC BY-SA 4.0. Summarized, edited and translated; no author endorsement implied.",
+    "official_sources": []
+  },
+  {
+    "id": "netherlands-first-year",
+    "destination": "nl",
+    "category": "settling",
+    "source_path": "润学实例/计算机/小李在荷兰之在荷兰生活的第一年.md",
+    "title_zh": "在荷兰的第一年：生活与适应",
+    "title_en": "A First Year in the Netherlands: Settling In",
+    "source_type": "first_person",
+    "author": "小李在荷兰",
+    "publication_date": "2022-02-26",
+    "date_note_zh": "原文链接路径标示 2022-02-26；这是个人经历记录，不代表当前政策或普遍结果。",
+    "date_note_en": "The linked source path indicates 2022-02-26; this is a personal account, not a current-policy check or a general outcome.",
+    "summary_zh": "作者记录初到荷兰后逐步适应工作的经历，包括借助导师、参与沟通任务提升信心与英语；也分享了儿童入学申请、托育安排及远程办公对生活的影响。",
+    "summary_en": "The author describes adjusting to work after arriving in the Netherlands, using mentoring and communication tasks to build confidence and English, and navigating a child’s school application, childcare, and the effects of remote work on daily life.",
+    "lessons": [
+      {
+        "zh": "可在入职后主动寻找导师，并争取适合自己的分享或协作任务，帮助建立支持网络并练习工作沟通。",
+        "en": "After starting a job, consider seeking a mentor and suitable presentation or collaboration tasks to build support and practise workplace communication."
+      },
+      {
+        "zh": "若涉及孩子入学，尽早了解居住地对应学校的申请与候补流程；逐校确认教学语言和理念。",
+        "en": "If arranging a child’s schooling, check local application and waitlist steps early, and confirm each school’s teaching language and approach."
+      },
+      {
+        "zh": "规划家庭预算与日程时，分别核实托育费用、补助资格、放学时间及假期照护安排。",
+        "en": "For family budgeting and schedules, verify childcare costs, benefit eligibility, school hours, and holiday-care arrangements separately."
+      }
+    ],
+    "cautions": [
+      {
+        "zh": "文中教育、托育和补助描述来自作者及其家庭在特定时期的经历；费用、资格、校规和服务应向学校及官方渠道复核。",
+        "en": "Schooling, childcare, and benefit details reflect one family’s experience at a particular time; recheck costs, eligibility, school rules, and services with schools and official sources."
+      },
+      {
+        "zh": "远程办公支持和职场适应因雇主、岗位及个人情况而异；不要将个人经历视为保证或通用指南。",
+        "en": "Remote-work support and workplace adjustment vary by employer, role, and individual; do not treat this account as a guarantee or universal guide."
+      }
+    ],
+    "suitable": true,
+    "source_url": "https://github.com/The-Run-Philosophy-Organization/run/blob/87f325210ffea9e16ac4c7cde39f4451bdc10bb5/%E6%B6%A6%E5%AD%A6%E5%AE%9E%E4%BE%8B/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B0%8F%E6%9D%8E%E5%9C%A8%E8%8D%B7%E5%85%B0%E4%B9%8B%E5%9C%A8%E8%8D%B7%E5%85%B0%E7%94%9F%E6%B4%BB%E7%9A%84%E7%AC%AC%E4%B8%80%E5%B9%B4.md",
+    "repository_url": "https://github.com/The-Run-Philosophy-Organization/run",
+    "snapshot_commit": "87f325210ffea9e16ac4c7cde39f4451bdc10bb5",
+    "snapshot_date": "2024-01-01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Adapted and translated by ChainSeek from The-Run-Philosophy-Organization/run and its contributors; CC BY-SA 4.0. Summarized, edited and translated; no author endorsement implied.",
+    "official_sources": [
+      {
+        "title": "IND: Highly skilled migrant",
+        "url": "https://ind.nl/en/residence-permits/work/highly-skilled-migrant"
+      },
+      {
+        "title": "IND: Required amounts income requirements (2026 salary criteria)",
+        "url": "https://ind.nl/en/required-amounts-income-requirements"
+      }
+    ]
+  }
+]
