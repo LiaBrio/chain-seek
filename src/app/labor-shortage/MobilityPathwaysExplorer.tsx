@@ -3,7 +3,6 @@
 import { useMemo, useState } from "react";
 import { ArrowUpRight, BriefcaseBusiness, ChevronDown, ExternalLink, Globe2, GraduationCap, Plane, Search, ShieldCheck, Sparkles } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
-import { useLanguage } from "@/hooks/useLanguage";
 import rawRoutes from "@/data/mobility-pathways.json";
 import styles from "./mobility.module.css";
 
@@ -139,9 +138,7 @@ const budgetCopy = {
   }
 } as const;
 
-export default function MobilityPathwaysExplorer() {
-  const { language } = useLanguage();
-  const lang = language === "zh" ? "zh" : "en";
+export default function MobilityPathwaysExplorer({ lang }: { lang: "zh" | "en" }) {
   const c = copy[lang];
   const [query, setQuery] = useState("");
   const [countryFilter, setCountryFilter] = useState("all");

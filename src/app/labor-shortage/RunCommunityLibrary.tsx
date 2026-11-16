@@ -2,7 +2,6 @@
 
 import { useMemo, useState } from "react";
 import { ChevronDown, ExternalLink, Search, RotateCcw, BookOpen } from "lucide-react";
-import { useLanguage } from "@/hooks/useLanguage";
 import rawItems from "@/data/run-community.json";
 import styles from "./run-community.module.css";
 
@@ -59,9 +58,8 @@ const copy = {
   }
 };
 
-export default function RunCommunityLibrary() {
-  const { language } = useLanguage();
-  const zh = language === "zh";
+export default function RunCommunityLibrary({ lang }: { lang: "zh" | "en" }) {
+  const zh = lang === "zh";
   const t = zh ? copy.zh : copy.en;
   const [query, setQuery] = useState("");
   const [destination, setDestination] = useState<Destination>("all");

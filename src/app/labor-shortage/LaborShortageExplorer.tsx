@@ -132,8 +132,8 @@ export default function LaborShortageExplorer() {
           </div>
         </div>
       </section>
-      <MobilityPathwaysExplorer />
-      <RunCommunityLibrary />
+      <MobilityPathwaysExplorer lang={lang} />
+      <RunCommunityLibrary lang={lang} />
 
       <section className={styles.content}>
         <h2 className={styles.sectionTitle}>{lang === "zh" ? "深挖工作许可：雇主条件、职业名单与长期居留" : "Detailed work-permit rules, occupation lists and residence routes"}</h2>
