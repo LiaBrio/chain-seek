@@ -20,6 +20,7 @@ type CommunityItem = {
   publication_date: string | null;
   date_note_zh: string;
   date_note_en: string;
+  policy_checked_date?: string;
   summary_zh: string;
   summary_en: string;
   lessons: BilingualText[];
@@ -32,29 +33,29 @@ const items = rawItems as CommunityItem[];
 const copy = {
   zh: {
     title: "社区经验与出发准备",
-    intro: "整理自社区成员的经历与准备指南，适合用于发现问题和规划准备；它们不同于已核实的官方规定，不代表获批概率，也不代表当前要求。",
-    warning: "版本提醒：原始仓库最新快照为 2024-01-01。原文日期可能未注明；仓库快照日期不等于经历发生日期，也不代表政策已在该日核实。",
+    intro: "个人经历是原作者自述且未经独立验证；社区指南属于经验建议。它们与官方规则分开展示，不代表获批概率，也不是当前要求。",
+    warning: "版本提醒：截至 2026-11-16 核对，上游主分支最新提交为 87f3252（提交时间：2024-01-02 UTC）。这是源文版本，不是原文发布日期或政策核验日期。",
     search: "搜索标题、摘要、作者或关键词",
     allDestinations: "所有目的地",
     destinations: { all: "所有目的地", jp: "日本", au: "澳大利亚", nl: "荷兰", us: "美国" } as Record<Destination, string>,
     categories: { planning: "出发规划", work: "工作", study: "留学", budget: "预算", settling: "落地生活" } as Record<Category, string>,
     allCategories: "所有主题", count: "条资源", shown: "显示", none: "没有符合条件的资源。", reset: "清除筛选",
-    firstPerson: "个人经历", guide: "社区指南", lessons: "可借鉴的经验", cautions: "阅读提醒", date: "原文日期", author: "作者", suitable: "适用性提示", official: "复核现行规则",
+    firstPerson: "个人经历（作者自述）", guide: "社区指南", lessons: "可借鉴的经验", cautions: "阅读提醒", date: "原文日期", author: "作者", suitable: "适用性提示", official: "官方规则参考来源", policyCheckDate: "来源链接核对日期", policyCheckNote: "具体要求以官方页面现行内容为准。",
     source: "查看原文", back: "查看当前官方路径与规则 →", attribution: "来源与许可",
-    attributionText: "资料来自 The-Run-Philosophy-Organization/run 及其贡献者（仓库快照：2024-01-01）。ChainSeek 对本区摘要作了删节、翻译与编辑，改编摘要依 CC BY-SA 4.0 许可分享；不代表原作者背书。该许可不延伸至本网站其他独立内容；外链第三方作品可能适用各自许可。"
+    attributionText: "资料来自 The-Run-Philosophy-Organization/run 及其贡献者（固定版本提交：87f3252，时间：2024-01-02 UTC；于 2026-11-16 核对）。ChainSeek 对本区摘要作了删节、翻译与编辑，改编摘要依 CC BY-SA 4.0 许可分享；不代表原作者背书。该许可不延伸至本网站其他独立内容；外链第三方作品可能适用各自许可。"
   },
   en: {
     title: "Community experience & preparation",
-    intro: "A curated set of community experiences and preparation guides for issue-spotting and planning. These are distinct from verified official rules, do not indicate approval odds, and are not current requirements.",
-    warning: "Version note: the source repository’s latest snapshot is 2024-01-01. Original dates may be unstated; the snapshot date is neither an event date nor a policy-verification date.",
+    intro: "First-person accounts are unverified statements by their authors; community guides are experience-based advice. They are kept separate from official rules, do not indicate approval odds, and are not current requirements.",
+    warning: "Version note: as checked on 2026-11-16, the upstream main branch still points to commit 87f3252 (committed 2024-01-02 UTC). This identifies the source version, not story publication dates or a policy-check date.",
     search: "Search titles, summaries, authors or keywords",
     allDestinations: "All destinations",
     destinations: { all: "All destinations", jp: "Japan", au: "Australia", nl: "Netherlands", us: "United States" } as Record<Destination, string>,
     categories: { planning: "Planning", work: "Work", study: "Study", budget: "Budget", settling: "Settling in" } as Record<Category, string>,
     allCategories: "All topics", count: "resources", shown: "Showing", none: "No resources match these filters.", reset: "Reset filters",
-    firstPerson: "First-person account", guide: "Community guide", lessons: "Takeaways", cautions: "Cautions", date: "Original date", author: "Author", suitable: "Suitability note", official: "Recheck current rules",
+    firstPerson: "First-person account (author-reported)", guide: "Community guide", lessons: "Takeaways", cautions: "Cautions", date: "Original date", author: "Author", suitable: "Suitability note", official: "Official rule references", policyCheckDate: "Link check date", policyCheckNote: "Check the current official page for the applicable requirements.",
     source: "Read original", back: "See current official pathways and rules →", attribution: "Sources & license",
-    attributionText: "Source: The-Run-Philosophy-Organization/run and its contributors (snapshot: 2024-01-01). ChainSeek condensed, translated and edited these summaries; adapted summaries are shared under CC BY-SA 4.0, without implying author endorsement. This license does not relicense the site's other independent content; externally linked third-party works may have their own licenses."
+    attributionText: "Source: The-Run-Philosophy-Organization/run and its contributors (pinned commit 87f3252, committed 2024-01-02 UTC; checked 2026-11-16). ChainSeek condensed, translated and edited these summaries; adapted summaries are shared under CC BY-SA 4.0, without implying author endorsement. This license does not relicense the site's other independent content; externally linked third-party works may have their own licenses."
   }
 };
 
@@ -92,7 +93,7 @@ export default function RunCommunityLibrary({ lang }: { lang: "zh" | "en" }) {
           {item.date_note_zh || item.date_note_en ? <p className={styles.dateNote}><strong>{t.date}: </strong>{zh ? item.date_note_zh : item.date_note_en}{item.publication_date ? ` (${item.publication_date})` : ""}</p> : null}
           {item.author && <p className={styles.byline}><strong>{t.author}: </strong>{item.author}</p>}
           {!item.suitable && <p className={styles.caution}><strong>{t.suitable}: </strong>{zh ? "此条目可能不适用于出行准备，请结合原文主题谨慎阅读。" : "This item may not be suitable for travel preparation; consider its original context."}</p>}
-          {!!item.official_sources?.length && <div className={styles.official}><strong>{t.official}</strong><ul>{item.official_sources.slice(0, 2).map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}<ExternalLink size={13}/></a></li>)}</ul></div>}
+          {!!item.official_sources?.length && <div className={styles.official}><strong>{t.official}</strong><p className={styles.dateNote}><strong>{t.policyCheckDate}: </strong>{item.policy_checked_date} · {t.policyCheckNote}</p><ul>{item.official_sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}<ExternalLink size={13}/></a></li>)}</ul></div>}
           <a className={styles.source} href={item.source_url} target="_blank" rel="noopener noreferrer">{t.source}<ExternalLink size={14}/></a>
         </div>
       </details>
